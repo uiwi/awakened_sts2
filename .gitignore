@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/raw/
+data/processed/
+images/
+web/.next/
+web/out/
+web/dist/
+web/node_modules/
+web/.openai/
+web/.git-sites-archived/

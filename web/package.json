@@ -1,0 +1,24 @@
+{
+  "name": "awakened-sts2-card-browser",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build && cp -r .openai dist/.openai",
+    "build:static": "next build",
+    "start": "vinext start"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vinext": "1.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.5",
+    "@vitejs/plugin-rsc": "0.5.32",
+    "react-server-dom-webpack": "19.2.8",
+    "vite": "8.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+[project]
+name = "awakened-sts2"
+version = "0.1.0"
+description = "Reproducible Slay the Spire 2 card dataset collector"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+
