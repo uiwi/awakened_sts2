@@ -52,7 +52,6 @@ SHATTER,산산조각,Shatter,defect,Rare,E1,Attack,4.55,12.55,40.55,36.0,0.615,C
 DARKNESS,어둠,Darkness,defect,Uncommon,E1,Skill,6.4,12.4,24.4,18.0,0.526,C,1,0,6.5,v3_table,True,-0.1,5.9,17.9,24,14,17,10,0.885,atomic_fixed|trigger_all_dark,Channel 1 Dark. Trigger the passive ability of all Dark Orbs.
 GENESIS,창세,Genesis,regent,Rare,E2,Power,4.5,11.1,18.0,13.5,0.42,C,1,0,17.0,v3_table,True,-12.5,-5.9,1.0,41,14,19,27,0.69,atomic_fixed+recurring_turns,"At the start of your turn, gain 2 Stars."
 END_OF_DAYS,종말의 날,End of Days,necrobinder,Rare,E3,Skill,10.179,14.179,22.179,12.0,0.836,C,1,0,20.0,v3_table,True,-9.821,-5.821,2.179,8,8,18,10,0.885,atomic_fixed|doom_execute,Apply 29 Doom to ALL enemies. Kill enemies with at least as much Doom as HP.
-UNLEASH,풀어놓기,Unleash,necrobinder,Basic,E1,Attack,4.7,8.7,17.7,13.0,0.6,C,1,0,3.0,v3_table,True,1.7,5.7,14.7,42,31,31,11,0.874,additional_damage_equal|atomic_osty_damage,Osty deals 6 damage. Deals additional damage equal to Osty's current HP.
 HOWL_FROM_BEYOND,저편의 울음소리,Howl from Beyond,ironclad,Uncommon,E3,Attack,14.4,21.6,26.4,12.0,0.699,C,1,0,16.0,v3_table,True,-1.6,5.6,10.4,5,2,18,16,0.814,atomic_fixed|self_auto_replay,"Deal 16 damage to ALL enemies. At the end of your turn, if this is in your Exhaust Pile, play it."
 AGGRESSION,공격성,Aggression,ironclad,Rare,E1,Power,3.0,12.0,24.0,21.0,0.42,C,1,0,6.5,v3_table,True,-3.5,5.5,17.5,57,16,22,41,0.523,recurring_upgraded_attack_retrieval,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it."
 ERADICATE,척결,Eradicate,necrobinder,Rare,EX,Attack,6.0,11.5,22.5,16.5,0.72,C,0,0,17.0,x_as_2_energy,True,-11.0,-5.5,5.5,24,15,16,9,0.897,atomic_fixed+x_value|keyword_retain,Deal 11 damage X times.
@@ -122,6 +121,7 @@ TERRAFORMING,테라포밍,Terraforming,regent,Uncommon,E1,Skill,3.0,3.0,3.0,0.0,
 ENTROPY,엔트로피,Entropy,colorless,Rare,E1,Power,-3.0,5.55,24.0,27.0,0.42,C,1,0,9.0,v3_table,True,-12.0,-3.45,15.0,63,41,8,55,0.127,recurring_random_transform,"At the start of your turn, Transform 1 card in your Hand."
 DIRGE,장송가,Dirge,necrobinder,Uncommon,EX,Skill,3.3,7.6,16.2,12.9,0.657,C,1,0,11.0,x_as_2_energy,True,-7.7,-3.4,5.2,55,39,35,20,0.77,atomic_fixed+x_value|keyword_exhaust|x_summon,Summon 3 X times. Add X Souls into your Draw Pile.
 HAUNT,출몰,Haunt,necrobinder,Uncommon,E1,Power,0.0,9.9,33.0,33.0,0.42,C,1,0,6.5,v3_table,True,-6.5,3.4,26.5,80,23,7,73,0.161,soul_trigger_hp_loss,"Whenever you play a Soul, a random enemy loses 6 HP."
+UNLEASH,풀어놓기,Unleash,necrobinder,Common,E1,Attack,4.7,8.7,17.7,13.0,0.6,C,1,0,5.3,basic_as_common_v3_table,True,-0.6,3.4,12.4,42,31,31,11,0.874,additional_damage_equal|atomic_osty_damage,Osty deals 6 damage. Deals additional damage equal to Osty's current HP.
 CHAOS,혼돈,Chaos,defect,Uncommon,E1,Skill,3.2,3.2,3.2,0.0,0.72,B,0,0,6.5,v3_table,True,-3.3,-3.3,-3.3,51,76,80,29,0.667,random_orb,Channel 1 random Orb.
 COOLANT,냉각재,Coolant,defect,Rare,E1,Power,1.8,9.768,72.0,70.2,0.42,C,1,0,6.5,v3_table,True,-4.7,3.268,65.5,72,27,1,71,0.184,atomic_fixed+recurring_turns+scaling_count,"At the start of your turn, gain 2 Block for each unique Orb you have."
 HELIX_DRILL,나선 관통,Helix Drill,defect,Rare,E0,Attack,1.5,3.3,15.0,13.5,0.42,C,1,0,6.5,v3_table,True,-5.0,-3.2,8.5,76,74,35,41,0.529,atomic_fixed+scaling_count,Deal 3 damage for each 1 Energy previously spent this turn.
@@ -129,6 +129,7 @@ MAYHEM,대혼란,Mayhem,colorless,Rare,E2,Power,3.0,14.8,42.0,39.0,0.42,C,1,0,18
 RAINBOW,무지개,Rainbow,defect,Rare,E2,Skill,8.8,13.8,17.0,8.2,0.625,C,1,0,17.0,v3_table,True,-8.2,-3.2,0.0,13,8,31,23,0.736,atomic_fixed|keyword_exhaust|orb_diversity_bundle,Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark.
 NOXIOUS_FUMES,유독 가스,Noxious Fumes,silent,Uncommon,E1,Power,3.9,9.62,15.6,11.7,0.42,C,1,0,6.5,v3_table,True,-2.6,3.12,9.1,43,16,26,27,0.69,atomic_fixed+recurring_turns,"At the start of your turn, apply 2 Poison to ALL enemies."
 COMPACT,압축,Compact,defect,Uncommon,E1,Skill,5.6,9.6,15.6,10.0,0.637,C,1,0,6.5,v3_table,True,-0.9,3.1,9.1,29,28,34,6,0.931,atomic_fixed|bulk_transform,Gain 6 Block. Transform all Status cards in your Hand into Fuel.
+ZAP,파지직,Zap,defect,Common,E1,Skill,2.2,2.2,2.2,0.0,0.72,B,0,0,5.3,basic_as_common_v3_table,True,-3.1,-3.1,-3.1,69,84,85,16,0.816,atomic_fixed,Channel 1 Lightning.
 ALCHEMIZE,연금,Alchemize,colorless,Rare,E1,Skill,2.0,6.0,11.0,9.0,0.458,C,1,0,9.0,v3_table,True,-7.0,-3.0,2.0,45,39,32,13,0.794,keyword_exhaust|meta_random_potion,Procure a random potion.
 ANOINTED,임명,Anointed,colorless,Rare,E1,Skill,2.0,6.0,13.0,11.0,0.458,C,1,0,9.0,v3_table,True,-7.0,-3.0,4.0,46,40,25,21,0.667,bulk_tutor_to_hand|keyword_exhaust,Put every Rare card from your Draw Pile into your Hand.
 FIEND_FIRE,지옥불,Fiend Fire,ironclad,Rare,E2,Attack,0.5,14.0,32.0,31.5,0.438,C,2,0,17.0,v3_table,True,-16.5,-3.0,15.0,82,12,10,72,0.163,atomic_exhaust_hand|damage_per_exhausted_hand_card|keyword_exhaust,Exhaust your Hand. Deal 7 damage for each card Exhausted.
@@ -152,11 +153,9 @@ STOMP,짓밟기,Stomp,ironclad,Uncommon,E3,Attack,10.3,13.3,15.3,5.0,0.884,B,0,0
 CONSUMING_SHADOW,그림자 소모,Consuming Shadow,defect,Rare,E2,Power,9.925,14.35,32.8,22.875,0.602,C,1,0,17.0,v3_table,True,-7.075,-2.65,15.8,10,7,8,3,0.966,atomic_evoke_orb+recurring_turns|atomic_fixed,"Channel 2 Dark. At the end of your turn, Evoke your leftmost Orb."
 DEVOUR_LIFE,생명 삼키기,Devour Life,necrobinder,Rare,E1,Power,1.1,3.85,19.8,18.7,0.72,C,0,0,6.5,v3_table,True,-5.4,-2.65,13.3,78,74,24,54,0.379,atomic_fixed+event_triggers,"Whenever you play a Soul, Summon 1."
 CORROSIVE_WAVE,부식성 파도,Corrosive Wave,silent,Rare,E1,Skill,2.6,9.1,46.8,44.2,0.42,C,1,0,6.5,v3_table,True,-3.9,2.6,40.3,55,22,1,54,0.379,atomic_fixed+event_triggers,"Whenever you draw a card this turn, apply 2 Poison to ALL enemies."
-FALLING_STAR,별똥별,Falling Star,regent,Basic,E0+S2,Attack,4.1,4.1,4.1,0.0,0.713,B,1,0,1.5,energy_table_star_cost_separated,True,2.6,2.6,2.6,42,62,70,28,0.678,atomic_fixed|cost_star_spend,Deal 8 damage. Apply 1 Weak. Apply 1 Vulnerable.
 NULL,Null,Null,defect,Uncommon,E2,Attack,13.6,13.6,13.6,0.0,0.823,B,0,0,11.0,v3_table,True,2.6,2.6,2.6,4,9,40,36,0.586,atomic_fixed,Deal 10 damage. Apply 2 Weak. Channel 1 Dark.
 SCARE,위협,Scare,silent,Uncommon,E0,Skill,1.73,1.73,1.73,0.0,0.72,B,0,0,4.3,v3_table,True,-2.57,-2.57,-2.57,68,86,86,18,0.793,atomic_fixed|keyword_exhaust,Apply 1 Weak to ALL enemies.
 BEAT_DOWN,두들겨 패기,Beat Down,colorless,Rare,E3,Skill,6.0,12.0,21.0,15.0,0.42,C,1,0,14.5,v3_table,True,-8.5,-2.5,6.5,21,8,10,13,0.794,auto_play_from_pile,Play 3 random Attacks from your Discard Pile.
-BODYGUARD,호위,Bodyguard,necrobinder,Basic,E1,Skill,5.5,5.5,5.5,0.0,1.0,A,0,0,3.0,v3_table,True,2.5,2.5,2.5,32,55,69,37,0.575,atomic_fixed,Summon 5.
 DOUBLE_ENERGY,에너자이저,Double Energy,defect,Uncommon,E1,Skill,1.5,4.0,9.0,7.5,0.47,C,1,0,6.5,v3_table,True,-5.0,-2.5,2.5,73,70,50,23,0.736,double_current_energy|keyword_exhaust,Double your Energy.
 ECHO_FORM,메아리의 형상,Echo Form,defect,Rare,E3,Power,4.0,17.5,35.0,31.0,0.435,C,1,0,20.0,v3_table,True,-16.0,-2.5,15.0,44,4,6,40,0.54,first_card_each_turn_replay|keyword_ethereal,The first card you play each turn is played an extra time.
 REFLECT,반사,Reflect,regent,Uncommon,E1+S3,Skill,5.5,9.0,10.5,5.0,0.669,C,2,0,6.5,energy_table_star_cost_separated,True,-1.0,2.5,4.0,30,22,36,14,0.839,atomic_fixed|cost_star_spend|reflect_blocked_damage,Gain 15 Block. Blocked attack damage is reflected to your attacker this turn.
@@ -172,8 +171,10 @@ SEVEN_STARS,일곱 개의 별,Seven Stars,regent,Rare,E2+S7,Attack,17.85,19.35,2
 THINKING_AHEAD,미래 예지,Thinking Ahead,colorless,Uncommon,E0,Skill,1.9,1.9,1.9,0.0,0.72,B,0,0,4.25,v3_table,True,-2.35,-2.35,-2.35,49,62,62,13,0.794,atomic_fixed|atomic_hand_to_topdeck|keyword_exhaust,Draw 2 cards. Put 1 card from your Hand on top of your Draw Pile.
 AUTOMATION,자동화,Automation,colorless,Uncommon,E1,Power,0.0,4.5,10.0,10.0,0.42,C,1,0,6.8,v3_table,True,-6.8,-2.3,3.2,58,48,33,25,0.603,atomic_fixed+threshold_triggers,"Every 10 cards you draw, gain 1 Energy."
 CLAW,후벼 파기,Claw,defect,Common,E0,Attack,2.5,5.0,19.5,17.0,0.571,C,1,0,2.7,v3_table,True,-0.2,2.3,16.8,62,62,24,38,0.563,archetype_damage_growth|atomic_fixed,Deal 3 damage. Increase the damage of ALL Claw cards by 2 this combat.
+DUALCAST,이중 시전,Dualcast,defect,Common,E1,Skill,1.5,3.0,8.0,6.5,0.42,C,1,0,5.3,basic_as_common_v3_table,True,-3.8,-2.3,2.7,74,78,54,24,0.724,atomic_evoke_orb,Evoke your rightmost Orb twice.
 SCRAWL,휘갈김,Scrawl,colorless,Rare,E1,Skill,0.25,6.7,17.45,17.2,0.454,C,1,0,9.0,v3_table,True,-8.75,-2.3,8.45,57,33,15,42,0.333,draw_to_full|keyword_exhaust,Draw cards until your Hand is full.
 SHROUD,수의,Shroud,necrobinder,Uncommon,E1,Power,1.2,4.2,21.6,20.4,0.72,C,0,0,6.5,v3_table,True,-5.3,-2.3,15.1,77,73,20,57,0.345,atomic_fixed+event_triggers,"Whenever you apply Doom, gain 2 Block."
+VENERATE,추앙,Venerate,regent,Common,E1,Skill,3.0,3.0,3.0,0.0,0.42,C,1,0,5.3,basic_as_common_v3_table,True,-2.3,-2.3,-2.3,58,73,79,21,0.759,atomic_fixed,Gain 2 Stars.
 FORGOTTEN_RITUAL,잊힌 의식,Forgotten Ritual,ironclad,Uncommon,E1,Skill,-1.0,4.25,6.5,7.5,0.468,C,1,0,6.5,v3_table,True,-7.5,-2.25,0.0,86,77,60,26,0.698,atomic_fixed+condition_probability|keyword_exhaust,"If you Exhausted a card this turn, gain 3 Energy."
 IGNITION,점화,Ignition,defect,Rare,E1,Skill,4.25,4.25,4.25,0.0,0.72,B,0,0,6.5,v3_table,True,-2.25,-2.25,-2.25,43,69,75,32,0.632,coop_plasma|keyword_exhaust,Another player Channels Plasma.
 SUBROUTINE,서브루틴,Subroutine,defect,Uncommon,E1,Power,2.5,8.75,45.0,42.5,0.42,C,1,0,6.5,v3_table,True,-4.0,2.25,38.5,64,33,3,61,0.299,atomic_fixed+event_triggers,"Whenever you play a Power, gain 1 Energy."
@@ -190,11 +191,8 @@ VICIOUS,포악함,Vicious,ironclad,Uncommon,E1,Power,1.25,4.375,22.5,21.25,0.42,
 BURNING_PACT,불타는 조약,Burning Pact,ironclad,Uncommon,E1,Skill,4.4,4.4,4.4,0.0,0.784,B,0,0,6.5,v3_table,True,-2.1,-2.1,-2.1,47,74,83,36,0.581,atomic_fixed|atomic_selected_exhaust,Exhaust 1 card. Draw 2 cards.
 HOTFIX,핫픽스,Hotfix,defect,Common,E0,Skill,0.6,0.6,0.6,0.0,0.72,B,0,0,2.7,v3_table,True,-2.1,-2.1,-2.1,82,88,88,6,0.931,atomic_temporary_stat|keyword_exhaust,Gain 2 Focus this turn.
 LEGION_OF_BONE,해골 군단,Legion of Bone,necrobinder,Uncommon,E2,Skill,5.6,8.9,15.5,9.9,0.72,C,0,0,11.0,v3_table,True,-5.4,-2.1,4.5,30,30,37,7,0.92,all_players+atomic_fixed|keyword_exhaust,ALL players Summon 6.
-NEUTRALIZE,무력화,Neutralize,silent,Basic,E0,Attack,3.6,3.6,3.6,0.0,0.837,B,0,0,1.5,v3_table,True,2.1,2.1,2.1,45,76,80,35,0.598,atomic_fixed,Deal 3 damage. Apply 1 Weak.
 FETCH,회수,Fetch,necrobinder,Uncommon,E0,Attack,1.35,2.225,2.6,1.25,0.772,B,1,0,4.3,v3_table,True,-2.95,-2.075,-1.7,75,84,86,11,0.874,atomic_fixed+condition_probability|atomic_osty_damage,"Osty deals 3 damage. If this is the first time this card has been played this turn, draw 1 card."
 BEGONE,물렀거라!,BEGONE!,regent,Common,E1,Skill,3.25,3.25,3.25,0.0,0.72,B,0,0,5.3,v3_table,True,-2.05,-2.05,-2.05,50,65,73,23,0.736,transform_to_minion_strike,Choose a card in your Hand to Transform into Minion Strike.
-SURVIVOR,생존자,Survivor,silent,Basic,E1,Skill,5.05,5.05,5.05,0.0,1.0,A,0,0,3.0,v3_table,True,2.05,2.05,2.05,28,63,72,44,0.494,atomic_fixed,Gain 8 Block. Discard 1 card.
-BASH,강타,Bash,ironclad,Basic,E2,Attack,8.0,8.0,8.0,0.0,0.86,B,0,0,6.0,v3_table,True,2.0,2.0,2.0,15,33,56,41,0.523,atomic_fixed,Deal 8 damage. Apply 2 Vulnerable.
 BOMBARDMENT,포격,Bombardment,regent,Rare,E3,Attack,13.0,22.0,28.0,15.0,0.65,C,1,0,20.0,v3_table,True,-7.0,2.0,8.0,6,2,7,5,0.943,atomic_fixed|keyword_exhaust|self_auto_replay,"Deal 18 damage. At the start of your turn, if this is in your Exhaust Pile, play it."
 HIDDEN_GEM,숨겨진 보석,Hidden Gem,colorless,Rare,E1,Skill,3.0,7.0,12.0,9.0,0.42,C,1,0,9.0,v3_table,True,-6.0,-2.0,3.0,37,29,29,8,0.873,atomic_random_replay,A random card without Replay in your Draw Pile gains Replay 2.
 HOLOGRAM,홀로그램,Hologram,defect,Common,E1,Skill,3.3,3.3,3.3,0.0,0.947,A,0,0,5.3,v3_table,True,-2.0,-2.0,-2.0,49,75,79,30,0.655,atomic_fixed|atomic_retrieve_hand|keyword_exhaust,Gain 3 Block. Put a card from your Discard Pile into your Hand.
@@ -255,6 +253,7 @@ TAG_TEAM,태그 팀,Tag Team,colorless,Uncommon,E2,Attack,7.5,10.5,15.5,8.0,0.72
 UNRELENTING,무자비,Unrelenting,ironclad,Uncommon,E2,Attack,9.5,9.5,9.5,0.0,0.926,A,0,0,11.0,v3_table,True,-1.5,-1.5,-1.5,11,26,52,41,0.523,atomic_fixed|next_card_free,Deal 14 damage. The next Attack you play costs 0 Energy.
 GLIMMER,희미한 빛,Glimmer,regent,Uncommon,E1,Skill,5.05,5.05,5.05,0.0,0.72,B,0,0,6.5,v3_table,True,-1.45,-1.45,-1.45,36,53,66,30,0.655,atomic_fixed|atomic_hand_to_topdeck,Draw 3 cards. Put 1 card from your Hand on top of your Draw Pile.
 PROLONG,연장,Prolong,colorless,Uncommon,E0,Skill,0.44,2.84,6.2,5.76,0.482,C,1,0,4.25,v3_table,True,-3.81,-1.41,1.95,56,58,50,8,0.873,delay_next_turn+equal_to_quantity|keyword_exhaust,"Next turn, gain Block equal to your current Block."
+FALLING_STAR,별똥별,Falling Star,regent,Common,E0+S2,Attack,4.1,4.1,4.1,0.0,0.713,B,1,0,2.7,basic_as_common_energy_table_star_cost_separated,True,1.4,1.4,1.4,42,62,70,28,0.678,atomic_fixed|cost_star_spend,Deal 8 damage. Apply 1 Weak. Apply 1 Vulnerable.
 ITERATION,순회,Iteration,defect,Uncommon,E1,Power,0.0,5.1,13.6,13.6,0.42,C,1,0,6.5,v3_table,True,-6.5,-1.4,7.1,86,60,39,47,0.46,status_draw_compensation,"The first time you draw a Status each turn, draw 2 cards."
 SUMMON_FORTH,대령하라,Summon Forth,regent,Uncommon,E1,Skill,5.14,5.14,5.14,0.0,0.72,B,0,0,6.5,v3_table,True,-1.36,-1.36,-1.36,33,50,63,30,0.655,atomic_fixed|retrieve_sovereign_blade,Put Sovereign Blade into your Hand from anywhere. Forge 8.
 STRANGLE,목 조르기,Strangle,silent,Uncommon,E1,Attack,5.1,7.85,23.8,18.7,0.849,C,0,0,6.5,v3_table,True,-1.4,1.35,17.3,27,31,14,17,0.805,atomic_fixed|atomic_hp_bypass+event_triggers,"Deal 8 damage. Whenever you play a card this turn, the enemy loses 2 HP."
@@ -284,6 +283,7 @@ NEUROSURGE,정신 폭주,Neurosurge,necrobinder,Rare,E0,Power,-1.1,5.4,9.4,10.5,
 NO_ESCAPE,도망칠 수 없다,No Escape,necrobinder,Uncommon,E1,Skill,2.7,5.4,9.45,6.75,0.42,C,1,0,6.5,v3_table,True,-3.8,-1.1,2.95,62,61,47,15,0.828,doom_threshold_scaling,"Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy."
 STOKE,화력 증폭,Stoke,ironclad,Rare,E1,Skill,1.0,7.6,35.0,34.0,0.42,C,2,0,6.5,v3_table,True,-5.5,1.1,28.5,78,39,5,73,0.151,atomic_exhaust_hand|atomic_random_card_card+scaling_count,Exhaust your Hand. Add 1 random card into your Hand for each card Exhausted.
 THRUMMING_HATCHET,고동치는 도끼,Thrumming Hatchet,colorless,Uncommon,E1,Attack,7.9,7.9,7.9,0.0,0.824,B,1,0,6.8,v3_table,True,1.1,1.1,1.1,9,24,39,30,0.524,atomic_delayed_self_return|atomic_fixed,"Deal 11 damage. At the start of your next turn, return this to your Hand."
+BASH,강타,Bash,ironclad,Common,E2,Attack,8.0,8.0,8.0,0.0,0.86,B,0,0,9.0,basic_as_common_v3_table,True,-1.0,-1.0,-1.0,15,33,56,41,0.523,atomic_fixed,Deal 8 damage. Apply 2 Vulnerable.
 FLECHETTES,프레췌,Flechettes,silent,Uncommon,E1,Attack,2.5,5.5,25.0,22.5,0.72,C,0,0,6.5,v3_table,True,-4.0,-1.0,18.5,56,59,11,48,0.448,atomic_fixed+scaling_count,Deal 5 damage for each Skill in your Hand.
 GATHER_LIGHT,빛 거두기,Gather Light,regent,Common,E1,Skill,6.3,6.3,6.3,0.0,0.862,B,1,0,5.3,v3_table,True,1.0,1.0,1.0,20,35,52,32,0.632,atomic_fixed,Gain 8 Block. Gain 1 Stars.
 GLACIER,빙하,Glacier,defect,Uncommon,E2,Skill,10.0,10.0,10.0,0.0,0.821,B,0,0,11.0,v3_table,True,-1.0,-1.0,-1.0,9,25,46,37,0.575,atomic_fixed,Gain 6 Block. Channel 2 Frost.
@@ -306,6 +306,7 @@ CHARGE_BATTERY,배터리 충전,Charge Battery,defect,Common,E1,Skill,6.2,6.2,6.
 COLD_SNAP,꽃샘추위,Cold Snap,defect,Common,E1,Attack,6.2,6.2,6.2,0.0,0.855,B,0,0,5.3,v3_table,True,0.9,0.9,0.9,26,47,63,37,0.575,atomic_fixed,Deal 6 damage. Channel 1 Frost.
 DEMONIC_SHIELD,악마의 방패,Demonic Shield,ironclad,Uncommon,E0,Skill,0.7,5.2,11.95,11.25,0.495,C,1,0,4.3,v3_table,True,-3.6,0.9,7.65,79,64,46,33,0.616,atomic_fixed|coop_block_equal|keyword_exhaust,Lose 1 HP. Give another player Block equal to your Block.
 ICE_LANCE,얼음 창,Ice Lance,defect,Rare,E3,Attack,19.1,19.1,19.1,0.0,0.859,B,0,0,20.0,v3_table,True,-0.9,-0.9,-0.9,2,2,26,24,0.724,atomic_fixed,Deal 19 damage. Channel 3 Frost.
+NEUTRALIZE,무력화,Neutralize,silent,Common,E0,Attack,3.6,3.6,3.6,0.0,0.837,B,0,0,2.7,basic_as_common_v3_table,True,0.9,0.9,0.9,45,76,80,35,0.598,atomic_fixed,Deal 3 damage. Apply 1 Weak.
 DEATHBRINGER,죽음 인도자,Deathbringer,necrobinder,Uncommon,E2,Skill,10.101,10.101,10.101,0.0,0.72,B,0,0,11.0,v3_table,True,-0.899,-0.899,-0.899,9,21,44,35,0.598,atomic_fixed,Apply 21 Doom and 1 Weak to ALL enemies.
 BLIGHT_STRIKE,역병 타격,Blight Strike,necrobinder,Common,E1,Attack,6.16,6.16,6.16,0.0,1.0,A,0,0,5.3,v3_table,True,0.86,0.86,0.86,22,48,62,40,0.54,atomic_fixed|doom_equal_damage,Deal 8 damage. Apply Doom equal to damage dealt.
 COOLHEADED,냉정함,Coolheaded,defect,Common,E1,Skill,4.45,4.45,4.45,0.0,0.72,B,0,0,5.3,v3_table,True,-0.85,-0.85,-0.85,42,67,74,32,0.632,atomic_fixed,Channel 1 Frost. Draw 1 card.
@@ -313,7 +314,6 @@ ANGER,분노,Anger,ironclad,Common,E0,Attack,2.5,3.5,5.5,3.0,0.884,B,1,0,2.7,v3_
 BEAM_CELL,레이저 포인터,Beam Cell,defect,Common,E0,Attack,3.5,3.5,3.5,0.0,0.84,B,0,0,2.7,v3_table,True,0.8,0.8,0.8,46,72,78,32,0.632,atomic_fixed,Deal 3 damage. Apply 1 Vulnerable.
 FEAR,두려움,Fear,necrobinder,Common,E1,Attack,4.5,4.5,4.5,0.0,0.871,B,0,0,5.3,v3_table,True,-0.8,-0.8,-0.8,46,69,77,31,0.644,atomic_fixed|keyword_ethereal,Deal 7 damage. Apply 1 Vulnerable.
 SUCKER_PUNCH,불의의 일격,Sucker Punch,silent,Common,E1,Attack,6.1,6.1,6.1,0.0,0.904,A,0,0,5.3,v3_table,True,0.8,0.8,0.8,16,47,63,47,0.46,atomic_fixed,Deal 8 damage. Apply 1 Weak.
-ZAP,파지직,Zap,defect,Basic,E1,Skill,2.2,2.2,2.2,0.0,0.72,B,0,0,3.0,v3_table,True,-0.8,-0.8,-0.8,69,84,85,16,0.816,atomic_fixed,Channel 1 Lightning.
 FIGHT_ME,덤벼라!,Fight Me!,ironclad,Uncommon,E2,Attack,11.5,11.75,12.25,0.75,0.943,A,0,0,11.0,v3_table,True,0.5,0.75,1.25,6,18,41,35,0.593,atomic_fixed|enemy_strength_gain|multi_hit_strength_synergy,Deal 5 damage twice. Gain 3 Strength. The enemy gains 1 Strength.
 SHRUG_IT_OFF,흘려보내기,Shrug It Off,ironclad,Common,E1,Skill,6.05,6.05,6.05,0.0,0.942,A,0,0,5.3,v3_table,True,0.75,0.75,0.75,23,56,67,44,0.488,atomic_fixed,Gain 8 Block. Draw 1 card.
 SWORD_BOOMERANG,부메랑 칼날,Sword Boomerang,ironclad,Common,E1,Attack,4.05,4.55,5.55,1.5,0.453,C,1,0,5.3,v3_table,True,-1.25,-0.75,0.25,50,71,73,23,0.733,atomic_random_target_damage|multi_hit_strength_synergy,Deal 3 damage to a random enemy 3 times.
@@ -406,8 +406,10 @@ OFFERING,제물,Offering,ironclad,Rare,E0,Skill,6.25,6.25,6.25,0.0,0.782,B,0,0,6
 PRODUCTION,생산,Production,colorless,Uncommon,E0,Skill,4.0,4.0,4.0,0.0,0.72,B,0,0,4.25,v3_table,True,-0.25,-0.25,-0.25,30,51,53,23,0.635,atomic_fixed|keyword_exhaust,Gain 2 Energy.
 REFRACT,굴절,Refract,defect,Uncommon,E3,Attack,16.0,16.25,16.75,0.75,0.864,B,1,0,16.0,v3_table,True,0.0,0.25,0.75,3,6,32,29,0.667,atomic_fixed|multi_hit_strength_synergy,Deal 9 damage twice. Channel 2 Glass.
 SPOILS_OF_BATTLE,전투의 성과,Spoils of Battle,regent,Common,E1,Skill,5.05,5.05,5.05,0.0,0.72,B,0,0,5.3,v3_table,True,-0.25,-0.25,-0.25,37,54,67,30,0.655,atomic_fixed,Forge 5. Draw 2 cards.
+SURVIVOR,생존자,Survivor,silent,Common,E1,Skill,5.05,5.05,5.05,0.0,1.0,A,0,0,5.3,basic_as_common_v3_table,True,-0.25,-0.25,-0.25,28,63,72,44,0.494,atomic_fixed,Gain 8 Block. Discard 1 card.
 ASHEN_STRIKE,잿빛 타격,Ashen Strike,ironclad,Uncommon,E1,Attack,4.5,6.3,18.0,13.5,0.852,C,0,0,6.5,v3_table,True,-2.0,-0.2,11.5,43,50,30,20,0.767,additional_damage_scaling|atomic_fixed,Deal 6 damage. Deals 3 additional damage for each card in your Exhaust Pile.
 BARRAGE,일제 사격,Barrage,defect,Common,E1,Attack,2.5,5.5,25.0,22.5,0.72,C,0,0,5.3,v3_table,True,-2.8,0.2,19.7,61,55,16,45,0.483,atomic_fixed+scaling_count,Deal 5 damage for each Channeled Orb.
+BODYGUARD,호위,Bodyguard,necrobinder,Common,E1,Skill,5.5,5.5,5.5,0.0,1.0,A,0,0,5.3,basic_as_common_v3_table,True,0.2,0.2,0.2,32,55,69,37,0.575,atomic_fixed,Summon 5.
 BUBBLE_BUBBLE,차오르는 독,Bubble Bubble,silent,Uncommon,E1,Skill,0.0,6.3,9.0,9.0,0.72,C,0,0,6.5,v3_table,True,-6.5,-0.2,2.5,79,44,51,35,0.598,atomic_fixed+condition_probability,"If the enemy has Poison, apply 9 Poison."
 CALCIFY,석회화,Calcify,necrobinder,Uncommon,E1,Power,1.8,6.3,32.4,30.6,0.42,C,1,0,6.5,v3_table,True,-4.7,-0.2,25.9,70,45,8,62,0.287,osty_damage_aura,Osty's attacks deal 4 additional damage.
 CLOAK_AND_DAGGER,망토와 단검,Cloak and Dagger,silent,Common,E1,Skill,5.5,5.5,5.5,0.0,1.0,A,0,0,5.3,v3_table,True,0.2,0.2,0.2,21,58,69,48,0.448,atomic_fixed,Gain 6 Block. Add 1 Shiv into your Hand.
@@ -450,14 +452,8 @@ BUNDLE_OF_JOY,기쁨의 선물,Bundle of Joy,regent,Rare,E1,Skill,4.0,6.5,9.0,5.
 BURY,매장,Bury,necrobinder,Uncommon,E4,Attack,26.0,26.0,26.0,0.0,1.0,A,0,0,26.0,v3_table,True,0.0,0.0,0.0,2,2,11,9,0.897,atomic_fixed,Deal 52 damage.
 COLLISION_COURSE,불가피한 충돌,Collision Course,regent,Common,E0,Attack,2.7,2.7,2.7,0.0,1.0,A,0,0,2.7,v3_table,True,0.0,0.0,0.0,62,76,81,19,0.782,atomic_fixed,Deal 11 damage. Add a Debris into your Hand.
 DASH,돌진,Dash,silent,Uncommon,E2,Attack,11.0,11.0,11.0,0.0,1.0,A,0,0,11.0,v3_table,True,0.0,0.0,0.0,2,10,42,40,0.54,atomic_fixed,Gain 10 Block. Deal 10 damage.
-DEFEND_DEFECT,수비,Defend,defect,Basic,E1,Skill,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,54,77,81,27,0.69,atomic_fixed,Gain 5 Block.
-DEFEND_IRONCLAD,수비,Defend,ironclad,Basic,E1,Skill,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,59,84,86,27,0.686,atomic_fixed,Gain 5 Block.
-DEFEND_NECROBINDER,수비,Defend,necrobinder,Basic,E1,Skill,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,58,80,82,24,0.724,atomic_fixed,Gain 5 Block.
-DEFEND_REGENT,수비,Defend,regent,Basic,E1,Skill,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,53,68,75,22,0.747,atomic_fixed,Gain 5 Block.
-DEFEND_SILENT,수비,Defend,silent,Basic,E1,Skill,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,49,79,82,33,0.621,atomic_fixed,Gain 5 Block.
 DEFRAGMENT,조각모음,Defragment,defect,Rare,E1,Power,6.5,6.5,6.5,0.0,0.72,B,0,0,6.5,v3_table,True,0.0,0.0,0.0,20,40,58,38,0.563,atomic_fixed,Gain 1 Focus.
 DREDGE,추출,Dredge,necrobinder,Uncommon,E1,Skill,6.5,6.5,6.5,0.0,0.72,B,0,0,6.5,v3_table,True,0.0,0.0,0.0,19,44,59,40,0.54,keyword_exhaust|tutor_to_hand,Put 3 cards from your Discard Pile into your Hand.
-DUALCAST,이중 시전,Dualcast,defect,Basic,E1,Skill,1.5,3.0,8.0,6.5,0.42,C,1,0,3.0,v3_table,True,-1.5,0.0,5.0,74,78,54,24,0.724,atomic_evoke_orb,Evoke your rightmost Orb twice.
 ENERGY_SURGE,에너지 폭주,Energy Surge,defect,Uncommon,E1,Skill,4.0,6.5,11.5,7.5,0.455,C,1,0,6.5,v3_table,True,-2.5,0.0,5.0,45,41,43,4,0.954,all_players+atomic_fixed|keyword_exhaust,ALL players gain 2 Energy.
 FIGHT_THROUGH,강행 돌파,Fight Through,defect,Uncommon,E1,Skill,6.5,6.5,6.5,0.0,1.0,A,0,0,6.5,v3_table,True,0.0,0.0,0.0,21,42,59,38,0.563,atomic_fixed,Gain 13 Block. Add 2 Wounds into your Discard Pile.
 FOCUSED_STRIKE,밀집 타격,Focused Strike,defect,Common,E1,Attack,5.3,5.3,5.3,0.0,0.958,A,0,0,5.3,v3_table,True,0.0,0.0,0.0,34,58,70,36,0.586,atomic_fixed|atomic_temporary_stat,Deal 9 damage. Gain 1 Focus this turn.
@@ -474,12 +470,6 @@ PRECISE_CUT,정밀한 베기,Precise Cut,silent,Uncommon,E0,Attack,-3.5,4.3,5.5,
 PYRE,불의 심장,Pyre,ironclad,Rare,E2,Power,5.0,17.0,25.0,20.0,0.42,C,1,0,17.0,v3_table,True,-12.0,0.0,8.0,36,7,21,29,0.663,atomic_fixed+recurring_resource_turns,Gain 1 Energy at the start of each turn.
 SHADOW_SHIELD,그림자 방패,Shadow Shield,defect,Uncommon,E2,Skill,11.0,11.0,11.0,0.0,0.888,B,0,0,11.0,v3_table,True,0.0,0.0,0.0,7,20,44,37,0.575,atomic_fixed,Gain 11 Block. Channel 1 Dark.
 SQUEEZE,쥐어짜기,Squeeze,necrobinder,Rare,E3,Attack,13.75,20.0,31.25,17.5,0.746,C,1,0,20.0,v3_table,True,-6.25,0.0,11.25,5,4,9,5,0.943,atomic_osty_damage|damage_per_osty_attack,Osty deals 25 damage. Deals 5 additional damage for ALL your other Osty Attacks.
-STRIKE_DEFECT,타격,Strike,defect,Basic,E1,Attack,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,57,79,82,25,0.713,atomic_fixed,Deal 6 damage.
-STRIKE_IRONCLAD,타격,Strike,ironclad,Basic,E1,Attack,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,62,86,87,25,0.709,atomic_fixed,Deal 6 damage.
-STRIKE_NECROBINDER,타격,Strike,necrobinder,Basic,E1,Attack,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,60,81,84,24,0.724,atomic_fixed,Deal 6 damage.
-STRIKE_REGENT,타격,Strike,regent,Basic,E1,Attack,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,56,71,77,21,0.759,atomic_fixed,Deal 6 damage.
-STRIKE_SILENT,타격,Strike,silent,Basic,E1,Attack,3.0,3.0,3.0,0.0,1.0,A,0,0,3.0,v3_table,True,0.0,0.0,0.0,53,81,84,31,0.644,atomic_fixed,Deal 6 damage.
 THE_GAMBIT,포석,The Gambit,colorless,Rare,E0,Skill,-5.0,5.0,27.0,32.0,0.736,C,1,0,5.0,v3_table,True,-10.0,0.0,22.0,64,45,5,59,0.063,atomic_fixed|gambit_death_risk,"Gain 50 Block. If you take unblocked attack damage this combat, die."
 TURBO,터보,TURBO,defect,Common,E0,Skill,2.7,2.7,2.7,0.0,0.808,B,0,0,2.7,v3_table,True,0.0,0.0,0.0,60,82,84,24,0.724,atomic_fixed,Gain 2 Energy. Add a Void into your Discard Pile.
-VENERATE,추앙,Venerate,regent,Basic,E1,Skill,3.0,3.0,3.0,0.0,0.42,C,1,0,3.0,v3_table,True,0.0,0.0,0.0,58,73,79,21,0.759,atomic_fixed,Gain 2 Stars.
 WHITE_NOISE,백색 소음,White Noise,defect,Uncommon,E1,Skill,6.5,6.5,6.5,0.0,0.626,C,1,0,6.5,v3_table,True,0.0,0.0,0.0,23,44,61,38,0.563,atomic_free_generated_card|atomic_random_power_card|keyword_exhaust,Add a random Power into your Hand. It's free to play this turn.

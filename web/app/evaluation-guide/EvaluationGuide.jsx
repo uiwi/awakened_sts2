@@ -39,16 +39,11 @@ const RARITY_LABELS = {
   Rare: "희귀",
 };
 
-const EFFECT_CONFIDENCE_LABELS = {
-  high: "높음",
-  medium: "중간",
-  low: "낮음",
-  low_context: "맥락 의존",
-  low_prior: "사전값",
-};
-
 const FALLBACK_SUMMARY = {
   card_count: 577,
+  evaluation_table_card_count: 567,
+  basic_strike_defend_excluded_cards: 10,
+  basic_cards_compared_as_common: 9,
   source_clause_count: 860,
   effect_family_count: 31,
   unique_rule_count: 297,
@@ -72,7 +67,7 @@ function BenchmarkTable({ title, rows }) {
   const costs = [...new Set(rows.map((row) => row.cost))].sort(
     (a, b) => Number(a.slice(1)) - Number(b.slice(1)),
   );
-  const rarities = ["Basic", "Common", "Uncommon", "Rare"].filter((rarity) =>
+  const rarities = ["Common", "Uncommon", "Rare"].filter((rarity) =>
     rows.some((row) => row.rarity === rarity),
   );
 
@@ -150,15 +145,17 @@ export default function EvaluationGuide() {
           <strong>V = Σ 효과 점수 − B</strong>
           <p>효과 합계에서 직업·희귀도·에너지 기준점을 뺍니다.</p>
           <dl>
-            <div><dt>−2 ≤ V ≤ 2</dt><dd>기준 범위</dd></div>
-            <div><dt>V &gt; 2</dt><dd>예산 상회</dd></div>
-            <div><dt>V &lt; −2</dt><dd>예산 하회</dd></div>
+            <div><dt>S · V &gt; 4</dt><dd>크게 상회</dd></div>
+            <div><dt>A · 2 &lt; V ≤ 4</dt><dd>상회</dd></div>
+            <div><dt>B · −2 ≤ V ≤ 2</dt><dd>기준 범위</dd></div>
+            <div><dt>C · −4 ≤ V &lt; −2</dt><dd>하회</dd></div>
+            <div><dt>D · V &lt; −4</dt><dd>크게 하회</dd></div>
           </dl>
         </div>
       </header>
 
       <section className="model-stats" aria-label="모델 검증 요약">
-        <div><strong>{summary.card_count}</strong><span>전체 카드</span></div>
+        <div><strong>{summary.evaluation_table_card_count}</strong><span>평가표 카드</span></div>
         <div><strong>{summary.source_clause_count}</strong><span>분리된 효과 문장</span></div>
         <div><strong>{summary.effect_family_count}</strong><span>효과 대분류</span></div>
         <div><strong>{summary.unique_rule_count}</strong><span>점수 규칙</span></div>
@@ -179,7 +176,6 @@ export default function EvaluationGuide() {
             <article key={effect.effect} className={effect.effect === "spend_1_star" ? "negative-effect" : ""}>
               <span>{EFFECT_LABELS[effect.effect]}</span>
               <strong>{scoreRange(effect)}</strong>
-              <small className={`confidence-dot confidence-${effect.confidence}`}>{EFFECT_CONFIDENCE_LABELS[effect.confidence] || effect.confidence}</small>
             </article>
           )) : <div className="inline-loading">효과 점수표를 불러오는 중…</div>}
         </div>
@@ -198,7 +194,8 @@ export default function EvaluationGuide() {
           <h2>같은 조건의 기대 예산과 비교합니다</h2>
           <p>
             기준점 B는 카드 풀, 희귀도, 에너지 비용의 조합입니다. 별 비용은 여기에
-            더하지 않습니다. 무색 카드는 캐릭터 카드와 별도 곡선을 사용합니다.
+            더하지 않습니다. 기본 등급의 타격·수비는 비교에서 제외하고, 나머지 기본
+            카드는 일반 등급으로 취급합니다. 무색 카드는 캐릭터 카드와 별도 곡선을 사용합니다.
           </p>
         </div>
         {model && (
@@ -213,14 +210,15 @@ export default function EvaluationGuide() {
       <section className="guide-section two-column-guide">
         <div>
           <div className="section-heading">
-            <p className="eyebrow">03 · CONFIDENCE</p>
-            <h2>점수와 신뢰도를 함께 봅니다</h2>
+            <p className="eyebrow">03 · TIER</p>
+            <h2>가치 지수를 다섯 티어로 나눕니다</h2>
           </div>
           <div className="confidence-list">
-            <article><span className="grade grade-a">A</span><div><strong>높은 신뢰도</strong><p>직접 수치화되고 기준점 근거도 충분합니다.</p></div></article>
-            <article><span className="grade grade-b">B</span><div><strong>중간 신뢰도</strong><p>교차 보정 또는 제한된 시나리오가 포함됩니다.</p></div></article>
-            <article><span className="grade grade-c">C</span><div><strong>맥락 의존</strong><p>덱 구성, 전투 길이와 대상 수에 민감합니다.</p></div></article>
-            <article><span className="grade grade-raw">RAW</span><div><strong>기준 비교 제외</strong><p>교활·사용 불가·특수 풀 등은 원점수만 제공합니다.</p></div></article>
+            <article><span className="tier tier-s">S</span><div><strong>크게 상회</strong><p>가치 지수가 4점을 초과합니다.</p></div></article>
+            <article><span className="tier tier-a">A</span><div><strong>상회</strong><p>가치 지수가 2점 초과 4점 이하입니다.</p></div></article>
+            <article><span className="tier tier-b">B</span><div><strong>기준 범위</strong><p>가치 지수가 −2점 이상 2점 이하입니다.</p></div></article>
+            <article><span className="tier tier-c">C</span><div><strong>하회</strong><p>가치 지수가 −4점 이상 −2점 미만입니다.</p></div></article>
+            <article><span className="tier tier-d">D</span><div><strong>크게 하회</strong><p>가치 지수가 −4점 미만입니다.</p></div></article>
           </div>
         </div>
         <div>
@@ -230,9 +228,9 @@ export default function EvaluationGuide() {
           </div>
           <ol className="reading-steps">
             <li><span>1</span><p><strong>가치 지수</strong>로 기준 예산 대비 위치를 확인합니다.</p></li>
-            <li><span>2</span><p><strong>점수 범위</strong>가 ±2 기준선을 넘나드는지 봅니다.</p></li>
-            <li><span>3</span><p><strong>평가 신뢰도</strong>가 낮으면 단일 수치보다 범위를 우선합니다.</p></li>
-            <li><span>4</span><p><strong>순위 안정성</strong>으로 가정 변화에 강한 평가인지 확인합니다.</p></li>
+            <li><span>2</span><p><strong>티어</strong>로 가치 지수 구간을 빠르게 구분합니다.</p></li>
+            <li><span>3</span><p><strong>점수 범위</strong>가 티어 경계를 넘나드는지 봅니다.</p></li>
+            <li><span>4</span><p><strong>카드 텍스트</strong>로 덱 구성과 전투 맥락을 함께 판단합니다.</p></li>
           </ol>
         </div>
       </section>
@@ -249,7 +247,7 @@ export default function EvaluationGuide() {
       </section>
 
       <footer>
-        <span>MODEL V5 · 577 CARDS</span>
+        <span>MODEL V5 · {summary.evaluation_table_card_count} CARDS</span>
         <span>평가값은 밸런스 탐색을 위한 비교 모델입니다.</span>
       </footer>
     </main>

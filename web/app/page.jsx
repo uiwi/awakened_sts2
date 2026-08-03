@@ -4,6 +4,10 @@ import { useEffect, useMemo, useState } from "react";
 import SiteNav from "./components/SiteNav";
 
 const ALL = "all";
+const BASIC_REFERENCE_EXCLUDED_IDS = new Set([
+  "DEFEND_DEFECT", "DEFEND_IRONCLAD", "DEFEND_NECROBINDER", "DEFEND_REGENT", "DEFEND_SILENT",
+  "STRIKE_DEFECT", "STRIKE_IRONCLAD", "STRIKE_NECROBINDER", "STRIKE_REGENT", "STRIKE_SILENT",
+]);
 
 const POOL_ORDER = [
   "ironclad",
@@ -54,10 +58,15 @@ function uniqueOptions(cards, keySelector, labelSelector, order = []) {
     });
 }
 
-function energyLabel(card) {
-  if (card.cost?.is_x_cost) return "X";
-  if (card.cost?.energy === null || card.cost?.energy === undefined) return "—";
-  return card.cost.energy;
+function energyLabel(card, includeStars = true) {
+  let label = "—";
+  if (card.cost?.is_x_cost) label = "X";
+  else if (Number.isInteger(card.cost?.energy) && card.cost.energy >= 0) label = String(card.cost.energy);
+
+  if (!includeStars) return label;
+  if (Number.isInteger(card.cost?.star) && card.cost.star > 0) return `${label} (+${card.cost.star}별)`;
+  if (card.cost?.is_x_star_cost) return `${label} (+X별)`;
+  return label;
 }
 
 function CardImage({ card, upgraded = false, className = "" }) {
@@ -141,7 +150,7 @@ function DetailModal({ card, onClose }) {
             <span className={`badge rarity-${card.rarity.key.toLowerCase()}`}>
               {card.rarity.name_ko}
             </span>
-            <span className="badge energy">비용 {energyLabel(card)}</span>
+            <span className="badge energy">에너지 {energyLabel(card)}</span>
           </div>
           <p className="detail-description">{selectedText || "설명 없음"}</p>
           {card.keywords.length > 0 && (
@@ -207,7 +216,7 @@ export default function CardBrowser() {
       })
       .then((data) => {
         if (!active) return;
-        setCards(data);
+        setCards(data.filter((card) => !BASIC_REFERENCE_EXCLUDED_IDS.has(card.id)));
         setStatus("ready");
       })
       .catch(() => active && setStatus("error"));
@@ -286,7 +295,7 @@ export default function CardBrowser() {
           <p className="eyebrow">THE SPIRE ARCHIVE</p>
           <h1>카드 기록 보관소</h1>
           <p className="hero-copy">
-            슬레이 더 스파이어 2의 카드 <strong>{cards.length || 577}장</strong>을
+            슬레이 더 스파이어 2의 카드 <strong>{cards.length || 567}장</strong>을
             이름, 키워드, 직업, 희귀도로 탐색하세요.
           </p>
         </div>
@@ -369,7 +378,7 @@ export default function CardBrowser() {
             >
               <div className="card-image-wrap">
                 <CardImage card={card} className="card-image" />
-                <span className="energy-orb">{energyLabel(card)}</span>
+                <span className="energy-orb">{energyLabel(card, false)}</span>
               </div>
               <div className="card-copy">
                 <div className="card-heading">
@@ -401,7 +410,7 @@ export default function CardBrowser() {
       )}
 
       <footer>
-        <span>577 CARDS · STABLE ARCHIVE</span>
+        <span>{cards.length || 567} CARDS · STABLE ARCHIVE</span>
         <span>데이터 및 이미지 © Mega Crit Games</span>
       </footer>
 

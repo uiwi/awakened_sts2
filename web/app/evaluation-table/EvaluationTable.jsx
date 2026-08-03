@@ -10,7 +10,7 @@ const POOL_ORDER = [
   "event", "token", "status", "curse", "quest",
 ];
 const TYPE_ORDER = ["Attack", "Skill", "Power", "Status", "Curse", "Quest"];
-const RARITY_ORDER = ["Basic", "Common", "Uncommon", "Rare", "Ancient", "Event", "Token", "Status", "Curse", "Quest"];
+const RARITY_ORDER = ["Common", "Uncommon", "Rare", "Ancient", "Event", "Token", "Status", "Curse", "Quest"];
 const COLLATOR = new Intl.Collator("ko", { numeric: true, sensitivity: "base" });
 
 const SORT_OPTIONS = [
@@ -20,38 +20,23 @@ const SORT_OPTIONS = [
   { value: "rarity", label: "희귀도" },
   { value: "score", label: "효과 점수" },
   { value: "value", label: "가치 지수" },
-  { value: "confidence", label: "평가 신뢰도" },
-  { value: "stability", label: "순위 안정성" },
+  { value: "tier", label: "티어" },
 ];
 
-const BAND_LABELS = {
-  very_above_budget: "크게 상회",
-  above_budget: "상회",
-  on_budget: "기준 범위",
-  below_budget: "하회",
-  very_below_budget: "크게 하회",
-  not_comparable: "비교 제외",
+const TIER_LABELS = {
+  S: "S · 크게 상회",
+  A: "A · 상회",
+  B: "B · 기준 범위",
+  C: "C · 하회",
+  D: "D · 크게 하회",
 };
 
 const INTERVAL_LABELS = {
   robustly_above_budget: "범위 전체가 기준 상회",
   robustly_below_budget: "범위 전체가 기준 하회",
   contained_on_budget: "범위 전체가 기준 안",
-  scenario_overlaps_budget: "시나리오에 따라 판정 변동",
+  scenario_overlaps_budget: "시나리오에 따라 티어 변동",
   not_comparable: "기준점 직접 비교 제외",
-};
-
-const CONFIDENCE_LABELS = {
-  A: "A · 높음",
-  B: "B · 중간",
-  C: "C · 맥락 의존",
-  raw_only: "RAW · 원점수",
-};
-
-const STABILITY_LABELS = {
-  robust: "안정",
-  moderate: "보통",
-  sensitive: "민감",
 };
 
 function normalize(value) {
@@ -82,8 +67,7 @@ function sortValue(card, key) {
     case "rarity": return orderIndex(RARITY_ORDER, card.rarity.key);
     case "score": return card.score.baseline;
     case "value": return card.value_index.baseline;
-    case "confidence": return { A: 0, B: 1, C: 2, raw_only: 3 }[card.confidence.evaluation] ?? 4;
-    case "stability": return card.stability.combined;
+    case "tier": return { S: 0, A: 1, B: 2, C: 3, D: 4 }[card.tier] ?? 5;
     default: return card.name.ko;
   }
 }
@@ -144,8 +128,7 @@ export default function EvaluationTable() {
   const [pool, setPool] = useState(ALL);
   const [type, setType] = useState(ALL);
   const [rarity, setRarity] = useState(ALL);
-  const [confidence, setConfidence] = useState(ALL);
-  const [band, setBand] = useState(ALL);
+  const [tier, setTier] = useState(ALL);
   const [sortKey, setSortKey] = useState("pool");
   const [direction, setDirection] = useState(1);
   const [expandedId, setExpandedId] = useState(null);
@@ -180,13 +163,12 @@ export default function EvaluationTable() {
           && (pool === ALL || card.pool.key === pool)
           && (type === ALL || card.type.key === type)
           && (rarity === ALL || card.rarity.key === rarity)
-          && (confidence === ALL || card.confidence.evaluation === confidence)
-          && (band === ALL || card.balance_band === band);
+          && (tier === ALL || card.tier === tier);
       })
       .sort((a, b) => compareCards(a, b, sortKey, direction));
-  }, [cards, query, pool, type, rarity, confidence, band, sortKey, direction]);
+  }, [cards, query, pool, type, rarity, tier, sortKey, direction]);
 
-  const hasFilters = query || [pool, type, rarity, confidence, band].some((value) => value !== ALL);
+  const hasFilters = query || [pool, type, rarity, tier].some((value) => value !== ALL);
 
   function requestSort(column) {
     if (sortKey === column) {
@@ -194,7 +176,7 @@ export default function EvaluationTable() {
       return;
     }
     setSortKey(column);
-    setDirection(["score", "value", "stability"].includes(column) ? -1 : 1);
+    setDirection(["score", "value"].includes(column) ? -1 : 1);
   }
 
   function resetFilters() {
@@ -202,8 +184,7 @@ export default function EvaluationTable() {
     setPool(ALL);
     setType(ALL);
     setRarity(ALL);
-    setConfidence(ALL);
-    setBand(ALL);
+    setTier(ALL);
   }
 
   return (
@@ -212,7 +193,7 @@ export default function EvaluationTable() {
 
       <header className="evaluation-hero table-hero">
         <div>
-          <p className="eyebrow">577 CARDS · MODEL V5</p>
+          <p className="eyebrow">{cards.length || 567} CARDS · MODEL V5</p>
           <h1>카드 평가표</h1>
           <p className="evaluation-lead">
             효과 점수와 기대 예산의 차이를 비교합니다. 열 제목을 눌러 직업, 카드 종류,
@@ -240,18 +221,11 @@ export default function EvaluationTable() {
         <FilterSelect id="evaluation-type" label="카드 종류" value={type} onChange={setType} options={typeOptions} />
         <FilterSelect id="evaluation-rarity" label="희귀도" value={rarity} onChange={setRarity} options={rarityOptions} />
         <FilterSelect
-          id="evaluation-confidence"
-          label="평가 신뢰도"
-          value={confidence}
-          onChange={setConfidence}
-          options={Object.entries(CONFIDENCE_LABELS).map(([value, label]) => ({ value, label }))}
-        />
-        <FilterSelect
-          id="evaluation-band"
-          label="예산 판정"
-          value={band}
-          onChange={setBand}
-          options={Object.entries(BAND_LABELS).map(([value, label]) => ({ value, label }))}
+          id="evaluation-tier"
+          label="티어"
+          value={tier}
+          onChange={setTier}
+          options={Object.entries(TIER_LABELS).map(([value, label]) => ({ value, label }))}
         />
         <label className="select-field table-filter sort-select" htmlFor="evaluation-sort">
           <span>정렬 기준</span>
@@ -294,13 +268,11 @@ export default function EvaluationTable() {
                 <SortHeader label="직업 / 풀" column="pool" sortKey={sortKey} direction={direction} onSort={requestSort} />
                 <SortHeader label="종류" column="type" sortKey={sortKey} direction={direction} onSort={requestSort} />
                 <SortHeader label="희귀도" column="rarity" sortKey={sortKey} direction={direction} onSort={requestSort} />
-                <th>비용</th>
+                <th>에너지</th>
                 <SortHeader label="효과 점수" column="score" sortKey={sortKey} direction={direction} onSort={requestSort} className="numeric-column" />
                 <th className="numeric-column">기준점</th>
                 <SortHeader label="가치 지수" column="value" sortKey={sortKey} direction={direction} onSort={requestSort} className="numeric-column" />
-                <th>판정</th>
-                <SortHeader label="신뢰도" column="confidence" sortKey={sortKey} direction={direction} onSort={requestSort} />
-                <SortHeader label="안정성" column="stability" sortKey={sortKey} direction={direction} onSort={requestSort} />
+                <SortHeader label="티어" column="tier" sortKey={sortKey} direction={direction} onSort={requestSort} />
               </tr>
             </thead>
             <tbody>
@@ -342,19 +314,17 @@ function EvaluationRows({ card, expanded, onToggle }) {
         <td><span className={`pool-label pool-${card.pool.key}`}>{card.pool.name_ko}</span></td>
         <td>{card.type.name_ko}</td>
         <td>{card.rarity.name_ko}</td>
-        <td className="cost-cell">{card.cost_label}</td>
+        <td className="cost-cell">{card.energy_label}</td>
         <td className="number-cell"><strong>{formatScore(card.score.baseline)}</strong><small>{card.score.low !== card.score.high ? `${formatScore(card.score.low)}–${formatScore(card.score.high)}` : "고정"}</small></td>
         <td className="number-cell">{formatScore(card.benchmark)}</td>
         <td className={`number-cell value-cell ${value > 2 ? "positive" : value < -2 ? "negative" : "neutral"}`}>
           <strong>{formatScore(value, true)}</strong>
         </td>
-        <td><span className={`band band-${card.balance_band}`}>{BAND_LABELS[card.balance_band]}</span></td>
-        <td><span className={`grade grade-${card.confidence.evaluation.toLowerCase()}`}>{card.confidence.evaluation === "raw_only" ? "RAW" : card.confidence.evaluation}</span></td>
-        <td className="stability-cell"><strong>{STABILITY_LABELS[card.stability.label]}</strong><small>{formatScore(card.stability.combined * 100)}%</small></td>
+        <td>{card.tier ? <span className={`tier tier-${card.tier.toLowerCase()}`}>{card.tier}</span> : "—"}</td>
       </tr>
       {expanded && (
         <tr className="evaluation-detail-row">
-          <td colSpan="11">
+          <td colSpan="9">
             <div className="evaluation-detail">
               <div>
                 <p className="eyebrow">CARD TEXT</p>
@@ -364,8 +334,7 @@ function EvaluationRows({ card, expanded, onToggle }) {
               <dl>
                 <div><dt>효과 점수 범위</dt><dd>{formatRange(card.score)}</dd></div>
                 <div><dt>가치 지수 범위</dt><dd>{card.benchmark_comparable ? formatRange(card.value_index) : "기준 비교 제외"}</dd></div>
-                <div><dt>구간 판정</dt><dd>{INTERVAL_LABELS[card.interval_class]}</dd></div>
-                <div><dt>효과 / 기준 신뢰도</dt><dd>{card.confidence.effect} / {card.confidence.benchmark}</dd></div>
+                <div><dt>구간 티어</dt><dd>{INTERVAL_LABELS[card.interval_class]}</dd></div>
                 <div><dt>평가 규칙</dt><dd className="rule-list">{card.rules.join(" · ")}</dd></div>
               </dl>
             </div>

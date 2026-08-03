@@ -981,6 +981,24 @@ footer {
 .grade-raw,
 .grade-raw_only { color: #969aa3; background: rgba(150, 154, 163, 0.08); }
 
+.tier {
+  display: inline-grid;
+  place-items: center;
+  min-width: 30px;
+  height: 28px;
+  padding: 0 8px;
+  font-size: 11px;
+  font-weight: 900;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+}
+
+.tier-s { color: #e8c66f; background: rgba(216, 173, 88, 0.16); }
+.tier-a { color: #8dd2a3; background: rgba(77, 160, 104, 0.12); }
+.tier-b { color: #8cbce4; background: rgba(78, 142, 185, 0.12); }
+.tier-c { color: #d6b275; background: rgba(196, 143, 60, 0.11); }
+.tier-d { color: #e49388; background: rgba(184, 84, 74, 0.11); }
+
 .reading-steps {
   margin: 0;
   padding: 0;
@@ -1048,7 +1066,7 @@ footer {
 
 .evaluation-controls {
   display: grid;
-  grid-template-columns: minmax(260px, 1.6fr) repeat(6, minmax(130px, 1fr));
+  grid-template-columns: minmax(260px, 1.6fr) repeat(5, minmax(130px, 1fr));
   gap: 10px;
   padding: 20px 0 18px;
   border-bottom: 1px solid var(--line);
@@ -1124,7 +1142,7 @@ footer {
 
 .evaluation-table {
   width: 100%;
-  min-width: 1320px;
+  min-width: 1080px;
   border-collapse: separate;
   border-spacing: 0;
   font-size: 11px;

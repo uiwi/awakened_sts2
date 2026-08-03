@@ -12,6 +12,17 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = ROOT / "analysis/card_value_v5"
 PUBLIC_DATA = ROOT / "web/public/data"
+BASIC_REFERENCE_EXCLUDED_IDS = {
+    "DEFEND_DEFECT", "DEFEND_IRONCLAD", "DEFEND_NECROBINDER", "DEFEND_REGENT", "DEFEND_SILENT",
+    "STRIKE_DEFECT", "STRIKE_IRONCLAD", "STRIKE_NECROBINDER", "STRIKE_REGENT", "STRIKE_SILENT",
+}
+TIER_BY_BAND = {
+    "very_above_budget": "S",
+    "above_budget": "A",
+    "on_budget": "B",
+    "below_budget": "C",
+    "very_below_budget": "D",
+}
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -34,13 +45,32 @@ def number_or_text(value: str) -> float | str | None:
         return value
 
 
+def energy_label(card: dict[str, Any]) -> str:
+    cost = card["cost"]
+    if cost.get("is_x_cost"):
+        label = "X"
+    else:
+        energy = cost.get("energy")
+        label = str(energy) if isinstance(energy, int) and energy >= 0 else "—"
+
+    star = cost.get("star")
+    if isinstance(star, int) and star > 0:
+        return f"{label} (+{star}별)"
+    if cost.get("is_x_star_cost"):
+        return f"{label} (+X별)"
+    return label
+
+
 def main() -> None:
     cards = json.loads((PUBLIC_DATA / "cards.json").read_text(encoding="utf-8"))
     cards_by_id = {card["id"]: card for card in cards}
+    rarity_by_key = {card["rarity"]["key"]: card["rarity"] for card in cards}
     score_rows = read_csv(ANALYSIS / "card_stability_v5.csv")
 
     evaluations: list[dict[str, Any]] = []
     for row in score_rows:
+        if row["card_id"] in BASIC_REFERENCE_EXCLUDED_IDS:
+            continue
         card = cards_by_id[row["card_id"]]
         comparable = row["benchmark_comparable"].lower() == "true"
         evaluations.append(
@@ -49,9 +79,10 @@ def main() -> None:
                 "name": card["name"],
                 "pool": card["pool"],
                 "type": card["type"],
-                "rarity": card["rarity"],
+                "rarity": rarity_by_key[row["rarity"]],
+                "printed_rarity": card["rarity"],
                 "cost": card["cost"],
-                "cost_label": row["cost"],
+                "energy_label": energy_label(card),
                 "description_ko": card["text"]["ko"]["description_plain"],
                 "keywords": card["keywords"],
                 "score": {
@@ -73,6 +104,7 @@ def main() -> None:
                     "evaluation": row["evaluation_confidence"],
                 },
                 "balance_band": row["balance_band_baseline"],
+                "tier": TIER_BY_BAND.get(row["balance_band_baseline"]),
                 "interval_class": row["balance_interval_class"],
                 "stability": {
                     "label": row["rank_stability_label"],
@@ -89,6 +121,7 @@ def main() -> None:
         )
 
     summary = json.loads((ANALYSIS / "summary.json").read_text(encoding="utf-8"))
+    summary["evaluation_table_card_count"] = len(evaluations)
     effect_scores = []
     for row in read_csv(ANALYSIS / "effect_score_table_v5.csv"):
         effect_scores.append(
@@ -121,11 +154,11 @@ def main() -> None:
         "summary": summary,
         "formula": "value_index = effect_score - rarity_energy_benchmark",
         "balance_thresholds": [
-            {"key": "very_above_budget", "label": "크게 상회", "min": 4.0, "max": None},
-            {"key": "above_budget", "label": "상회", "min": 2.0, "max": 4.0},
-            {"key": "on_budget", "label": "기준 범위", "min": -2.0, "max": 2.0},
-            {"key": "below_budget", "label": "하회", "min": -4.0, "max": -2.0},
-            {"key": "very_below_budget", "label": "크게 하회", "min": None, "max": -4.0},
+            {"key": "very_above_budget", "tier": "S", "label": "S 티어", "min": 4.0, "max": None},
+            {"key": "above_budget", "tier": "A", "label": "A 티어", "min": 2.0, "max": 4.0},
+            {"key": "on_budget", "tier": "B", "label": "B 티어", "min": -2.0, "max": 2.0},
+            {"key": "below_budget", "tier": "C", "label": "C 티어", "min": -4.0, "max": -2.0},
+            {"key": "very_below_budget", "tier": "D", "label": "D 티어", "min": None, "max": -4.0},
         ],
         "effect_scores": effect_scores,
         "benchmarks": benchmarks,

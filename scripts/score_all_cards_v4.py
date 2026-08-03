@@ -40,6 +40,26 @@ class RuleResult:
 
 CONFIDENCE_WEIGHT = {"high": 1.0, "medium": 0.72, "low": 0.42, "fallback": 0.18}
 STAR_COST_POINT = 2.0
+BASIC_REFERENCE_EXCLUDED_IDS = {
+    "DEFEND_DEFECT",
+    "DEFEND_IRONCLAD",
+    "DEFEND_NECROBINDER",
+    "DEFEND_REGENT",
+    "DEFEND_SILENT",
+    "STRIKE_DEFECT",
+    "STRIKE_IRONCLAD",
+    "STRIKE_NECROBINDER",
+    "STRIKE_REGENT",
+    "STRIKE_SILENT",
+}
+
+
+def benchmark_rarity(card: dict[str, Any]) -> str:
+    """Return the rarity used by the comparison model, not the printed rarity."""
+    rarity = card["rarity"]["key"]
+    if rarity == "Basic" and card["id"] not in BASIC_REFERENCE_EXCLUDED_IDS:
+        return "Common"
+    return rarity
 
 
 def fixed(value: float) -> v3.RangeScore:
@@ -814,10 +834,12 @@ def printed_cost_score(card: dict[str, Any]) -> list[RuleResult]:
 
 
 def benchmark_v4(card: dict[str, Any]) -> tuple[float | None, str]:
+    if card["id"] in BASIC_REFERENCE_EXCLUDED_IDS:
+        return None, "basic_strike_defend_excluded"
     if card["pool"]["key"] in {"event", "curse", "status", "token", "quest"}:
         return None, "special_pool_raw_score"
     scope = "character" if card["pool"]["is_playable_character"] else "colorless"
-    rarity = card["rarity"]["key"]
+    rarity = benchmark_rarity(card)
     if rarity not in v3.BENCHMARKS_V3.get(scope, {}):
         return None, "unsupported_rarity_raw_score"
     energy = card["cost"].get("energy")
@@ -841,6 +863,8 @@ def benchmark_v4(card: dict[str, Any]) -> tuple[float | None, str]:
         value = cost_map[energy]
     has_star_cost = (isinstance(star, int) and star > 0) or card["cost"].get("is_x_star_cost")
     method = "x_as_2_energy" if card["cost"].get("is_x_cost") else ("energy_table_star_cost_separated" if has_star_cost else "v3_table")
+    if card["rarity"]["key"] == "Basic":
+        method = f"basic_as_common_{method}"
     return round(value, 3), method
 
 
@@ -941,7 +965,7 @@ def main() -> None:
         scored.append(
             {
                 "card_id": card["id"], "name_ko": card["name"]["ko"], "name_en": card["name"]["en"],
-                "pool": card["pool"]["key"], "rarity": card["rarity"]["key"], "cost": v1.cost_signature(card),
+                "pool": card["pool"]["key"], "rarity": benchmark_rarity(card), "cost": v1.cost_signature(card),
                 "type": card["type"]["key"], "score_low": round(total.low, 3), "score_baseline": round(total.base, 3),
                 "score_high": round(total.high, 3), "score_width": round(total.high - total.low, 3),
                 "confidence_score": round(confidence_score, 3), "confidence_grade": grade,
@@ -982,6 +1006,12 @@ def main() -> None:
     stable_cards = [row for row in scored if float(row["rank_stability"]) >= 0.90]
     summary = {
         "card_count": len(scored),
+        "evaluation_table_card_count": len(scored) - len(BASIC_REFERENCE_EXCLUDED_IDS),
+        "basic_strike_defend_excluded_cards": len(BASIC_REFERENCE_EXCLUDED_IDS),
+        "basic_cards_compared_as_common": sum(
+            card["rarity"]["key"] == "Basic" and card["id"] not in BASIC_REFERENCE_EXCLUDED_IDS
+            for card in cards
+        ),
         "cards_with_complete_numeric_range": len(scored),
         "confidence_grades": dict(sorted(grades.items())),
         "cards_using_generic_fallback": len(fallback_cards),
@@ -1036,7 +1066,7 @@ def main() -> None:
 - C: 덱/전투 상태 의존도가 큰 대체 변수
 - D: 고유 효과를 범용 대체 변수로만 표현; 다음 보정 최우선
 
-`benchmark_comparable=false`인 교활·사용불가·특수 풀 카드는 인쇄 코스트 기준과 직접 비교하지 않고 원점수와 범위만 사용한다. 별 비용은 기준점에 넣지 않고 `별 1 = -{STAR_COST_POINT:.1f}점`인 명시적 카드 효과로 차감한다. X별 비용은 X=1/2/4 범위, X에너지 비용은 기준 X=2로 계산한다. 직접 앵커가 없는 E5 초과 비용은 외삽하지 않는다.
+기본 카드 중 타격·수비 10장은 비교와 평가표에서 제외한다. 그 외 기본 카드 9장은 일반 등급 기준점으로 비교한다. `benchmark_comparable=false`인 교활·사용불가·특수 풀 카드는 인쇄 코스트 기준과 직접 비교하지 않고 원점수와 범위만 사용한다. 별 비용은 기준점에 넣지 않고 `별 1 = -{STAR_COST_POINT:.1f}점`인 명시적 카드 효과로 차감한다. X별 비용은 X=1/2/4 범위, X에너지 비용은 기준 X=2로 계산한다. 직접 앵커가 없는 E5 초과 비용은 외삽하지 않는다.
 
 ## 파일
 
