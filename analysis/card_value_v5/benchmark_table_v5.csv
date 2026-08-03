@@ -1,9 +1,4 @@
 ﻿scope,rarity,cost_component,points,confidence,basis
-character,Basic,E0,1.5,low,V1 anchors with V2/V3 residual-cell corrections
-character,Basic,E1,3.0,high,V1 anchors with V2/V3 residual-cell corrections
-character,Basic,E2,6.0,low,V1 anchors with V2/V3 residual-cell corrections
-character,Basic,E3,10.0,low,V1 anchors with V2/V3 residual-cell corrections
-character,Basic,E4,15.0,low,V1 anchors with V2/V3 residual-cell corrections
 character,Common,E0,2.7,medium,V1 anchors with V2/V3 residual-cell corrections
 character,Common,E1,5.3,high,V1 anchors with V2/V3 residual-cell corrections
 character,Common,E2,9.0,medium,V1 anchors with V2/V3 residual-cell corrections

@@ -287,7 +287,7 @@ def main() -> None:
             benchmark_confidence_by_id[card["id"]] = "low"
         else:
             scope = "character" if card["pool"]["is_playable_character"] else "colorless"
-            key = (scope, card["rarity"]["key"], int(card["cost"]["energy"]))
+            key = (scope, v4.benchmark_rarity(card), int(card["cost"]["energy"]))
             benchmark_confidence_by_id[card["id"]] = benchmark_confidence_overrides.get(key, v1_benchmark_confidence.get(key, "low"))
     adjusted_snapshots = {
         name: {cid: value - benchmark_by_id[cid] for cid, value in scores.items()}
@@ -425,6 +425,8 @@ def main() -> None:
     benchmark_table = []
     for scope, rarities in v3.BENCHMARKS_V3.items():
         for rarity, costs in rarities.items():
+            if rarity == "Basic":
+                continue
             for energy, value in costs.items():
                 confidence = benchmark_confidence_overrides.get((scope, rarity, energy), v1_benchmark_confidence.get((scope, rarity, energy), "low"))
                 benchmark_table.append({"scope": scope, "rarity": rarity, "cost_component": f"E{energy}", "points": value, "confidence": confidence, "basis": "V1 anchors with V2/V3 residual-cell corrections"})
@@ -455,6 +457,12 @@ def main() -> None:
     confidence_counts = Counter(row["confidence_grade"] for row in score_rows)
     summary = {
         "card_count": len(cards),
+        "evaluation_table_card_count": len(cards) - len(v4.BASIC_REFERENCE_EXCLUDED_IDS),
+        "basic_strike_defend_excluded_cards": len(v4.BASIC_REFERENCE_EXCLUDED_IDS),
+        "basic_cards_compared_as_common": sum(
+            card["rarity"]["key"] == "Basic" and card["id"] not in v4.BASIC_REFERENCE_EXCLUDED_IDS
+            for card in cards
+        ),
         "source_clause_count": source_clause_count,
         "evidence_clause_count": evidence_clause_count,
         "effect_evidence_row_count": len(evidence_rows),
@@ -529,6 +537,7 @@ def main() -> None:
 ## 결론
 
 - 전체 **{len(cards)}장**, 원문 효과 문장 **{source_clause_count}개**가 모두 근거 행과 연결됨
+- 평가표 대상 **{len(cards) - len(v4.BASIC_REFERENCE_EXCLUDED_IDS)}장**: 기본 타격·수비 {len(v4.BASIC_REFERENCE_EXCLUDED_IDS)}장은 제외하고, 나머지 기본 카드는 일반 등급으로 비교
 - 범용 fallback **{fallback_effects}개**, 합계 불일치 **{len(sum_mismatches)}개**, 재계산 불일치 **{len(recalculation_mismatches)}개**
 - 신뢰도: {', '.join(f'{grade} {count}장' for grade, count in sorted(confidence_counts.items()))}
 - 효과와 기준점을 함께 반영한 최종 평가 신뢰도: {', '.join(f'{grade} {count}장' for grade, count in sorted(evaluation_confidence_counts.items()))}
@@ -550,6 +559,7 @@ def main() -> None:
 - 순위는 원점수가 아니라 `value_index = 효과 점수 - 희귀도/코스트 기준점`으로 계산한다. 2점 이내 차이는 `on_budget` 동급 밴드로 취급한다.
 - `benchmark_v4`는 카드의 기대 예산이고 `score_baseline`은 효과 합계다. 잔차는 카드가 반드시 잘못 설계되었다는 뜻이 아니라 상호작용, 조건, 메타 가치 또는 기준표 표본 부족을 찾는 신호다.
 - 별 비용은 기준점에서 완전히 분리해 카드 효과에 별당 **-{v4.STAR_COST_POINT}점**으로 기록한다. 고정 별 비용 {fixed_star_cost_cards}장과 X별 비용 {x_star_cost_cards}장이 이에 해당하며, X별 비용은 X=1/2/4 범위로 계산한다. E9 가변 할인 카드는 근거 없는 고비용 외삽에서 제외했다.
+- 기본 등급의 타격·수비는 비교 대상과 공개 평가표에서 제외한다. 그 외 기본 카드는 일반 등급 기준점을 적용한다.
 
 ## 파일
 
