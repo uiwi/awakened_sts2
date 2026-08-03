@@ -1,0 +1,232 @@
+﻿template_en,card_count,card_ids
+ALL players add {n} Souls into their Draw Pile.,1,GLIMPSE_BEYOND
+Add a copy of the third Attack you play each turn into your Hand.,1,JUGGLING
+Add a {n} Energy copy of this card into your Discard Pile.,1,ADAPTIVE_STRIKE
+Add {n} random Attacks into your Draw Pile.,1,METAMORPHOSIS
+Add {n} random {n} Energy cards into your Hand.,1,JACKPOT
+Allies take half damage from enemies.,1,TANK
+Another player Channels Plasma.,1,IGNITION
+Another player adds {n} random Colorless card to their Hand.,1,LARGESSE
+Another player gains {n} Energy.,1,BELIEVE_IN_YOU
+Apply any debuffs on the enemy to ALL other enemies.,1,MISERY
+"Apply {n} Doom, plus an additional {n} Doom for every {n} Doom already on this enemy.",1,NO_ESCAPE
+"At the end of combat, gain {n} Gold.",1,ROYALTIES
+"At the end of combat, you may remove a card from your Deck.",1,FORBIDDEN_GRIMOIRE
+"At the end of your turn, if this is in your Exhaust Pile, play it.",1,HOWL_FROM_BEYOND
+"At the end of your turn, if this is in your Hand, lose {n} Gold.",1,DEBT
+"At the end of your turn, if this is on top of your Draw Pile, play it.",1,I_AM_INVINCIBLE
+"At the end of your turn, {n} random Attack in your Hand is played against a random enemy.",1,STAMPEDE
+"At the start of your turn, Transform {n} card in your Hand.",1,ENTROPY
+"At the start of your turn, add {n} Sweeping Gaze into your Hand.",1,SENTRY_MODE
+"At the start of your turn, apply {n} Doom to yourself.",1,NEUROSURGE
+"At the start of your turn, deal {n} damage to ALL enemies and increase this damage by {n}.",1,ROLLING_BOULDER
+"At the start of your turn, draw {n} card and Exhaust {n} card from your Hand.",1,TYRANNY
+"At the start of your turn, if this is in your Exhaust Pile, play it.",1,BOMBARDMENT
+"At the start of your turn, play the top card of your Draw Pile.",1,MAYHEM
+"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",1,AGGRESSION
+Block is not removed at the start of your next turn.,1,BLUR
+Block is not removed at the start of your turn.,1,BARRICADE
+Blocked attack damage is reflected to your attacker this turn.,1,REFLECT
+Can be hatched at a Rest Site.,1,BYRDONIS_EGG
+Can only be played if every card in your Hand is an Attack.,1,CLASH
+Can only be played if there are no cards in your Draw Pile.,1,GRAND_FINALE
+Cards cost an additional {n} Energy this turn.,1,BORROWED_TIME
+Channel Lightning equal to the Lightning already Channeled this combat.,1,VOLTAIC
+Channel {n} random Orb.,1,CHAOS
+Choose a Colorless card in your Hand.,1,HEIRLOOM_HAMMER
+Choose a Skill in your Hand and play it {n} times.,1,DECISIONS_DECISIONS
+Choose a card in your Hand to Transform into Minion Strike.,1,BEGONE
+Choose a card.,1,NIGHTMARE
+Choose an Attack or Power card.,1,DUAL_WIELD
+Choose {n} cards in your Draw Pile to Transform into Minion Dive Bombs.,1,CHARGE
+Choose {n} of {n} cards in your Draw Pile to add into your Hand.,1,SEEKER_STRIKE
+Choose {n} of {n} random Attacks from another character to add into your Hand.,1,SPLASH
+Choose {n} of {n} random Colorless cards to add into your Hand.,1,QUASAR
+Choose {n} of {n} random cards to add into your Hand.,1,DISCOVERY
+Costs {n} Energy less for each Ethereal card played this combat.,1,BANSHEES_CRY
+Costs {n} less Energy for each Attack played this turn.,1,STOMP
+Costs {n} less Energy for each Skill played this turn.,1,PINPOINT
+Damage ALL other enemies equal to the damage dealt.,1,OMNISLICE
+Deal {n} damage to a random enemy for each card Exhausted.,1,FLAK_CANNON
+Deal {n} damage to a random enemy twice.,1,RIP_AND_TEAR
+Deals additional damage equal to Osty's Max HP.,1,PROTECTOR
+Deals additional damage equal to Osty's current HP.,1,UNLEASH
+Deals {n} additional damage for ALL your cards containing “Strike”.,1,PERFECTED_STRIKE
+Deals {n} additional damage for ALL your cards that have a {n} Stars cost.,1,CRESCENT_SPEAR
+Deals {n} additional damage for ALL your other Osty Attacks.,1,SQUEEZE
+Deals {n} additional damage for each Soul in your Exhaust Pile.,1,SOUL_STORM
+Deals {n} additional damage for each Vulnerable on the enemy.,1,BULLY
+Deals {n} additional damage for each card discarded this turn.,1,MEMENTO_MORI
+Deals {n} additional damage for each card drawn during your turn.,1,DEATH_MARCH
+Deals {n} additional damage for each card drawn this combat.,1,MURDER
+Deals {n} additional damage for each card in your Exhaust Pile.,1,ASHEN_STRIKE
+Deals {n} additional damage for each card you created this combat.,1,SUPERMASSIVE
+Deals {n} additional damage for each time another player has attacked the enemy this turn.,1,GANG_UP
+Deals {n} additional damage for each unique debuff on the enemy.,1,REND
+Deals {n} less damage for each other card in your Hand.,1,PRECISE_CUT
+Discard all cards drawn this way that do not cost {n} Energy.,1,SCRAPE
+"Discard your Hand, then draw that many cards.",1,CALCULATED_GAMBLE
+Double X if it's {n} or more.,1,HEAVENLY_DRILL
+Double the damage ALL Hang cards deal to this enemy.,1,HANG
+Double the enemy's Vulnerable.,1,MOLTEN_FIST
+Double your Block gain this turn.,1,SHADOWMELD
+Double your Energy.,1,DOUBLE_ENERGY
+Draw cards until you draw a non-Attack card.,1,PILLAGE
+Draw cards until you have {n} in your Hand.,1,EXPERTISE
+Draw cards until your Hand is full.,1,SCRAWL
+Draw {n} fewer card each turn.,1,MIND_ROT
+End your turn.,1,VOID_FORM
+Enemy loses X Strength.,1,MALAISE
+Enemy loses {n} Strength.,1,SHARED_FATE
+"Every {n} Skills you play in a turn, put this into your Hand.",1,MAKE_IT_SO
+Evoke all of your Orbs twice.,1,SHATTER
+Evoke your rightmost Orb X times.,1,MULTI_CAST
+Evoke your rightmost Orb {n} times.,1,QUADCAST
+Exhaust ALL your Status cards.,1,FLAK_CANNON
+Exhaust a random Attack in your Hand and add its damage to this card.,1,THRASH
+Exhaust all non-Attack cards in your Hand.,1,SECOND_WIND
+Exhaust up to {n} cards in your Hand.,1,PURITY
+Fill your Hand with Debris.,1,CRASH_LANDING
+Forges an additional {n} for every other time you've hit the enemy this turn.,1,BEAT_INTO_SHAPE
+Gain an additional {n} Block from Defend cards.,1,FASTEN
+Gain another {n} Block if you have Exhausted a card this turn.,1,EVIL_EYE
+Gain {n} Block at the start of the next {n} turns.,1,TORIC_TOUGHNESS
+Gain {n} less Energy per turn.,1,WASTE_AWAY
+Get farther away.,1,FRANTIC_ESCAPE
+Give another player Block equal to your Block.,1,DEMONIC_SHIELD
+Give another player {n} Block.,1,LIFT
+Give another player {n} Strength this turn.,1,COORDINATE
+Hits an additional time for each other time he has attacked this turn.,1,RATTLE
+Hits an additional time for each time you lost HP this combat.,1,TEAR_ASUNDER
+"If Fatal, gain an additional card reward.",1,THE_HUNT
+"If Fatal, gain {n} Gold.",1,HAND_OF_GREED
+"If Fatal, raise your Max HP by {n}.",1,FEED
+"If Osty is alive, he deals {n} damage to ALL enemies and you gain {n} Block.",1,BONE_SHARDS
+"If Osty is alive, he dies and you gain Block equal to double his Max HP.",1,SACRIFICE
+"If this is in your Hand, it must be played before other cards.",1,ENTHRALLED
+"If you applied Doom this turn, gain Block {n} additional times.",1,DEATHS_DOOR
+"If you play {n} or more cards in a turn, draw {n} card at the start of your next turn.",1,PALE_BLUE_DOT
+"If you take unblocked attack damage this combat, die.",1,THE_GAMBIT
+Increase Sandpit by {n}.,1,FRANTIC_ESCAPE
+Increase the cost of this card by {n}.,1,FRANTIC_ESCAPE
+Increase the damage of ALL Claw cards by {n} this combat.,1,CLAW
+Increase the damage of ALL Maul cards by {n} this combat.,1,MAUL
+Increase this card's cost by {n}.,1,MODDED
+Increase this card's damage by {n} this combat.,1,RAMPAGE
+It costs an extra {n} Energy.,1,TRANSFIGURE
+It gains Ethereal.,1,CALL_OF_THE_VOID
+Kill enemies with at least as much Doom as HP.,1,END_OF_DAYS
+Lose {n} Max HP.,1,BRIGHTEST_FLAME
+Marks a site of {n} extra Gold in the next Act.,1,SPOILS_MAP
+"Next turn, Attacks deal double damage.",1,SHADOW_STEP
+"Next turn, add {n} copies of that card into your Hand.",1,NIGHTMARE
+"Next turn, gain {n} Energy and {n} Stars.",1,CONVERGENCE
+"Next turn, put {n} cards from your Draw Pile into your Hand.",1,FOREGONE_CONCLUSION
+Osty deals {n} damage and applies {n} Vulnerable to ALL enemies.,1,HIGH_FIVE
+Osty deals {n} damage to a random enemy.,1,SWEEPING_GAZE
+Osty dies.,1,BONE_SHARDS
+Osty heals {n} HP.,1,SPUR
+Osty's attacks deal {n} additional damage.,1,CALCIFY
+Permanently increase this card's Block by {n}.,1,GENETIC_ALGORITHM
+Permanently increase this card's damage by {n}.,1,THE_SCYTHE
+Play a random Attack from your Draw Pile.,1,UPROAR
+Play every Shiv in your Exhaust Pile on the enemy.,1,KNIFE_TRAP
+Play the top X cards of your Draw Pile.,1,CASCADE
+Play the top card of your Draw Pile and Exhaust it.,1,HAVOC
+Play {n} random Attacks from your Discard Pile.,1,BEAT_DOWN
+Play {n} random cards from your Draw Pile.,1,CATASTROPHE
+Poison is triggered {n} additional time.,1,ACCELERANT
+Prevent the next time you would lose HP.,1,BUFFER
+Procure a random potion.,1,ALCHEMIZE
+Put ALL {n} Energy cards from your Discard Pile into your Hand.,1,ALL_FOR_ONE
+Put Sovereign Blade into your Hand from anywhere.,1,SUMMON_FORTH
+Put a Skill from your Draw Pile into your Hand.,1,SECRET_TECHNIQUE
+Put a card from your Draw Pile into your Hand.,1,WISH
+Put an Attack from your Draw Pile into your Hand.,1,SECRET_WEAPON
+Put every Rare card from your Draw Pile into your Hand.,1,ANOINTED
+Put the next card you play this turn on top of your Draw Pile.,1,REBOUND
+Put this card on top of your Draw Pile.,1,SHINING_STRIKE
+Put up to {n} cards from your Discard Pile into your Hand.,1,NEOWS_FURY
+Put {n} cards from your Discard Pile into your Hand.,1,DREDGE
+Redirect all incoming attacks that would be dealt to another player this turn to you.,1,INTERCEPT
+Reduce the cost of ALL cards in your Hand to {n} this turn.,1,ENLIGHTENMENT
+Reduce this card's cost by {n} Energy whenever ANYONE dies.,1,MELANCHOLY
+Reduce this card's cost by {n}.,1,UP_MY_SLEEVE
+Reduce this card's cost to {n} Energy.,1,MOMENTUM_STRIKE
+Remove all Artifact and Block from the enemy.,1,EXPOSE
+Removed from your Deck after {n} combats.,1,GUILTY
+Repeat this effect for each enemy killed.,1,ECHOING_SLASH
+Return this card to your Hand.,1,PARTICLE_WALL
+Shivs deal {n} additional damage.,1,ACCURACY
+Shivs gain Retain.,1,PHANTOM_BLADES
+Shivs now hit ALL enemies.,1,FAN_OF_KNIVES
+Shuffle ALL your cards into your Draw Pile.,1,REBOOT
+Skills cost {n} Energy.,1,CORRUPTION
+Sovereign Blade deals double damage to the enemy this turn.,1,CONQUEROR
+Sovereign Blade gains Replay {n}.,1,SWORD_SAGE
+Sovereign Blade now deals damage to ALL enemies.,1,SEEKING_EDGE
+Sovereign Blade now gains {n} Block.,1,PARRY
+Stun the enemy.,1,WHISTLE
+Summon {n} X times.,1,DIRGE
+Take double damage from enemies.,1,TANK
+The enemy gains {n} Strength.,1,FIGHT_ME
+The enemy takes double attack damage from other players this turn.,1,FLANKING
+The enemy takes double damage from other players this turn.,1,KNOCKDOWN
+The first Attack each turn deals {n}% additional damage.,1,LETHALITY
+The first Attack or Skill you play each turn is placed on top of your Draw Pile.,1,NOSTALGIA
+The first Shiv you play each turn deals {n} additional damage.,1,PHANTOM_BLADES
+The first card you play each turn is played an extra time.,1,ECHO_FORM
+"The first time you draw a Status each turn, draw {n} cards.",1,ITERATION
+"The first time you gain Block from a card each turn, double the amount gained.",1,UNMOVABLE
+"The first time you play a {n} Energy Attack each turn, return it to your Hand.",1,FERAL
+The first {n} cards you play each turn are free to play.,1,VOID_FORM
+The next Attack another player plays on the enemy is played an extra time.,1,TAG_TEAM
+The next Attack you play costs {n} Energy.,1,UNRELENTING
+The next Ethereal card you play costs {n} Energy.,1,VEILPIERCER
+The next Power you play costs {n} Energy.,1,SYNTHESIS
+The next Power you play is played an additional time.,1,SIGNAL_BOOST
+The next Skill you play costs {n} Energy.,1,POUNCE
+They're free to play this combat.,1,METAMORPHOSIS
+This card costs {n} Energy if Osty has attacked this turn.,1,FLATTEN
+"This turn, your next Attack is played an extra time.",1,ONE_TWO_PUNCH
+"This turn, your next Skill is played an extra time.",1,BURST
+Transform a card in your Draw Pile into Soul.,1,SEANCE
+Transform all Attacks in your Hand into Giant Rock.,1,PRIMAL_FORCE
+Transform all Status cards in your Hand into Fuel.,1,COMPACT
+Transform any number of cards in your Hand into Minion Sacrifice.,1,GUARDS
+Trigger all Lightning against the enemy.,1,TESLA_COIL
+Trigger the passive ability of all Dark Orbs.,1,DARKNESS
+Unlocks a special event in the next Act.,1,LANTERN_KEY
+Upgrade ALL your cards.,1,APOTHEOSIS
+Vulnerable and Weak are twice as effective against the enemy for the next {n} turns.,1,DEBILITATE
+Vulnerable enemies take an additional {n}% damage.,1,CRUELTY
+Weak enemies take double damage from Attacks.,1,TRACKING
+"When this card is Exhausted, gain {n} Energy.",1,DRUM_OF_BATTLE
+"When you play a Skill, it gains Sly.",1,MASTER_PLANNER
+"Whenever Attacks deal damage, apply that much Doom.",1,REAPER_FORM
+"Whenever Osty loses HP, ALL enemies lose that much HP as well.",1,NECRO_MASTERY
+"Whenever you Evoke Lightning, deal {n} damage to each enemy hit.",1,THUNDER
+"Whenever you Forge, all allies Forge as well.",1,HAMMER_TIME
+"Whenever you apply a debuff to an enemy, they take {n} damage.",1,SLEIGHT_OF_FLESH
+"Whenever you are attacked this turn, deal {n} damage back.",1,FLAME_BARRIER
+"Whenever you are attacked, deal {n} damage back.",1,CALTROPS
+"Whenever you attack an enemy, it loses {n} Strength this turn.",1,MONARCHS_GAZE
+"Whenever you create a Status, Channel {n} random Orb.",1,TRASH_TO_TREASURE
+"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,ROCKET_PUNCH
+"Whenever you draw a card containing “Strike”, it is played against a random enemy.",1,HELLRAISER
+"Whenever you draw this card, increase its damage by {n} this combat.",1,KINGLY_PUNCH
+"Whenever you draw this card, lose {n} Energy.",1,VOID
+"Whenever you draw this card, reduce its cost by {n}.",1,KINGLY_KICK
+"Whenever you gain Block on your turn, other players gain half that much Block.",1,BEACON_OF_HOPE
+"Whenever you gain Block, deal {n} damage to a random enemy.",1,JUGGERNAUT
+"Whenever you play a Skill, Exhaust it.",1,CORRUPTION
+"Whenever you play a Soul, a random enemy loses {n} HP.",1,HAUNT
+"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,RIGHT_HAND_HAND
+"Whenever you play a card this turn, apply {n} Doom to the enemy.",1,OBLIVION
+"Whenever you play a card, deal {n} damage to a random enemy.",1,SERPENT_FORM
+"Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",1,STRATAGEM
+You cannot gain Block from cards for {n} turns.,1,PANIC_BUTTON
+You cannot gain additional {n} Energy this turn.,1,EXPECT_A_FIGHT
+You cannot play more than {n} cards each turn.,1,SLOTH
+You cannot play more than {n} cards this turn.,1,NORMALITY
+You receive {n}% less damage from Vulnerable enemies this turn.,1,COLOSSUS

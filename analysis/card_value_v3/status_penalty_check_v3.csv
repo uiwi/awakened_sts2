@@ -1,0 +1,7 @@
+﻿status,card_id,name_ko,name_en,chosen_penalty,card_score_v3,benchmark_v3,residual,implied_penalty_if_exact,interpretation
+dazed,BOOST_AWAY,가속 이탈,Boost Away,-0.9,2.7,2.7,-0.0,-0.9,usable_anchor
+debris,COLLISION_COURSE,불가피한 충돌,Collision Course,-2.8,2.7,2.7,0.0,-2.8,usable_anchor
+slimed,GUNK_UP,틀어막기,Gunk Up,-0.7,5.3,5.3,0.0,-0.7,usable_anchor
+wound,FIGHT_THROUGH,강행 돌파,Fight Through,-0.65,6.5,6.5,0.0,-0.65,usable_anchor
+burn,OVERCLOCK,오버클럭,Overclock,-1.5,1.9,4.3,-2.4,0.9,card_or_baseline_outlier
+void,TURBO,터보,TURBO,-2.3,2.7,2.7,0.0,-2.3,usable_anchor

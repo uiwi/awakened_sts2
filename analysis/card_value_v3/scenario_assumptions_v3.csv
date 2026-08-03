@@ -1,0 +1,12 @@
+﻿assumption,conservative,baseline,optimistic,meaning
+condition_probability,0.0,0.7,1.0,조건 충족 기대 비율
+recurring_turns,1.5,3.7,6.0,파워 사용 뒤 남은 유효 턴 수
+recurring_resource_turns,2.0,6.8,10.0,매턴 에너지 획득 파워의 유효 발동 횟수
+event_triggers,1.0,3.5,18.0,Whenever 계열 기대 발동 횟수
+threshold_triggers,0.0,1.8,4.0,Every N 계열 기대 발동 횟수
+scaling_count,1.0,2.2,10.0,더미·상태·사용 카드 등 참조 개수
+x_value,1.0,2.0,4.0,X에 투입하는 자원
+equal_to_quantity,3.0,8.0,15.0,현재 방어도·더미 크기 등 참조량
+draw_first,1.25,1.25,1.25,한 번의 효과에서 첫 드로우
+draw_additional,2.15,2.15,2.15,같은 효과의 두 번째 장부터
+discard_selected,0.25,0.25,0.25,선택 버리기의 필터링 기본값; 교활 시너지는 별도

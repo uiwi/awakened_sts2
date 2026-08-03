@@ -1,0 +1,118 @@
+﻿card_id,name_ko,name_en,pool,rarity,cost,type,keywords,features,body_score_v2,keyword_adjustment,effect_score_v2,benchmark_v1,benchmark_v2,residual_v2,absolute_residual
+ACROBATICS,곡예,Acrobatics,silent,Uncommon,E1,Skill,,"{""discard_selected"":1.0,""draw"":3.0}",4.75,0.0,4.75,6.5,6.5,-1.75,1.75
+ADRENALINE,아드레날린,Adrenaline,silent,Rare,E0,Skill,EXHAUST,"{""draw"":2.0,""energy"":1.0}",6.0,-1.0,5.0,6.5,6.5,-1.5,1.5
+AFTERLIFE,내세,Afterlife,necrobinder,Common,E1,Skill,EXHAUST,"{""summon"":6.0}",6.6,-1.0,5.6,5.3,5.3,0.3,0.3
+ASSASSINATE,암살,Assassinate,silent,Rare,E0,Attack,EXHAUST|INNATE,"{""damage_single"":10.0,""vulnerable"":1.0}",7.0,-0.5,6.5,6.5,6.5,0.0,0.0
+BACKFLIP,공중제비,Backflip,silent,Common,E1,Skill,,"{""block"":5.0,""draw"":2.0}",6.5,0.0,6.5,5.3,5.3,1.2,1.2
+BACKSTAB,배신,Backstab,silent,Uncommon,E0,Attack,EXHAUST|INNATE,"{""damage_single"":11.0}",5.5,-0.5,5.0,5.0,5.0,0.0,0.0
+BALL_LIGHTNING,번개 구체,Ball Lightning,defect,Common,E1,Attack,,"{""damage_single"":7.0,""lightning"":1.0}",5.7,0.0,5.7,5.3,5.3,0.4,0.4
+BASH,강타,Bash,ironclad,Basic,E2,Attack,,"{""damage_single"":8.0,""vulnerable"":2.0}",8.0,0.0,8.0,6.0,6.0,2.0,2.0
+BEAM_CELL,레이저 포인터,Beam Cell,defect,Common,E0,Attack,,"{""damage_single"":3.0,""vulnerable"":1.0}",3.5,0.0,3.5,2.7,2.7,0.8,0.8
+BIG_BANG,빅뱅,Big Bang,regent,Rare,E0,Skill,EXHAUST,"{""draw"":1.0,""energy"":1.0,""forge"":5.0,""stars"":1.0}",7.4,-1.0,6.4,6.5,6.5,-0.1,0.1
+BLADE_DANCE,검무,Blade Dance,silent,Common,E1,Skill,EXHAUST,"{""shiv"":3.0}",5.7,-1.0,4.7,5.3,5.3,-0.6,0.6
+BLOODLETTING,사혈,Bloodletting,ironclad,Common,E0,Skill,,"{""energy"":2.0,""hp_loss"":3.0}",3.35,0.0,3.35,2.7,2.7,0.65,0.65
+BLOOD_WALL,피의 벽,Blood Wall,ironclad,Common,E2,Skill,,"{""block"":16.0,""hp_loss"":2.0}",8.5,0.0,8.5,9.0,9.0,-0.5,0.5
+BLUDGEON,몽둥이질,Bludgeon,ironclad,Uncommon,E3,Attack,,"{""damage_single"":32.0}",16.0,0.0,16.0,16.0,16.0,0.0,0.0
+BODYGUARD,호위,Bodyguard,necrobinder,Basic,E1,Skill,,"{""summon"":5.0}",5.5,0.0,5.5,3.0,3.0,2.5,2.5
+BOOST_AWAY,가속 이탈,Boost Away,defect,Common,E0,Skill,,"{""block"":6.0,""dazed"":1.0}",2.7,0.0,2.7,2.7,2.7,-0.0,0.0
+BOOT_SEQUENCE,부팅 과정,Boot Sequence,defect,Uncommon,E0,Skill,EXHAUST|INNATE,"{""block"":10.0}",6.0,-0.5,5.5,5.0,5.0,0.5,0.5
+BREAKTHROUGH,정면 돌파,Breakthrough,ironclad,Common,E1,Attack,,"{""damage_all"":9.0,""hp_loss"":1.0}",5.3,0.0,5.3,5.3,5.3,0.0,0.0
+BULWARK,보루,Bulwark,regent,Uncommon,E2,Skill,,"{""block"":12.0,""forge"":10.0}",10.5,0.0,10.5,11.0,11.0,-0.5,0.5
+BURY,매장,Bury,necrobinder,Uncommon,E4,Attack,,"{""damage_single"":52.0}",26.0,0.0,26.0,26.0,26.0,0.0,0.0
+CELESTIAL_MIGHT,천상의 권능,Celestial Might,regent,Common,E2,Attack,,"{""damage_single"":18.0}",9.0,0.0,9.0,9.0,9.0,0.0,0.0
+CLOAK_AND_DAGGER,망토와 단검,Cloak and Dagger,silent,Common,E1,Skill,,"{""block"":6.0,""shiv"":1.0}",5.5,0.0,5.5,5.3,5.3,0.2,0.2
+COLD_SNAP,꽃샘추위,Cold Snap,defect,Common,E1,Attack,,"{""damage_single"":6.0,""frost"":1.0}",6.2,0.0,6.2,5.3,5.3,0.9,0.9
+COLLISION_COURSE,불가피한 충돌,Collision Course,regent,Common,E0,Attack,,"{""damage_single"":11.0,""debris"":1.0}",2.7,0.0,2.7,2.7,2.7,0.0,0.0
+CONFLAGRATION,대화재,Conflagration,ironclad,Rare,E1,Attack,,"{""damage_all"":8.0}",5.2,0.0,5.2,8.0,6.5,-1.3,1.3
+COOLHEADED,냉정함,Coolheaded,defect,Common,E1,Skill,,"{""draw"":1.0,""frost"":1.0}",4.95,0.0,4.95,5.3,5.3,-0.35,0.35
+DAGGER_SPRAY,단검 분사,Dagger Spray,silent,Common,E1,Attack,,"{""damage_all"":8.0}",5.2,0.0,5.2,5.3,5.3,-0.1,0.1
+DAGGER_THROW,단검 투척,Dagger Throw,silent,Common,E1,Attack,,"{""damage_single"":9.0,""discard_selected"":1.0,""draw"":1.0}",5.75,0.0,5.75,5.3,5.3,0.45,0.45
+DASH,돌진,Dash,silent,Uncommon,E2,Attack,,"{""block"":10.0,""damage_single"":10.0}",11.0,0.0,11.0,11.0,11.0,0.0,0.0
+DEADLY_POISON,맹독,Deadly Poison,silent,Common,E1,Skill,,"{""poison"":5.0}",5.0,0.0,5.0,5.3,5.3,-0.3,0.3
+DEATHBRINGER,죽음 인도자,Deathbringer,necrobinder,Uncommon,E2,Skill,,"{""doom"":27.3,""weak"":1.3}",10.101,0.0,10.101,11.0,11.0,-0.899,0.899
+DEFEND_DEFECT,수비,Defend,defect,Basic,E1,Skill,,"{""block"":5.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+DEFEND_IRONCLAD,수비,Defend,ironclad,Basic,E1,Skill,,"{""block"":5.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+DEFEND_NECROBINDER,수비,Defend,necrobinder,Basic,E1,Skill,,"{""block"":5.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+DEFEND_REGENT,수비,Defend,regent,Basic,E1,Skill,,"{""block"":5.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+DEFEND_SILENT,수비,Defend,silent,Basic,E1,Skill,,"{""block"":5.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+DEFILE,모독,Defile,necrobinder,Common,E1,Attack,ETHEREAL,"{""damage_single"":13.0}",6.5,-1.0,5.5,5.3,5.3,0.2,0.2
+DEFLECT,튕겨내기,Deflect,silent,Common,E0,Skill,,"{""block"":4.0}",2.4,0.0,2.4,2.7,2.7,-0.3,0.3
+DEFRAGMENT,조각모음,Defragment,defect,Rare,E1,Power,,"{""focus"":1.0}",6.5,0.0,6.5,8.0,6.5,0.0,0.0
+DEFY,반항,Defy,necrobinder,Common,E1,Skill,ETHEREAL,"{""block"":6.0,""weak"":1.0}",5.7,-1.0,4.7,5.3,5.3,-0.6,0.6
+DRAMATIC_ENTRANCE,극적인 입장,Dramatic Entrance,colorless,Uncommon,E0,Attack,EXHAUST|INNATE,"{""damage_all"":11.0}",7.15,-0.5,6.65,6.5,4.25,2.4,2.4
+ETERNAL_ARMOR,영원의 갑옷,Eternal Armor,colorless,Rare,E3,Power,,"{""plating"":9.0}",14.4,0.0,14.4,24.0,14.5,-0.1,0.1
+FEAR,두려움,Fear,necrobinder,Common,E1,Attack,ETHEREAL,"{""damage_single"":7.0,""vulnerable"":1.0}",5.5,-1.0,4.5,5.3,5.3,-0.8,0.8
+FIGHT_THROUGH,강행 돌파,Fight Through,defect,Uncommon,E1,Skill,,"{""block"":13.0,""wound"":2.0}",6.5,0.0,6.5,6.5,6.5,0.0,0.0
+FINESSE,능숙,Finesse,colorless,Uncommon,E0,Skill,,"{""block"":4.0,""draw"":1.0}",4.15,0.0,4.15,6.5,4.25,-0.1,0.1
+FLASH_OF_STEEL,강철의 섬광,Flash of Steel,colorless,Uncommon,E0,Attack,,"{""damage_single"":5.0,""draw"":1.0}",4.25,0.0,4.25,6.5,4.25,0.0,0.0
+FOOTWORK,발놀림,Footwork,silent,Uncommon,E1,Power,,"{""dexterity"":2.0}",6.5,0.0,6.5,6.5,6.5,0.0,0.0
+FUSION,융합,Fusion,defect,Uncommon,E1,Skill,EXHAUST,"{""plasma"":1.0}",7.0,-1.0,6.0,6.5,6.5,-0.5,0.5
+GATHER_LIGHT,빛 거두기,Gather Light,regent,Common,E1,Skill,,"{""block"":8.0,""stars"":1.0}",6.3,0.0,6.3,5.3,5.3,1.0,1.0
+GLACIER,빙하,Glacier,defect,Uncommon,E2,Skill,,"{""block"":6.0,""frost"":2.0}",10.0,0.0,10.0,11.0,11.0,-1.0,1.0
+GLASSWORK,유리 공예,Glasswork,defect,Uncommon,E1,Skill,,"{""block"":5.0,""glass"":1.0}",6.5,0.0,6.5,6.5,6.5,0.0,0.0
+GRAVE_WARDEN,무덤지기,Grave Warden,necrobinder,Common,E1,Skill,,"{""block"":8.0,""soul"":1.0}",5.8,0.0,5.8,5.3,5.3,0.5,0.5
+GUNK_UP,틀어막기,Gunk Up,defect,Common,E1,Attack,,"{""damage_single"":12.0,""slimed"":1.0}",5.3,0.0,5.3,5.3,5.3,0.0,0.0
+HEMOKINESIS,혈류,Hemokinesis,ironclad,Uncommon,E1,Attack,,"{""damage_single"":15.0,""hp_loss"":2.0}",6.4,0.0,6.4,6.5,6.5,-0.1,0.1
+HIDDEN_DAGGERS,숨겨진 단검,Hidden Daggers,silent,Uncommon,E0,Skill,,"{""discard_selected"":2.0,""shiv"":2.0}",2.8,0.0,2.8,5.0,5.0,-2.2,2.2
+ICE_LANCE,얼음 창,Ice Lance,defect,Rare,E3,Attack,,"{""damage_single"":19.0,""frost"":3.0}",19.1,0.0,19.1,22.0,20.0,-0.9,0.9
+IMPERVIOUS,무적,Impervious,ironclad,Rare,E2,Skill,EXHAUST,"{""block"":30.0}",18.0,-1.0,17.0,17.0,17.0,0.0,0.0
+INFLAME,발화,Inflame,ironclad,Uncommon,E1,Power,,"{""strength"":2.0}",6.5,0.0,6.5,6.5,6.5,0.0,0.0
+IRON_WAVE,철의 파동,Iron Wave,ironclad,Common,E1,Attack,,"{""block"":5.0,""damage_single"":5.0}",5.5,0.0,5.5,5.3,5.3,0.2,0.2
+KNOW_THY_PLACE,네 주제를 알라,Know Thy Place,regent,Common,E0,Skill,EXHAUST,"{""vulnerable"":1.0,""weak"":1.0}",4.1,-1.0,3.1,2.7,2.7,0.4,0.4
+LEADING_STRIKE,선제 타격,Leading Strike,silent,Common,E1,Attack,,"{""damage_single"":3.0,""shiv"":2.0}",5.3,0.0,5.3,5.3,5.3,0.0,0.0
+LEAP,도약,Leap,defect,Common,E1,Skill,,"{""block"":9.0}",5.4,0.0,5.4,5.3,5.3,0.1,0.1
+LEG_SWEEP,다리 걸기,Leg Sweep,silent,Uncommon,E2,Skill,,"{""block"":11.0,""weak"":2.0}",10.8,0.0,10.8,11.0,11.0,-0.2,0.2
+MASTER_OF_STRATEGY,전략의 천재,Master of Strategy,colorless,Rare,E0,Skill,EXHAUST,"{""draw"":3.0}",5.25,-1.0,4.25,7.5,5.0,-0.75,0.75
+NEGATIVE_PULSE,비관적인 맥박,Negative Pulse,necrobinder,Common,E1,Skill,,"{""block"":5.0,""doom"":9.1}",5.457,0.0,5.457,5.3,5.3,0.157,0.157
+NEUTRALIZE,무력화,Neutralize,silent,Basic,E0,Attack,,"{""damage_single"":3.0,""weak"":1.0}",3.6,0.0,3.6,1.5,1.5,2.1,2.1
+NULL,Null,Null,defect,Uncommon,E2,Attack,,"{""damage_single"":10.0,""dark"":1.0,""weak"":2.0}",13.6,0.0,13.6,11.0,11.0,2.6,2.6
+OFFERING,제물,Offering,ironclad,Rare,E0,Skill,EXHAUST,"{""draw"":3.0,""energy"":2.0,""hp_loss"":6.0}",6.95,-1.0,5.95,6.5,6.5,-0.55,0.55
+OVERCLOCK,오버클럭,Overclock,defect,Uncommon,E0,Skill,,"{""burn"":1.0,""draw"":2.0}",2.0,0.0,2.0,5.0,5.0,-3.0,3.0
+PARSE,분석,Parse,necrobinder,Uncommon,E1,Skill,ETHEREAL,"{""draw"":3.0}",5.25,-1.0,4.25,6.5,6.5,-2.25,2.25
+PATTER,별무리,Patter,regent,Common,E1,Skill,,"{""block"":8.0,""vigor"":2.0}",5.8,0.0,5.8,5.3,5.3,0.5,0.5
+POISONED_STAB,독 찌르기,Poisoned Stab,silent,Common,E1,Attack,,"{""damage_single"":6.0,""poison"":3.0}",6.0,0.0,6.0,5.3,5.3,0.7,0.7
+POMMEL_STRIKE,폼멜 타격,Pommel Strike,ironclad,Common,E1,Attack,,"{""damage_single"":9.0,""draw"":1.0}",6.25,0.0,6.25,5.3,5.3,0.95,0.95
+PREPARED,예비,Prepared,silent,Common,E0,Skill,,"{""discard_selected"":1.0,""draw"":1.0}",1.25,0.0,1.25,2.7,2.7,-1.45,1.45
+PRODUCTION,생산,Production,colorless,Uncommon,E0,Skill,EXHAUST,"{""energy"":2.0}",5.0,-1.0,4.0,6.5,4.25,-0.25,0.25
+PROPHESIZE,예언,Prophesize,regent,Uncommon,E2,Skill,,"{""draw"":6.0}",10.5,0.0,10.5,11.0,11.0,-0.5,0.5
+PROWESS,기량,Prowess,colorless,Uncommon,E1,Power,,"{""dexterity"":1.0,""strength"":1.0}",6.5,0.0,6.5,6.8,6.8,-0.3,0.3
+PULL_AGGRO,시선 유도,Pull Aggro,necrobinder,Common,E2,Skill,,"{""block"":7.0,""summon"":4.0}",8.6,0.0,8.6,9.0,9.0,-0.4,0.4
+PUTREFY,부식,Putrefy,necrobinder,Uncommon,E1,Skill,EXHAUST,"{""vulnerable"":2.0,""weak"":2.0}",8.2,-1.0,7.2,6.5,6.5,0.7,0.7
+RAINBOW,무지개,Rainbow,defect,Rare,E2,Skill,EXHAUST,"{""dark"":1.0,""frost"":1.0,""lightning"":1.0}",9.8,-1.0,8.8,17.0,17.0,-8.2,8.2
+REANIMATE,소생,Reanimate,necrobinder,Rare,E3,Skill,EXHAUST,"{""summon"":20.0}",22.0,-1.0,21.0,22.0,20.0,1.0,1.0
+REAP,수확,Reap,necrobinder,Common,E3,Attack,RETAIN,"{""damage_single"":27.0}",13.5,0.5,14.0,13.5,13.5,0.5,0.5
+REAVE,강탈,Reave,necrobinder,Common,E1,Attack,,"{""damage_single"":9.0,""soul"":1.0}",5.5,0.0,5.5,5.3,5.3,0.2,0.2
+REFRACT,굴절,Refract,defect,Uncommon,E3,Attack,,"{""damage_single"":18.0,""glass"":2.0}",16.0,0.0,16.0,16.0,16.0,0.0,0.0
+SCARE,위협,Scare,silent,Uncommon,E0,Skill,EXHAUST,"{""weak"":1.3}",2.73,-1.0,1.73,5.0,5.0,-3.27,3.27
+SCOURGE,징벌,Scourge,necrobinder,Common,E1,Skill,,"{""doom"":13.0,""draw"":1.0}",5.26,0.0,5.26,5.3,5.3,-0.04,0.04
+SHADOW_SHIELD,그림자 방패,Shadow Shield,defect,Uncommon,E2,Skill,,"{""block"":11.0,""dark"":1.0}",11.0,0.0,11.0,11.0,11.0,0.0,0.0
+SHOCKWAVE,충격파,Shockwave,colorless,Uncommon,E2,Skill,EXHAUST,"{""vulnerable"":3.9000000000000004,""weak"":3.9000000000000004}",15.99,-1.0,14.99,12.0,12.0,2.99,2.99
+SHRUG_IT_OFF,흘려보내기,Shrug It Off,ironclad,Common,E1,Skill,,"{""block"":8.0,""draw"":1.0}",6.55,0.0,6.55,5.3,5.3,1.25,1.25
+SKIM,걷어내기,Skim,defect,Uncommon,E1,Skill,,"{""draw"":3.0}",5.25,0.0,5.25,6.5,6.5,-1.25,1.25
+SLICE,칼질,Slice,silent,Common,E0,Attack,,"{""damage_single"":6.0}",3.0,0.0,3.0,2.7,2.7,0.3,0.3
+SNAKEBITE,뱀 물기,Snakebite,silent,Common,E2,Skill,RETAIN,"{""poison"":7.0}",7.0,0.5,7.5,9.0,9.0,-1.5,1.5
+SOLAR_STRIKE,태양의 타격,Solar Strike,regent,Common,E1,Attack,,"{""damage_single"":9.0,""stars"":1.0}",6.0,0.0,6.0,5.3,5.3,0.7,0.7
+SOW,파종,Sow,necrobinder,Common,E1,Attack,RETAIN,"{""damage_all"":8.0}",5.2,0.5,5.7,5.3,5.3,0.4,0.4
+SPOILS_OF_BATTLE,전투의 성과,Spoils of Battle,regent,Common,E1,Skill,,"{""draw"":2.0,""forge"":5.0}",5.15,0.0,5.15,5.3,5.3,-0.15,0.15
+STONE_ARMOR,돌 갑옷,Stone Armor,ironclad,Uncommon,E1,Power,,"{""plating"":4.0}",6.4,0.0,6.4,6.5,6.5,-0.1,0.1
+STRIKE_DEFECT,타격,Strike,defect,Basic,E1,Attack,,"{""damage_single"":6.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+STRIKE_IRONCLAD,타격,Strike,ironclad,Basic,E1,Attack,,"{""damage_single"":6.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+STRIKE_NECROBINDER,타격,Strike,necrobinder,Basic,E1,Attack,,"{""damage_single"":6.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+STRIKE_REGENT,타격,Strike,regent,Basic,E1,Attack,,"{""damage_single"":6.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+STRIKE_SILENT,타격,Strike,silent,Basic,E1,Attack,,"{""damage_single"":6.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+SUCKER_PUNCH,불의의 일격,Sucker Punch,silent,Common,E1,Attack,,"{""damage_single"":8.0,""weak"":1.0}",6.1,0.0,6.1,5.3,5.3,0.8,0.8
+SUPERCRITICAL,임계 초과,Supercritical,defect,Rare,E0,Skill,EXHAUST,"{""energy"":4.0}",10.0,-1.0,9.0,6.5,6.5,2.5,2.5
+SURVIVOR,생존자,Survivor,silent,Basic,E1,Skill,,"{""block"":8.0,""discard_selected"":1.0}",4.3,0.0,4.3,3.0,3.0,1.3,1.3
+SWEEPING_BEAM,광선 휩쓸기,Sweeping Beam,defect,Common,E1,Attack,,"{""damage_all"":6.0,""draw"":1.0}",5.65,0.0,5.65,5.3,5.3,0.35,0.35
+TAUNT,도발,Taunt,ironclad,Uncommon,E1,Skill,,"{""block"":7.0,""vulnerable"":1.0}",6.2,0.0,6.2,6.5,6.5,-0.3,0.3
+TERRAFORMING,테라포밍,Terraforming,regent,Uncommon,E1,Skill,,"{""vigor"":6.0}",3.0,0.0,3.0,6.5,6.5,-3.5,3.5
+TREMBLE,떨림,Tremble,ironclad,Common,E1,Skill,EXHAUST,"{""vulnerable"":3.0}",6.0,-1.0,5.0,5.3,5.3,-0.3,0.3
+TURBO,터보,TURBO,defect,Common,E0,Skill,,"{""energy"":2.0,""void"":1.0}",2.7,0.0,2.7,2.7,2.7,0.0,0.0
+TWIN_STRIKE,이중 타격,Twin Strike,ironclad,Common,E1,Attack,,"{""damage_single"":10.0}",5.0,0.0,5.0,5.3,5.3,-0.3,0.3
+ULTIMATE_DEFEND,궁극의 수비,Ultimate Defend,colorless,Uncommon,E1,Skill,,"{""block"":11.0}",6.6,0.0,6.6,6.8,6.8,-0.2,0.2
+ULTIMATE_STRIKE,궁극의 타격,Ultimate Strike,colorless,Uncommon,E1,Attack,,"{""damage_single"":14.0}",7.0,0.0,7.0,6.8,6.8,0.2,0.2
+UPPERCUT,어퍼컷,Uppercut,ironclad,Uncommon,E2,Attack,,"{""damage_single"":13.0,""vulnerable"":1.0,""weak"":1.0}",10.6,0.0,10.6,11.0,11.0,-0.4,0.4
+VENERATE,추앙,Venerate,regent,Basic,E1,Skill,,"{""stars"":2.0}",3.0,0.0,3.0,3.0,3.0,0.0,0.0
+WISP,위습,Wisp,necrobinder,Common,E0,Skill,EXHAUST,"{""energy"":1.0}",2.5,-1.0,1.5,2.7,2.7,-1.2,1.2
+WROUGHT_IN_WAR,전장의 생존자,Wrought in War,regent,Common,E1,Attack,,"{""damage_single"":7.0,""forge"":7.0}",5.81,0.0,5.81,5.3,5.3,0.51,0.51
+ZAP,파지직,Zap,defect,Basic,E1,Skill,,"{""lightning"":1.0}",2.2,0.0,2.2,3.0,3.0,-0.8,0.8

@@ -1,0 +1,63 @@
+{
+  "card_count": 577,
+  "source_clause_count": 860,
+  "evidence_clause_count": 860,
+  "effect_evidence_row_count": 1079,
+  "effect_family_count": 31,
+  "unique_rule_count": 297,
+  "star_cost_treatment": "negative_card_effect",
+  "star_cost_effect_point": -2.0,
+  "fixed_star_cost_cards": 21,
+  "x_star_cost_cards": 1,
+  "generic_fallback_effects": 0,
+  "numeric_ranges_complete": true,
+  "ranges_ordered": true,
+  "scores_finite": true,
+  "evidence_sum_mismatch_count": 0,
+  "recalculation_mismatch_count": 0,
+  "confidence_grades": {
+    "A": 110,
+    "B": 157,
+    "C": 310
+  },
+  "evaluation_confidence": {
+    "A": 50,
+    "B": 111,
+    "C": 323,
+    "raw_only": 93
+  },
+  "evaluation_a_median_absolute_residual": 0.3,
+  "evaluation_a_rmse": 0.854,
+  "evaluation_b_median_absolute_residual": 0.72,
+  "evaluation_b_rmse": 1.673,
+  "benchmark_comparable_cards": 484,
+  "all_median_absolute_residual": 1.5,
+  "all_rmse": 3.594,
+  "grade_a_median_absolute_residual": 0.45,
+  "grade_a_rmse": 0.997,
+  "grade_c_interval_coverage": 0.877,
+  "parameter_snapshot_count": 15,
+  "stability_labels": {
+    "moderate": 123,
+    "robust": 62,
+    "sensitive": 392
+  },
+  "balance_bands": {
+    "above_budget": 36,
+    "below_budget": 67,
+    "on_budget": 289,
+    "very_above_budget": 34,
+    "very_below_budget": 58
+  },
+  "balance_interval_classes": {
+    "contained_on_budget": 180,
+    "robustly_above_budget": 17,
+    "robustly_below_budget": 32,
+    "scenario_overlaps_budget": 255
+  },
+  "combined_balance_band_stability_ge_0_80": 467,
+  "high_confidence_balance_band_stability_ge_0_80": 160,
+  "median_parameter_rank_stability": 0.921,
+  "median_combined_rank_stability": 0.541,
+  "hard_validation_passed": true
+}

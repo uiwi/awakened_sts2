@@ -1,0 +1,59 @@
+﻿effect,card_id,name_ko,name_en,pool,rarity,cost,benchmark_v1,benchmark_v2,keyword_adjustment,target_quantity,other_effect_score_v2,implied_unit_value,chosen_unit_value_v2,difference_from_chosen,note
+draw,BACKFLIP,공중제비,Backflip,silent,Common,E1,5.3,5.3,0.0,2,3.0,1.15,1.75,-0.6,방어+드로우
+draw,POMMEL_STRIKE,폼멜 타격,Pommel Strike,ironclad,Common,E1,5.3,5.3,0.0,1,4.5,0.8,1.75,-0.95,피해+드로우
+draw,SHRUG_IT_OFF,흘려보내기,Shrug It Off,ironclad,Common,E1,5.3,5.3,0.0,1,4.8,0.5,1.75,-1.25,방어+드로우
+draw,SWEEPING_BEAM,광선 휩쓸기,Sweeping Beam,defect,Common,E1,5.3,5.3,0.0,1,3.9,1.4,1.75,-0.35,광역 피해+드로우
+draw,SKIM,걷어내기,Skim,defect,Uncommon,E1,6.5,6.5,0.0,3,0,2.167,1.75,0.417,순수 다중 드로우
+draw,PARSE,분석,Parse,necrobinder,Uncommon,E1,6.5,6.5,-1.0,3,0,2.5,1.75,0.75,휘발성 다중 드로우
+draw,PROPHESIZE,예언,Prophesize,regent,Uncommon,E2,11.0,11.0,0.0,6,0,1.833,1.75,0.083,2코스트 다중 드로우
+draw,MASTER_OF_STRATEGY,전략의 천재,Master of Strategy,colorless,Rare,E0,7.5,5.0,-1.0,3,0,2.0,1.75,0.25,무색 0코스트 소멸
+energy,WISP,위습,Wisp,necrobinder,Common,E0,2.7,2.7,-1.0,1,0,3.7,2.5,1.2,0코스트 소멸
+energy,PRODUCTION,생산,Production,colorless,Uncommon,E0,6.5,4.25,-1.0,2,0,2.625,2.5,0.125,무색 0코스트 소멸
+energy,SUPERCRITICAL,임계 초과,Supercritical,defect,Rare,E0,6.5,6.5,-1.0,4,0,1.875,2.5,-0.625,희귀 0코스트 소멸
+energy,BLOODLETTING,사혈,Bloodletting,ironclad,Common,E0,2.7,2.7,0.0,2,-1.65,2.175,2.5,-0.325,체력 손실+에너지
+energy,ADRENALINE,아드레날린,Adrenaline,silent,Rare,E0,6.5,6.5,-1.0,1,3.5,4.0,2.5,1.5,드로우+에너지+소멸
+energy,OFFERING,제물,Offering,ironclad,Rare,E0,6.5,6.5,-1.0,2,1.95,2.775,2.5,0.275,체력 손실+드로우+에너지
+stars,VENERATE,추앙,Venerate,regent,Basic,E1,3.0,3.0,0.0,2,0,1.5,1.5,0.0,기본 카드 순수 별
+stars,GATHER_LIGHT,빛 거두기,Gather Light,regent,Common,E1,5.3,5.3,0.0,1,4.8,0.5,1.5,-1.0,방어+별
+stars,SOLAR_STRIKE,태양의 타격,Solar Strike,regent,Common,E1,5.3,5.3,0.0,1,4.5,0.8,1.5,-0.7,피해+별
+weak,SUCKER_PUNCH,불의의 일격,Sucker Punch,silent,Common,E1,5.3,5.3,0.0,1,4.0,1.3,2.1,-0.8,피해+약화
+weak,DEFY,반항,Defy,necrobinder,Common,E1,5.3,5.3,-1.0,1,3.6,2.7,2.1,0.6,방어+약화+휘발성
+weak,LEG_SWEEP,다리 걸기,Leg Sweep,silent,Uncommon,E2,11.0,11.0,0.0,2,6.6,2.2,2.1,0.1,방어+약화
+weak,UPPERCUT,어퍼컷,Uppercut,ironclad,Uncommon,E2,11.0,11.0,0.0,1,8.5,2.5,2.1,0.4,피해+약화+취약
+vulnerable,BEAM_CELL,레이저 포인터,Beam Cell,defect,Common,E0,2.7,2.7,0.0,1,1.5,1.2,2.0,-0.8,0코스트 피해+취약
+vulnerable,BASH,강타,Bash,ironclad,Basic,E2,6.0,6.0,0.0,2,4.0,1.0,2.0,-1.0,기본 카드 피해+취약
+vulnerable,FEAR,두려움,Fear,necrobinder,Common,E1,5.3,5.3,-1.0,1,3.5,2.8,2.0,0.8,피해+취약+휘발성
+vulnerable,TAUNT,도발,Taunt,ironclad,Uncommon,E1,6.5,6.5,0.0,1,4.2,2.3,2.0,0.3,방어+취약
+vulnerable,TREMBLE,떨림,Tremble,ironclad,Common,E1,5.3,5.3,-1.0,3,0,2.1,2.0,0.1,소멸+취약
+vulnerable,ASSASSINATE,암살,Assassinate,silent,Rare,E0,6.5,6.5,-0.5,1,5.0,2.0,2.0,0.0,피해+선천성+소멸
+poison,DEADLY_POISON,맹독,Deadly Poison,silent,Common,E1,5.3,5.3,0.0,5,0,1.06,1.0,0.06,순수 중독
+poison,POISONED_STAB,독 찌르기,Poisoned Stab,silent,Common,E1,5.3,5.3,0.0,3,3.0,0.767,1.0,-0.233,피해+중독
+poison,SNAKEBITE,뱀 물기,Snakebite,silent,Common,E2,9.0,9.0,0.5,7,0,1.214,1.0,0.214,보존+중독
+doom,SCOURGE,징벌,Scourge,necrobinder,Common,E1,5.3,5.3,0.0,13,1.75,0.273,0.27,0.003,파멸+드로우
+doom,NEGATIVE_PULSE,비관적인 맥박,Negative Pulse,necrobinder,Common,E1,5.3,5.3,0.0,9.1,3.0,0.253,0.27,-0.017,방어+광역 파멸
+doom,DEATHBRINGER,죽음 인도자,Deathbringer,necrobinder,Uncommon,E2,11.0,11.0,0.0,27.3,2.73,0.303,0.27,0.033,광역 파멸+약화
+forge,WROUGHT_IN_WAR,전장의 생존자,Wrought in War,regent,Common,E1,5.3,5.3,0.0,7,3.5,0.257,0.33,-0.073,피해+제련
+forge,BULWARK,보루,Bulwark,regent,Uncommon,E2,11.0,11.0,0.0,10,7.2,0.38,0.33,0.05,방어+제련
+forge,SPOILS_OF_BATTLE,전투의 성과,Spoils of Battle,regent,Common,E1,5.3,5.3,0.0,5,3.5,0.36,0.33,0.03,제련+드로우
+summon,AFTERLIFE,내세,Afterlife,necrobinder,Common,E1,5.3,5.3,-1.0,6,0,1.05,1.1,-0.05,소멸+소환
+summon,BODYGUARD,호위,Bodyguard,necrobinder,Basic,E1,3.0,3.0,0.0,5,0,0.6,1.1,-0.5,기본 카드 순수 소환
+summon,PULL_AGGRO,시선 유도,Pull Aggro,necrobinder,Common,E2,9.0,9.0,0.0,4,4.2,1.2,1.1,0.1,소환+방어
+summon,REANIMATE,소생,Reanimate,necrobinder,Rare,E3,22.0,20.0,-1.0,20,0,1.05,1.1,-0.05,고코스트 소멸+소환
+hp_loss,BLOODLETTING,사혈,Bloodletting,ironclad,Common,E0,2.7,2.7,0.0,3,5.0,-0.767,-0.55,-0.217,체력 손실+에너지
+hp_loss,BREAKTHROUGH,정면 돌파,Breakthrough,ironclad,Common,E1,5.3,5.3,0.0,1,5.85,-0.55,-0.55,-0.0,체력 손실+광역 피해
+hp_loss,BLOOD_WALL,피의 벽,Blood Wall,ironclad,Common,E2,9.0,9.0,0.0,2,9.6,-0.3,-0.55,0.25,체력 손실+방어
+hp_loss,HEMOKINESIS,혈류,Hemokinesis,ironclad,Uncommon,E1,6.5,6.5,0.0,2,7.5,-0.5,-0.55,0.05,체력 손실+피해
+shiv,CLOAK_AND_DAGGER,망토와 단검,Cloak and Dagger,silent,Common,E1,5.3,5.3,0.0,1,3.6,1.7,1.9,-0.2,방어+단도
+shiv,LEADING_STRIKE,선제 타격,Leading Strike,silent,Common,E1,5.3,5.3,0.0,2,1.5,1.9,1.9,0.0,피해+단도
+shiv,BLADE_DANCE,검무,Blade Dance,silent,Common,E1,5.3,5.3,-1.0,3,0,2.1,1.9,0.2,소멸+단도
+lightning,BALL_LIGHTNING,번개 구체,Ball Lightning,defect,Common,E1,5.3,5.3,0.0,1,3.5,1.8,2.2,-0.4,피해+번개
+lightning,ZAP,파지직,Zap,defect,Basic,E1,3.0,3.0,0.0,1,0,3.0,2.2,0.8,기본 카드 순수 번개
+frost,COLD_SNAP,꽃샘추위,Cold Snap,defect,Common,E1,5.3,5.3,0.0,1,3.0,2.3,3.2,-0.9,피해+냉기
+frost,COOLHEADED,냉정함,Coolheaded,defect,Common,E1,5.3,5.3,0.0,1,1.75,3.55,3.2,0.35,냉기+드로우
+frost,GLACIER,빙하,Glacier,defect,Uncommon,E2,11.0,11.0,0.0,2,3.6,3.7,3.2,0.5,방어+냉기
+dark,SHADOW_SHIELD,그림자 방패,Shadow Shield,defect,Uncommon,E2,11.0,11.0,0.0,1,6.6,4.4,4.4,0.0,방어+암흑
+glass,GLASSWORK,유리 공예,Glasswork,defect,Uncommon,E1,6.5,6.5,0.0,1,3.0,3.5,3.5,0.0,방어+유리
+glass,REFRACT,굴절,Refract,defect,Uncommon,E3,16.0,16.0,0.0,2,9.0,3.5,3.5,0.0,피해+유리
+strength,INFLAME,발화,Inflame,ironclad,Uncommon,E1,6.5,6.5,0.0,2,0,3.25,3.25,0.0,순수 힘
+dexterity,FOOTWORK,발놀림,Footwork,silent,Uncommon,E1,6.5,6.5,0.0,2,0,3.25,3.25,0.0,순수 민첩
+plating,STONE_ARMOR,돌 갑옷,Stone Armor,ironclad,Uncommon,E1,6.5,6.5,0.0,4,0,1.625,1.6,0.025,순수 도금

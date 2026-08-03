@@ -1,0 +1,6 @@
+﻿scope,rarity,energy_cost,benchmark_v1,benchmark_v2,reason
+colorless,Uncommon,0,6.5,4.25,Finesse/Flash of Steel/Production cluster at 4.0–4.25; Dramatic Entrance is an upper outlier
+colorless,Rare,0,7.5,5.0,Master of Strategy supports a substantially lower E0 colorless prior; still low confidence
+character,Rare,1,8.0,6.5,Conflagration and Defragment reject the unsupported 8-point prior; low sample
+character,Rare,3,22.0,20.0,Reanimate and Ice Lance center near 20 points; replaces unsupported prior
+colorless,Rare,3,24.0,14.5,Eternal Armor with Plating value cross-calibrated from Stone Armor; one-card anchor

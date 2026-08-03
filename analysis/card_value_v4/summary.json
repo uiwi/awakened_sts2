@@ -1,0 +1,18 @@
+{
+  "card_count": 577,
+  "cards_with_complete_numeric_range": 577,
+  "confidence_grades": {
+    "A": 110,
+    "B": 157,
+    "C": 310
+  },
+  "cards_using_generic_fallback": 0,
+  "benchmark_comparable_cards": 484,
+  "median_absolute_residual": 1.5,
+  "rmse": 3.594,
+  "within_1_point": 199,
+  "within_2_points": 289,
+  "rank_stability_ge_0_90": 72,
+  "median_rank_stability": 0.655,
+  "rule_count": 297
+}

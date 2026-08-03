@@ -1,0 +1,9 @@
+﻿card_id,name_ko,name_en,draw_count,target_draw_score,v2_linear_score,v2_absolute_error,v3_nonlinear_score,v3_absolute_error,note
+BACKFLIP,공중제비,Backflip,2,2.3,3.5,1.2,3.4,1.1,방어+드로우
+POMMEL_STRIKE,폼멜 타격,Pommel Strike,1,0.8,1.75,0.95,1.25,0.45,피해+드로우
+SHRUG_IT_OFF,흘려보내기,Shrug It Off,1,0.5,1.75,1.25,1.25,0.75,방어+드로우
+SWEEPING_BEAM,광선 휩쓸기,Sweeping Beam,1,1.4,1.75,0.35,1.25,0.15,광역 피해+드로우
+SKIM,걷어내기,Skim,3,6.5,5.25,1.25,5.55,0.95,순수 다중 드로우
+PARSE,분석,Parse,3,7.5,5.25,2.25,5.55,1.95,휘발성 다중 드로우
+PROPHESIZE,예언,Prophesize,6,11.0,10.5,0.5,12.0,1.0,2코스트 다중 드로우
+MASTER_OF_STRATEGY,전략의 천재,Master of Strategy,3,6.0,5.25,0.75,5.55,0.45,무색 0코스트 소멸

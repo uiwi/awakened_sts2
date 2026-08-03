@@ -1,0 +1,33 @@
+{
+  "source": "web\\public\\data\\cards.json",
+  "card_count": 577,
+  "character_card_count": 439,
+  "colorless_card_count": 64,
+  "special_pool_card_count": 74,
+  "pool_counts": {
+    "colorless": 64,
+    "curse": 18,
+    "defect": 88,
+    "event": 27,
+    "ironclad": 87,
+    "necrobinder": 88,
+    "quest": 3,
+    "regent": 88,
+    "silent": 88,
+    "status": 12,
+    "token": 14
+  },
+  "effect_instance_count": 1637,
+  "unique_clause_template_count": 459,
+  "family_template_pair_count": 1001,
+  "effect_family_count": 30,
+  "strict_damage_block_anchor_count": 27,
+  "keyword_contaminated_damage_block_count": 9,
+  "bespoke_rule_card_count": 5,
+  "coefficients": {
+    "single_target_damage": 0.5,
+    "block": 0.6,
+    "all_enemies_multiplier": 1.3,
+    "delayed_multiplier": 0.8
+  }
+}
