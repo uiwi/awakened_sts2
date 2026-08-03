@@ -1,0 +1,68 @@
+﻿rule,card_id,name_ko,name_en,type,benchmark_v2,benchmark_v3,fixed_score,score_per_unit,required_value_to_hit_benchmark,assumption_low,assumption_baseline,assumption_high,inside_scenario_range
+event_triggers,AFTERIMAGE,잔상,Afterimage,Power,6.5,6.5,-0.0,0.6,10.833,1.0,3.5,18.0,True
+event_triggers,ARSENAL,무기고,Arsenal,Power,6.5,6.5,0.0,3.25,2.0,1.0,3.5,18.0,True
+threshold_triggers,AUTOMATION,자동화,Automation,Power,6.8,6.8,0.0,2.5,2.72,0.0,1.8,4.0,True
+scaling_count,BARRAGE,일제 사격,Barrage,Attack,5.3,5.3,0.0,2.5,2.12,1.0,2.2,10.0,True
+event_triggers,BLACK_HOLE,블랙홀,Black Hole,Power,6.5,6.5,0.0,1.95,3.333,1.0,3.5,18.0,True
+condition_probability,BUBBLE_BUBBLE,차오르는 독,Bubble Bubble,Skill,6.5,6.5,0.0,9.0,0.722,0.0,0.7,1.0,True
+event_triggers,CALAMITY,재앙,Calamity,Power,14.5,14.5,0.0,3.0,4.833,1.0,3.5,18.0,True
+scaling_count,CHILL,오한,Chill,Skill,5.0,4.3,-1.0,3.2,1.656,1.0,2.2,10.0,True
+scaling_count,COMPILE_DRIVER,컴파일 드라이버,Compile Driver,Attack,5.3,5.3,3.5,1.25,1.44,1.0,2.2,10.0,True
+event_triggers,CORROSIVE_WAVE,부식성 파도,Corrosive Wave,Skill,6.5,6.5,0.0,2.6,2.5,1.0,3.5,18.0,True
+recurring_turns,COUNTDOWN,카운트다운,Countdown,Power,6.5,6.5,0.0,1.458,4.458,1.5,3.7,6.0,True
+recurring_turns,CREATIVE_AI,창의적인 인공지능,Creative AI,Power,20.0,20.0,0.0,5.0,4.0,1.5,3.7,6.0,True
+recurring_turns,CRIMSON_MANTLE,핏빛 망토,Crimson Mantle,Power,6.5,6.5,0.0,4.25,1.529,1.5,3.7,6.0,True
+event_triggers,DANSE_MACABRE,죽음의 무도,Danse Macabre,Power,6.5,6.5,-0.0,2.4,2.708,1.0,3.5,18.0,True
+event_triggers,DARK_EMBRACE,어둠의 포옹,Dark Embrace,Power,17.0,17.0,0.0,1.25,13.6,1.0,3.5,18.0,True
+recurring_turns,DEMESNE,권역,Demesne,Power,20.0,20.0,-1.0,3.75,5.6,1.5,3.7,6.0,True
+recurring_turns,DEMON_FORM,악마의 형상,Demon Form,Power,20.0,20.0,0.0,6.5,3.077,1.5,3.7,6.0,True
+event_triggers,DEVOUR_LIFE,생명 삼키기,Devour Life,Power,6.5,6.5,0.0,1.1,5.909,1.0,3.5,18.0,True
+scaling_count,DOMINATE,제압,Dominate,Skill,6.5,6.5,1.0,3.25,1.692,1.0,2.2,10.0,True
+event_triggers,ENVENOM,독 바르기,Envenom,Power,17.0,17.0,0.0,1.0,17.0,1.0,3.5,18.0,True
+condition_probability,ESCAPE_PLAN,탈출구,Escape Plan,Skill,5.0,4.3,1.25,1.8,1.694,0.0,0.7,1.0,False
+event_triggers,FEEL_NO_PAIN,무감각,Feel No Pain,Power,6.5,6.5,0.0,1.8,3.611,1.0,3.5,18.0,True
+condition_probability,FETCH,회수,Fetch,Attack,5.0,4.3,1.35,1.25,2.36,0.0,0.7,1.0,False
+scaling_count,FINISHER,마무리,Finisher,Attack,6.5,6.5,0.0,3.0,2.167,1.0,2.2,10.0,True
+scaling_count,FLECHETTES,프레췌,Flechettes,Attack,6.5,6.5,0.0,2.5,2.6,1.0,2.2,10.0,True
+condition_probability,FORGOTTEN_RITUAL,잊힌 의식,Forgotten Ritual,Skill,6.5,6.5,-1.0,7.5,1.0,0.0,0.7,1.0,True
+condition_probability,FTL,FTL,FTL,Attack,5.0,4.3,2.5,1.25,1.44,0.0,0.7,1.0,False
+recurring_turns,FURNACE,용광로,Furnace,Power,6.5,6.5,0.0,1.65,3.939,1.5,3.7,6.0,True
+recurring_turns,GENESIS,창세,Genesis,Power,17.0,17.0,0.0,3.0,5.667,1.5,3.7,6.0,True
+condition_probability,GO_FOR_THE_EYES,눈 할퀴기,Go for the Eyes,Attack,2.7,2.7,1.5,2.1,0.571,0.0,0.7,1.0,True
+scaling_count,HELIX_DRILL,나선 관통,Helix Drill,Attack,6.5,6.5,0.0,1.5,4.333,1.0,2.2,10.0,True
+condition_probability,IMPATIENCE,성급함,Impatience,Skill,4.25,4.25,0.0,3.4,1.25,0.0,0.7,1.0,False
+recurring_turns,INFINITE_BLADES,무한의 검날,Infinite Blades,Power,6.5,6.5,0.0,1.9,3.421,1.5,3.7,6.0,True
+condition_probability,KNOCKOUT_BLOW,필사의 일격,Knockout Blow,Attack,16.0,16.0,15.0,7.5,0.133,0.0,0.7,1.0,True
+recurring_turns,LOOP,반복,Loop,Power,6.5,6.5,-7.0,6.167,2.189,1.5,3.7,6.0,True
+scaling_count,LUNAR_BLAST,달의 세례,Lunar Blast,Attack,5.0,4.3,0.0,2.0,2.15,1.0,2.2,10.0,True
+recurring_turns,MACHINE_LEARNING,기계학습,Machine Learning,Power,6.5,6.5,0.0,1.25,5.2,1.5,3.7,6.0,True
+event_triggers,MONOLOGUE,독백,Monologue,Skill,5.0,4.3,0.0,0.8,5.375,1.0,3.5,18.0,True
+recurring_turns,NOXIOUS_FUMES,유독 가스,Noxious Fumes,Power,6.5,6.5,0.0,2.6,2.5,1.5,3.7,6.0,True
+threshold_triggers,ORBIT,궤도,Orbit,Power,11.0,11.0,0.0,2.5,4.4,0.0,1.8,4.0,False
+threshold_triggers,OUTBREAK,발병,Outbreak,Power,6.5,6.5,0.0,7.15,0.909,0.0,1.8,4.0,True
+condition_probability,PACTS_END,조약의 끝,Pact's End,Attack,6.5,6.5,0.0,11.05,0.588,0.0,0.7,1.0,True
+event_triggers,PAGESTORM,서류 폭풍,Pagestorm,Power,6.5,6.5,0.0,1.25,5.2,1.0,3.5,18.0,True
+threshold_triggers,PANACHE,위풍당당,Panache,Power,4.25,4.25,0.0,6.5,0.654,0.0,1.8,4.0,True
+event_triggers,PILLAR_OF_CREATION,창조의 기둥,Pillar of Creation,Power,6.5,6.5,0.0,1.8,3.611,1.0,3.5,18.0,True
+recurring_turns,PREP_TIME,준비 시간,Prep Time,Power,6.8,6.8,0.0,2.0,3.4,1.5,3.7,6.0,True
+scaling_count,PULL_FROM_BELOW,끌어내리기,Pull from Below,Attack,6.5,6.5,0.0,2.5,2.6,1.0,2.2,10.0,True
+recurring_resource_turns,PYRE,불의 심장,Pyre,Power,17.0,17.0,0.0,2.5,6.8,2.0,6.8,10.0,True
+scaling_count,RADIATE,방출,Radiate,Attack,5.0,4.3,-0.0,1.95,2.205,1.0,2.2,10.0,True
+event_triggers,RAGE,격노,Rage,Skill,5.0,4.3,0.0,1.8,2.389,1.0,3.5,18.0,True
+condition_probability,RESTLESSNESS,초조함,Restlessness,Skill,4.25,4.25,0.5,8.4,0.446,0.0,0.7,1.0,True
+event_triggers,RUPTURE,파열,Rupture,Power,6.5,6.5,0.0,3.25,2.0,1.0,3.5,18.0,True
+event_triggers,SHROUD,수의,Shroud,Power,6.5,6.5,-0.0,1.2,5.417,1.0,3.5,18.0,True
+event_triggers,SIC_EM,덮쳐!,Sic 'Em,Attack,6.5,6.5,2.25,3.3,1.288,1.0,3.5,18.0,True
+event_triggers,SMOKESTACK,배기 장치,Smokestack,Power,6.5,6.5,0.0,3.25,2.0,1.0,3.5,18.0,True
+recurring_turns,SPECTRUM_SHIFT,스펙트럼 이동,Spectrum Shift,Power,11.0,11.0,0.0,4.0,2.75,1.5,3.7,6.0,True
+event_triggers,SPEEDSTER,스피드스터,Speedster,Power,11.0,11.0,0.0,1.3,8.462,1.0,3.5,18.0,True
+recurring_turns,SPINNER,스피너,Spinner,Power,6.5,6.5,0.0,3.5,1.857,1.5,3.7,6.0,True
+event_triggers,SPIRIT_OF_ASH,잿빛 혼령,Spirit of Ash,Power,6.5,6.5,-0.0,2.4,2.708,1.0,3.5,18.0,True
+event_triggers,STORM,폭풍,Storm,Power,6.5,6.5,0.0,2.2,2.955,1.0,3.5,18.0,True
+event_triggers,STRANGLE,목 조르기,Strangle,Attack,6.5,6.5,4.0,1.1,2.273,1.0,3.5,18.0,True
+event_triggers,SUBROUTINE,서브루틴,Subroutine,Power,6.5,6.5,0.0,2.5,2.6,1.0,3.5,18.0,True
+condition_probability,SUNDER,찢기,Sunder,Attack,16.0,16.0,12.0,7.5,0.533,0.0,0.7,1.0,True
+scaling_count,SYNCHRONIZE,동기화,Synchronize,Skill,6.5,6.5,-1.0,1.6,4.688,1.0,2.2,10.0,True
+recurring_turns,TOOLS_OF_THE_TRADE,작업 도구,Tools of the Trade,Power,6.5,6.5,0.0,1.5,4.333,1.5,3.7,6.0,True
+event_triggers,VICIOUS,포악함,Vicious,Power,6.5,6.5,0.0,1.25,5.2,1.0,3.5,18.0,True
+recurring_turns,WELL_LAID_PLANS,괜찮은 전략,Well-Laid Plans,Power,6.5,6.5,0.0,1.1,5.909,1.5,3.7,6.0,True

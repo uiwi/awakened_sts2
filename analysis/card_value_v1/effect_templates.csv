@@ -1,0 +1,1002 @@
+﻿family,family_ko,template_en,occurrences,card_count,pools,example_card_ids
+ally,협동,ALL players Summon {n}.,1,1,necrobinder:1,LEGION_OF_BONE
+ally,협동,ALL players add {n} Souls into their Draw Pile.,1,1,necrobinder:1,GLIMPSE_BEYOND
+ally,협동,ALL players draw {n} cards.,1,1,colorless:1,HUDDLE_UP
+ally,협동,ALL players gain {n} Block.,1,1,colorless:1,RALLY
+ally,협동,ALL players gain {n} Energy.,1,1,defect:1,ENERGY_SURGE
+ally,협동,Allies take half damage from enemies.,1,1,ironclad:1,TANK
+ally,협동,Another player Channels Plasma.,1,1,defect:1,IGNITION
+ally,협동,Another player adds {n} random Colorless card to their Hand.,1,1,regent:1,LARGESSE
+ally,협동,Another player gains {n} Energy.,1,1,colorless:1,BELIEVE_IN_YOU
+ally,협동,Deals {n} additional damage for each time another player has attacked the enemy this turn.,1,1,colorless:1,GANG_UP
+ally,협동,Gain Block equal to the Block on another player.,1,1,colorless:1,MIMIC
+ally,협동,Give another player Block equal to your Block.,1,1,ironclad:1,DEMONIC_SHIELD
+ally,협동,Give another player {n} Block.,1,1,colorless:1,LIFT
+ally,협동,Give another player {n} Strength this turn.,1,1,colorless:1,COORDINATE
+ally,협동,Redirect all incoming attacks that would be dealt to another player this turn to you.,1,1,colorless:1,INTERCEPT
+ally,협동,The enemy takes double attack damage from other players this turn.,1,1,silent:1,FLANKING
+ally,협동,The enemy takes double damage from other players this turn.,1,1,colorless:1,KNOCKDOWN
+ally,협동,The next Attack another player plays on the enemy is played an extra time.,1,1,colorless:1,TAG_TEAM
+ally,협동,"Whenever another player attacks an enemy, gain {n} Block.",1,1,silent:1,SNEAKY
+ally,협동,"Whenever you Forge, all allies Forge as well.",1,1,regent:1,HAMMER_TIME
+ally,협동,"Whenever you gain Block on your turn, other players gain half that much Block.",1,1,colorless:1,BEACON_OF_HOPE
+bespoke_rule,고유 규칙,Get farther away.,1,1,status:1,FRANTIC_ESCAPE
+bespoke_rule,고유 규칙,Increase Sandpit by {n}.,1,1,status:1,FRANTIC_ESCAPE
+bespoke_rule,고유 규칙,It gains Ethereal.,1,1,necrobinder:1,CALL_OF_THE_VOID
+bespoke_rule,고유 규칙,Procure a random potion.,1,1,colorless:1,ALCHEMIZE
+bespoke_rule,고유 규칙,Shivs now hit ALL enemies.,1,1,silent:1,FAN_OF_KNIVES
+bespoke_rule,고유 규칙,Trigger all Lightning against the enemy.,1,1,defect:1,TESLA_COIL
+block,방어도,ALL players gain {n} Block.,1,1,colorless:1,RALLY
+block,방어도,"At the start of your turn, gain {n} Block for each unique Orb you have.",1,1,defect:1,COOLANT
+block,방어도,"At the start of your turn, lose {n} HP and gain {n} Block.",1,1,ironclad:1,CRIMSON_MANTLE
+block,방어도,Block is not removed at the start of your next turn.,1,1,silent:1,BLUR
+block,방어도,Block is not removed at the start of your turn.,1,1,ironclad:1,BARRICADE
+block,방어도,Deal damage equal to your Block.,1,1,ironclad:1,BODY_SLAM
+block,방어도,Double your Block gain this turn.,1,1,silent:1,SHADOWMELD
+block,방어도,Double your Block.,1,1,event:1,ENTRENCH
+block,방어도,Gain Block equal to Poison on ALL enemies.,1,1,silent:1,MIRAGE
+block,방어도,Gain Block equal to damage dealt.,1,1,colorless:1,FISTICUFFS
+block,방어도,Gain Block equal to the Block on another player.,1,1,colorless:1,MIMIC
+block,방어도,Gain Block equal to the number of cards in your Discard Pile.,1,1,event:1,STACK
+block,방어도,Gain an additional {n} Block from Defend cards.,1,1,colorless:1,FASTEN
+block,방어도,Gain another {n} Block if you have Exhausted a card this turn.,1,1,ironclad:1,EVIL_EYE
+block,방어도,Gain {n} Block at the start of the next {n} turns.,1,1,event:1,TORIC_TOUGHNESS
+block,방어도,Gain {n} Block for each card Exhausted.,1,1,ironclad:1,SECOND_WIND
+block,방어도,Gain {n} Block.,64,64,colorless:6|defect:13|event:2|ironclad:11|necrobinder:9|regent:11|silent:11|token:1,ARMAMENTS|BACKFLIP|BLOOD_WALL|BLUR|BOOST_AWAY|BOOT_SEQUENCE|BULWARK|CHARGE_BATTERY|CLOAK_AND_DAGGER|CLOAK_OF_STARS|COLOSSUS|COMPACT
+block,방어도,Give another player Block equal to your Block.,1,1,ironclad:1,DEMONIC_SHIELD
+block,방어도,Give another player {n} Block.,1,1,colorless:1,LIFT
+block,방어도,"If Osty is alive, he deals {n} damage to ALL enemies and you gain {n} Block.",1,1,necrobinder:1,BONE_SHARDS
+block,방어도,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",1,1,necrobinder:1,SACRIFICE
+block,방어도,"If you applied Doom this turn, gain Block {n} additional times.",1,1,necrobinder:1,DEATHS_DOOR
+block,방어도,"If you draw a Skill, gain {n} Block.",1,1,silent:1,ESCAPE_PLAN
+block,방어도,"Next turn, gain Block equal to your current Block.",1,1,colorless:1,PROLONG
+block,방어도,"Next turn, gain {n} Block.",2,2,regent:1|silent:1,DODGE_AND_ROLL|GLITTERSTREAM
+block,방어도,Permanently increase this card's Block by {n}.,1,1,defect:1,GENETIC_ALGORITHM
+block,방어도,Remove all Artifact and Block from the enemy.,1,1,silent:1,EXPOSE
+block,방어도,Sovereign Blade now gains {n} Block.,1,1,regent:1,PARRY
+block,방어도,"The first time you gain Block from a card each turn, double the amount gained.",1,1,ironclad:1,UNMOVABLE
+block,방어도,"Whenever a card is Exhausted, gain {n} Block.",1,1,ironclad:1,FEEL_NO_PAIN
+block,방어도,"Whenever another player attacks an enemy, gain {n} Block.",1,1,silent:1,SNEAKY
+block,방어도,"Whenever you apply Doom, gain {n} Block.",1,1,necrobinder:1,SHROUD
+block,방어도,"Whenever you create a card, gain {n} Block.",1,1,regent:1,PILLAR_OF_CREATION
+block,방어도,"Whenever you gain Block on your turn, other players gain half that much Block.",1,1,colorless:1,BEACON_OF_HOPE
+block,방어도,"Whenever you gain Block, deal {n} damage to a random enemy.",1,1,ironclad:1,JUGGERNAUT
+block,방어도,"Whenever you play a card that costs {n} Energy or more, gain {n} Block.",1,1,necrobinder:1,DANSE_MACABRE
+block,방어도,"Whenever you play a card, gain {n} Block.",1,1,silent:1,AFTERIMAGE
+block,방어도,"Whenever you play an Attack this turn, gain {n} Block.",1,1,ironclad:1,RAGE
+block,방어도,"Whenever you play an Ethereal card, gain {n} Block.",1,1,necrobinder:1,SPIRIT_OF_ASH
+block,방어도,"Whenever you spend {n} Stars, gain {n} Block for each {n} Stars spent.",1,1,regent:1,CHILD_OF_THE_STARS
+block,방어도,You cannot gain Block from cards for {n} turns.,1,1,colorless:1,PANIC_BUTTON
+buff,강화 효과,ALL enemies lose {n} Strength this turn.,2,2,regent:1|silent:1,DYING_STAR|PIERCING_WAIL
+buff,강화 효과,ALL enemies lose {n} Strength.,1,1,regent:1,RESONANCE
+buff,강화 효과,All enemies lose {n} Strength this turn.,1,1,regent:1,CRUSH_UNDER
+buff,강화 효과,"At the start of your turn, gain {n} Strength.",1,1,ironclad:1,DEMON_FORM
+buff,강화 효과,"At the start of your turn, gain {n} Vigor.",1,1,colorless:1,PREP_TIME
+buff,강화 효과,"At the start of your turn, lose {n} Dexterity.",1,1,silent:1,WRAITH_FORM
+buff,강화 효과,Enemy loses X Strength.,1,1,silent:1,MALAISE
+buff,강화 효과,Enemy loses {n} Strength this turn.,3,3,colorless:1|ironclad:1|necrobinder:1,DARK_SHACKLES|ENFEEBLING_TOUCH|MANGLE
+buff,강화 효과,Enemy loses {n} Strength.,1,1,necrobinder:1,SHARED_FATE
+buff,강화 효과,Gain {n} Dexterity this turn.,1,1,silent:1,ANTICIPATE
+buff,강화 효과,Gain {n} Dexterity.,4,4,colorless:1|defect:1|silent:2,ABRASIVE|BULK_UP|FOOTWORK|PROWESS
+buff,강화 효과,Gain {n} Intangible.,2,2,event:1|silent:1,APPARITION|WRAITH_FORM
+buff,강화 효과,Gain {n} Plating.,3,3,colorless:1|ironclad:1|regent:1,ETERNAL_ARMOR|NEUTRON_AEGIS|STONE_ARMOR
+buff,강화 효과,Gain {n} Strength for each Vulnerable on the enemy.,1,1,ironclad:1,DOMINATE
+buff,강화 효과,Gain {n} Strength this turn.,2,2,event:1|ironclad:1,FEEDING_FRENZY|SETUP_STRIKE
+buff,강화 효과,Gain {n} Strength.,6,6,colorless:1|defect:1|ironclad:3|regent:1,BRAND|BULK_UP|FIGHT_ME|INFLAME|PROWESS|RESONANCE
+buff,강화 효과,Gain {n} Thorns.,1,1,silent:1,ABRASIVE
+buff,강화 효과,Gain {n} Vigor.,2,2,regent:2,PATTER|TERRAFORMING
+buff,강화 효과,Give another player {n} Strength this turn.,1,1,colorless:1,COORDINATE
+buff,강화 효과,"If {n} cards were Exhausted this way, gain {n} Intangible.",1,1,necrobinder:1,EIDOLON
+buff,강화 효과,Lose {n} Strength.,2,2,necrobinder:2,FRIENDSHIP|SHARED_FATE
+buff,강화 효과,The enemy gains {n} Strength.,1,1,ironclad:1,FIGHT_ME
+buff,강화 효과,"Whenever you attack an enemy, it loses {n} Strength this turn.",1,1,regent:1,MONARCHS_GAZE
+buff,강화 효과,"Whenever you create a card, gain {n} Strength.",1,1,regent:1,ARSENAL
+buff,강화 효과,"Whenever you lose HP on your turn, gain {n} Strength.",1,1,ironclad:1,RUPTURE
+buff,강화 효과,"Whenever you play a card this turn, gain {n} Strength this turn.",1,1,regent:1,MONOLOGUE
+card_cost,비용 변화,ALL cards in your Hand are free to play this turn.,1,1,silent:1,BULLET_TIME
+card_cost,비용 변화,Cards cost an additional {n} Energy this turn.,1,1,necrobinder:1,BORROWED_TIME
+card_cost,비용 변화,Costs {n} Energy less for each Ethereal card played this combat.,1,1,necrobinder:1,BANSHEES_CRY
+card_cost,비용 변화,Costs {n} less Energy for each Attack played this turn.,1,1,ironclad:1,STOMP
+card_cost,비용 변화,Costs {n} less Energy for each Skill played this turn.,1,1,silent:1,PINPOINT
+card_cost,비용 변화,Deals {n} additional damage for ALL your cards that have a {n} Stars cost.,1,1,regent:1,CRESCENT_SPEAR
+card_cost,비용 변화,Discard all cards drawn this way that do not cost {n} Energy.,1,1,defect:1,SCRAPE
+card_cost,비용 변화,Increase the cost of this card by {n}.,1,1,status:1,FRANTIC_ESCAPE
+card_cost,비용 변화,Increase this card's cost by {n}.,1,1,defect:1,MODDED
+card_cost,비용 변화,It costs an extra {n} Energy.,1,1,necrobinder:1,TRANSFIGURE
+card_cost,비용 변화,It's free to play this turn.,5,5,colorless:2|defect:1|event:1|ironclad:1,DISCOVERY|DISTRACTION|INFERNAL_BLADE|SPLASH|WHITE_NOISE
+card_cost,비용 변화,Reduce the cost of ALL cards in your Hand to {n} this turn.,1,1,event:1,ENLIGHTENMENT
+card_cost,비용 변화,Reduce this card's cost by {n} Energy whenever ANYONE dies.,1,1,necrobinder:1,MELANCHOLY
+card_cost,비용 변화,Reduce this card's cost by {n}.,1,1,silent:1,UP_MY_SLEEVE
+card_cost,비용 변화,Reduce this card's cost to {n} Energy.,1,1,defect:1,MOMENTUM_STRIKE
+card_cost,비용 변화,Skills cost {n} Energy.,1,1,ironclad:1,CORRUPTION
+card_cost,비용 변화,The first {n} cards you play each turn are free to play.,1,1,regent:1,VOID_FORM
+card_cost,비용 변화,The next Attack you play costs {n} Energy.,1,1,ironclad:1,UNRELENTING
+card_cost,비용 변화,The next Ethereal card you play costs {n} Energy.,1,1,necrobinder:1,VEILPIERCER
+card_cost,비용 변화,The next Power you play costs {n} Energy.,1,1,defect:1,SYNTHESIS
+card_cost,비용 변화,The next Skill you play costs {n} Energy.,1,1,silent:1,POUNCE
+card_cost,비용 변화,They're free to play this combat.,1,1,event:1,METAMORPHOSIS
+card_cost,비용 변화,This card costs {n} Energy if Osty has attacked this turn.,1,1,necrobinder:1,FLATTEN
+card_cost,비용 변화,"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,1,defect:1,ROCKET_PUNCH
+card_cost,비용 변화,"Whenever you draw this card, reduce its cost by {n}.",1,1,regent:1,KINGLY_KICK
+card_cost,비용 변화,"Whenever you play a card that costs {n} Energy or more, gain {n} Block.",1,1,necrobinder:1,DANSE_MACABRE
+card_cost,비용 변화,"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,1,necrobinder:1,RIGHT_HAND_HAND
+card_create,카드 생성,ALL players add {n} Souls into their Draw Pile.,1,1,necrobinder:1,GLIMPSE_BEYOND
+card_create,카드 생성,Add Ethereal to a card in your Hand.,1,1,necrobinder:1,SCULPTING_STRIKE
+card_create,카드 생성,Add Replay to a card in your Hand.,1,1,necrobinder:1,TRANSFIGURE
+card_create,카드 생성,Add Retain to a card in your Hand.,1,1,necrobinder:1,SNAP
+card_create,카드 생성,Add Sly to a Skill in your Hand this turn.,1,1,silent:1,HAND_TRICK
+card_create,카드 생성,Add X Souls into your Draw Pile.,1,1,necrobinder:1,DIRGE
+card_create,카드 생성,Add a Burn into your Discard Pile.,1,1,defect:1,OVERCLOCK
+card_create,카드 생성,Add a Dazed into your Discard Pile.,1,1,defect:1,BOOST_AWAY
+card_create,카드 생성,Add a Debris into your Hand.,1,1,regent:1,COLLISION_COURSE
+card_create,카드 생성,Add a Slimed into your Discard Pile.,1,1,defect:1,GUNK_UP
+card_create,카드 생성,"Add a Soul into your Draw Pile, Hand, and Discard Pile.",1,1,necrobinder:1,SEVERANCE
+card_create,카드 생성,Add a Soul into your Draw Pile.,2,2,necrobinder:2,GRAVE_WARDEN|REAVE
+card_create,카드 생성,Add a Void into your Discard Pile.,1,1,defect:1,TURBO
+card_create,카드 생성,Add a copy of that card into your Hand.,2,2,event:1|regent:1,DUAL_WIELD|HEIRLOOM_HAMMER
+card_create,카드 생성,Add a copy of the third Attack you play each turn into your Hand.,1,1,ironclad:1,JUGGLING
+card_create,카드 생성,Add a copy of this card into your Discard Pile.,2,2,ironclad:1|necrobinder:1,ANGER|UNDEATH
+card_create,카드 생성,Add a random Attack into your Hand.,1,1,ironclad:1,INFERNAL_BLADE
+card_create,카드 생성,Add a random Power into your Hand.,1,1,defect:1,WHITE_NOISE
+card_create,카드 생성,Add a random Skill into your Hand.,1,1,event:1,DISTRACTION
+card_create,카드 생성,Add a {n} Energy copy of this card into your Discard Pile.,1,1,defect:1,ADAPTIVE_STRIKE
+card_create,카드 생성,Add {n} Inky Shivs into your Hand.,1,1,silent:1,BLADE_OF_INK
+card_create,카드 생성,Add {n} Shiv into your Hand for each card discarded.,1,1,silent:1,STORM_OF_STEEL
+card_create,카드 생성,Add {n} Shiv into your Hand.,1,1,silent:1,CLOAK_AND_DAGGER
+card_create,카드 생성,Add {n} Shivs into your Hand.,5,5,silent:5,BLADE_DANCE|FAN_OF_KNIVES|HIDDEN_DAGGERS|LEADING_STRIKE|UP_MY_SLEEVE
+card_create,카드 생성,Add {n} Souls into your Draw Pile.,1,1,necrobinder:1,CAPTURE_SPIRIT
+card_create,카드 생성,Add {n} Wounds into your Discard Pile.,1,1,defect:1,FIGHT_THROUGH
+card_create,카드 생성,Add {n} random Attacks into your Draw Pile.,1,1,event:1,METAMORPHOSIS
+card_create,카드 생성,Add {n} random Colorless card into your Hand.,2,2,colorless:1|regent:1,JACK_OF_ALL_TRADES|MANIFEST_AUTHORITY
+card_create,카드 생성,Add {n} random Colorless cards into your Hand.,1,1,regent:1,BUNDLE_OF_JOY
+card_create,카드 생성,Add {n} random card into your Hand for each card Exhausted.,1,1,ironclad:1,STOKE
+card_create,카드 생성,Add {n} random {n} Energy cards into your Hand.,1,1,colorless:1,JACKPOT
+card_create,카드 생성,"At the start of your turn, add a random Common card into your Hand.",1,1,event:1,HELLO_WORLD
+card_create,카드 생성,"At the start of your turn, add a random Power into your Hand.",1,1,defect:1,CREATIVE_AI
+card_create,카드 생성,"At the start of your turn, add {n} Shiv into your Hand.",1,1,silent:1,INFINITE_BLADES
+card_create,카드 생성,"At the start of your turn, add {n} Sweeping Gaze into your Hand.",1,1,necrobinder:1,SENTRY_MODE
+card_create,카드 생성,"At the start of your turn, add {n} random Colorless card into your Hand.",1,1,regent:1,SPECTRUM_SHIFT
+card_create,카드 생성,"At the start of your turn, add {n} random card into your Hand.",1,1,necrobinder:1,CALL_OF_THE_VOID
+card_create,카드 생성,Choose {n} of {n} cards in your Draw Pile to add into your Hand.,1,1,colorless:1,SEEKER_STRIKE
+card_create,카드 생성,Choose {n} of {n} random Attacks from another character to add into your Hand.,1,1,colorless:1,SPLASH
+card_create,카드 생성,Choose {n} of {n} random Colorless cards to add into your Hand.,1,1,regent:1,QUASAR
+card_create,카드 생성,Choose {n} of {n} random cards to add into your Hand.,1,1,colorless:1,DISCOVERY
+card_create,카드 생성,Exhaust a random Attack in your Hand and add its damage to this card.,1,1,ironclad:1,THRASH
+card_create,카드 생성,Fill your Hand with Debris.,1,1,regent:1,CRASH_LANDING
+card_create,카드 생성,"Next turn, add {n} copies of that card into your Hand.",1,1,silent:1,NIGHTMARE
+card_create,카드 생성,"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,1,defect:1,ROCKET_PUNCH
+card_create,카드 생성,"Whenever you create a card, gain {n} Block.",1,1,regent:1,PILLAR_OF_CREATION
+card_create,카드 생성,"Whenever you create a card, gain {n} Strength.",1,1,regent:1,ARSENAL
+card_create,카드 생성,"Whenever you play an Attack, add a random Attack into your Hand.",1,1,colorless:1,CALAMITY
+card_move,카드 이동/탐색,Add a Debris into your Hand.,1,1,regent:1,COLLISION_COURSE
+card_move,카드 이동/탐색,Add a copy of that card into your Hand.,2,2,event:1|regent:1,DUAL_WIELD|HEIRLOOM_HAMMER
+card_move,카드 이동/탐색,Add a copy of the third Attack you play each turn into your Hand.,1,1,ironclad:1,JUGGLING
+card_move,카드 이동/탐색,Add a random Attack into your Hand.,1,1,ironclad:1,INFERNAL_BLADE
+card_move,카드 이동/탐색,Add a random Power into your Hand.,1,1,defect:1,WHITE_NOISE
+card_move,카드 이동/탐색,Add a random Skill into your Hand.,1,1,event:1,DISTRACTION
+card_move,카드 이동/탐색,Add {n} Inky Shivs into your Hand.,1,1,silent:1,BLADE_OF_INK
+card_move,카드 이동/탐색,Add {n} Shiv into your Hand for each card discarded.,1,1,silent:1,STORM_OF_STEEL
+card_move,카드 이동/탐색,Add {n} Shiv into your Hand.,1,1,silent:1,CLOAK_AND_DAGGER
+card_move,카드 이동/탐색,Add {n} Shivs into your Hand.,5,5,silent:5,BLADE_DANCE|FAN_OF_KNIVES|HIDDEN_DAGGERS|LEADING_STRIKE|UP_MY_SLEEVE
+card_move,카드 이동/탐색,Add {n} random Colorless card into your Hand.,2,2,colorless:1|regent:1,JACK_OF_ALL_TRADES|MANIFEST_AUTHORITY
+card_move,카드 이동/탐색,Add {n} random Colorless cards into your Hand.,1,1,regent:1,BUNDLE_OF_JOY
+card_move,카드 이동/탐색,Add {n} random card into your Hand for each card Exhausted.,1,1,ironclad:1,STOKE
+card_move,카드 이동/탐색,Add {n} random {n} Energy cards into your Hand.,1,1,colorless:1,JACKPOT
+card_move,카드 이동/탐색,"At the end of your turn, if this is on top of your Draw Pile, play it.",1,1,regent:1,I_AM_INVINCIBLE
+card_move,카드 이동/탐색,"At the start of your next turn, return this to your Hand.",2,2,colorless:2,BOLAS|THRUMMING_HATCHET
+card_move,카드 이동/탐색,"At the start of your turn, add a random Common card into your Hand.",1,1,event:1,HELLO_WORLD
+card_move,카드 이동/탐색,"At the start of your turn, add a random Power into your Hand.",1,1,defect:1,CREATIVE_AI
+card_move,카드 이동/탐색,"At the start of your turn, add {n} Shiv into your Hand.",1,1,silent:1,INFINITE_BLADES
+card_move,카드 이동/탐색,"At the start of your turn, add {n} Sweeping Gaze into your Hand.",1,1,necrobinder:1,SENTRY_MODE
+card_move,카드 이동/탐색,"At the start of your turn, add {n} random Colorless card into your Hand.",1,1,regent:1,SPECTRUM_SHIFT
+card_move,카드 이동/탐색,"At the start of your turn, add {n} random card into your Hand.",1,1,necrobinder:1,CALL_OF_THE_VOID
+card_move,카드 이동/탐색,"At the start of your turn, play the top card of your Draw Pile.",1,1,colorless:1,MAYHEM
+card_move,카드 이동/탐색,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",1,1,ironclad:1,AGGRESSION
+card_move,카드 이동/탐색,Choose a Colorless card in your Hand.,1,1,regent:1,HEIRLOOM_HAMMER
+card_move,카드 이동/탐색,Choose a Skill in your Hand and play it {n} times.,1,1,regent:1,DECISIONS_DECISIONS
+card_move,카드 이동/탐색,Choose a card in your Hand to Transform into Minion Strike.,1,1,regent:1,BEGONE
+card_move,카드 이동/탐색,Choose a card.,1,1,silent:1,NIGHTMARE
+card_move,카드 이동/탐색,Choose an Attack or Power card.,1,1,event:1,DUAL_WIELD
+card_move,카드 이동/탐색,Choose {n} cards in your Draw Pile to Transform into Minion Dive Bombs.,1,1,regent:1,CHARGE
+card_move,카드 이동/탐색,Choose {n} of {n} cards in your Draw Pile to add into your Hand.,1,1,colorless:1,SEEKER_STRIKE
+card_move,카드 이동/탐색,Choose {n} of {n} random Attacks from another character to add into your Hand.,1,1,colorless:1,SPLASH
+card_move,카드 이동/탐색,Choose {n} of {n} random Colorless cards to add into your Hand.,1,1,regent:1,QUASAR
+card_move,카드 이동/탐색,Choose {n} of {n} random cards to add into your Hand.,1,1,colorless:1,DISCOVERY
+card_move,카드 이동/탐색,"Every {n} Skills you play in a turn, put this into your Hand.",1,1,regent:1,MAKE_IT_SO
+card_move,카드 이동/탐색,Exhaust {n} card from your Draw Pile.,1,1,necrobinder:1,CLEANSE
+card_move,카드 이동/탐색,"Next turn, add {n} copies of that card into your Hand.",1,1,silent:1,NIGHTMARE
+card_move,카드 이동/탐색,"Next turn, put {n} cards from your Draw Pile into your Hand.",1,1,regent:1,FOREGONE_CONCLUSION
+card_move,카드 이동/탐색,Play a random Attack from your Draw Pile.,1,1,defect:1,UPROAR
+card_move,카드 이동/탐색,Play the top card of your Draw Pile and Exhaust it.,1,1,ironclad:1,HAVOC
+card_move,카드 이동/탐색,Play {n} random Attacks from your Discard Pile.,1,1,colorless:1,BEAT_DOWN
+card_move,카드 이동/탐색,Play {n} random cards from your Draw Pile.,1,1,colorless:1,CATASTROPHE
+card_move,카드 이동/탐색,Put ALL {n} Energy cards from your Discard Pile into your Hand.,1,1,defect:1,ALL_FOR_ONE
+card_move,카드 이동/탐색,Put Sovereign Blade into your Hand from anywhere.,1,1,regent:1,SUMMON_FORTH
+card_move,카드 이동/탐색,Put a Skill from your Draw Pile into your Hand.,1,1,colorless:1,SECRET_TECHNIQUE
+card_move,카드 이동/탐색,Put a card from your Discard Pile into your Hand.,2,2,defect:1|necrobinder:1,GRAVEBLAST|HOLOGRAM
+card_move,카드 이동/탐색,Put a card from your Discard Pile on top of your Draw Pile.,2,2,ironclad:1|regent:1,COSMIC_INDIFFERENCE|HEADBUTT
+card_move,카드 이동/탐색,Put a card from your Draw Pile into your Hand.,1,1,event:1,WISH
+card_move,카드 이동/탐색,Put an Attack from your Draw Pile into your Hand.,1,1,colorless:1,SECRET_WEAPON
+card_move,카드 이동/탐색,Put every Rare card from your Draw Pile into your Hand.,1,1,colorless:1,ANOINTED
+card_move,카드 이동/탐색,Put the next card you play this turn on top of your Draw Pile.,1,1,event:1,REBOUND
+card_move,카드 이동/탐색,Put this card on top of your Draw Pile.,1,1,regent:1,SHINING_STRIKE
+card_move,카드 이동/탐색,Put up to {n} cards from your Discard Pile into your Hand.,1,1,event:1,NEOWS_FURY
+card_move,카드 이동/탐색,Put {n} card from your Hand on top of your Draw Pile.,3,3,colorless:1|regent:2,GLIMMER|PHOTON_CUT|THINKING_AHEAD
+card_move,카드 이동/탐색,Put {n} cards from your Discard Pile into your Hand.,1,1,necrobinder:1,DREDGE
+card_move,카드 이동/탐색,Return this card to your Hand.,1,1,regent:1,PARTICLE_WALL
+card_move,카드 이동/탐색,Shuffle ALL your cards into your Draw Pile.,1,1,defect:1,REBOOT
+card_move,카드 이동/탐색,The first Attack or Skill you play each turn is placed on top of your Draw Pile.,1,1,colorless:1,NOSTALGIA
+card_move,카드 이동/탐색,"The first time you play a {n} Energy Attack each turn, return it to your Hand.",1,1,defect:1,FERAL
+card_move,카드 이동/탐색,"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,1,necrobinder:1,RIGHT_HAND_HAND
+card_move,카드 이동/탐색,"Whenever you play an Attack, add a random Attack into your Hand.",1,1,colorless:1,CALAMITY
+card_move,카드 이동/탐색,"Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",1,1,colorless:1,STRATAGEM
+card_play,추가 사용/재사용,A random card without Replay in your Draw Pile gains Replay {n}.,1,1,colorless:1,HIDDEN_GEM
+card_play,추가 사용/재사용,ALL cards in your Hand are free to play this turn.,1,1,silent:1,BULLET_TIME
+card_play,추가 사용/재사용,Add Replay to a card in your Hand.,1,1,necrobinder:1,TRANSFIGURE
+card_play,추가 사용/재사용,Add a copy of the third Attack you play each turn into your Hand.,1,1,ironclad:1,JUGGLING
+card_play,추가 사용/재사용,"At the end of your turn, if this is in your Exhaust Pile, play it.",1,1,ironclad:1,HOWL_FROM_BEYOND
+card_play,추가 사용/재사용,"At the end of your turn, if this is on top of your Draw Pile, play it.",1,1,regent:1,I_AM_INVINCIBLE
+card_play,추가 사용/재사용,"At the end of your turn, {n} random Attack in your Hand is played against a random enemy.",1,1,ironclad:1,STAMPEDE
+card_play,추가 사용/재사용,"At the start of your turn, if this is in your Exhaust Pile, play it.",1,1,regent:1,BOMBARDMENT
+card_play,추가 사용/재사용,"At the start of your turn, play the top card of your Draw Pile.",1,1,colorless:1,MAYHEM
+card_play,추가 사용/재사용,Can only be played if every card in your Hand is an Attack.,1,1,event:1,CLASH
+card_play,추가 사용/재사용,Can only be played if there are no cards in your Draw Pile.,1,1,silent:1,GRAND_FINALE
+card_play,추가 사용/재사용,Choose a Skill in your Hand and play it {n} times.,1,1,regent:1,DECISIONS_DECISIONS
+card_play,추가 사용/재사용,Costs {n} Energy less for each Ethereal card played this combat.,1,1,necrobinder:1,BANSHEES_CRY
+card_play,추가 사용/재사용,Costs {n} less Energy for each Attack played this turn.,1,1,ironclad:1,STOMP
+card_play,추가 사용/재사용,Costs {n} less Energy for each Skill played this turn.,1,1,silent:1,PINPOINT
+card_play,추가 사용/재사용,Deal damage equal to the number of cards played this combat.,1,1,colorless:1,GOLD_AXE
+card_play,추가 사용/재사용,Deal {n} damage for each Attack already played this turn.,1,1,silent:1,FINISHER
+card_play,추가 사용/재사용,Deal {n} damage for each Ethereal card played this combat.,1,1,necrobinder:1,PULL_FROM_BELOW
+card_play,추가 사용/재사용,Deal {n} damage for each Skill already played this turn.,1,1,regent:1,LUNAR_BLAST
+card_play,추가 사용/재사용,"Every time you play {n} cards in a single turn, deal {n} damage to ALL enemies.",1,1,colorless:1,PANACHE
+card_play,추가 사용/재사용,"Every {n} Skills you play in a turn, put this into your Hand.",1,1,regent:1,MAKE_IT_SO
+card_play,추가 사용/재사용,Hits an additional time for each other time he has attacked this turn.,1,1,necrobinder:1,RATTLE
+card_play,추가 사용/재사용,Hits an additional time for each time you lost HP this combat.,1,1,ironclad:1,TEAR_ASUNDER
+card_play,추가 사용/재사용,"If the enemy is Vulnerable, hits twice.",1,1,ironclad:1,DISMANTLE
+card_play,추가 사용/재사용,"If this is in your Hand, it must be played before other cards.",1,1,curse:1,ENTHRALLED
+card_play,추가 사용/재사용,"If this is the first time this card has been played this turn, draw {n} card.",1,1,necrobinder:1,FETCH
+card_play,추가 사용/재사용,"If you have played fewer than {n} cards this turn, draw {n} card.",1,1,defect:1,FTL
+card_play,추가 사용/재사용,"If you play {n} or more cards in a turn, draw {n} card at the start of your next turn.",1,1,regent:1,PALE_BLUE_DOT
+card_play,추가 사용/재사용,It's free to play this turn.,5,5,colorless:2|defect:1|event:1|ironclad:1,DISCOVERY|DISTRACTION|INFERNAL_BLADE|SPLASH|WHITE_NOISE
+card_play,추가 사용/재사용,Play a random Attack from your Draw Pile.,1,1,defect:1,UPROAR
+card_play,추가 사용/재사용,Play every Shiv in your Exhaust Pile on the enemy.,1,1,silent:1,KNIFE_TRAP
+card_play,추가 사용/재사용,Play the top X cards of your Draw Pile.,1,1,ironclad:1,CASCADE
+card_play,추가 사용/재사용,Play the top card of your Draw Pile and Exhaust it.,1,1,ironclad:1,HAVOC
+card_play,추가 사용/재사용,Play {n} random Attacks from your Discard Pile.,1,1,colorless:1,BEAT_DOWN
+card_play,추가 사용/재사용,Play {n} random cards from your Draw Pile.,1,1,colorless:1,CATASTROPHE
+card_play,추가 사용/재사용,Poison is triggered {n} additional time.,1,1,silent:1,ACCELERANT
+card_play,추가 사용/재사용,Put the next card you play this turn on top of your Draw Pile.,1,1,event:1,REBOUND
+card_play,추가 사용/재사용,Sovereign Blade gains Replay {n}.,1,1,regent:1,SWORD_SAGE
+card_play,추가 사용/재사용,The first Attack or Skill you play each turn is placed on top of your Draw Pile.,1,1,colorless:1,NOSTALGIA
+card_play,추가 사용/재사용,The first Shiv you play each turn deals {n} additional damage.,1,1,silent:1,PHANTOM_BLADES
+card_play,추가 사용/재사용,The first card you play each turn is played an extra time.,1,1,defect:1,ECHO_FORM
+card_play,추가 사용/재사용,"The first time you play a {n} Energy Attack each turn, return it to your Hand.",1,1,defect:1,FERAL
+card_play,추가 사용/재사용,The first {n} cards you play each turn are free to play.,1,1,regent:1,VOID_FORM
+card_play,추가 사용/재사용,The next Attack another player plays on the enemy is played an extra time.,1,1,colorless:1,TAG_TEAM
+card_play,추가 사용/재사용,The next Attack you play costs {n} Energy.,1,1,ironclad:1,UNRELENTING
+card_play,추가 사용/재사용,The next Ethereal card you play costs {n} Energy.,1,1,necrobinder:1,VEILPIERCER
+card_play,추가 사용/재사용,The next Power you play costs {n} Energy.,1,1,defect:1,SYNTHESIS
+card_play,추가 사용/재사용,The next Power you play is played an additional time.,1,1,defect:1,SIGNAL_BOOST
+card_play,추가 사용/재사용,The next Skill you play costs {n} Energy.,1,1,silent:1,POUNCE
+card_play,추가 사용/재사용,They're free to play this combat.,1,1,event:1,METAMORPHOSIS
+card_play,추가 사용/재사용,"This turn, your next Attack is played an extra time.",1,1,ironclad:1,ONE_TWO_PUNCH
+card_play,추가 사용/재사용,"This turn, your next Skill is played an extra time.",1,1,silent:1,BURST
+card_play,추가 사용/재사용,"When you play a Skill, it gains Sly.",1,1,silent:1,MASTER_PLANNER
+card_play,추가 사용/재사용,"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,1,defect:1,ROCKET_PUNCH
+card_play,추가 사용/재사용,"Whenever you draw a card containing “Strike”, it is played against a random enemy.",1,1,ironclad:1,HELLRAISER
+card_play,추가 사용/재사용,"Whenever you play a Power, Channel {n} Lightning.",1,1,defect:1,STORM
+card_play,추가 사용/재사용,"Whenever you play a Power, gain {n} Energy.",1,1,defect:1,SUBROUTINE
+card_play,추가 사용/재사용,"Whenever you play a Skill, Exhaust it.",1,1,ironclad:1,CORRUPTION
+card_play,추가 사용/재사용,"Whenever you play a Soul, Summon {n}.",1,1,necrobinder:1,DEVOUR_LIFE
+card_play,추가 사용/재사용,"Whenever you play a Soul, a random enemy loses {n} HP.",1,1,necrobinder:1,HAUNT
+card_play,추가 사용/재사용,"Whenever you play a card that costs {n} Energy or more, gain {n} Block.",1,1,necrobinder:1,DANSE_MACABRE
+card_play,추가 사용/재사용,"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,1,necrobinder:1,RIGHT_HAND_HAND
+card_play,추가 사용/재사용,"Whenever you play a card this turn, apply {n} Doom to the enemy.",1,1,necrobinder:1,OBLIVION
+card_play,추가 사용/재사용,"Whenever you play a card this turn, gain {n} Strength this turn.",1,1,regent:1,MONOLOGUE
+card_play,추가 사용/재사용,"Whenever you play a card this turn, the enemy loses {n} HP.",1,1,silent:1,STRANGLE
+card_play,추가 사용/재사용,"Whenever you play a card, deal {n} damage to a random enemy.",1,1,silent:1,SERPENT_FORM
+card_play,추가 사용/재사용,"Whenever you play a card, gain {n} Block.",1,1,silent:1,AFTERIMAGE
+card_play,추가 사용/재사용,"Whenever you play a card, gain {n} Stars.",1,1,regent:1,THE_SEALED_THRONE
+card_play,추가 사용/재사용,"Whenever you play an Attack this turn, gain {n} Block.",1,1,ironclad:1,RAGE
+card_play,추가 사용/재사용,"Whenever you play an Attack, add a random Attack into your Hand.",1,1,colorless:1,CALAMITY
+card_play,추가 사용/재사용,"Whenever you play an Ethereal card, gain {n} Block.",1,1,necrobinder:1,SPIRIT_OF_ASH
+card_play,추가 사용/재사용,You cannot play more than {n} cards each turn.,1,1,token:1,SLOTH
+card_play,추가 사용/재사용,You cannot play more than {n} cards this turn.,1,1,curse:1,NORMALITY
+card_transform,변화,"At the start of your turn, Transform {n} card in your Hand.",1,1,colorless:1,ENTROPY
+card_transform,변화,Choose a card in your Hand to Transform into Minion Strike.,1,1,regent:1,BEGONE
+card_transform,변화,Choose {n} cards in your Draw Pile to Transform into Minion Dive Bombs.,1,1,regent:1,CHARGE
+card_transform,변화,Transform a card in your Draw Pile into Soul.,1,1,necrobinder:1,SEANCE
+card_transform,변화,Transform all Attacks in your Hand into Giant Rock.,1,1,ironclad:1,PRIMAL_FORCE
+card_transform,변화,Transform all Status cards in your Hand into Fuel.,1,1,defect:1,COMPACT
+card_transform,변화,Transform any number of cards in your Hand into Minion Sacrifice.,1,1,regent:1,GUARDS
+card_upgrade,강화,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",1,1,ironclad:1,AGGRESSION
+card_upgrade,강화,Upgrade ALL your cards.,1,1,event:1,APOTHEOSIS
+card_upgrade,강화,Upgrade a card in your Hand.,1,1,ironclad:1,ARMAMENTS
+card_upgrade,강화,Upgrade {n} random cards in your Discard Pile.,1,1,necrobinder:1,DRAIN_POWER
+damage,피해,Allies take half damage from enemies.,1,1,ironclad:1,TANK
+damage,피해,Apply Doom equal to damage dealt.,1,1,necrobinder:1,BLIGHT_STRIKE
+damage,피해,"At the end of your turn, if this is in your Hand, take {n} damage.",5,5,curse:1|status:4,BURN|DECAY|INFECTION|TOXIC|WITHER
+damage,피해,"At the end of your turn, if you have Frost, deal {n} damage to ALL enemies.",1,1,defect:1,HAILSTORM
+damage,피해,"At the end of your turn, take {n} damage.",1,1,token:1,DISINTEGRATION
+damage,피해,"At the end of {n} turns, deal {n} damage to ALL enemies.",1,1,colorless:1,THE_BOMB
+damage,피해,"At the start of your turn, deal {n} damage to ALL enemies and increase this damage by {n}.",1,1,colorless:1,ROLLING_BOULDER
+damage,피해,Blocked attack damage is reflected to your attacker this turn.,1,1,regent:1,REFLECT
+damage,피해,Damage ALL other enemies equal to the damage dealt.,1,1,colorless:1,OMNISLICE
+damage,피해,Deal damage equal to the enemy's Doom.,1,1,necrobinder:1,TIMES_UP
+damage,피해,Deal damage equal to the number of cards in your Draw Pile.,1,1,colorless:1,MIND_BLAST
+damage,피해,Deal damage equal to the number of cards played this combat.,1,1,colorless:1,GOLD_AXE
+damage,피해,Deal damage equal to your Block.,1,1,ironclad:1,BODY_SLAM
+damage,피해,Deal {n} damage X times.,3,3,necrobinder:1|regent:1|silent:1,ERADICATE|HEAVENLY_DRILL|SKEWER
+damage,피해,Deal {n} damage and apply {n} Vulnerable to ALL enemies.,1,1,ironclad:1,THUNDERCLAP
+damage,피해,Deal {n} damage for each Attack already played this turn.,1,1,silent:1,FINISHER
+damage,피해,Deal {n} damage for each Channeled Orb.,1,1,defect:1,BARRAGE
+damage,피해,Deal {n} damage for each Ethereal card played this combat.,1,1,necrobinder:1,PULL_FROM_BELOW
+damage,피해,Deal {n} damage for each Skill already played this turn.,1,1,regent:1,LUNAR_BLAST
+damage,피해,Deal {n} damage for each Skill in your Hand.,1,1,silent:1,FLECHETTES
+damage,피해,Deal {n} damage for each card Exhausted.,1,1,ironclad:1,FIEND_FIRE
+damage,피해,Deal {n} damage for each {n} Energy previously spent this turn.,1,1,defect:1,HELIX_DRILL
+damage,피해,Deal {n} damage to ALL enemies X times.,1,1,ironclad:1,WHIRLWIND
+damage,피해,Deal {n} damage to ALL enemies for each {n} Stars gained this turn.,1,1,regent:1,RADIATE
+damage,피해,Deal {n} damage to ALL enemies twice.,2,2,regent:1|silent:1,ASTRAL_PULSE|DAGGER_SPRAY
+damage,피해,Deal {n} damage to ALL enemies {n} times.,3,3,event:1|ironclad:1|regent:1,CONFLAGRATION|EXTERMINATE|SEVEN_STARS
+damage,피해,Deal {n} damage to ALL enemies.,16,16,colorless:1|defect:3|ironclad:3|necrobinder:2|regent:4|silent:3,BANSHEES_CRY|BREAKTHROUGH|CRASH_LANDING|CRUSH_UNDER|DRAMATIC_ENTRANCE|DYING_STAR|ECHOING_SLASH|FLICK_FLACK|GRAND_FINALE|HOWL_FROM_BEYOND|HYPERBEAM|METEOR_SHOWER
+damage,피해,Deal {n} damage to a random enemy X times.,2,2,colorless:1|regent:1,STARDUST|VOLLEY
+damage,피해,Deal {n} damage to a random enemy for each card Exhausted.,1,1,defect:1,FLAK_CANNON
+damage,피해,Deal {n} damage to a random enemy twice.,1,1,event:1,RIP_AND_TEAR
+damage,피해,Deal {n} damage to a random enemy {n} times.,2,2,ironclad:1|silent:1,RICOCHET|SWORD_BOOMERANG
+damage,피해,Deal {n} damage twice.,6,6,defect:2|event:1|ironclad:3,FIGHT_ME|MAUL|REFRACT|THRASH|TWIN_STRIKE|UPROAR
+damage,피해,Deal {n} damage {n} times.,3,3,defect:1|event:1|regent:1,CELESTIAL_MIGHT|GUNK_UP|PECK
+damage,피해,Deal {n} damage.,128,128,colorless:14|defect:20|event:7|ironclad:24|necrobinder:18|regent:21|silent:19|token:5,ADAPTIVE_STRIKE|ALL_FOR_ONE|ANGER|ASHEN_STRIKE|ASSASSINATE|BACKSTAB|BALL_LIGHTNING|BASH|BEAM_CELL|BEAT_INTO_SHAPE|BLIGHT_STRIKE|BLUDGEON
+damage,피해,Deals additional damage equal to Osty's Max HP.,1,1,necrobinder:1,PROTECTOR
+damage,피해,Deals additional damage equal to Osty's current HP.,1,1,necrobinder:1,UNLEASH
+damage,피해,Deals {n} additional damage for ALL your cards containing “Strike”.,1,1,ironclad:1,PERFECTED_STRIKE
+damage,피해,Deals {n} additional damage for ALL your cards that have a {n} Stars cost.,1,1,regent:1,CRESCENT_SPEAR
+damage,피해,Deals {n} additional damage for ALL your other Osty Attacks.,1,1,necrobinder:1,SQUEEZE
+damage,피해,Deals {n} additional damage for each Soul in your Exhaust Pile.,1,1,necrobinder:1,SOUL_STORM
+damage,피해,Deals {n} additional damage for each Vulnerable on the enemy.,1,1,ironclad:1,BULLY
+damage,피해,Deals {n} additional damage for each card discarded this turn.,1,1,silent:1,MEMENTO_MORI
+damage,피해,Deals {n} additional damage for each card drawn during your turn.,1,1,necrobinder:1,DEATH_MARCH
+damage,피해,Deals {n} additional damage for each card drawn this combat.,1,1,silent:1,MURDER
+damage,피해,Deals {n} additional damage for each card in your Exhaust Pile.,1,1,ironclad:1,ASHEN_STRIKE
+damage,피해,Deals {n} additional damage for each card you created this combat.,1,1,regent:1,SUPERMASSIVE
+damage,피해,Deals {n} additional damage for each time another player has attacked the enemy this turn.,1,1,colorless:1,GANG_UP
+damage,피해,Deals {n} additional damage for each unique debuff on the enemy.,1,1,colorless:1,REND
+damage,피해,Deals {n} less damage for each other card in your Hand.,1,1,silent:1,PRECISE_CUT
+damage,피해,Double the damage ALL Hang cards deal to this enemy.,1,1,necrobinder:1,HANG
+damage,피해,"Every time you play {n} cards in a single turn, deal {n} damage to ALL enemies.",1,1,colorless:1,PANACHE
+damage,피해,"Every {n} times you apply Poison, deal {n} damage to ALL enemies.",1,1,silent:1,OUTBREAK
+damage,피해,Exhaust a random Attack in your Hand and add its damage to this card.,1,1,ironclad:1,THRASH
+damage,피해,Gain Block equal to damage dealt.,1,1,colorless:1,FISTICUFFS
+damage,피해,Hits an additional time for each other time he has attacked this turn.,1,1,necrobinder:1,RATTLE
+damage,피해,"If Osty is alive, he deals {n} damage to ALL enemies and you gain {n} Block.",1,1,necrobinder:1,BONE_SHARDS
+damage,피해,"If you have {n} or more cards in your Exhaust Pile, deal {n} damage to ALL enemies.",1,1,ironclad:1,PACTS_END
+damage,피해,"If you take unblocked attack damage this combat, die.",1,1,colorless:1,THE_GAMBIT
+damage,피해,Increase the damage of ALL Claw cards by {n} this combat.,1,1,defect:1,CLAW
+damage,피해,Increase the damage of ALL Maul cards by {n} this combat.,1,1,event:1,MAUL
+damage,피해,Increase this card's damage by {n} this combat.,1,1,ironclad:1,RAMPAGE
+damage,피해,"Next turn, Attacks deal double damage.",1,1,silent:1,SHADOW_STEP
+damage,피해,Osty deals {n} damage and applies {n} Vulnerable to ALL enemies.,1,1,necrobinder:1,HIGH_FIVE
+damage,피해,Osty deals {n} damage to a random enemy.,1,1,token:1,SWEEPING_GAZE
+damage,피해,Osty deals {n} damage.,10,10,necrobinder:10,FETCH|FLATTEN|POKE|PROTECTOR|RATTLE|RIGHT_HAND_HAND|SIC_EM|SNAP|SQUEEZE|UNLEASH
+damage,피해,Osty's attacks deal {n} additional damage.,1,1,necrobinder:1,CALCIFY
+damage,피해,Permanently increase this card's damage by {n}.,1,1,necrobinder:1,THE_SCYTHE
+damage,피해,Shivs deal {n} additional damage.,1,1,silent:1,ACCURACY
+damage,피해,Sovereign Blade deals double damage to the enemy this turn.,1,1,regent:1,CONQUEROR
+damage,피해,Sovereign Blade now deals damage to ALL enemies.,1,1,regent:1,SEEKING_EDGE
+damage,피해,Take double damage from enemies.,1,1,ironclad:1,TANK
+damage,피해,The enemy takes double attack damage from other players this turn.,1,1,silent:1,FLANKING
+damage,피해,The enemy takes double damage from other players this turn.,1,1,colorless:1,KNOCKDOWN
+damage,피해,The first Attack each turn deals {n}% additional damage.,1,1,necrobinder:1,LETHALITY
+damage,피해,The first Shiv you play each turn deals {n} additional damage.,1,1,silent:1,PHANTOM_BLADES
+damage,피해,This card costs {n} Energy if Osty has attacked this turn.,1,1,necrobinder:1,FLATTEN
+damage,피해,Vulnerable enemies take an additional {n}% damage.,1,1,ironclad:1,CRUELTY
+damage,피해,Weak enemies take double damage from Attacks.,1,1,silent:1,TRACKING
+damage,피해,"Whenever Attacks deal damage, apply that much Doom.",1,1,necrobinder:1,REAPER_FORM
+damage,피해,"Whenever an Attack deals unblocked damage, apply {n} Poison.",1,1,silent:1,ENVENOM
+damage,피해,"Whenever you Evoke Lightning, deal {n} damage to each enemy hit.",1,1,defect:1,THUNDER
+damage,피해,"Whenever you apply a debuff to an enemy, they take {n} damage.",1,1,necrobinder:1,SLEIGHT_OF_FLESH
+damage,피해,"Whenever you are attacked this turn, deal {n} damage back.",1,1,ironclad:1,FLAME_BARRIER
+damage,피해,"Whenever you are attacked, deal {n} damage back.",1,1,event:1,CALTROPS
+damage,피해,"Whenever you create a Status, deal {n} damage to ALL enemies.",1,1,defect:1,SMOKESTACK
+damage,피해,"Whenever you draw a card during your turn, deal {n} damage to ALL enemies.",1,1,silent:1,SPEEDSTER
+damage,피해,"Whenever you draw this card, increase its damage by {n} this combat.",1,1,regent:1,KINGLY_PUNCH
+damage,피해,"Whenever you gain Block, deal {n} damage to a random enemy.",1,1,ironclad:1,JUGGERNAUT
+damage,피해,"Whenever you lose HP on your turn, deal {n} damage to ALL enemies.",1,1,ironclad:1,INFERNO
+damage,피해,"Whenever you play a card, deal {n} damage to a random enemy.",1,1,silent:1,SERPENT_FORM
+damage,피해,"Whenever you spend or gain {n} Stars, deal {n} damage to ALL enemies.",1,1,regent:1,BLACK_HOLE
+damage,피해,You receive {n}% less damage from Vulnerable enemies this turn.,1,1,ironclad:1,COLOSSUS
+debuff,약화 효과,Apply Doom equal to damage dealt.,1,1,necrobinder:1,BLIGHT_STRIKE
+debuff,약화 효과,Apply X Weak.,1,1,silent:1,MALAISE
+debuff,약화 효과,Apply any debuffs on the enemy to ALL other enemies.,1,1,necrobinder:1,MISERY
+debuff,약화 효과,Apply {n} Doom and {n} Weak to ALL enemies.,1,1,necrobinder:1,DEATHBRINGER
+debuff,약화 효과,Apply {n} Doom to ALL enemies.,2,2,necrobinder:2,END_OF_DAYS|NEGATIVE_PULSE
+debuff,약화 효과,"Apply {n} Doom, plus an additional {n} Doom for every {n} Doom already on this enemy.",1,1,necrobinder:1,NO_ESCAPE
+debuff,약화 효과,Apply {n} Doom.,1,1,necrobinder:1,SCOURGE
+debuff,약화 효과,Apply {n} Poison to ALL enemies.,1,1,silent:1,HAZE
+debuff,약화 효과,Apply {n} Poison to a random enemy {n} times.,1,1,silent:1,BOUNCING_FLASK
+debuff,약화 효과,Apply {n} Poison.,3,3,silent:3,DEADLY_POISON|POISONED_STAB|SNAKEBITE
+debuff,약화 효과,Apply {n} Vulnerable.,16,16,defect:1|event:1|ironclad:6|necrobinder:2|regent:4|silent:2,ASSASSINATE|BASH|BEAM_CELL|BREAK|COMET|DOMINATE|EXPOSE|FALLING_STAR|FEAR|GAMMA_BLAST|KNOW_THY_PLACE|PUTREFY
+debuff,약화 효과,Apply {n} Weak and Vulnerable to ALL enemies.,2,2,colorless:1|regent:1,METEOR_SHOWER|SHOCKWAVE
+debuff,약화 효과,Apply {n} Weak to ALL enemies.,1,1,silent:1,SCARE
+debuff,약화 효과,Apply {n} Weak.,12,12,defect:1|ironclad:1|necrobinder:2|regent:4|silent:4,COMET|DEFY|FALLING_STAR|GAMMA_BLAST|KNOW_THY_PLACE|LEG_SWEEP|NEUTRALIZE|NULL|PUTREFY|SUCKER_PUNCH|SUPPRESS|UPPERCUT
+debuff,약화 효과,"At the end of your turn, if this is in your Hand, gain {n} Frail.",1,1,curse:1,SHAME
+debuff,약화 효과,"At the end of your turn, if this is in your Hand, gain {n} Weak.",1,1,curse:1,DOUBT
+debuff,약화 효과,"At the start of your turn, apply {n} Doom to a random enemy.",1,1,necrobinder:1,COUNTDOWN
+debuff,약화 효과,"At the start of your turn, apply {n} Doom to yourself.",1,1,necrobinder:1,NEUROSURGE
+debuff,약화 효과,"At the start of your turn, apply {n} Poison to ALL enemies.",1,1,silent:1,NOXIOUS_FUMES
+debuff,약화 효과,Deal damage equal to the enemy's Doom.,1,1,necrobinder:1,TIMES_UP
+debuff,약화 효과,Deal {n} damage and apply {n} Vulnerable to ALL enemies.,1,1,ironclad:1,THUNDERCLAP
+debuff,약화 효과,Deals {n} additional damage for each Vulnerable on the enemy.,1,1,ironclad:1,BULLY
+debuff,약화 효과,Double the enemy's Vulnerable.,1,1,ironclad:1,MOLTEN_FIST
+debuff,약화 효과,Enemy loses X Strength.,1,1,silent:1,MALAISE
+debuff,약화 효과,Enemy loses {n} HP.,1,1,necrobinder:1,CAPTURE_SPIRIT
+debuff,약화 효과,Enemy loses {n} Strength this turn.,3,3,colorless:1|ironclad:1|necrobinder:1,DARK_SHACKLES|ENFEEBLING_TOUCH|MANGLE
+debuff,약화 효과,Enemy loses {n} Strength.,1,1,necrobinder:1,SHARED_FATE
+debuff,약화 효과,"Every {n} times you apply Poison, deal {n} damage to ALL enemies.",1,1,silent:1,OUTBREAK
+debuff,약화 효과,Gain Block equal to Poison on ALL enemies.,1,1,silent:1,MIRAGE
+debuff,약화 효과,Gain {n} Strength for each Vulnerable on the enemy.,1,1,ironclad:1,DOMINATE
+debuff,약화 효과,"If the enemy has Poison, apply {n} Poison.",1,1,silent:1,BUBBLE_BUBBLE
+debuff,약화 효과,"If the enemy intends to attack, apply {n} Weak.",1,1,defect:1,GO_FOR_THE_EYES
+debuff,약화 효과,"If the enemy is Vulnerable, hits twice.",1,1,ironclad:1,DISMANTLE
+debuff,약화 효과,"If you applied Doom this turn, gain Block {n} additional times.",1,1,necrobinder:1,DEATHS_DOOR
+debuff,약화 효과,Kill enemies with at least as much Doom as HP.,1,1,necrobinder:1,END_OF_DAYS
+debuff,약화 효과,Osty deals {n} damage and applies {n} Vulnerable to ALL enemies.,1,1,necrobinder:1,HIGH_FIVE
+debuff,약화 효과,Poison is triggered {n} additional time.,1,1,silent:1,ACCELERANT
+debuff,약화 효과,Remove all Artifact and Block from the enemy.,1,1,silent:1,EXPOSE
+debuff,약화 효과,Vulnerable and Weak are twice as effective against the enemy for the next {n} turns.,1,1,necrobinder:1,DEBILITATE
+debuff,약화 효과,Vulnerable enemies take an additional {n}% damage.,1,1,ironclad:1,CRUELTY
+debuff,약화 효과,Weak enemies take double damage from Attacks.,1,1,silent:1,TRACKING
+debuff,약화 효과,"Whenever Attacks deal damage, apply that much Doom.",1,1,necrobinder:1,REAPER_FORM
+debuff,약화 효과,"Whenever an Attack deals unblocked damage, apply {n} Poison.",1,1,silent:1,ENVENOM
+debuff,약화 효과,"Whenever you apply Doom, gain {n} Block.",1,1,necrobinder:1,SHROUD
+debuff,약화 효과,"Whenever you apply Vulnerable, draw {n} card.",1,1,ironclad:1,VICIOUS
+debuff,약화 효과,"Whenever you apply a debuff to an enemy, they take {n} damage.",1,1,necrobinder:1,SLEIGHT_OF_FLESH
+debuff,약화 효과,"Whenever you draw a card this turn, apply {n} Poison to ALL enemies.",1,1,silent:1,CORROSIVE_WAVE
+debuff,약화 효과,"Whenever you play a Soul, a random enemy loses {n} HP.",1,1,necrobinder:1,HAUNT
+debuff,약화 효과,"Whenever you play a card this turn, apply {n} Doom to the enemy.",1,1,necrobinder:1,OBLIVION
+debuff,약화 효과,"Whenever you play a card this turn, the enemy loses {n} HP.",1,1,silent:1,STRANGLE
+debuff,약화 효과,You receive {n}% less damage from Vulnerable enemies this turn.,1,1,ironclad:1,COLOSSUS
+discard,버리기,Add a Burn into your Discard Pile.,1,1,defect:1,OVERCLOCK
+discard,버리기,Add a Dazed into your Discard Pile.,1,1,defect:1,BOOST_AWAY
+discard,버리기,Add a Slimed into your Discard Pile.,1,1,defect:1,GUNK_UP
+discard,버리기,"Add a Soul into your Draw Pile, Hand, and Discard Pile.",1,1,necrobinder:1,SEVERANCE
+discard,버리기,Add a Void into your Discard Pile.,1,1,defect:1,TURBO
+discard,버리기,Add a copy of this card into your Discard Pile.,2,2,ironclad:1|necrobinder:1,ANGER|UNDEATH
+discard,버리기,Add a {n} Energy copy of this card into your Discard Pile.,1,1,defect:1,ADAPTIVE_STRIKE
+discard,버리기,Add {n} Shiv into your Hand for each card discarded.,1,1,silent:1,STORM_OF_STEEL
+discard,버리기,Add {n} Wounds into your Discard Pile.,1,1,defect:1,FIGHT_THROUGH
+discard,버리기,"At the start of your turn, draw {n} card and discard {n} card.",1,1,silent:1,TOOLS_OF_THE_TRADE
+discard,버리기,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",1,1,ironclad:1,AGGRESSION
+discard,버리기,Deals {n} additional damage for each card discarded this turn.,1,1,silent:1,MEMENTO_MORI
+discard,버리기,Discard all cards drawn this way that do not cost {n} Energy.,1,1,defect:1,SCRAPE
+discard,버리기,"Discard your Hand, then draw that many cards.",1,1,silent:1,CALCULATED_GAMBLE
+discard,버리기,Discard your Hand.,2,2,silent:2,SHADOW_STEP|STORM_OF_STEEL
+discard,버리기,Discard {n} card.,4,4,silent:4,ACROBATICS|DAGGER_THROW|PREPARED|SURVIVOR
+discard,버리기,Discard {n} cards.,1,1,silent:1,HIDDEN_DAGGERS
+discard,버리기,Gain Block equal to the number of cards in your Discard Pile.,1,1,event:1,STACK
+discard,버리기,Play {n} random Attacks from your Discard Pile.,1,1,colorless:1,BEAT_DOWN
+discard,버리기,Put ALL {n} Energy cards from your Discard Pile into your Hand.,1,1,defect:1,ALL_FOR_ONE
+discard,버리기,Put a card from your Discard Pile into your Hand.,2,2,defect:1|necrobinder:1,GRAVEBLAST|HOLOGRAM
+discard,버리기,Put a card from your Discard Pile on top of your Draw Pile.,2,2,ironclad:1|regent:1,COSMIC_INDIFFERENCE|HEADBUTT
+discard,버리기,Put up to {n} cards from your Discard Pile into your Hand.,1,1,event:1,NEOWS_FURY
+discard,버리기,Put {n} cards from your Discard Pile into your Hand.,1,1,necrobinder:1,DREDGE
+discard,버리기,Upgrade {n} random cards in your Discard Pile.,1,1,necrobinder:1,DRAIN_POWER
+discard,버리기,"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,1,necrobinder:1,RIGHT_HAND_HAND
+draw,카드 뽑기,A random card without Replay in your Draw Pile gains Replay {n}.,1,1,colorless:1,HIDDEN_GEM
+draw,카드 뽑기,ALL players add {n} Souls into their Draw Pile.,1,1,necrobinder:1,GLIMPSE_BEYOND
+draw,카드 뽑기,ALL players draw {n} cards.,1,1,colorless:1,HUDDLE_UP
+draw,카드 뽑기,Add X Souls into your Draw Pile.,1,1,necrobinder:1,DIRGE
+draw,카드 뽑기,"Add a Soul into your Draw Pile, Hand, and Discard Pile.",1,1,necrobinder:1,SEVERANCE
+draw,카드 뽑기,Add a Soul into your Draw Pile.,2,2,necrobinder:2,GRAVE_WARDEN|REAVE
+draw,카드 뽑기,Add {n} Souls into your Draw Pile.,1,1,necrobinder:1,CAPTURE_SPIRIT
+draw,카드 뽑기,Add {n} random Attacks into your Draw Pile.,1,1,event:1,METAMORPHOSIS
+draw,카드 뽑기,"At the end of your turn, if this is on top of your Draw Pile, play it.",1,1,regent:1,I_AM_INVINCIBLE
+draw,카드 뽑기,"At the start of your turn, draw {n} additional card.",1,1,defect:1,MACHINE_LEARNING
+draw,카드 뽑기,"At the start of your turn, draw {n} card and Exhaust {n} card from your Hand.",1,1,regent:1,TYRANNY
+draw,카드 뽑기,"At the start of your turn, draw {n} card and discard {n} card.",1,1,silent:1,TOOLS_OF_THE_TRADE
+draw,카드 뽑기,"At the start of your turn, gain {n} Energy and draw {n} additional card.",1,1,necrobinder:1,DEMESNE
+draw,카드 뽑기,"At the start of your turn, play the top card of your Draw Pile.",1,1,colorless:1,MAYHEM
+draw,카드 뽑기,Can only be played if there are no cards in your Draw Pile.,1,1,silent:1,GRAND_FINALE
+draw,카드 뽑기,Choose {n} cards in your Draw Pile to Transform into Minion Dive Bombs.,1,1,regent:1,CHARGE
+draw,카드 뽑기,Choose {n} of {n} cards in your Draw Pile to add into your Hand.,1,1,colorless:1,SEEKER_STRIKE
+draw,카드 뽑기,Deal damage equal to the number of cards in your Draw Pile.,1,1,colorless:1,MIND_BLAST
+draw,카드 뽑기,"Discard your Hand, then draw that many cards.",1,1,silent:1,CALCULATED_GAMBLE
+draw,카드 뽑기,Draw cards until you draw a non-Attack card.,1,1,ironclad:1,PILLAGE
+draw,카드 뽑기,Draw cards until you have {n} in your Hand.,1,1,silent:1,EXPERTISE
+draw,카드 뽑기,Draw cards until your Hand is full.,1,1,colorless:1,SCRAWL
+draw,카드 뽑기,Draw {n} card for each unique Orb you have.,1,1,defect:1,COMPILE_DRIVER
+draw,카드 뽑기,Draw {n} card.,18,18,colorless:2|defect:4|ironclad:2|necrobinder:1|regent:3|silent:3|status:1|token:2,BIG_BANG|COOLHEADED|DAGGER_THROW|ESCAPE_PLAN|FINESSE|FLASH_OF_STEEL|FUEL|GLOW|MINION_STRIKE|MODDED|PHOTON_CUT|POMMEL_STRIKE
+draw,카드 뽑기,Draw {n} cards.,23,23,colorless:2|defect:4|event:1|ironclad:4|necrobinder:2|regent:5|silent:4|token:1,ACROBATICS|ADRENALINE|BACKFLIP|BATTLE_TRANCE|BRIGHTEST_FLAME|BURNING_PACT|DECISIONS_DECISIONS|DRUM_OF_BATTLE|GLIMMER|GUIDING_STAR|MASTER_OF_STRATEGY|NEUROSURGE
+draw,카드 뽑기,Draw {n} fewer card each turn.,1,1,token:1,MIND_ROT
+draw,카드 뽑기,"Every {n} cards you draw, gain {n} Energy.",1,1,colorless:1,AUTOMATION
+draw,카드 뽑기,Exhaust {n} card from your Draw Pile.,1,1,necrobinder:1,CLEANSE
+draw,카드 뽑기,"If this is the first time this card has been played this turn, draw {n} card.",1,1,necrobinder:1,FETCH
+draw,카드 뽑기,"If you draw a Skill, gain {n} Block.",1,1,silent:1,ESCAPE_PLAN
+draw,카드 뽑기,"If you have no Attacks in your Hand, draw {n} cards.",1,1,colorless:1,IMPATIENCE
+draw,카드 뽑기,"If you have played fewer than {n} cards this turn, draw {n} card.",1,1,defect:1,FTL
+draw,카드 뽑기,"If you play {n} or more cards in a turn, draw {n} card at the start of your next turn.",1,1,regent:1,PALE_BLUE_DOT
+draw,카드 뽑기,"If your Hand is empty, draw {n} cards and gain {n} Energy.",1,1,colorless:1,RESTLESSNESS
+draw,카드 뽑기,"Next turn, draw {n} card.",1,1,regent:1,GLOW
+draw,카드 뽑기,"Next turn, draw {n} cards and gain {n} Energy.",1,1,event:1,RELAX
+draw,카드 뽑기,"Next turn, draw {n} cards.",1,1,silent:1,PREDATOR
+draw,카드 뽑기,"Next turn, put {n} cards from your Draw Pile into your Hand.",1,1,regent:1,FOREGONE_CONCLUSION
+draw,카드 뽑기,Play a random Attack from your Draw Pile.,1,1,defect:1,UPROAR
+draw,카드 뽑기,Play the top X cards of your Draw Pile.,1,1,ironclad:1,CASCADE
+draw,카드 뽑기,Play the top card of your Draw Pile and Exhaust it.,1,1,ironclad:1,HAVOC
+draw,카드 뽑기,Play {n} random cards from your Draw Pile.,1,1,colorless:1,CATASTROPHE
+draw,카드 뽑기,Put a Skill from your Draw Pile into your Hand.,1,1,colorless:1,SECRET_TECHNIQUE
+draw,카드 뽑기,Put a card from your Discard Pile on top of your Draw Pile.,2,2,ironclad:1|regent:1,COSMIC_INDIFFERENCE|HEADBUTT
+draw,카드 뽑기,Put a card from your Draw Pile into your Hand.,1,1,event:1,WISH
+draw,카드 뽑기,Put an Attack from your Draw Pile into your Hand.,1,1,colorless:1,SECRET_WEAPON
+draw,카드 뽑기,Put every Rare card from your Draw Pile into your Hand.,1,1,colorless:1,ANOINTED
+draw,카드 뽑기,Put the next card you play this turn on top of your Draw Pile.,1,1,event:1,REBOUND
+draw,카드 뽑기,Put this card on top of your Draw Pile.,1,1,regent:1,SHINING_STRIKE
+draw,카드 뽑기,Put {n} card from your Hand on top of your Draw Pile.,3,3,colorless:1|regent:2,GLIMMER|PHOTON_CUT|THINKING_AHEAD
+draw,카드 뽑기,Shuffle ALL your cards into your Draw Pile.,1,1,defect:1,REBOOT
+draw,카드 뽑기,The first Attack or Skill you play each turn is placed on top of your Draw Pile.,1,1,colorless:1,NOSTALGIA
+draw,카드 뽑기,"The first time you draw a Status each turn, draw {n} cards.",1,1,defect:1,ITERATION
+draw,카드 뽑기,Transform a card in your Draw Pile into Soul.,1,1,necrobinder:1,SEANCE
+draw,카드 뽑기,"Whenever a card is Exhausted, draw {n} card.",1,1,ironclad:1,DARK_EMBRACE
+draw,카드 뽑기,"Whenever you apply Vulnerable, draw {n} card.",1,1,ironclad:1,VICIOUS
+draw,카드 뽑기,"Whenever you draw a card containing “Strike”, it is played against a random enemy.",1,1,ironclad:1,HELLRAISER
+draw,카드 뽑기,"Whenever you draw a card during your turn, deal {n} damage to ALL enemies.",1,1,silent:1,SPEEDSTER
+draw,카드 뽑기,"Whenever you draw a card this turn, apply {n} Poison to ALL enemies.",1,1,silent:1,CORROSIVE_WAVE
+draw,카드 뽑기,"Whenever you draw an Ethereal card, draw {n} card.",1,1,necrobinder:1,PAGESTORM
+draw,카드 뽑기,"Whenever you draw this card, increase its damage by {n} this combat.",1,1,regent:1,KINGLY_PUNCH
+draw,카드 뽑기,"Whenever you draw this card, lose {n} Energy.",1,1,status:1,VOID
+draw,카드 뽑기,"Whenever you draw this card, reduce its cost by {n}.",1,1,regent:1,KINGLY_KICK
+draw,카드 뽑기,"Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",1,1,colorless:1,STRATAGEM
+draw,카드 뽑기,You cannot draw additional cards this turn.,2,2,ironclad:1|silent:1,BATTLE_TRANCE|BULLET_TIME
+empty,효과 없음,(empty),13,13,curse:9|status:4,ASCENDERS_BANE|CLUMSY|CURSE_OF_THE_BELL|DAZED|DEBRIS|FOLLY|GREED|INJURY|POOR_SLEEP|SOOT|SPORE_MIND|WOUND
+enemy_control,적 제어,"If the enemy intends to attack, apply {n} Weak.",1,1,defect:1,GO_FOR_THE_EYES
+enemy_control,적 제어,"If you take unblocked attack damage this combat, die.",1,1,colorless:1,THE_GAMBIT
+enemy_control,적 제어,Kill enemies with at least as much Doom as HP.,1,1,necrobinder:1,END_OF_DAYS
+enemy_control,적 제어,Stun the enemy.,1,1,event:1,WHISTLE
+enemy_control,적 제어,The enemy gains {n} Strength.,1,1,ironclad:1,FIGHT_ME
+energy,에너지,ALL players gain {n} Energy.,1,1,defect:1,ENERGY_SURGE
+energy,에너지,Add a {n} Energy copy of this card into your Discard Pile.,1,1,defect:1,ADAPTIVE_STRIKE
+energy,에너지,Add {n} random {n} Energy cards into your Hand.,1,1,colorless:1,JACKPOT
+energy,에너지,Another player gains {n} Energy.,1,1,colorless:1,BELIEVE_IN_YOU
+energy,에너지,"At the start of your turn, gain {n} Energy and draw {n} additional card.",1,1,necrobinder:1,DEMESNE
+energy,에너지,Cards cost an additional {n} Energy this turn.,1,1,necrobinder:1,BORROWED_TIME
+energy,에너지,Costs {n} Energy less for each Ethereal card played this combat.,1,1,necrobinder:1,BANSHEES_CRY
+energy,에너지,Costs {n} less Energy for each Attack played this turn.,1,1,ironclad:1,STOMP
+energy,에너지,Costs {n} less Energy for each Skill played this turn.,1,1,silent:1,PINPOINT
+energy,에너지,Deal {n} damage for each {n} Energy previously spent this turn.,1,1,defect:1,HELIX_DRILL
+energy,에너지,Discard all cards drawn this way that do not cost {n} Energy.,1,1,defect:1,SCRAPE
+energy,에너지,Double your Energy.,1,1,defect:1,DOUBLE_ENERGY
+energy,에너지,"Every {n} Energy you spend, gain {n} Energy.",1,1,regent:1,ORBIT
+energy,에너지,"Every {n} cards you draw, gain {n} Energy.",1,1,colorless:1,AUTOMATION
+energy,에너지,Gain {n} Energy at the start of each turn.,2,2,ironclad:1|necrobinder:1,FRIENDSHIP|PYRE
+energy,에너지,Gain {n} Energy for each Attack in your Hand.,1,1,ironclad:1,EXPECT_A_FIGHT
+energy,에너지,Gain {n} Energy.,15,15,colorless:1|defect:2|event:1|ironclad:2|necrobinder:3|regent:2|silent:2|token:2,ADRENALINE|ALIGNMENT|BIG_BANG|BLOODLETTING|BORROWED_TIME|BRIGHTEST_FLAME|FUEL|LUMINESCE|NEUROSURGE|OFFERING|PRODUCTION|SUPERCRITICAL
+energy,에너지,Gain {n} less Energy per turn.,1,1,token:1,WASTE_AWAY
+energy,에너지,"If this kills an enemy, gain {n} Energy.",1,1,defect:1,SUNDER
+energy,에너지,"If you Exhausted a card this turn, gain {n} Energy.",1,1,ironclad:1,FORGOTTEN_RITUAL
+energy,에너지,"If your Hand is empty, draw {n} cards and gain {n} Energy.",1,1,colorless:1,RESTLESSNESS
+energy,에너지,It costs an extra {n} Energy.,1,1,necrobinder:1,TRANSFIGURE
+energy,에너지,"Next turn, Summon {n} and gain {n} Energy.",1,1,necrobinder:1,INVOKE
+energy,에너지,"Next turn, draw {n} cards and gain {n} Energy.",1,1,event:1,RELAX
+energy,에너지,"Next turn, gain {n} Energy and {n} Stars.",1,1,regent:1,CONVERGENCE
+energy,에너지,"Next turn, gain {n} Energy.",6,6,defect:2|event:1|necrobinder:1|regent:2,CHARGE_BATTERY|DELAY|HEGEMONY|OUTMANEUVER|REFINE_BLADE|SCAVENGE
+energy,에너지,Put ALL {n} Energy cards from your Discard Pile into your Hand.,1,1,defect:1,ALL_FOR_ONE
+energy,에너지,Reduce this card's cost by {n} Energy whenever ANYONE dies.,1,1,necrobinder:1,MELANCHOLY
+energy,에너지,Reduce this card's cost to {n} Energy.,1,1,defect:1,MOMENTUM_STRIKE
+energy,에너지,Skills cost {n} Energy.,1,1,ironclad:1,CORRUPTION
+energy,에너지,"The first time you play a {n} Energy Attack each turn, return it to your Hand.",1,1,defect:1,FERAL
+energy,에너지,The next Attack you play costs {n} Energy.,1,1,ironclad:1,UNRELENTING
+energy,에너지,The next Ethereal card you play costs {n} Energy.,1,1,necrobinder:1,VEILPIERCER
+energy,에너지,The next Power you play costs {n} Energy.,1,1,defect:1,SYNTHESIS
+energy,에너지,The next Skill you play costs {n} Energy.,1,1,silent:1,POUNCE
+energy,에너지,This card costs {n} Energy if Osty has attacked this turn.,1,1,necrobinder:1,FLATTEN
+energy,에너지,"When this card is Exhausted, gain {n} Energy.",1,1,ironclad:1,DRUM_OF_BATTLE
+energy,에너지,"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,1,defect:1,ROCKET_PUNCH
+energy,에너지,"Whenever you draw this card, lose {n} Energy.",1,1,status:1,VOID
+energy,에너지,"Whenever you play a Power, gain {n} Energy.",1,1,defect:1,SUBROUTINE
+energy,에너지,"Whenever you play a card that costs {n} Energy or more, gain {n} Block.",1,1,necrobinder:1,DANSE_MACABRE
+energy,에너지,"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,1,necrobinder:1,RIGHT_HAND_HAND
+energy,에너지,You cannot gain additional {n} Energy this turn.,1,1,ironclad:1,EXPECT_A_FIGHT
+exhaust,소멸시키기,Add {n} random card into your Hand for each card Exhausted.,1,1,ironclad:1,STOKE
+exhaust,소멸시키기,"At the end of your turn, if this is in your Exhaust Pile, play it.",1,1,ironclad:1,HOWL_FROM_BEYOND
+exhaust,소멸시키기,"At the start of your turn, draw {n} card and Exhaust {n} card from your Hand.",1,1,regent:1,TYRANNY
+exhaust,소멸시키기,"At the start of your turn, if this is in your Exhaust Pile, play it.",1,1,regent:1,BOMBARDMENT
+exhaust,소멸시키기,Deal {n} damage for each card Exhausted.,1,1,ironclad:1,FIEND_FIRE
+exhaust,소멸시키기,Deal {n} damage to a random enemy for each card Exhausted.,1,1,defect:1,FLAK_CANNON
+exhaust,소멸시키기,Deals {n} additional damage for each Soul in your Exhaust Pile.,1,1,necrobinder:1,SOUL_STORM
+exhaust,소멸시키기,Deals {n} additional damage for each card in your Exhaust Pile.,1,1,ironclad:1,ASHEN_STRIKE
+exhaust,소멸시키기,Exhaust ALL your Status cards.,1,1,defect:1,FLAK_CANNON
+exhaust,소멸시키기,Exhaust a card.,1,1,defect:1,SCAVENGE
+exhaust,소멸시키기,Exhaust a random Attack in your Hand and add its damage to this card.,1,1,ironclad:1,THRASH
+exhaust,소멸시키기,Exhaust all non-Attack cards in your Hand.,1,1,ironclad:1,SECOND_WIND
+exhaust,소멸시키기,Exhaust up to {n} cards in your Hand.,1,1,colorless:1,PURITY
+exhaust,소멸시키기,Exhaust your Hand.,3,3,ironclad:2|necrobinder:1,EIDOLON|FIEND_FIRE|STOKE
+exhaust,소멸시키기,Exhaust {n} card at random.,2,2,ironclad:2,CINDER|TRUE_GRIT
+exhaust,소멸시키기,Exhaust {n} card from your Draw Pile.,1,1,necrobinder:1,CLEANSE
+exhaust,소멸시키기,Exhaust {n} card.,2,2,ironclad:2,BRAND|BURNING_PACT
+exhaust,소멸시키기,Gain another {n} Block if you have Exhausted a card this turn.,1,1,ironclad:1,EVIL_EYE
+exhaust,소멸시키기,Gain {n} Block for each card Exhausted.,1,1,ironclad:1,SECOND_WIND
+exhaust,소멸시키기,"If you Exhausted a card this turn, gain {n} Energy.",1,1,ironclad:1,FORGOTTEN_RITUAL
+exhaust,소멸시키기,"If you have {n} or more cards in your Exhaust Pile, deal {n} damage to ALL enemies.",1,1,ironclad:1,PACTS_END
+exhaust,소멸시키기,"If {n} cards were Exhausted this way, gain {n} Intangible.",1,1,necrobinder:1,EIDOLON
+exhaust,소멸시키기,Play every Shiv in your Exhaust Pile on the enemy.,1,1,silent:1,KNIFE_TRAP
+exhaust,소멸시키기,Play the top card of your Draw Pile and Exhaust it.,1,1,ironclad:1,HAVOC
+exhaust,소멸시키기,"When this card is Exhausted, gain {n} Energy.",1,1,ironclad:1,DRUM_OF_BATTLE
+exhaust,소멸시키기,"Whenever a card is Exhausted, draw {n} card.",1,1,ironclad:1,DARK_EMBRACE
+exhaust,소멸시키기,"Whenever a card is Exhausted, gain {n} Block.",1,1,ironclad:1,FEEL_NO_PAIN
+exhaust,소멸시키기,"Whenever you play a Skill, Exhaust it.",1,1,ironclad:1,CORRUPTION
+forge,제련,"At the start of your turn, Forge {n}.",1,1,regent:1,FURNACE
+forge,제련,Forge X.,1,1,regent:1,BEAT_INTO_SHAPE
+forge,제련,Forge {n}.,9,9,regent:9,BIG_BANG|BULWARK|CONQUEROR|REFINE_BLADE|SEEKING_EDGE|SPOILS_OF_BATTLE|SUMMON_FORTH|THE_SMITH|WROUGHT_IN_WAR
+forge,제련,Forges an additional {n} for every other time you've hit the enemy this turn.,1,1,regent:1,BEAT_INTO_SHAPE
+forge,제련,Put Sovereign Blade into your Hand from anywhere.,1,1,regent:1,SUMMON_FORTH
+forge,제련,Sovereign Blade deals double damage to the enemy this turn.,1,1,regent:1,CONQUEROR
+forge,제련,Sovereign Blade gains Replay {n}.,1,1,regent:1,SWORD_SAGE
+forge,제련,Sovereign Blade now deals damage to ALL enemies.,1,1,regent:1,SEEKING_EDGE
+forge,제련,Sovereign Blade now gains {n} Block.,1,1,regent:1,PARRY
+forge,제련,"Whenever you Forge, all allies Forge as well.",1,1,regent:1,HAMMER_TIME
+hp,체력,"At the end of your turn, if this is in your Hand, lose {n} HP for each card in your Hand.",1,1,curse:1,REGRET
+hp,체력,"At the end of your turn, if this is in your Hand, lose {n} HP.",2,2,curse:1|status:1,BAD_LUCK|BECKON
+hp,체력,"At the start of your turn, lose {n} HP and gain {n} Block.",1,1,ironclad:1,CRIMSON_MANTLE
+hp,체력,"At the start of your turn, lose {n} HP.",1,1,ironclad:1,INFERNO
+hp,체력,Deals additional damage equal to Osty's Max HP.,1,1,necrobinder:1,PROTECTOR
+hp,체력,Deals additional damage equal to Osty's current HP.,1,1,necrobinder:1,UNLEASH
+hp,체력,Enemy loses {n} HP.,1,1,necrobinder:1,CAPTURE_SPIRIT
+hp,체력,Heal {n} HP.,1,1,ironclad:1,NOT_YET
+hp,체력,Hits an additional time for each time you lost HP this combat.,1,1,ironclad:1,TEAR_ASUNDER
+hp,체력,"If Fatal, raise your Max HP by {n}.",1,1,ironclad:1,FEED
+hp,체력,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",1,1,necrobinder:1,SACRIFICE
+hp,체력,"If you lost HP this turn, hits {n} times.",1,1,ironclad:1,SPITE
+hp,체력,Kill enemies with at least as much Doom as HP.,1,1,necrobinder:1,END_OF_DAYS
+hp,체력,Lose {n} HP.,7,7,ironclad:7,BLOODLETTING|BLOOD_WALL|BRAND|BREAKTHROUGH|DEMONIC_SHIELD|HEMOKINESIS|OFFERING
+hp,체력,Lose {n} Max HP.,1,1,event:1,BRIGHTEST_FLAME
+hp,체력,Osty heals {n} HP.,1,1,necrobinder:1,SPUR
+hp,체력,Prevent the next time you would lose HP.,1,1,defect:1,BUFFER
+hp,체력,"Whenever Osty loses HP, ALL enemies lose that much HP as well.",1,1,necrobinder:1,NECRO_MASTERY
+hp,체력,"Whenever you lose HP on your turn, deal {n} damage to ALL enemies.",1,1,ironclad:1,INFERNO
+hp,체력,"Whenever you lose HP on your turn, gain {n} Strength.",1,1,ironclad:1,RUPTURE
+hp,체력,"Whenever you play a Soul, a random enemy loses {n} HP.",1,1,necrobinder:1,HAUNT
+hp,체력,"Whenever you play a card this turn, the enemy loses {n} HP.",1,1,silent:1,STRANGLE
+keyword,카드 키워드,Keyword: Eternal,7,7,curse:6|necrobinder:1,ASCENDERS_BANE|BAD_LUCK|CURSE_OF_THE_BELL|ENTHRALLED|FOLLY|FORBIDDEN_GRIMOIRE|GREED
+keyword,카드 키워드,Keyword: Ethereal,18,18,curse:3|defect:1|event:1|necrobinder:8|regent:2|status:2|token:1,APPARITION|ASCENDERS_BANE|CLUMSY|DAZED|DEFILE|DEFY|DEMESNE|DYING_STAR|ECHO_FORM|ENFEEBLING_TOUCH|FEAR|FOLLY
+keyword,카드 키워드,Keyword: Exhaust,99,99,colorless:18|curse:1|defect:16|event:9|ironclad:11|necrobinder:13|regent:8|silent:12|status:3|token:8,ADRENALINE|AFTERLIFE|ALCHEMIZE|ANOINTED|APOTHEOSIS|APPARITION|ASSASSINATE|BACKSTAB|BIG_BANG|BLADE_DANCE|BOMBARDMENT|BOOT_SEQUENCE
+keyword,카드 키워드,Keyword: Innate,9,9,colorless:2|curse:2|defect:1|event:1|silent:3,APOTHEOSIS|ASSASSINATE|BACKSTAB|BOOT_SEQUENCE|DRAMATIC_ENTRANCE|FOLLY|MIND_BLAST|SUPPRESS|WRITHE
+keyword,카드 키워드,Keyword: Retain,11,11,colorless:2|curse:1|necrobinder:5|silent:1|token:2,ERADICATE|LUMINESCE|POOR_SLEEP|PURITY|REAP|RESTLESSNESS|SACRIFICE|SNAKEBITE|SOVEREIGN_BLADE|SOW|SPUR
+keyword,카드 키워드,Keyword: Sly,8,8,silent:8,ABRASIVE|FLICK_FLACK|HAZE|REFLEX|RICOCHET|SNEAKY|TACTICIAN|UNTOUCHABLE
+keyword,카드 키워드,Keyword: Unplayable,26,26,curse:16|quest:3|status:7,ASCENDERS_BANE|BAD_LUCK|BURN|BYRDONIS_EGG|CLUMSY|CURSE_OF_THE_BELL|DAZED|DEBT|DECAY|DOUBT|FOLLY|GREED
+orb,구체,"At the end of your turn, Evoke your leftmost Orb.",1,1,defect:1,CONSUMING_SHADOW
+orb,구체,"At the start of the next {n} turns, Channel {n} Lightning.",1,1,defect:1,LIGHTNING_ROD
+orb,구체,"At the start of your turn, Channel {n} Glass.",1,1,defect:1,SPINNER
+orb,구체,"At the start of your turn, gain {n} Block for each unique Orb you have.",1,1,defect:1,COOLANT
+orb,구체,"At the start of your turn, lose {n} Focus.",1,1,defect:1,BIASED_COGNITION
+orb,구체,"At the start of your turn, trigger the passive ability of your rightmost Orb.",1,1,defect:1,LOOP
+orb,구체,Channel Lightning equal to the Lightning already Channeled this combat.,1,1,defect:1,VOLTAIC
+orb,구체,Channel X Lightning.,1,1,defect:1,TEMPEST
+orb,구체,Channel {n} Dark.,5,5,defect:5,CONSUMING_SHADOW|DARKNESS|NULL|RAINBOW|SHADOW_SHIELD
+orb,구체,Channel {n} Frost for each enemy.,1,1,defect:1,CHILL
+orb,구체,Channel {n} Frost.,5,5,defect:5,COLD_SNAP|COOLHEADED|GLACIER|ICE_LANCE|RAINBOW
+orb,구체,Channel {n} Glass.,2,2,defect:2,GLASSWORK|REFRACT
+orb,구체,Channel {n} Lightning.,3,3,defect:3,BALL_LIGHTNING|RAINBOW|ZAP
+orb,구체,Channel {n} Plasma.,2,2,defect:2,FUSION|METEOR_STRIKE
+orb,구체,Channel {n} random Orb.,1,1,defect:1,CHAOS
+orb,구체,Deal {n} damage for each Channeled Orb.,1,1,defect:1,BARRAGE
+orb,구체,Draw {n} card for each unique Orb you have.,1,1,defect:1,COMPILE_DRIVER
+orb,구체,Evoke all of your Orbs twice.,1,1,defect:1,SHATTER
+orb,구체,Evoke your rightmost Orb X times.,1,1,defect:1,MULTI_CAST
+orb,구체,Evoke your rightmost Orb twice.,1,1,defect:1,DUALCAST
+orb,구체,Evoke your rightmost Orb {n} times.,1,1,defect:1,QUADCAST
+orb,구체,Gain {n} Focus this turn for each unique Orb you have.,1,1,defect:1,SYNCHRONIZE
+orb,구체,Gain {n} Focus this turn.,2,2,defect:2,FOCUSED_STRIKE|HOTFIX
+orb,구체,Gain {n} Focus.,2,2,defect:2,BIASED_COGNITION|DEFRAGMENT
+orb,구체,Gain {n} Orb Slot.,1,1,defect:1,MODDED
+orb,구체,Gain {n} Orb Slots.,1,1,defect:1,CAPACITOR
+orb,구체,Lose {n} Focus.,1,1,defect:1,HYPERBEAM
+orb,구체,Lose {n} Orb Slot.,1,1,defect:1,BULK_UP
+orb,구체,Trigger the passive ability of all Dark Orbs.,1,1,defect:1,DARKNESS
+orb,구체,"Whenever you Evoke Lightning, deal {n} damage to each enemy hit.",1,1,defect:1,THUNDER
+orb,구체,"Whenever you create a Status, Channel {n} random Orb.",1,1,defect:1,TRASH_TO_TREASURE
+orb,구체,"Whenever you play a Power, Channel {n} Lightning.",1,1,defect:1,STORM
+osty,오스티/소환,ALL players Summon {n}.,1,1,necrobinder:1,LEGION_OF_BONE
+osty,오스티/소환,Choose a card in your Hand to Transform into Minion Strike.,1,1,regent:1,BEGONE
+osty,오스티/소환,Choose {n} cards in your Draw Pile to Transform into Minion Dive Bombs.,1,1,regent:1,CHARGE
+osty,오스티/소환,Deals additional damage equal to Osty's Max HP.,1,1,necrobinder:1,PROTECTOR
+osty,오스티/소환,Deals additional damage equal to Osty's current HP.,1,1,necrobinder:1,UNLEASH
+osty,오스티/소환,Deals {n} additional damage for ALL your other Osty Attacks.,1,1,necrobinder:1,SQUEEZE
+osty,오스티/소환,"If Osty is alive, he deals {n} damage to ALL enemies and you gain {n} Block.",1,1,necrobinder:1,BONE_SHARDS
+osty,오스티/소환,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",1,1,necrobinder:1,SACRIFICE
+osty,오스티/소환,"Next turn, Summon {n} and gain {n} Energy.",1,1,necrobinder:1,INVOKE
+osty,오스티/소환,Osty deals {n} damage and applies {n} Vulnerable to ALL enemies.,1,1,necrobinder:1,HIGH_FIVE
+osty,오스티/소환,Osty deals {n} damage to a random enemy.,1,1,token:1,SWEEPING_GAZE
+osty,오스티/소환,Osty deals {n} damage.,10,10,necrobinder:10,FETCH|FLATTEN|POKE|PROTECTOR|RATTLE|RIGHT_HAND_HAND|SIC_EM|SNAP|SQUEEZE|UNLEASH
+osty,오스티/소환,Osty dies.,1,1,necrobinder:1,BONE_SHARDS
+osty,오스티/소환,Osty heals {n} HP.,1,1,necrobinder:1,SPUR
+osty,오스티/소환,Osty's attacks deal {n} additional damage.,1,1,necrobinder:1,CALCIFY
+osty,오스티/소환,Summon {n} X times.,1,1,necrobinder:1,DIRGE
+osty,오스티/소환,Summon {n}.,7,7,necrobinder:7,AFTERLIFE|BODYGUARD|CLEANSE|NECRO_MASTERY|PULL_AGGRO|REANIMATE|SPUR
+osty,오스티/소환,This card costs {n} Energy if Osty has attacked this turn.,1,1,necrobinder:1,FLATTEN
+osty,오스티/소환,Transform any number of cards in your Hand into Minion Sacrifice.,1,1,regent:1,GUARDS
+osty,오스티/소환,"Whenever Osty hits this enemy this turn, Summon {n}.",1,1,necrobinder:1,SIC_EM
+osty,오스티/소환,"Whenever Osty loses HP, ALL enemies lose that much HP as well.",1,1,necrobinder:1,NECRO_MASTERY
+osty,오스티/소환,"Whenever you play a Soul, Summon {n}.",1,1,necrobinder:1,DEVOUR_LIFE
+restriction,사용 제약,Can only be played if every card in your Hand is an Attack.,1,1,event:1,CLASH
+restriction,사용 제약,Can only be played if there are no cards in your Draw Pile.,1,1,silent:1,GRAND_FINALE
+restriction,사용 제약,End your turn.,1,1,regent:1,VOID_FORM
+restriction,사용 제약,"If this is in your Hand, it must be played before other cards.",1,1,curse:1,ENTHRALLED
+restriction,사용 제약,"If you take unblocked attack damage this combat, die.",1,1,colorless:1,THE_GAMBIT
+restriction,사용 제약,Take double damage from enemies.,1,1,ironclad:1,TANK
+restriction,사용 제약,Weak enemies take double damage from Attacks.,1,1,silent:1,TRACKING
+restriction,사용 제약,You cannot draw additional cards this turn.,2,2,ironclad:1|silent:1,BATTLE_TRANCE|BULLET_TIME
+restriction,사용 제약,You cannot gain Block from cards for {n} turns.,1,1,colorless:1,PANIC_BUTTON
+restriction,사용 제약,You cannot gain additional {n} Energy this turn.,1,1,ironclad:1,EXPECT_A_FIGHT
+restriction,사용 제약,You cannot play more than {n} cards each turn.,1,1,token:1,SLOTH
+restriction,사용 제약,You cannot play more than {n} cards this turn.,1,1,curse:1,NORMALITY
+retain,보존,Add Retain to a card in your Hand.,1,1,necrobinder:1,SNAP
+retain,보존,"At the end of your turn, Retain up to {n} card.",1,1,silent:1,WELL_LAID_PLANS
+retain,보존,Retain your Hand this turn.,3,3,colorless:2|regent:1,CONVERGENCE|EQUILIBRIUM|SALVO
+retain,보존,Shivs gain Retain.,1,1,silent:1,PHANTOM_BLADES
+reward_meta,전투 외/보상,"At the end of combat, gain {n} Gold.",1,1,regent:1,ROYALTIES
+reward_meta,전투 외/보상,"At the end of combat, you may remove a card from your Deck.",1,1,necrobinder:1,FORBIDDEN_GRIMOIRE
+reward_meta,전투 외/보상,"At the end of your turn, if this is in your Hand, lose {n} Gold.",1,1,curse:1,DEBT
+reward_meta,전투 외/보상,Can be hatched at a Rest Site.,1,1,quest:1,BYRDONIS_EGG
+reward_meta,전투 외/보상,"If Fatal, gain an additional card reward.",1,1,silent:1,THE_HUNT
+reward_meta,전투 외/보상,"If Fatal, gain {n} Gold.",1,1,colorless:1,HAND_OF_GREED
+reward_meta,전투 외/보상,Marks a site of {n} extra Gold in the next Act.,1,1,quest:1,SPOILS_MAP
+reward_meta,전투 외/보상,Removed from your Deck after {n} combats.,1,1,curse:1,GUILTY
+reward_meta,전투 외/보상,Unlocks a special event in the next Act.,1,1,quest:1,LANTERN_KEY
+scaling,가변/스케일링,Add X Souls into your Draw Pile.,1,1,necrobinder:1,DIRGE
+scaling,가변/스케일링,Add {n} Shiv into your Hand for each card discarded.,1,1,silent:1,STORM_OF_STEEL
+scaling,가변/스케일링,Add {n} random card into your Hand for each card Exhausted.,1,1,ironclad:1,STOKE
+scaling,가변/스케일링,Allies take half damage from enemies.,1,1,ironclad:1,TANK
+scaling,가변/스케일링,Apply Doom equal to damage dealt.,1,1,necrobinder:1,BLIGHT_STRIKE
+scaling,가변/스케일링,Apply X Weak.,1,1,silent:1,MALAISE
+scaling,가변/스케일링,"At the end of your turn, if this is in your Hand, lose {n} HP for each card in your Hand.",1,1,curse:1,REGRET
+scaling,가변/스케일링,"At the start of your turn, gain {n} Block for each unique Orb you have.",1,1,defect:1,COOLANT
+scaling,가변/스케일링,Channel Lightning equal to the Lightning already Channeled this combat.,1,1,defect:1,VOLTAIC
+scaling,가변/스케일링,Channel X Lightning.,1,1,defect:1,TEMPEST
+scaling,가변/스케일링,Channel {n} Frost for each enemy.,1,1,defect:1,CHILL
+scaling,가변/스케일링,Costs {n} Energy less for each Ethereal card played this combat.,1,1,necrobinder:1,BANSHEES_CRY
+scaling,가변/스케일링,Costs {n} less Energy for each Attack played this turn.,1,1,ironclad:1,STOMP
+scaling,가변/스케일링,Costs {n} less Energy for each Skill played this turn.,1,1,silent:1,PINPOINT
+scaling,가변/스케일링,Damage ALL other enemies equal to the damage dealt.,1,1,colorless:1,OMNISLICE
+scaling,가변/스케일링,Deal damage equal to the enemy's Doom.,1,1,necrobinder:1,TIMES_UP
+scaling,가변/스케일링,Deal damage equal to the number of cards in your Draw Pile.,1,1,colorless:1,MIND_BLAST
+scaling,가변/스케일링,Deal damage equal to the number of cards played this combat.,1,1,colorless:1,GOLD_AXE
+scaling,가변/스케일링,Deal damage equal to your Block.,1,1,ironclad:1,BODY_SLAM
+scaling,가변/스케일링,Deal {n} damage X times.,3,3,necrobinder:1|regent:1|silent:1,ERADICATE|HEAVENLY_DRILL|SKEWER
+scaling,가변/스케일링,Deal {n} damage for each Attack already played this turn.,1,1,silent:1,FINISHER
+scaling,가변/스케일링,Deal {n} damage for each Channeled Orb.,1,1,defect:1,BARRAGE
+scaling,가변/스케일링,Deal {n} damage for each Ethereal card played this combat.,1,1,necrobinder:1,PULL_FROM_BELOW
+scaling,가변/스케일링,Deal {n} damage for each Skill already played this turn.,1,1,regent:1,LUNAR_BLAST
+scaling,가변/스케일링,Deal {n} damage for each Skill in your Hand.,1,1,silent:1,FLECHETTES
+scaling,가변/스케일링,Deal {n} damage for each card Exhausted.,1,1,ironclad:1,FIEND_FIRE
+scaling,가변/스케일링,Deal {n} damage for each {n} Energy previously spent this turn.,1,1,defect:1,HELIX_DRILL
+scaling,가변/스케일링,Deal {n} damage to ALL enemies X times.,1,1,ironclad:1,WHIRLWIND
+scaling,가변/스케일링,Deal {n} damage to ALL enemies for each {n} Stars gained this turn.,1,1,regent:1,RADIATE
+scaling,가변/스케일링,Deal {n} damage to a random enemy X times.,2,2,colorless:1|regent:1,STARDUST|VOLLEY
+scaling,가변/스케일링,Deal {n} damage to a random enemy for each card Exhausted.,1,1,defect:1,FLAK_CANNON
+scaling,가변/스케일링,Deals additional damage equal to Osty's Max HP.,1,1,necrobinder:1,PROTECTOR
+scaling,가변/스케일링,Deals additional damage equal to Osty's current HP.,1,1,necrobinder:1,UNLEASH
+scaling,가변/스케일링,Deals {n} additional damage for ALL your cards containing “Strike”.,1,1,ironclad:1,PERFECTED_STRIKE
+scaling,가변/스케일링,Deals {n} additional damage for ALL your cards that have a {n} Stars cost.,1,1,regent:1,CRESCENT_SPEAR
+scaling,가변/스케일링,Deals {n} additional damage for ALL your other Osty Attacks.,1,1,necrobinder:1,SQUEEZE
+scaling,가변/스케일링,Deals {n} additional damage for each Soul in your Exhaust Pile.,1,1,necrobinder:1,SOUL_STORM
+scaling,가변/스케일링,Deals {n} additional damage for each Vulnerable on the enemy.,1,1,ironclad:1,BULLY
+scaling,가변/스케일링,Deals {n} additional damage for each card discarded this turn.,1,1,silent:1,MEMENTO_MORI
+scaling,가변/스케일링,Deals {n} additional damage for each card drawn during your turn.,1,1,necrobinder:1,DEATH_MARCH
+scaling,가변/스케일링,Deals {n} additional damage for each card drawn this combat.,1,1,silent:1,MURDER
+scaling,가변/스케일링,Deals {n} additional damage for each card in your Exhaust Pile.,1,1,ironclad:1,ASHEN_STRIKE
+scaling,가변/스케일링,Deals {n} additional damage for each card you created this combat.,1,1,regent:1,SUPERMASSIVE
+scaling,가변/스케일링,Deals {n} additional damage for each time another player has attacked the enemy this turn.,1,1,colorless:1,GANG_UP
+scaling,가변/스케일링,Deals {n} additional damage for each unique debuff on the enemy.,1,1,colorless:1,REND
+scaling,가변/스케일링,Deals {n} less damage for each other card in your Hand.,1,1,silent:1,PRECISE_CUT
+scaling,가변/스케일링,"Discard your Hand, then draw that many cards.",1,1,silent:1,CALCULATED_GAMBLE
+scaling,가변/스케일링,Double X if it's {n} or more.,1,1,regent:1,HEAVENLY_DRILL
+scaling,가변/스케일링,Double the damage ALL Hang cards deal to this enemy.,1,1,necrobinder:1,HANG
+scaling,가변/스케일링,Double the enemy's Vulnerable.,1,1,ironclad:1,MOLTEN_FIST
+scaling,가변/스케일링,Double your Block gain this turn.,1,1,silent:1,SHADOWMELD
+scaling,가변/스케일링,Double your Block.,1,1,event:1,ENTRENCH
+scaling,가변/스케일링,Double your Energy.,1,1,defect:1,DOUBLE_ENERGY
+scaling,가변/스케일링,Draw {n} card for each unique Orb you have.,1,1,defect:1,COMPILE_DRIVER
+scaling,가변/스케일링,Enemy loses X Strength.,1,1,silent:1,MALAISE
+scaling,가변/스케일링,"Every {n} times you apply Poison, deal {n} damage to ALL enemies.",1,1,silent:1,OUTBREAK
+scaling,가변/스케일링,Evoke your rightmost Orb X times.,1,1,defect:1,MULTI_CAST
+scaling,가변/스케일링,Forge X.,1,1,regent:1,BEAT_INTO_SHAPE
+scaling,가변/스케일링,Gain Block equal to Poison on ALL enemies.,1,1,silent:1,MIRAGE
+scaling,가변/스케일링,Gain Block equal to damage dealt.,1,1,colorless:1,FISTICUFFS
+scaling,가변/스케일링,Gain Block equal to the Block on another player.,1,1,colorless:1,MIMIC
+scaling,가변/스케일링,Gain Block equal to the number of cards in your Discard Pile.,1,1,event:1,STACK
+scaling,가변/스케일링,Gain {n} Block for each card Exhausted.,1,1,ironclad:1,SECOND_WIND
+scaling,가변/스케일링,Gain {n} Energy for each Attack in your Hand.,1,1,ironclad:1,EXPECT_A_FIGHT
+scaling,가변/스케일링,Gain {n} Focus this turn for each unique Orb you have.,1,1,defect:1,SYNCHRONIZE
+scaling,가변/스케일링,Gain {n} Strength for each Vulnerable on the enemy.,1,1,ironclad:1,DOMINATE
+scaling,가변/스케일링,Give another player Block equal to your Block.,1,1,ironclad:1,DEMONIC_SHIELD
+scaling,가변/스케일링,Hits an additional time for each other time he has attacked this turn.,1,1,necrobinder:1,RATTLE
+scaling,가변/스케일링,Hits an additional time for each time you lost HP this combat.,1,1,ironclad:1,TEAR_ASUNDER
+scaling,가변/스케일링,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",1,1,necrobinder:1,SACRIFICE
+scaling,가변/스케일링,"Next turn, Attacks deal double damage.",1,1,silent:1,SHADOW_STEP
+scaling,가변/스케일링,"Next turn, gain Block equal to your current Block.",1,1,colorless:1,PROLONG
+scaling,가변/스케일링,Osty's attacks deal {n} additional damage.,1,1,necrobinder:1,CALCIFY
+scaling,가변/스케일링,Play the top X cards of your Draw Pile.,1,1,ironclad:1,CASCADE
+scaling,가변/스케일링,Repeat this effect for each enemy killed.,1,1,silent:1,ECHOING_SLASH
+scaling,가변/스케일링,Shivs deal {n} additional damage.,1,1,silent:1,ACCURACY
+scaling,가변/스케일링,Sovereign Blade deals double damage to the enemy this turn.,1,1,regent:1,CONQUEROR
+scaling,가변/스케일링,Summon {n} X times.,1,1,necrobinder:1,DIRGE
+scaling,가변/스케일링,Take double damage from enemies.,1,1,ironclad:1,TANK
+scaling,가변/스케일링,The enemy takes double attack damage from other players this turn.,1,1,silent:1,FLANKING
+scaling,가변/스케일링,The enemy takes double damage from other players this turn.,1,1,colorless:1,KNOCKDOWN
+scaling,가변/스케일링,The first Attack each turn deals {n}% additional damage.,1,1,necrobinder:1,LETHALITY
+scaling,가변/스케일링,The first Shiv you play each turn deals {n} additional damage.,1,1,silent:1,PHANTOM_BLADES
+scaling,가변/스케일링,"The first time you gain Block from a card each turn, double the amount gained.",1,1,ironclad:1,UNMOVABLE
+scaling,가변/스케일링,Transform any number of cards in your Hand into Minion Sacrifice.,1,1,regent:1,GUARDS
+scaling,가변/스케일링,Weak enemies take double damage from Attacks.,1,1,silent:1,TRACKING
+scaling,가변/스케일링,"Whenever Attacks deal damage, apply that much Doom.",1,1,necrobinder:1,REAPER_FORM
+scaling,가변/스케일링,"Whenever Osty loses HP, ALL enemies lose that much HP as well.",1,1,necrobinder:1,NECRO_MASTERY
+scaling,가변/스케일링,"Whenever you gain Block on your turn, other players gain half that much Block.",1,1,colorless:1,BEACON_OF_HOPE
+scaling,가변/스케일링,"Whenever you spend {n} Stars, gain {n} Block for each {n} Stars spent.",1,1,regent:1,CHILD_OF_THE_STARS
+stars,별,"At the start of your turn, gain {n} Stars.",1,1,regent:1,GENESIS
+stars,별,Deal {n} damage to ALL enemies for each {n} Stars gained this turn.,1,1,regent:1,RADIATE
+stars,별,Deals {n} additional damage for ALL your cards that have a {n} Stars cost.,1,1,regent:1,CRESCENT_SPEAR
+stars,별,Gain {n} Stars.,8,8,regent:8,BIG_BANG|GATHER_LIGHT|GLOW|HIDDEN_CACHE|ROYAL_GAMBLE|SHINING_STRIKE|SOLAR_STRIKE|VENERATE
+stars,별,"If this kills an enemy, gain {n} Stars.",1,1,regent:1,KNOCKOUT_BLOW
+stars,별,"Next turn, gain {n} Energy and {n} Stars.",1,1,regent:1,CONVERGENCE
+stars,별,"Next turn, gain {n} Stars.",1,1,regent:1,HIDDEN_CACHE
+stars,별,"Whenever you play a card, gain {n} Stars.",1,1,regent:1,THE_SEALED_THRONE
+stars,별,"Whenever you spend or gain {n} Stars, deal {n} damage to ALL enemies.",1,1,regent:1,BLACK_HOLE
+stars,별,"Whenever you spend {n} Stars, gain {n} Block for each {n} Stars spent.",1,1,regent:1,CHILD_OF_THE_STARS
+status_penalty,상태/저주 페널티,Add a Burn into your Discard Pile.,1,1,defect:1,OVERCLOCK
+status_penalty,상태/저주 페널티,Add a Dazed into your Discard Pile.,1,1,defect:1,BOOST_AWAY
+status_penalty,상태/저주 페널티,Add a Slimed into your Discard Pile.,1,1,defect:1,GUNK_UP
+status_penalty,상태/저주 페널티,Add a Void into your Discard Pile.,1,1,defect:1,TURBO
+status_penalty,상태/저주 페널티,Exhaust ALL your Status cards.,1,1,defect:1,FLAK_CANNON
+status_penalty,상태/저주 페널티,"The first time you draw a Status each turn, draw {n} cards.",1,1,defect:1,ITERATION
+status_penalty,상태/저주 페널티,Transform all Status cards in your Hand into Fuel.,1,1,defect:1,COMPACT
+status_penalty,상태/저주 페널티,"Whenever you create a Status, Channel {n} random Orb.",1,1,defect:1,TRASH_TO_TREASURE
+status_penalty,상태/저주 페널티,"Whenever you create a Status, deal {n} damage to ALL enemies.",1,1,defect:1,SMOKESTACK
+status_penalty,상태/저주 페널티,"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,1,defect:1,ROCKET_PUNCH
+trigger,지속/발동기,"At the end of combat, gain {n} Gold.",1,1,regent:1,ROYALTIES
+trigger,지속/발동기,"At the end of combat, you may remove a card from your Deck.",1,1,necrobinder:1,FORBIDDEN_GRIMOIRE
+trigger,지속/발동기,"At the end of your turn, Evoke your leftmost Orb.",1,1,defect:1,CONSUMING_SHADOW
+trigger,지속/발동기,"At the end of your turn, Retain up to {n} card.",1,1,silent:1,WELL_LAID_PLANS
+trigger,지속/발동기,"At the end of your turn, if this is in your Exhaust Pile, play it.",1,1,ironclad:1,HOWL_FROM_BEYOND
+trigger,지속/발동기,"At the end of your turn, if this is in your Hand, gain {n} Frail.",1,1,curse:1,SHAME
+trigger,지속/발동기,"At the end of your turn, if this is in your Hand, gain {n} Weak.",1,1,curse:1,DOUBT
+trigger,지속/발동기,"At the end of your turn, if this is in your Hand, lose {n} Gold.",1,1,curse:1,DEBT
+trigger,지속/발동기,"At the end of your turn, if this is in your Hand, lose {n} HP for each card in your Hand.",1,1,curse:1,REGRET
+trigger,지속/발동기,"At the end of your turn, if this is in your Hand, lose {n} HP.",2,2,curse:1|status:1,BAD_LUCK|BECKON
+trigger,지속/발동기,"At the end of your turn, if this is in your Hand, take {n} damage.",5,5,curse:1|status:4,BURN|DECAY|INFECTION|TOXIC|WITHER
+trigger,지속/발동기,"At the end of your turn, if this is on top of your Draw Pile, play it.",1,1,regent:1,I_AM_INVINCIBLE
+trigger,지속/발동기,"At the end of your turn, if you have Frost, deal {n} damage to ALL enemies.",1,1,defect:1,HAILSTORM
+trigger,지속/발동기,"At the end of your turn, take {n} damage.",1,1,token:1,DISINTEGRATION
+trigger,지속/발동기,"At the end of your turn, {n} random Attack in your Hand is played against a random enemy.",1,1,ironclad:1,STAMPEDE
+trigger,지속/발동기,"At the end of {n} turns, deal {n} damage to ALL enemies.",1,1,colorless:1,THE_BOMB
+trigger,지속/발동기,"At the start of the next {n} turns, Channel {n} Lightning.",1,1,defect:1,LIGHTNING_ROD
+trigger,지속/발동기,"At the start of your next turn, return this to your Hand.",2,2,colorless:2,BOLAS|THRUMMING_HATCHET
+trigger,지속/발동기,"At the start of your turn, Channel {n} Glass.",1,1,defect:1,SPINNER
+trigger,지속/발동기,"At the start of your turn, Forge {n}.",1,1,regent:1,FURNACE
+trigger,지속/발동기,"At the start of your turn, Transform {n} card in your Hand.",1,1,colorless:1,ENTROPY
+trigger,지속/발동기,"At the start of your turn, add a random Common card into your Hand.",1,1,event:1,HELLO_WORLD
+trigger,지속/발동기,"At the start of your turn, add a random Power into your Hand.",1,1,defect:1,CREATIVE_AI
+trigger,지속/발동기,"At the start of your turn, add {n} Shiv into your Hand.",1,1,silent:1,INFINITE_BLADES
+trigger,지속/발동기,"At the start of your turn, add {n} Sweeping Gaze into your Hand.",1,1,necrobinder:1,SENTRY_MODE
+trigger,지속/발동기,"At the start of your turn, add {n} random Colorless card into your Hand.",1,1,regent:1,SPECTRUM_SHIFT
+trigger,지속/발동기,"At the start of your turn, add {n} random card into your Hand.",1,1,necrobinder:1,CALL_OF_THE_VOID
+trigger,지속/발동기,"At the start of your turn, apply {n} Doom to a random enemy.",1,1,necrobinder:1,COUNTDOWN
+trigger,지속/발동기,"At the start of your turn, apply {n} Doom to yourself.",1,1,necrobinder:1,NEUROSURGE
+trigger,지속/발동기,"At the start of your turn, apply {n} Poison to ALL enemies.",1,1,silent:1,NOXIOUS_FUMES
+trigger,지속/발동기,"At the start of your turn, deal {n} damage to ALL enemies and increase this damage by {n}.",1,1,colorless:1,ROLLING_BOULDER
+trigger,지속/발동기,"At the start of your turn, draw {n} additional card.",1,1,defect:1,MACHINE_LEARNING
+trigger,지속/발동기,"At the start of your turn, draw {n} card and Exhaust {n} card from your Hand.",1,1,regent:1,TYRANNY
+trigger,지속/발동기,"At the start of your turn, draw {n} card and discard {n} card.",1,1,silent:1,TOOLS_OF_THE_TRADE
+trigger,지속/발동기,"At the start of your turn, gain {n} Block for each unique Orb you have.",1,1,defect:1,COOLANT
+trigger,지속/발동기,"At the start of your turn, gain {n} Energy and draw {n} additional card.",1,1,necrobinder:1,DEMESNE
+trigger,지속/발동기,"At the start of your turn, gain {n} Stars.",1,1,regent:1,GENESIS
+trigger,지속/발동기,"At the start of your turn, gain {n} Strength.",1,1,ironclad:1,DEMON_FORM
+trigger,지속/발동기,"At the start of your turn, gain {n} Vigor.",1,1,colorless:1,PREP_TIME
+trigger,지속/발동기,"At the start of your turn, if this is in your Exhaust Pile, play it.",1,1,regent:1,BOMBARDMENT
+trigger,지속/발동기,"At the start of your turn, lose {n} Dexterity.",1,1,silent:1,WRAITH_FORM
+trigger,지속/발동기,"At the start of your turn, lose {n} Focus.",1,1,defect:1,BIASED_COGNITION
+trigger,지속/발동기,"At the start of your turn, lose {n} HP and gain {n} Block.",1,1,ironclad:1,CRIMSON_MANTLE
+trigger,지속/발동기,"At the start of your turn, lose {n} HP.",1,1,ironclad:1,INFERNO
+trigger,지속/발동기,"At the start of your turn, play the top card of your Draw Pile.",1,1,colorless:1,MAYHEM
+trigger,지속/발동기,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",1,1,ironclad:1,AGGRESSION
+trigger,지속/발동기,"At the start of your turn, trigger the passive ability of your rightmost Orb.",1,1,defect:1,LOOP
+trigger,지속/발동기,"Every time you play {n} cards in a single turn, deal {n} damage to ALL enemies.",1,1,colorless:1,PANACHE
+trigger,지속/발동기,"Every {n} Energy you spend, gain {n} Energy.",1,1,regent:1,ORBIT
+trigger,지속/발동기,"Every {n} Skills you play in a turn, put this into your Hand.",1,1,regent:1,MAKE_IT_SO
+trigger,지속/발동기,"Every {n} cards you draw, gain {n} Energy.",1,1,colorless:1,AUTOMATION
+trigger,지속/발동기,"Every {n} times you apply Poison, deal {n} damage to ALL enemies.",1,1,silent:1,OUTBREAK
+trigger,지속/발동기,"If Fatal, gain an additional card reward.",1,1,silent:1,THE_HUNT
+trigger,지속/발동기,"If Fatal, gain {n} Gold.",1,1,colorless:1,HAND_OF_GREED
+trigger,지속/발동기,"If Fatal, raise your Max HP by {n}.",1,1,ironclad:1,FEED
+trigger,지속/발동기,"If Osty is alive, he deals {n} damage to ALL enemies and you gain {n} Block.",1,1,necrobinder:1,BONE_SHARDS
+trigger,지속/발동기,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",1,1,necrobinder:1,SACRIFICE
+trigger,지속/발동기,"If the enemy has Poison, apply {n} Poison.",1,1,silent:1,BUBBLE_BUBBLE
+trigger,지속/발동기,"If the enemy intends to attack, apply {n} Weak.",1,1,defect:1,GO_FOR_THE_EYES
+trigger,지속/발동기,"If the enemy is Vulnerable, hits twice.",1,1,ironclad:1,DISMANTLE
+trigger,지속/발동기,"If this is in your Hand, it must be played before other cards.",1,1,curse:1,ENTHRALLED
+trigger,지속/발동기,"If this is the first time this card has been played this turn, draw {n} card.",1,1,necrobinder:1,FETCH
+trigger,지속/발동기,"If this kills an enemy, gain {n} Energy.",1,1,defect:1,SUNDER
+trigger,지속/발동기,"If this kills an enemy, gain {n} Stars.",1,1,regent:1,KNOCKOUT_BLOW
+trigger,지속/발동기,"If you Exhausted a card this turn, gain {n} Energy.",1,1,ironclad:1,FORGOTTEN_RITUAL
+trigger,지속/발동기,"If you applied Doom this turn, gain Block {n} additional times.",1,1,necrobinder:1,DEATHS_DOOR
+trigger,지속/발동기,"If you draw a Skill, gain {n} Block.",1,1,silent:1,ESCAPE_PLAN
+trigger,지속/발동기,"If you have no Attacks in your Hand, draw {n} cards.",1,1,colorless:1,IMPATIENCE
+trigger,지속/발동기,"If you have played fewer than {n} cards this turn, draw {n} card.",1,1,defect:1,FTL
+trigger,지속/발동기,"If you have {n} or more cards in your Exhaust Pile, deal {n} damage to ALL enemies.",1,1,ironclad:1,PACTS_END
+trigger,지속/발동기,"If you lost HP this turn, hits {n} times.",1,1,ironclad:1,SPITE
+trigger,지속/발동기,"If you play {n} or more cards in a turn, draw {n} card at the start of your next turn.",1,1,regent:1,PALE_BLUE_DOT
+trigger,지속/발동기,"If you take unblocked attack damage this combat, die.",1,1,colorless:1,THE_GAMBIT
+trigger,지속/발동기,"If your Hand is empty, draw {n} cards and gain {n} Energy.",1,1,colorless:1,RESTLESSNESS
+trigger,지속/발동기,"If {n} cards were Exhausted this way, gain {n} Intangible.",1,1,necrobinder:1,EIDOLON
+trigger,지속/발동기,"Next turn, Attacks deal double damage.",1,1,silent:1,SHADOW_STEP
+trigger,지속/발동기,"Next turn, Summon {n} and gain {n} Energy.",1,1,necrobinder:1,INVOKE
+trigger,지속/발동기,"Next turn, add {n} copies of that card into your Hand.",1,1,silent:1,NIGHTMARE
+trigger,지속/발동기,"Next turn, draw {n} card.",1,1,regent:1,GLOW
+trigger,지속/발동기,"Next turn, draw {n} cards and gain {n} Energy.",1,1,event:1,RELAX
+trigger,지속/발동기,"Next turn, draw {n} cards.",1,1,silent:1,PREDATOR
+trigger,지속/발동기,"Next turn, gain Block equal to your current Block.",1,1,colorless:1,PROLONG
+trigger,지속/발동기,"Next turn, gain {n} Block.",2,2,regent:1|silent:1,DODGE_AND_ROLL|GLITTERSTREAM
+trigger,지속/발동기,"Next turn, gain {n} Energy and {n} Stars.",1,1,regent:1,CONVERGENCE
+trigger,지속/발동기,"Next turn, gain {n} Energy.",6,6,defect:2|event:1|necrobinder:1|regent:2,CHARGE_BATTERY|DELAY|HEGEMONY|OUTMANEUVER|REFINE_BLADE|SCAVENGE
+trigger,지속/발동기,"Next turn, gain {n} Stars.",1,1,regent:1,HIDDEN_CACHE
+trigger,지속/발동기,"Next turn, put {n} cards from your Draw Pile into your Hand.",1,1,regent:1,FOREGONE_CONCLUSION
+trigger,지속/발동기,The first Attack each turn deals {n}% additional damage.,1,1,necrobinder:1,LETHALITY
+trigger,지속/발동기,The first Attack or Skill you play each turn is placed on top of your Draw Pile.,1,1,colorless:1,NOSTALGIA
+trigger,지속/발동기,The first Shiv you play each turn deals {n} additional damage.,1,1,silent:1,PHANTOM_BLADES
+trigger,지속/발동기,The first card you play each turn is played an extra time.,1,1,defect:1,ECHO_FORM
+trigger,지속/발동기,"The first time you draw a Status each turn, draw {n} cards.",1,1,defect:1,ITERATION
+trigger,지속/발동기,"The first time you gain Block from a card each turn, double the amount gained.",1,1,ironclad:1,UNMOVABLE
+trigger,지속/발동기,"The first time you play a {n} Energy Attack each turn, return it to your Hand.",1,1,defect:1,FERAL
+trigger,지속/발동기,The first {n} cards you play each turn are free to play.,1,1,regent:1,VOID_FORM
+trigger,지속/발동기,"When this card is Exhausted, gain {n} Energy.",1,1,ironclad:1,DRUM_OF_BATTLE
+trigger,지속/발동기,"When you play a Skill, it gains Sly.",1,1,silent:1,MASTER_PLANNER
+trigger,지속/발동기,"Whenever Attacks deal damage, apply that much Doom.",1,1,necrobinder:1,REAPER_FORM
+trigger,지속/발동기,"Whenever Osty hits this enemy this turn, Summon {n}.",1,1,necrobinder:1,SIC_EM
+trigger,지속/발동기,"Whenever Osty loses HP, ALL enemies lose that much HP as well.",1,1,necrobinder:1,NECRO_MASTERY
+trigger,지속/발동기,"Whenever a card is Exhausted, draw {n} card.",1,1,ironclad:1,DARK_EMBRACE
+trigger,지속/발동기,"Whenever a card is Exhausted, gain {n} Block.",1,1,ironclad:1,FEEL_NO_PAIN
+trigger,지속/발동기,"Whenever an Attack deals unblocked damage, apply {n} Poison.",1,1,silent:1,ENVENOM
+trigger,지속/발동기,"Whenever another player attacks an enemy, gain {n} Block.",1,1,silent:1,SNEAKY
+trigger,지속/발동기,"Whenever you Evoke Lightning, deal {n} damage to each enemy hit.",1,1,defect:1,THUNDER
+trigger,지속/발동기,"Whenever you Forge, all allies Forge as well.",1,1,regent:1,HAMMER_TIME
+trigger,지속/발동기,"Whenever you apply Doom, gain {n} Block.",1,1,necrobinder:1,SHROUD
+trigger,지속/발동기,"Whenever you apply Vulnerable, draw {n} card.",1,1,ironclad:1,VICIOUS
+trigger,지속/발동기,"Whenever you apply a debuff to an enemy, they take {n} damage.",1,1,necrobinder:1,SLEIGHT_OF_FLESH
+trigger,지속/발동기,"Whenever you are attacked this turn, deal {n} damage back.",1,1,ironclad:1,FLAME_BARRIER
+trigger,지속/발동기,"Whenever you are attacked, deal {n} damage back.",1,1,event:1,CALTROPS
+trigger,지속/발동기,"Whenever you attack an enemy, it loses {n} Strength this turn.",1,1,regent:1,MONARCHS_GAZE
+trigger,지속/발동기,"Whenever you create a Status, Channel {n} random Orb.",1,1,defect:1,TRASH_TO_TREASURE
+trigger,지속/발동기,"Whenever you create a Status, deal {n} damage to ALL enemies.",1,1,defect:1,SMOKESTACK
+trigger,지속/발동기,"Whenever you create a Status, reduce this card's cost to {n} Energy until played.",1,1,defect:1,ROCKET_PUNCH
+trigger,지속/발동기,"Whenever you create a card, gain {n} Block.",1,1,regent:1,PILLAR_OF_CREATION
+trigger,지속/발동기,"Whenever you create a card, gain {n} Strength.",1,1,regent:1,ARSENAL
+trigger,지속/발동기,"Whenever you draw a card containing “Strike”, it is played against a random enemy.",1,1,ironclad:1,HELLRAISER
+trigger,지속/발동기,"Whenever you draw a card during your turn, deal {n} damage to ALL enemies.",1,1,silent:1,SPEEDSTER
+trigger,지속/발동기,"Whenever you draw a card this turn, apply {n} Poison to ALL enemies.",1,1,silent:1,CORROSIVE_WAVE
+trigger,지속/발동기,"Whenever you draw an Ethereal card, draw {n} card.",1,1,necrobinder:1,PAGESTORM
+trigger,지속/발동기,"Whenever you draw this card, increase its damage by {n} this combat.",1,1,regent:1,KINGLY_PUNCH
+trigger,지속/발동기,"Whenever you draw this card, lose {n} Energy.",1,1,status:1,VOID
+trigger,지속/발동기,"Whenever you draw this card, reduce its cost by {n}.",1,1,regent:1,KINGLY_KICK
+trigger,지속/발동기,"Whenever you gain Block on your turn, other players gain half that much Block.",1,1,colorless:1,BEACON_OF_HOPE
+trigger,지속/발동기,"Whenever you gain Block, deal {n} damage to a random enemy.",1,1,ironclad:1,JUGGERNAUT
+trigger,지속/발동기,"Whenever you lose HP on your turn, deal {n} damage to ALL enemies.",1,1,ironclad:1,INFERNO
+trigger,지속/발동기,"Whenever you lose HP on your turn, gain {n} Strength.",1,1,ironclad:1,RUPTURE
+trigger,지속/발동기,"Whenever you play a Power, Channel {n} Lightning.",1,1,defect:1,STORM
+trigger,지속/발동기,"Whenever you play a Power, gain {n} Energy.",1,1,defect:1,SUBROUTINE
+trigger,지속/발동기,"Whenever you play a Skill, Exhaust it.",1,1,ironclad:1,CORRUPTION
+trigger,지속/발동기,"Whenever you play a Soul, Summon {n}.",1,1,necrobinder:1,DEVOUR_LIFE
+trigger,지속/발동기,"Whenever you play a Soul, a random enemy loses {n} HP.",1,1,necrobinder:1,HAUNT
+trigger,지속/발동기,"Whenever you play a card that costs {n} Energy or more, gain {n} Block.",1,1,necrobinder:1,DANSE_MACABRE
+trigger,지속/발동기,"Whenever you play a card that costs {n} Energy or more, return this to your Hand from the Discard Pile.",1,1,necrobinder:1,RIGHT_HAND_HAND
+trigger,지속/발동기,"Whenever you play a card this turn, apply {n} Doom to the enemy.",1,1,necrobinder:1,OBLIVION
+trigger,지속/발동기,"Whenever you play a card this turn, gain {n} Strength this turn.",1,1,regent:1,MONOLOGUE
+trigger,지속/발동기,"Whenever you play a card this turn, the enemy loses {n} HP.",1,1,silent:1,STRANGLE
+trigger,지속/발동기,"Whenever you play a card, deal {n} damage to a random enemy.",1,1,silent:1,SERPENT_FORM
+trigger,지속/발동기,"Whenever you play a card, gain {n} Block.",1,1,silent:1,AFTERIMAGE
+trigger,지속/발동기,"Whenever you play a card, gain {n} Stars.",1,1,regent:1,THE_SEALED_THRONE
+trigger,지속/발동기,"Whenever you play an Attack this turn, gain {n} Block.",1,1,ironclad:1,RAGE
+trigger,지속/발동기,"Whenever you play an Attack, add a random Attack into your Hand.",1,1,colorless:1,CALAMITY
+trigger,지속/발동기,"Whenever you play an Ethereal card, gain {n} Block.",1,1,necrobinder:1,SPIRIT_OF_ASH
+trigger,지속/발동기,"Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",1,1,colorless:1,STRATAGEM
+trigger,지속/발동기,"Whenever you spend or gain {n} Stars, deal {n} damage to ALL enemies.",1,1,regent:1,BLACK_HOLE
+trigger,지속/발동기,"Whenever you spend {n} Stars, gain {n} Block for each {n} Stars spent.",1,1,regent:1,CHILD_OF_THE_STARS

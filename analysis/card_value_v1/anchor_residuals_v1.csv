@@ -1,0 +1,33 @@
+﻿card_id,name_ko,name_en,scope,rarity,cost,body_effect_points,keywords,keyword_adjustment,adjusted_effect_points,benchmark_points,residual,status
+BACKSTAB,배신,Backstab,character,Uncommon,E0,5.5,EXHAUST|INNATE,-0.5,5.0,5.0,0.0,scored
+BLUDGEON,몽둥이질,Bludgeon,character,Uncommon,E3,16.0,,0,16.0,16.0,0.0,scored
+BOOT_SEQUENCE,부팅 과정,Boot Sequence,character,Uncommon,E0,6.0,EXHAUST|INNATE,-0.5,5.5,5.0,0.5,scored
+BURY,매장,Bury,character,Uncommon,E4,26.0,,0,26.0,26.0,0.0,scored
+CELESTIAL_MIGHT,천상의 권능,Celestial Might,character,Common,E2,9.0,,0,9.0,9.0,0.0,scored
+CONFLAGRATION,대화재,Conflagration,character,Rare,E1,5.2,,0,5.2,8.0,-2.8,scored
+DAGGER_SPRAY,단검 분사,Dagger Spray,character,Common,E1,5.2,,0,5.2,5.3,-0.1,scored
+DASH,돌진,Dash,character,Uncommon,E2,11.0,,0,11.0,11.0,0.0,scored
+DEFEND_DEFECT,수비,Defend,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+DEFEND_IRONCLAD,수비,Defend,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+DEFEND_NECROBINDER,수비,Defend,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+DEFEND_REGENT,수비,Defend,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+DEFEND_SILENT,수비,Defend,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+DEFILE,모독,Defile,character,Common,E1,6.5,ETHEREAL,-1.0,5.5,5.3,0.2,scored
+DEFLECT,튕겨내기,Deflect,character,Common,E0,2.4,,0,2.4,2.7,-0.3,scored
+DRAMATIC_ENTRANCE,극적인 입장,Dramatic Entrance,colorless,Uncommon,E0,7.15,EXHAUST|INNATE,-0.5,6.65,6.5,0.15,scored
+FLICK_FLACK,재주넘기,Flick-Flack,character,Common,E1,3.9,SLY,0,,5.3,,interaction_required:SLY
+IMPERVIOUS,무적,Impervious,character,Rare,E2,18.0,EXHAUST,-1.0,17.0,17.0,0.0,scored
+IRON_WAVE,철의 파동,Iron Wave,character,Common,E1,5.5,,0,5.5,5.3,0.2,scored
+LEAP,도약,Leap,character,Common,E1,5.4,,0,5.4,5.3,0.1,scored
+REAP,수확,Reap,character,Common,E3,13.5,RETAIN,0.5,14.0,13.5,0.5,scored
+SLICE,칼질,Slice,character,Common,E0,3.0,,0,3.0,2.7,0.3,scored
+SOW,파종,Sow,character,Common,E1,5.2,RETAIN,0.5,5.7,5.3,0.4,scored
+STRIKE_DEFECT,타격,Strike,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+STRIKE_IRONCLAD,타격,Strike,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+STRIKE_NECROBINDER,타격,Strike,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+STRIKE_REGENT,타격,Strike,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+STRIKE_SILENT,타격,Strike,character,Basic,E1,3.0,,0,3.0,3.0,0.0,scored
+TWIN_STRIKE,이중 타격,Twin Strike,character,Common,E1,5.0,,0,5.0,5.3,-0.3,scored
+ULTIMATE_DEFEND,궁극의 수비,Ultimate Defend,colorless,Uncommon,E1,6.6,,0,6.6,6.8,-0.2,scored
+ULTIMATE_STRIKE,궁극의 타격,Ultimate Strike,colorless,Uncommon,E1,7.0,,0,7.0,6.8,0.2,scored
+UNTOUCHABLE,범접 불가,Untouchable,character,Common,E2,3.6,SLY,0,,9.0,,interaction_required:SLY

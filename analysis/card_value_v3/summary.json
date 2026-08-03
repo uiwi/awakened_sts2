@@ -1,0 +1,29 @@
+{
+  "card_count": 577,
+  "full_fixed_card_count": 202,
+  "full_scenario_card_count": 127,
+  "partial_card_count": 248,
+  "regular_cards_with_benchmark": 461,
+  "full_regular_cards_scored": 274,
+  "fixed_regular_cards_scored": 166,
+  "scenario_regular_cards_scored": 108,
+  "baseline_median_residual": 0.0,
+  "baseline_median_absolute_residual": 0.938,
+  "baseline_rmse": 2.685,
+  "fixed_median_absolute_residual": 0.525,
+  "scenario_median_absolute_residual": 2.0,
+  "within_1_point": 149,
+  "within_2_points": 199,
+  "scenario_ranges_containing_benchmark": 103,
+  "unique_unmodeled_templates": 231,
+  "scenario_required_value_medians": {
+    "condition_probability": 0.722,
+    "recurring_turns": 3.68,
+    "recurring_resource_turns": 6.8,
+    "event_triggers": 3.472,
+    "threshold_triggers": 1.815,
+    "scaling_count": 2.167
+  },
+  "draw_linear_mae_v2": 1.062,
+  "draw_nonlinear_mae_v3": 0.85
+}

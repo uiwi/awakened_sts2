@@ -1,0 +1,46 @@
+﻿card_id,name_ko,name_en,scope,rarity,cost,keywords,anchor_kind,effect_points,formula,description_en
+ASTRAL_PULSE,별의 파동,Astral Pulse,character,Common,E0+S3,,strict,7.8,damage=12×1.30×0.50,Deal 6 damage to ALL enemies twice.
+BACKSTAB,배신,Backstab,character,Uncommon,E0,EXHAUST|INNATE,keyword_contaminated,5.5,damage=11×1.00×0.50,Deal 11 damage.
+BLUDGEON,몽둥이질,Bludgeon,character,Uncommon,E3,,strict,16.0,damage=32×1.00×0.50,Deal 32 damage.
+BOOT_SEQUENCE,부팅 과정,Boot Sequence,character,Uncommon,E0,EXHAUST|INNATE,keyword_contaminated,6.0,block=10×0.60,Gain 10 Block.
+BURY,매장,Bury,character,Uncommon,E4,,strict,26.0,damage=52×1.00×0.50,Deal 52 damage.
+BYRD_SWOOP,섀 급습,Byrd Swoop,event,Event,E0,,strict,7.0,damage=14×1.00×0.50,Deal 14 damage.
+CELESTIAL_MIGHT,천상의 권능,Celestial Might,character,Common,E2,,strict,9.0,damage=18×1.00×0.50,Deal 6 damage 3 times.
+CLOAK_OF_STARS,별의 망토,Cloak of Stars,character,Common,E0+S1,,strict,4.2,block=7×0.60,Gain 7 Block.
+CONFLAGRATION,대화재,Conflagration,character,Rare,E1,,strict,5.2,damage=8×1.30×0.50,Deal 2 damage to ALL enemies 4 times.
+DAGGER_SPRAY,단검 분사,Dagger Spray,character,Common,E1,,strict,5.2,damage=8×1.30×0.50,Deal 4 damage to ALL enemies twice.
+DASH,돌진,Dash,character,Uncommon,E2,,strict,11.0,block=10×0.60; damage=10×1.00×0.50,Gain 10 Block. Deal 10 damage.
+DEFEND_DEFECT,수비,Defend,character,Basic,E1,,strict,3.0,block=5×0.60,Gain 5 Block.
+DEFEND_IRONCLAD,수비,Defend,character,Basic,E1,,strict,3.0,block=5×0.60,Gain 5 Block.
+DEFEND_NECROBINDER,수비,Defend,character,Basic,E1,,strict,3.0,block=5×0.60,Gain 5 Block.
+DEFEND_REGENT,수비,Defend,character,Basic,E1,,strict,3.0,block=5×0.60,Gain 5 Block.
+DEFEND_SILENT,수비,Defend,character,Basic,E1,,strict,3.0,block=5×0.60,Gain 5 Block.
+DEFILE,모독,Defile,character,Common,E1,ETHEREAL,keyword_contaminated,6.5,damage=13×1.00×0.50,Deal 13 damage.
+DEFLECT,튕겨내기,Deflect,character,Common,E0,,strict,2.4,block=4×0.60,Gain 4 Block.
+DEVASTATE,초토화,Devastate,character,Uncommon,E1+S4,,strict,15.0,damage=30×1.00×0.50,Deal 30 damage.
+DRAMATIC_ENTRANCE,극적인 입장,Dramatic Entrance,colorless,Uncommon,E0,EXHAUST|INNATE,keyword_contaminated,7.15,damage=11×1.30×0.50,Deal 11 damage to ALL enemies.
+EXTERMINATE,박멸,Exterminate,event,Event,E1,,strict,7.8,damage=12×1.30×0.50,Deal 3 damage to ALL enemies 4 times.
+FLICK_FLACK,재주넘기,Flick-Flack,character,Common,E1,SLY,keyword_contaminated,3.9,damage=6×1.30×0.50,Deal 6 damage to ALL enemies.
+GIANT_ROCK,거대한 바위,Giant Rock,token,Token,E1,,strict,8.0,damage=16×1.00×0.50,Deal 16 damage.
+IMPERVIOUS,무적,Impervious,character,Rare,E2,EXHAUST,keyword_contaminated,18.0,block=30×0.60,Gain 30 Block.
+IRON_WAVE,철의 파동,Iron Wave,character,Common,E1,,strict,5.5,block=5×0.60; damage=5×1.00×0.50,Gain 5 Block. Deal 5 damage.
+LEAP,도약,Leap,character,Common,E1,,strict,5.4,block=9×0.60,Gain 9 Block.
+MAD_SCIENCE,괴짜 과학,Mad Science,event,Event,E1,,strict,6.0,damage=12×1.00×0.50,Deal 12 damage.
+MINION_DIVE_BOMB,하수인 투하,Minion Dive Bomb,token,Token,E0,EXHAUST,keyword_contaminated,6.5,damage=13×1.00×0.50,Deal 13 damage.
+MINION_SACRIFICE,하수인 희생,Minion Sacrifice,token,Token,E0,EXHAUST,keyword_contaminated,4.8,block=8×0.60,Gain 8 Block.
+PECK,쪼기,Peck,event,Event,E1,,strict,3.0,damage=6×1.00×0.50,Deal 2 damage 3 times.
+REAP,수확,Reap,character,Common,E3,RETAIN,keyword_contaminated,13.5,damage=27×1.00×0.50,Deal 27 damage.
+SEVEN_STARS,일곱 개의 별,Seven Stars,character,Rare,E2+S7,,strict,31.85,damage=49×1.30×0.50,Deal 7 damage to ALL enemies 7 times.
+SHIV,단도,Shiv,token,Token,E0,EXHAUST,keyword_contaminated,2.0,damage=4×1.00×0.50,Deal 4 damage.
+SLICE,칼질,Slice,character,Common,E0,,strict,3.0,damage=6×1.00×0.50,Deal 6 damage.
+SOVEREIGN_BLADE,군주의 칼날,Sovereign Blade,token,Token,E2,RETAIN,keyword_contaminated,5.0,damage=10×1.00×0.50,Deal 10 damage.
+SOW,파종,Sow,character,Common,E1,RETAIN,keyword_contaminated,5.2,damage=8×1.30×0.50,Deal 8 damage to ALL enemies.
+STRIKE_DEFECT,타격,Strike,character,Basic,E1,,strict,3.0,damage=6×1.00×0.50,Deal 6 damage.
+STRIKE_IRONCLAD,타격,Strike,character,Basic,E1,,strict,3.0,damage=6×1.00×0.50,Deal 6 damage.
+STRIKE_NECROBINDER,타격,Strike,character,Basic,E1,,strict,3.0,damage=6×1.00×0.50,Deal 6 damage.
+STRIKE_REGENT,타격,Strike,character,Basic,E1,,strict,3.0,damage=6×1.00×0.50,Deal 6 damage.
+STRIKE_SILENT,타격,Strike,character,Basic,E1,,strict,3.0,damage=6×1.00×0.50,Deal 6 damage.
+TWIN_STRIKE,이중 타격,Twin Strike,character,Common,E1,,strict,5.0,damage=10×1.00×0.50,Deal 5 damage twice.
+ULTIMATE_DEFEND,궁극의 수비,Ultimate Defend,colorless,Uncommon,E1,,strict,6.6,block=11×0.60,Gain 11 Block.
+ULTIMATE_STRIKE,궁극의 타격,Ultimate Strike,colorless,Uncommon,E1,,strict,7.0,damage=14×1.00×0.50,Deal 14 damage.
+UNTOUCHABLE,범접 불가,Untouchable,character,Common,E2,SLY,keyword_contaminated,3.6,block=6×0.60,Gain 6 Block.

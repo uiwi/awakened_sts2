@@ -1,0 +1,117 @@
+{
+  "source": "web\\public\\data\\cards.json",
+  "evidence_card_equations": 58,
+  "calibrated_effects_with_direct_evidence": 18,
+  "simple_cards_scored": 117,
+  "simple_card_median_residual": 0.0,
+  "simple_card_median_absolute_residual": 0.35,
+  "simple_card_rmse": 1.266,
+  "within_1_point": 94,
+  "within_2_points": 105,
+  "rejection_counts": {
+    "unparsed": 124,
+    "conditional": 222
+  },
+  "largest_outliers": [
+    {
+      "card_id": "RAINBOW",
+      "name_ko": "무지개",
+      "residual": -8.2
+    },
+    {
+      "card_id": "TERRAFORMING",
+      "name_ko": "테라포밍",
+      "residual": -3.5
+    },
+    {
+      "card_id": "SCARE",
+      "name_ko": "위협",
+      "residual": -3.27
+    },
+    {
+      "card_id": "OVERCLOCK",
+      "name_ko": "오버클럭",
+      "residual": -3.0
+    },
+    {
+      "card_id": "SHOCKWAVE",
+      "name_ko": "충격파",
+      "residual": 2.99
+    },
+    {
+      "card_id": "NULL",
+      "name_ko": "Null",
+      "residual": 2.6
+    },
+    {
+      "card_id": "BODYGUARD",
+      "name_ko": "호위",
+      "residual": 2.5
+    },
+    {
+      "card_id": "SUPERCRITICAL",
+      "name_ko": "임계 초과",
+      "residual": 2.5
+    },
+    {
+      "card_id": "DRAMATIC_ENTRANCE",
+      "name_ko": "극적인 입장",
+      "residual": 2.4
+    },
+    {
+      "card_id": "PARSE",
+      "name_ko": "분석",
+      "residual": -2.25
+    },
+    {
+      "card_id": "HIDDEN_DAGGERS",
+      "name_ko": "숨겨진 단검",
+      "residual": -2.2
+    },
+    {
+      "card_id": "NEUTRALIZE",
+      "name_ko": "무력화",
+      "residual": 2.1
+    },
+    {
+      "card_id": "BASH",
+      "name_ko": "강타",
+      "residual": 2.0
+    },
+    {
+      "card_id": "ACROBATICS",
+      "name_ko": "곡예",
+      "residual": -1.75
+    },
+    {
+      "card_id": "ADRENALINE",
+      "name_ko": "아드레날린",
+      "residual": -1.5
+    },
+    {
+      "card_id": "SNAKEBITE",
+      "name_ko": "뱀 물기",
+      "residual": -1.5
+    },
+    {
+      "card_id": "PREPARED",
+      "name_ko": "예비",
+      "residual": -1.45
+    },
+    {
+      "card_id": "CONFLAGRATION",
+      "name_ko": "대화재",
+      "residual": -1.3
+    },
+    {
+      "card_id": "SURVIVOR",
+      "name_ko": "생존자",
+      "residual": 1.3
+    },
+    {
+      "card_id": "SHRUG_IT_OFF",
+      "name_ko": "흘려보내기",
+      "residual": 1.25
+    }
+  ]
+}

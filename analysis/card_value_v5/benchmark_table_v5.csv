@@ -1,0 +1,37 @@
+﻿scope,rarity,cost_component,points,confidence,basis
+character,Basic,E0,1.5,low,V1 anchors with V2/V3 residual-cell corrections
+character,Basic,E1,3.0,high,V1 anchors with V2/V3 residual-cell corrections
+character,Basic,E2,6.0,low,V1 anchors with V2/V3 residual-cell corrections
+character,Basic,E3,10.0,low,V1 anchors with V2/V3 residual-cell corrections
+character,Basic,E4,15.0,low,V1 anchors with V2/V3 residual-cell corrections
+character,Common,E0,2.7,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Common,E1,5.3,high,V1 anchors with V2/V3 residual-cell corrections
+character,Common,E2,9.0,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Common,E3,13.5,low,V1 anchors with V2/V3 residual-cell corrections
+character,Common,E4,19.0,low,V1 anchors with V2/V3 residual-cell corrections
+character,Uncommon,E0,4.3,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Uncommon,E1,6.5,low,V1 anchors with V2/V3 residual-cell corrections
+character,Uncommon,E2,11.0,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Uncommon,E3,16.0,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Uncommon,E4,26.0,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Rare,E0,6.5,low,V1 anchors with V2/V3 residual-cell corrections
+character,Rare,E1,6.5,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Rare,E2,17.0,low,V1 anchors with V2/V3 residual-cell corrections
+character,Rare,E3,20.0,medium,V1 anchors with V2/V3 residual-cell corrections
+character,Rare,E4,30.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Common,E0,3.5,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Common,E1,6.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Common,E2,10.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Common,E3,15.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Common,E4,21.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Uncommon,E0,4.25,medium,V1 anchors with V2/V3 residual-cell corrections
+colorless,Uncommon,E1,6.8,medium,V1 anchors with V2/V3 residual-cell corrections
+colorless,Uncommon,E2,12.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Uncommon,E3,17.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Uncommon,E4,25.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Rare,E0,5.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Rare,E1,9.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Rare,E2,18.0,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Rare,E3,14.5,low,V1 anchors with V2/V3 residual-cell corrections
+colorless,Rare,E4,32.0,low,V1 anchors with V2/V3 residual-cell corrections
+character,Rare,E5,33.0,high,Meteor Strike direct effect anchor

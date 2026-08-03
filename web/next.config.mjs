@@ -3,6 +3,7 @@ const basePath = process.env.PAGES_BASE_PATH || "";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  trailingSlash: true,
   poweredByHeader: false,
   basePath,
   assetPrefix: basePath,

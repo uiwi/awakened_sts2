@@ -1,0 +1,6 @@
+﻿card_id,name_ko,name_en,pool,scope,rarity,cost,type,status,modeled_clauses,total_clauses,unsupported_keywords,score_low,score_baseline,score_high,benchmark_v2,benchmark_v3,residual_low,residual_baseline,residual_high,rules,unmodeled_clauses,description_en
+FETCH,회수,Fetch,necrobinder,character,Uncommon,E0,Attack,full_scenario,2,2,,1.35,2.225,2.6,5.0,4.3,-2.95,-2.075,-1.7,atomic_fixed|atomic_osty_damage|condition_probability,,"Osty deals 3 damage. If this is the first time this card has been played this turn, draw 1 card."
+ESCAPE_PLAN,탈출구,Escape Plan,silent,character,Uncommon,E0,Skill,full_scenario,2,2,,1.25,2.51,3.05,5.0,4.3,-3.05,-1.79,-1.25,atomic_fixed|condition_probability,,"Draw 1 card. If you draw a Skill, gain 3 Block."
+ORBIT,궤도,Orbit,regent,character,Uncommon,E2,Power,full_scenario,1,1,,0.0,4.5,10.0,11.0,11.0,-11.0,-6.5,-1.0,atomic_fixed|threshold_triggers,,"Every 4 Energy you spend, gain 1 Energy."
+IMPATIENCE,성급함,Impatience,colorless,colorless,Uncommon,E0,Skill,full_scenario,1,1,,0.0,2.38,3.4,4.25,4.25,-4.25,-1.87,-0.85,atomic_fixed|condition_probability,,"If you have no Attacks in your Hand, draw 2 cards."
+FTL,FTL,FTL,defect,character,Uncommon,E0,Attack,full_scenario,2,2,,2.5,3.375,3.75,5.0,4.3,-1.8,-0.925,-0.55,atomic_fixed|condition_probability,,"Deal 5 damage. If you have played fewer than 3 cards this turn, draw 1 card."

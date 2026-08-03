@@ -1,0 +1,11 @@
+﻿subset,star_cost_effect_point,count,median_residual,median_absolute_residual,rmse
+all,-1.5,484,-0.2,1.5,3.61
+star_cards,-1.5,20,0.65,2.7,4.552
+all,-1.75,484,-0.225,1.5,3.598
+star_cards,-1.75,20,-0.075,3.175,4.3
+all,-2.0,484,-0.25,1.5,3.594
+star_cards,-2.0,20,-0.575,2.74,4.235
+all,-2.25,484,-0.3,1.5,3.601
+star_cards,-2.25,20,-1.125,2.59,4.365
+all,-2.5,484,-0.3,1.5,3.617
+star_cards,-2.5,20,-1.55,2.525,4.675

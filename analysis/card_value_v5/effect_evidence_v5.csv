@@ -1,0 +1,1080 @@
+﻿card_id,name_ko,name_en,source,index,text_en,rule,confidence,score_low,score_baseline,score_high,basis
+ABRASIVE,연마,Abrasive,clause,1,Gain 1 Dexterity.,atomic_fixed,high,3.25,3.25,3.25,v3 quantified/scenario rule
+ABRASIVE,연마,Abrasive,clause,2,Gain 4 Thorns.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+ABRASIVE,연마,Abrasive,keyword,,keyword_sly,keyword_sly,low,0.0,4.4,8.0,discard-trigger probability and free cost
+ACCELERANT,촉진제,Accelerant,clause,1,Poison is triggered 1 additional time.,extra_poison_trigger,low,2.0,6.0,15.0,existing Poison stack
+ACCURACY,정밀,Accuracy,clause,1,Shivs deal 4 additional damage.,shiv_damage_aura,low,2.0,8.0,20.0,future Shiv count
+ACROBATICS,곡예,Acrobatics,clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+ACROBATICS,곡예,Acrobatics,clause,2,Discard 1 card.,atomic_fixed,high,0.25,0.25,0.25,v3 quantified/scenario rule
+ADAPTIVE_STRIKE,적응형 타격,Adaptive Strike,clause,1,Deal 18 damage.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+ADAPTIVE_STRIKE,적응형 타격,Adaptive Strike,clause,2,Add a 0 Energy copy of this card into your Discard Pile.,copy_self_discard_zero,low,-0.5,4.0,9.0,future self-copy; deck clog included in lower bound
+ADRENALINE,아드레날린,Adrenaline,clause,1,Gain 1 Energy.,atomic_fixed,medium,2.5,2.5,2.5,v3 quantified/scenario rule
+ADRENALINE,아드레날린,Adrenaline,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+ADRENALINE,아드레날린,Adrenaline,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+AFTERIMAGE,잔상,Afterimage,clause,1,"Whenever you play a card, gain 1 Block.",atomic_fixed+event_triggers,medium,0.6,2.1,10.8,v3 quantified/scenario rule
+AFTERLIFE,내세,Afterlife,clause,1,Summon 6.,atomic_fixed,high,6.6,6.6,6.6,v3 quantified/scenario rule
+AFTERLIFE,내세,Afterlife,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+AGGRESSION,공격성,Aggression,clause,1,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",recurring_upgraded_attack_retrieval,low,3.0,12.0,24.0,random retrieval plus upgrade across active turns
+ALCHEMIZE,연금,Alchemize,clause,1,Procure a random potion.,meta_random_potion,low,3.0,7.0,12.0,potion slot and quality
+ALCHEMIZE,연금,Alchemize,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ALIGNMENT,정렬,Alignment,clause,1,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+ALIGNMENT,정렬,Alignment,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+ALL_FOR_ONE,하나를 위한 모두,All for One,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+ALL_FOR_ONE,하나를 위한 모두,All for One,clause,2,Put ALL 0 Energy cards from your Discard Pile into your Hand.,bulk_tutor_to_hand,low,3.0,7.0,14.0,selected/bulk card access
+ANGER,분노,Anger,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+ANGER,분노,Anger,clause,2,Add a copy of this card into your Discard Pile.,atomic_copy_self_discard,low,-0.5,0.5,2.5,v3 quantified/scenario rule
+ANOINTED,임명,Anointed,clause,1,Put every Rare card from your Draw Pile into your Hand.,bulk_tutor_to_hand,low,3.0,7.0,14.0,selected/bulk card access
+ANOINTED,임명,Anointed,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ANTICIPATE,예측,Anticipate,clause,1,Gain 2 Dexterity this turn.,atomic_temporary_stat,high,1.6,1.6,1.6,v3 quantified/scenario rule
+APOTHEOSIS,신성,Apotheosis,clause,1,Upgrade ALL your cards.,upgrade_all_cards,low,12.0,25.0,45.0,deck-wide upgrade count
+APOTHEOSIS,신성,Apotheosis,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+APOTHEOSIS,신성,Apotheosis,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+APPARITION,영체화,Apparition,clause,1,Gain 1 Intangible.,atomic_intangible,high,12.0,12.0,12.0,v3 quantified/scenario rule
+APPARITION,영체화,Apparition,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+APPARITION,영체화,Apparition,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ARMAMENTS,전투장비,Armaments,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+ARMAMENTS,전투장비,Armaments,clause,2,Upgrade a card in your Hand.,atomic_upgrade,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+ARSENAL,무기고,Arsenal,clause,1,"Whenever you create a card, gain 1 Strength.",atomic_fixed+event_triggers,medium,3.25,11.375,58.5,v3 quantified/scenario rule
+ASCENDERS_BANE,등반자의 골칫거리,Ascender's Bane,keyword,,keyword_ethereal_cleanup,keyword_ethereal_cleanup,medium,1.0,1.0,1.0,removes harmful card
+ASCENDERS_BANE,등반자의 골칫거리,Ascender's Bane,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+ASCENDERS_BANE,등반자의 골칫거리,Ascender's Bane,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,-1.0,-1.0,-1.0,deck removal restriction
+ASHEN_STRIKE,잿빛 타격,Ashen Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+ASHEN_STRIKE,잿빛 타격,Ashen Strike,clause,2,Deals 3 additional damage for each card in your Exhaust Pile.,additional_damage_scaling,medium,1.5,3.3,15.0,damage unit × reference count
+ASSASSINATE,암살,Assassinate,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+ASSASSINATE,암살,Assassinate,clause,2,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+ASSASSINATE,암살,Assassinate,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ASSASSINATE,암살,Assassinate,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+ASTRAL_PULSE,별의 파동,Astral Pulse,clause,1,Deal 6 damage to ALL enemies twice.,atomic_fixed,high,7.8,7.8,7.8,v3 quantified/scenario rule
+ASTRAL_PULSE,별의 파동,Astral Pulse,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+ASTRAL_PULSE,별의 파동,Astral Pulse,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+AUTOMATION,자동화,Automation,clause,1,"Every 10 cards you draw, gain 1 Energy.",atomic_fixed+threshold_triggers,low,0.0,4.5,10.0,v3 quantified/scenario rule
+BACKFLIP,공중제비,Backflip,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+BACKFLIP,공중제비,Backflip,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+BACKSTAB,배신,Backstab,clause,1,Deal 11 damage.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+BACKSTAB,배신,Backstab,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+BACKSTAB,배신,Backstab,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+BAD_LUCK,불운,Bad Luck,clause,1,"At the end of your turn, if this is in your Hand, lose 13 HP.",atomic_fixed+condition_probability+recurring_turns,medium,-42.9,-18.518,-0.0,v3 quantified/scenario rule
+BAD_LUCK,불운,Bad Luck,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+BAD_LUCK,불운,Bad Luck,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,-1.0,-1.0,-1.0,deck removal restriction
+BALL_LIGHTNING,번개 구체,Ball Lightning,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+BALL_LIGHTNING,번개 구체,Ball Lightning,clause,2,Channel 1 Lightning.,atomic_fixed,medium,2.2,2.2,2.2,v3 quantified/scenario rule
+BANSHEES_CRY,밴시의 외침,Banshee's Cry,clause,1,Deal 33 damage to ALL enemies.,atomic_fixed,high,21.45,21.45,21.45,v3 quantified/scenario rule
+BANSHEES_CRY,밴시의 외침,Banshee's Cry,clause,2,Costs 2 Energy less for each Ethereal card played this combat.,cost_reduction_scaling_capped,medium,5.0,11.0,22.5,"energy saved × reference count, capped by printed cost"
+BARRAGE,일제 사격,Barrage,clause,1,Deal 5 damage for each Channeled Orb.,atomic_fixed+scaling_count,medium,2.5,5.5,25.0,v3 quantified/scenario rule
+BARRICADE,바리케이드,Barricade,clause,1,Block is not removed at the start of your turn.,retain_block_power,low,6.0,15.0,30.0,multi-turn carried Block
+BASH,강타,Bash,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+BASH,강타,Bash,clause,2,Apply 2 Vulnerable.,atomic_fixed,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+BATTLE_TRANCE,전투 최면,Battle Trance,clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+BATTLE_TRANCE,전투 최면,Battle Trance,clause,2,You cannot draw additional cards this turn.,atomic_no_more_draw,low,-5.55,-3.4,0.0,v3 quantified/scenario rule
+BEACON_OF_HOPE,희망의 등불,Beacon of Hope,clause,1,"Whenever you gain Block on your turn, other players gain half that much Block.",coop_share_half_block,low,0.9,4.5,18.0,shared Block × half × ally factor
+BEAM_CELL,레이저 포인터,Beam Cell,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+BEAM_CELL,레이저 포인터,Beam Cell,clause,2,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+BEAT_DOWN,두들겨 패기,Beat Down,clause,1,Play 3 random Attacks from your Discard Pile.,auto_play_from_pile,low,6.0,12.0,21.0,average auto-played card
+BEAT_INTO_SHAPE,재성형,Beat into Shape,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+BEAT_INTO_SHAPE,재성형,Beat into Shape,clause,2,Forge X.,atomic_fixed+x_value,low,0.33,0.66,1.32,v3 quantified/scenario rule
+BEAT_INTO_SHAPE,재성형,Beat into Shape,clause,3,Forges an additional 5 for every other time you've hit the enemy this turn.,forge_per_prior_hit,low,0.0,3.63,16.5,Forge unit × prior-hit scenarios
+BECKON,유인,Beckon,clause,1,"At the end of your turn, if this is in your Hand, lose 6 HP.",atomic_fixed+condition_probability+recurring_turns,medium,-19.8,-8.547,-0.0,v3 quantified/scenario rule
+BEGONE,물렀거라!,BEGONE!,clause,1,Choose a card in your Hand to Transform into Minion Strike.,transform_to_minion_strike,medium,3.25,3.25,3.25,Minion Strike damage/draw/Exhaust net value
+BELIEVE_IN_YOU,너만 믿는다,Believe in You,clause,1,Another player gains 2 Energy.,coop_energy,medium,3.75,3.75,3.75,Energy × ally factor
+BIASED_COGNITION,인지 편향,Biased Cognition,clause,1,Gain 4 Focus.,atomic_fixed,medium,26.0,26.0,26.0,v3 quantified/scenario rule
+BIASED_COGNITION,인지 편향,Biased Cognition,clause,2,"At the start of your turn, lose 1 Focus.",atomic_lose_focus_conditional_stock+recurring_turns,low,-39.0,-24.05,0.0,v3 quantified/scenario rule
+BIG_BANG,빅뱅,Big Bang,clause,1,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+BIG_BANG,빅뱅,Big Bang,clause,2,Gain 1 Energy.,atomic_fixed,medium,2.5,2.5,2.5,v3 quantified/scenario rule
+BIG_BANG,빅뱅,Big Bang,clause,3,Gain 1 Stars.,atomic_fixed,low,1.5,1.5,1.5,v3 quantified/scenario rule
+BIG_BANG,빅뱅,Big Bang,clause,4,Forge 5.,atomic_fixed,medium,1.65,1.65,1.65,v3 quantified/scenario rule
+BIG_BANG,빅뱅,Big Bang,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+BLACK_HOLE,블랙홀,Black Hole,clause,1,"Whenever you spend or gain 1 Stars, deal 3 damage to ALL enemies.",atomic_fixed+event_triggers,low,1.95,6.825,35.1,v3 quantified/scenario rule
+BLADE_DANCE,검무,Blade Dance,clause,1,Add 3 Shivs into your Hand.,atomic_fixed,high,5.7,5.7,5.7,v3 quantified/scenario rule
+BLADE_DANCE,검무,Blade Dance,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+BLADE_OF_INK,잉크 칼날,Blade of Ink,clause,1,Add 2 Inky Shivs into your Hand.,atomic_inky_shiv,high,5.0,5.0,5.0,v3 quantified/scenario rule
+BLIGHT_STRIKE,역병 타격,Blight Strike,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+BLIGHT_STRIKE,역병 타격,Blight Strike,clause,2,Apply Doom equal to damage dealt.,doom_equal_damage,high,2.16,2.16,2.16,v3 quantified/scenario rule
+BLOODLETTING,사혈,Bloodletting,clause,1,Lose 3 HP.,atomic_fixed,high,-1.65,-1.65,-1.65,v3 quantified/scenario rule
+BLOODLETTING,사혈,Bloodletting,clause,2,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+BLOOD_WALL,피의 벽,Blood Wall,clause,1,Lose 2 HP.,atomic_fixed,high,-1.1,-1.1,-1.1,v3 quantified/scenario rule
+BLOOD_WALL,피의 벽,Blood Wall,clause,2,Gain 16 Block.,atomic_fixed,high,9.6,9.6,9.6,v3 quantified/scenario rule
+BLUDGEON,몽둥이질,Bludgeon,clause,1,Deal 32 damage.,atomic_fixed,high,16.0,16.0,16.0,v3 quantified/scenario rule
+BLUR,흐릿함,Blur,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+BLUR,흐릿함,Blur,clause,2,Block is not removed at the start of your next turn.,retain_block_once,low,2.0,5.0,10.0,carried Block
+BODYGUARD,호위,Bodyguard,clause,1,Summon 5.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+BODY_SLAM,몸통 박치기,Body Slam,clause,1,Deal damage equal to your Block.,equal_to_quantity,low,2.5,7.5,15.0,v3 quantified/scenario rule
+BOLAS,사냥돌,Bolas,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+BOLAS,사냥돌,Bolas,clause,2,"At the start of your next turn, return this to your Hand.",atomic_delayed_self_return,low,2.4,2.4,2.4,v3 quantified/scenario rule
+BOMBARDMENT,포격,Bombardment,clause,1,Deal 18 damage.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+BOMBARDMENT,포격,Bombardment,clause,2,"At the start of your turn, if this is in your Exhaust Pile, play it.",self_auto_replay,low,5.0,14.0,20.0,fraction of card benchmark replayed
+BOMBARDMENT,포격,Bombardment,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+BONE_SHARDS,뼛조각,Bone Shards,clause,1,"If Osty is alive, he deals 9 damage to ALL enemies and you gain 9 Block.",osty_alive_combo,medium,0.0,7.465,10.665,conditional damage plus Block
+BONE_SHARDS,뼛조각,Bone Shards,clause,2,Osty dies.,osty_death,low,-25.0,-10.0,-3.0,lost companion HP/attacks
+BOOST_AWAY,가속 이탈,Boost Away,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+BOOST_AWAY,가속 이탈,Boost Away,clause,2,Add a Dazed into your Discard Pile.,atomic_fixed,high,-0.9,-0.9,-0.9,v3 quantified/scenario rule
+BOOT_SEQUENCE,부팅 과정,Boot Sequence,clause,1,Gain 10 Block.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+BOOT_SEQUENCE,부팅 과정,Boot Sequence,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+BOOT_SEQUENCE,부팅 과정,Boot Sequence,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+BORROWED_TIME,연명,Borrowed Time,clause,1,Gain 4 Energy.,atomic_fixed,medium,10.0,10.0,10.0,v3 quantified/scenario rule
+BORROWED_TIME,연명,Borrowed Time,clause,2,Cards cost an additional 1 Energy this turn.,hand_cost_increase,low,-10.0,-5.0,-2.5,affected cards this turn
+BOUNCING_FLASK,탄성 플라스크,Bouncing Flask,clause,1,Apply 3 Poison to a random enemy 3 times.,atomic_random_target_poison,low,8.1,8.1,8.1,v3 quantified/scenario rule
+BRAND,낙인,Brand,clause,1,Lose 1 HP.,atomic_fixed,high,-0.55,-0.55,-0.55,v3 quantified/scenario rule
+BRAND,낙인,Brand,clause,2,Exhaust 1 card.,atomic_selected_exhaust,high,1.0,1.0,1.0,v3 quantified/scenario rule
+BRAND,낙인,Brand,clause,3,Gain 1 Strength.,atomic_fixed,high,3.25,3.25,3.25,v3 quantified/scenario rule
+BREAK,박살,Break,clause,1,Deal 20 damage.,atomic_fixed,high,10.0,10.0,10.0,v3 quantified/scenario rule
+BREAK,박살,Break,clause,2,Apply 5 Vulnerable.,atomic_fixed,medium,10.0,10.0,10.0,v3 quantified/scenario rule
+BREAKTHROUGH,정면 돌파,Breakthrough,clause,1,Lose 1 HP.,atomic_fixed,high,-0.55,-0.55,-0.55,v3 quantified/scenario rule
+BREAKTHROUGH,정면 돌파,Breakthrough,clause,2,Deal 9 damage to ALL enemies.,atomic_fixed,high,5.85,5.85,5.85,v3 quantified/scenario rule
+BRIGHTEST_FLAME,찬란한 불꽃,Brightest Flame,clause,1,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+BRIGHTEST_FLAME,찬란한 불꽃,Brightest Flame,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+BRIGHTEST_FLAME,찬란한 불꽃,Brightest Flame,clause,3,Lose 1 Max HP.,meta_max_hp_loss,medium,-1.5,-1.5,-1.5,persistent Max HP penalty
+BUBBLE_BUBBLE,차오르는 독,Bubble Bubble,clause,1,"If the enemy has Poison, apply 9 Poison.",atomic_fixed+condition_probability,medium,0.0,6.3,9.0,v3 quantified/scenario rule
+BUFFER,버퍼,Buffer,clause,1,Prevent the next time you would lose HP.,buffer_prevention,low,3.0,8.0,18.0,prevented HP-loss event
+BULK_UP,증강,Bulk Up,clause,1,Lose 1 Orb Slot.,atomic_orb_slot_loss,high,-2.5,-2.5,-2.5,v3 quantified/scenario rule
+BULK_UP,증강,Bulk Up,clause,2,Gain 2 Strength.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+BULK_UP,증강,Bulk Up,clause,3,Gain 2 Dexterity.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+BULLET_TIME,불릿 타임,Bullet Time,clause,1,You cannot draw additional cards this turn.,atomic_no_more_draw,low,-5.55,-3.4,0.0,v3 quantified/scenario rule
+BULLET_TIME,불릿 타임,Bullet Time,clause,2,ALL cards in your Hand are free to play this turn.,atomic_free_hand,low,2.5,12.5,25.0,v3 quantified/scenario rule
+BULLY,협박,Bully,clause,1,Deal 4 damage.,atomic_fixed,high,2.0,2.0,2.0,v3 quantified/scenario rule
+BULLY,협박,Bully,clause,2,Deals 2 additional damage for each Vulnerable on the enemy.,additional_damage_scaling,medium,1.0,2.2,10.0,damage unit × reference count
+BULWARK,보루,Bulwark,clause,1,Gain 12 Block.,atomic_fixed,high,7.2,7.2,7.2,v3 quantified/scenario rule
+BULWARK,보루,Bulwark,clause,2,Forge 10.,atomic_fixed,medium,3.3,3.3,3.3,v3 quantified/scenario rule
+BUNDLE_OF_JOY,기쁨의 선물,Bundle of Joy,clause,1,Add 3 random Colorless cards into your Hand.,three_random_colorless_diminishing,low,5.0,7.5,10.0,three random cards with hand-clog and diminishing-choice discount
+BUNDLE_OF_JOY,기쁨의 선물,Bundle of Joy,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+BURN,화상,Burn,clause,1,"At the end of your turn, if this is in your Hand, take 2 damage.",atomic_self_damage+condition_probability+recurring_turns,medium,-6.6,-2.849,-0.0,v3 quantified/scenario rule
+BURN,화상,Burn,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+BURNING_PACT,불타는 조약,Burning Pact,clause,1,Exhaust 1 card.,atomic_selected_exhaust,high,1.0,1.0,1.0,v3 quantified/scenario rule
+BURNING_PACT,불타는 조약,Burning Pact,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+BURST,폭주,Burst,clause,1,"This turn, your next Skill is played an extra time.",next_card_replay,low,2.0,5.0,10.0,average repeated card effect
+BURY,매장,Bury,clause,1,Deal 52 damage.,atomic_fixed,high,26.0,26.0,26.0,v3 quantified/scenario rule
+BYRDONIS_EGG,섀도니스 알,Byrdonis Egg,clause,1,Can be hatched at a Rest Site.,meta_event_unlock,low,0.0,4.0,12.0,future event value kept separate from combat evidence
+BYRDONIS_EGG,섀도니스 알,Byrdonis Egg,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+BYRD_SWOOP,섀 급습,Byrd Swoop,clause,1,Deal 14 damage.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+CALAMITY,재앙,Calamity,clause,1,"Whenever you play an Attack, add a random Attack into your Hand.",atomic_random_attack_card+event_triggers,low,3.0,10.5,54.0,v3 quantified/scenario rule
+CALCIFY,석회화,Calcify,clause,1,Osty's attacks deal 4 additional damage.,osty_damage_aura,low,1.8,6.3,32.4,future Osty hits
+CALCULATED_GAMBLE,계산된 도박,Calculated Gamble,clause,1,"Discard your Hand, then draw that many cards.",hand_redraw_equal,low,1.0,4.0,8.0,hand replacement and discard synergy; hand-size scenarios
+CALCULATED_GAMBLE,계산된 도박,Calculated Gamble,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+CALL_OF_THE_VOID,공허의 부름,Call of the Void,clause,1,"At the start of your turn, add 1 random card into your Hand.",atomic_random_card_card+recurring_turns,low,4.5,11.1,18.0,v3 quantified/scenario rule
+CALL_OF_THE_VOID,공허의 부름,Call of the Void,clause,2,It gains Ethereal.,generated_card_ethereal,medium,-1.25,-0.75,-0.25,reduced generated-card availability
+CALTROPS,마름쇠,Caltrops,clause,1,"Whenever you are attacked, deal 3 damage back.",retaliation_damage,low,1.5,4.5,12.0,damage unit × incoming-hit scenarios
+CAPACITOR,축전기,Capacitor,clause,1,Gain 2 Orb Slots.,atomic_orb_slot,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+CAPTURE_SPIRIT,혼령 포획,Capture Spirit,clause,1,Enemy loses 3 HP.,atomic_hp_bypass,high,1.65,1.65,1.65,v3 quantified/scenario rule
+CAPTURE_SPIRIT,혼령 포획,Capture Spirit,clause,2,Add 3 Souls into your Draw Pile.,atomic_fixed,medium,3.0,3.0,3.0,v3 quantified/scenario rule
+CASCADE,연쇄,Cascade,clause,1,Play the top X cards of your Draw Pile.,x_topdeck_autoplay,low,2.0,8.0,28.0,average auto-play value × X=1/2/4
+CATASTROPHE,재난,Catastrophe,clause,1,Play 2 random cards from your Draw Pile.,auto_play_from_pile,low,4.0,8.0,14.0,average auto-played card
+CELESTIAL_MIGHT,천상의 권능,Celestial Might,clause,1,Deal 6 damage 3 times.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+CELESTIAL_MIGHT,천상의 권능,Celestial Might,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.5,1.5,V3 cross-effect interaction
+CHAOS,혼돈,Chaos,clause,1,Channel 1 random Orb.,random_orb,medium,3.2,3.2,3.2,mean channel value
+CHARGE,돌격!!,CHARGE!!,clause,1,Choose 2 cards in your Draw Pile to Transform into Minion Dive Bombs.,transform_two_to_dive_bombs,low,5.0,8.0,11.0,two zero-cost 13-damage outputs minus replaced cards
+CHARGE_BATTERY,배터리 충전,Charge Battery,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+CHARGE_BATTERY,배터리 충전,Charge Battery,clause,2,"Next turn, gain 1 Energy.",atomic_fixed+delay_next_turn,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+CHILD_OF_THE_STARS,별의 아이,Child of the Stars,clause,1,"Whenever you spend 1 Stars, gain 2 Block for each 1 Stars spent.",atomic_fixed+event_triggers+scaling_count,low,1.2,9.24,216.0,v3 quantified/scenario rule
+CHILL,오한,Chill,clause,1,Channel 1 Frost for each enemy.,atomic_fixed+scaling_count,low,3.2,7.04,32.0,v3 quantified/scenario rule
+CHILL,오한,Chill,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+CINDER,잿불,Cinder,clause,1,Deal 18 damage.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+CINDER,잿불,Cinder,clause,2,Exhaust 1 card at random.,atomic_random_exhaust,low,0.5,0.5,0.5,v3 quantified/scenario rule
+CLASH,격돌,Clash,clause,1,Can only be played if every card in your Hand is an Attack.,all_attack_hand_gate,low,-7.0,-2.1,0.0,0%/70%/100% availability × printed payoff
+CLASH,격돌,Clash,clause,2,Deal 14 damage.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+CLAW,후벼 파기,Claw,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+CLAW,후벼 파기,Claw,clause,2,Increase the damage of ALL Claw cards by 2 this combat.,archetype_damage_growth,low,1.0,3.5,18.0,future matching-card hits
+CLEANSE,정화,Cleanse,clause,1,Summon 3.,atomic_fixed,high,3.3,3.3,3.3,v3 quantified/scenario rule
+CLEANSE,정화,Cleanse,clause,2,Exhaust 1 card from your Draw Pile.,atomic_selected_exhaust,medium,1.0,1.0,1.0,v3 quantified/scenario rule
+CLOAK_AND_DAGGER,망토와 단검,Cloak and Dagger,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+CLOAK_AND_DAGGER,망토와 단검,Cloak and Dagger,clause,2,Add 1 Shiv into your Hand.,atomic_fixed,high,1.9,1.9,1.9,v3 quantified/scenario rule
+CLOAK_OF_STARS,별의 망토,Cloak of Stars,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+CLOAK_OF_STARS,별의 망토,Cloak of Stars,printed_cost,,Spend 1 Stars to play this card,cost_star_spend,low,-2.0,-2.0,-2.0,printed Star payment: 1 × -2.0
+CLUMSY,서투름,Clumsy,keyword,,keyword_ethereal_cleanup,keyword_ethereal_cleanup,medium,1.0,1.0,1.0,removes harmful card
+CLUMSY,서투름,Clumsy,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+COLD_SNAP,꽃샘추위,Cold Snap,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+COLD_SNAP,꽃샘추위,Cold Snap,clause,2,Channel 1 Frost.,atomic_fixed,medium,3.2,3.2,3.2,v3 quantified/scenario rule
+COLLISION_COURSE,불가피한 충돌,Collision Course,clause,1,Deal 11 damage.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+COLLISION_COURSE,불가피한 충돌,Collision Course,clause,2,Add a Debris into your Hand.,atomic_fixed,high,-2.8,-2.8,-2.8,v3 quantified/scenario rule
+COLOSSUS,거상,Colossus,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+COLOSSUS,거상,Colossus,clause,2,You receive 50% less damage from Vulnerable enemies this turn.,percent_damage_reduction,low,2.0,5.0,12.0,prevented incoming damage
+COMET,혜성,Comet,clause,1,Deal 33 damage.,atomic_fixed,high,16.5,16.5,16.5,v3 quantified/scenario rule
+COMET,혜성,Comet,clause,2,Apply 3 Weak.,atomic_fixed,medium,6.3,6.3,6.3,v3 quantified/scenario rule
+COMET,혜성,Comet,clause,3,Apply 3 Vulnerable.,atomic_fixed,medium,6.0,6.0,6.0,v3 quantified/scenario rule
+COMET,혜성,Comet,printed_cost,,Spend 5 Stars to play this card,cost_star_spend,low,-10.0,-10.0,-10.0,printed Star payment: 5 × -2.0
+COMPACT,압축,Compact,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+COMPACT,압축,Compact,clause,2,Transform all Status cards in your Hand into Fuel.,bulk_transform,low,2.0,6.0,12.0,multiple card replacement
+COMPILE_DRIVER,컴파일 드라이버,Compile Driver,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+COMPILE_DRIVER,컴파일 드라이버,Compile Driver,clause,2,Draw 1 card for each unique Orb you have.,atomic_fixed+scaling_count,low,1.25,2.75,12.5,v3 quantified/scenario rule
+CONFLAGRATION,대화재,Conflagration,clause,1,Deal 2 damage to ALL enemies 4 times.,atomic_fixed,high,5.2,5.2,5.2,v3 quantified/scenario rule
+CONFLAGRATION,대화재,Conflagration,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.75,2.25,V3 cross-effect interaction
+CONQUEROR,정복자,Conqueror,clause,1,Forge 3.,atomic_fixed,medium,0.99,0.99,0.99,v3 quantified/scenario rule
+CONQUEROR,정복자,Conqueror,clause,2,Sovereign Blade deals double damage to the enemy this turn.,double_damage_window,low,2.5,6.0,15.0,additional attack damage
+CONSUMING_SHADOW,그림자 소모,Consuming Shadow,clause,1,Channel 2 Dark.,atomic_fixed,medium,8.8,8.8,8.8,v3 quantified/scenario rule
+CONSUMING_SHADOW,그림자 소모,Consuming Shadow,clause,2,"At the end of your turn, Evoke your leftmost Orb.",atomic_evoke_orb+recurring_turns,low,1.125,5.55,24.0,v3 quantified/scenario rule
+CONVERGENCE,수렴,Convergence,clause,1,"Next turn, gain 1 Energy and 1 Stars.",delayed_energy_and_stars,medium,3.2,3.2,3.2,resource units × next-turn delay
+CONVERGENCE,수렴,Convergence,clause,2,Retain your Hand this turn.,atomic_retain_hand,high,2.0,2.0,2.0,v3 quantified/scenario rule
+COOLANT,냉각재,Coolant,clause,1,"At the start of your turn, gain 2 Block for each unique Orb you have.",atomic_fixed+recurring_turns+scaling_count,low,1.8,9.768,72.0,v3 quantified/scenario rule
+COOLHEADED,냉정함,Coolheaded,clause,1,Channel 1 Frost.,atomic_fixed,medium,3.2,3.2,3.2,v3 quantified/scenario rule
+COOLHEADED,냉정함,Coolheaded,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+COORDINATE,협력,Coordinate,clause,1,Give another player 5 Strength this turn.,coop_temporary_strength,medium,3.0,3.0,3.0,temporary stat × ally factor
+CORROSIVE_WAVE,부식성 파도,Corrosive Wave,clause,1,"Whenever you draw a card this turn, apply 2 Poison to ALL enemies.",atomic_fixed+event_triggers,low,2.6,9.1,46.8,v3 quantified/scenario rule
+CORRUPTION,타락,Corruption,clause,1,Skills cost 0 Energy.,skills_cost_zero,low,2.5,7.5,15.0,skills played after power
+CORRUPTION,타락,Corruption,clause,2,"Whenever you play a Skill, Exhaust it.",skill_exhaust_aura,low,-2.0,1.0,5.0,lost reuse versus exhaust/deck-thinning synergies
+COSMIC_INDIFFERENCE,우주적 무관심,Cosmic Indifference,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+COSMIC_INDIFFERENCE,우주적 무관심,Cosmic Indifference,clause,2,Put a card from your Discard Pile on top of your Draw Pile.,atomic_retrieve_topdeck,medium,1.5,1.5,1.5,v3 quantified/scenario rule
+COUNTDOWN,카운트다운,Countdown,clause,1,"At the start of your turn, apply 6 Doom to a random enemy.",atomic_random_target_doom+recurring_turns,low,2.187,5.395,8.748,v3 quantified/scenario rule
+CRASH_LANDING,불시착,Crash Landing,clause,1,Deal 21 damage to ALL enemies.,atomic_fixed,high,13.65,13.65,13.65,v3 quantified/scenario rule
+CRASH_LANDING,불시착,Crash Landing,clause,2,Fill your Hand with Debris.,fill_hand_status,low,-3.0,-1.0,1.0,status hand pollution
+CREATIVE_AI,창의적인 인공지능,Creative AI,clause,1,"At the start of your turn, add a random Power into your Hand.",atomic_random_power_card+recurring_turns,low,7.5,18.5,30.0,v3 quantified/scenario rule
+CRESCENT_SPEAR,초승달 창,Crescent Spear,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+CRESCENT_SPEAR,초승달 창,Crescent Spear,clause,2,Deals 2 additional damage for ALL your cards that have a 1 Stars cost.,additional_damage_scaling,medium,1.0,2.2,10.0,damage unit × reference count
+CRESCENT_SPEAR,초승달 창,Crescent Spear,printed_cost,,Spend 1 Stars to play this card,cost_star_spend,low,-2.0,-2.0,-2.0,printed Star payment: 1 × -2.0
+CRIMSON_MANTLE,핏빛 망토,Crimson Mantle,clause,1,"At the start of your turn, lose 1 HP and gain 8 Block.",atomic_fixed+recurring_turns,low,6.375,15.725,25.5,v3 quantified/scenario rule
+CRUELTY,악랄함,Cruelty,clause,1,Vulnerable enemies take an additional 25% damage.,percent_damage_bonus,low,1.25,3.0,6.25,expected affected attack damage
+CRUSH_UNDER,지면 파쇄,Crush Under,clause,1,Deal 7 damage to ALL enemies.,atomic_fixed,high,4.55,4.55,4.55,v3 quantified/scenario rule
+CRUSH_UNDER,지면 파쇄,Crush Under,clause,2,All enemies lose 1 Strength this turn.,atomic_enemy_strength_loss_turn,medium,1.17,1.17,1.17,v3 quantified/scenario rule
+CURSE_OF_THE_BELL,방울의 저주,Curse of the Bell,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+CURSE_OF_THE_BELL,방울의 저주,Curse of the Bell,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,-1.0,-1.0,-1.0,deck removal restriction
+DAGGER_SPRAY,단검 분사,Dagger Spray,clause,1,Deal 4 damage to ALL enemies twice.,atomic_fixed,high,5.2,5.2,5.2,v3 quantified/scenario rule
+DAGGER_SPRAY,단검 분사,Dagger Spray,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+DAGGER_THROW,단검 투척,Dagger Throw,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+DAGGER_THROW,단검 투척,Dagger Throw,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+DAGGER_THROW,단검 투척,Dagger Throw,clause,3,Discard 1 card.,atomic_fixed,high,0.25,0.25,0.25,v3 quantified/scenario rule
+DANSE_MACABRE,죽음의 무도,Danse Macabre,clause,1,"Whenever you play a card that costs 2 Energy or more, gain 4 Block.",atomic_fixed+event_triggers,low,2.4,8.4,43.2,v3 quantified/scenario rule
+DARKNESS,어둠,Darkness,clause,1,Channel 1 Dark.,atomic_fixed,medium,4.4,4.4,4.4,v3 quantified/scenario rule
+DARKNESS,어둠,Darkness,clause,2,Trigger the passive ability of all Dark Orbs.,trigger_all_dark,low,2.0,8.0,20.0,Dark count and charge
+DARK_EMBRACE,어둠의 포옹,Dark Embrace,clause,1,"Whenever a card is Exhausted, draw 1 card.",atomic_fixed+event_triggers,low,1.25,4.375,22.5,v3 quantified/scenario rule
+DARK_SHACKLES,어둠의 족쇄,Dark Shackles,clause,1,Enemy loses 9 Strength this turn.,atomic_enemy_strength_loss_turn,medium,8.1,8.1,8.1,v3 quantified/scenario rule
+DARK_SHACKLES,어둠의 족쇄,Dark Shackles,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DASH,돌진,Dash,clause,1,Gain 10 Block.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+DASH,돌진,Dash,clause,2,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+DAZED,어지러움,Dazed,keyword,,keyword_ethereal_cleanup,keyword_ethereal_cleanup,medium,1.0,1.0,1.0,removes harmful card
+DAZED,어지러움,Dazed,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+DEADLY_POISON,맹독,Deadly Poison,clause,1,Apply 5 Poison.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+DEATHBRINGER,죽음 인도자,Deathbringer,clause,1,Apply 21 Doom and 1 Weak to ALL enemies.,atomic_fixed,medium,10.101,10.101,10.101,v3 quantified/scenario rule
+DEATHS_DOOR,죽음의 문턱,Death's Door,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+DEATHS_DOOR,죽음의 문턱,Death's Door,clause,2,"If you applied Doom this turn, gain Block 2 additional times.",conditional_repeat_block,medium,0.0,5.04,7.2,printed Block × extra repeats × condition
+DEATH_MARCH,죽음의 행진,Death March,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+DEATH_MARCH,죽음의 행진,Death March,clause,2,Deals 4 additional damage for each card drawn during your turn.,additional_damage_scaling,medium,2.0,4.4,20.0,damage unit × reference count
+DEBILITATE,쇠락,Debilitate,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+DEBILITATE,쇠락,Debilitate,clause,2,Vulnerable and Weak are twice as effective against the enemy for the next 2 turns.,double_debuff_effect,low,2.0,6.0,12.0,two-turn debuff amplification
+DEBRIS,잔해,Debris,keyword,,keyword_exhaust_cleanup,keyword_exhaust_cleanup,medium,1.0,1.0,1.0,removes harmful card
+DEBT,빚,Debt,clause,1,"At the end of your turn, if this is in your Hand, lose 10 Gold.",recurring_gold_loss_curse,low,-5.0,-2.0,-1.0,1/2/5 end-turn Gold losses
+DEBT,빚,Debt,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+DECAY,부패,Decay,clause,1,"At the end of your turn, if this is in your Hand, take 2 damage.",atomic_self_damage+condition_probability+recurring_turns,medium,-6.6,-2.849,-0.0,v3 quantified/scenario rule
+DECAY,부패,Decay,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+DECISIONS_DECISIONS,어려운 결정,"Decisions, Decisions",clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+DECISIONS_DECISIONS,어려운 결정,"Decisions, Decisions",clause,2,Choose a Skill in your Hand and play it 3 times.,selected_card_multi_play,low,4.0,10.0,20.0,average selected card repeats
+DECISIONS_DECISIONS,어려운 결정,"Decisions, Decisions",keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DECISIONS_DECISIONS,어려운 결정,"Decisions, Decisions",printed_cost,,Spend 6 Stars to play this card,cost_star_spend,low,-12.0,-12.0,-12.0,printed Star payment: 6 × -2.0
+DEFEND_DEFECT,수비,Defend,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+DEFEND_IRONCLAD,수비,Defend,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+DEFEND_NECROBINDER,수비,Defend,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+DEFEND_REGENT,수비,Defend,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+DEFEND_SILENT,수비,Defend,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+DEFILE,모독,Defile,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+DEFILE,모독,Defile,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DEFLECT,튕겨내기,Deflect,clause,1,Gain 4 Block.,atomic_fixed,high,2.4,2.4,2.4,v3 quantified/scenario rule
+DEFRAGMENT,조각모음,Defragment,clause,1,Gain 1 Focus.,atomic_fixed,medium,6.5,6.5,6.5,v3 quantified/scenario rule
+DEFY,반항,Defy,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+DEFY,반항,Defy,clause,2,Apply 1 Weak.,atomic_fixed,medium,2.1,2.1,2.1,v3 quantified/scenario rule
+DEFY,반항,Defy,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DELAY,지연,Delay,clause,1,Gain 11 Block.,atomic_fixed,high,6.6,6.6,6.6,v3 quantified/scenario rule
+DELAY,지연,Delay,clause,2,"Next turn, gain 1 Energy.",atomic_fixed+delay_next_turn,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+DEMESNE,권역,Demesne,clause,1,"At the start of your turn, gain 1 Energy and draw 1 additional card.",atomic_fixed+recurring_turns,low,5.625,13.875,22.5,v3 quantified/scenario rule
+DEMESNE,권역,Demesne,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DEMONIC_SHIELD,악마의 방패,Demonic Shield,clause,1,Lose 1 HP.,atomic_fixed,high,-0.55,-0.55,-0.55,v3 quantified/scenario rule
+DEMONIC_SHIELD,악마의 방패,Demonic Shield,clause,2,Give another player Block equal to your Block.,coop_block_equal,low,2.25,6.75,13.5,own Block scenarios × ally factor
+DEMONIC_SHIELD,악마의 방패,Demonic Shield,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DEMON_FORM,악마의 형상,Demon Form,clause,1,"At the start of your turn, gain 2 Strength.",atomic_fixed+recurring_turns,low,9.75,24.05,39.0,v3 quantified/scenario rule
+DEVASTATE,초토화,Devastate,clause,1,Deal 30 damage.,atomic_fixed,high,15.0,15.0,15.0,v3 quantified/scenario rule
+DEVASTATE,초토화,Devastate,printed_cost,,Spend 4 Stars to play this card,cost_star_spend,low,-8.0,-8.0,-8.0,printed Star payment: 4 × -2.0
+DEVOUR_LIFE,생명 삼키기,Devour Life,clause,1,"Whenever you play a Soul, Summon 1.",atomic_fixed+event_triggers,medium,1.1,3.85,19.8,v3 quantified/scenario rule
+DIRGE,장송가,Dirge,clause,1,Summon 3 X times.,x_summon,medium,3.3,6.6,13.2,Summon unit × 3 × X
+DIRGE,장송가,Dirge,clause,2,Add X Souls into your Draw Pile.,atomic_fixed+x_value,low,1.0,2.0,4.0,v3 quantified/scenario rule
+DIRGE,장송가,Dirge,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DISCOVERY,발견,Discovery,clause,1,Choose 1 of 3 random cards to add into your Hand.,discover_card,low,2.5,3.5,5.0,best-of-three generated card
+DISCOVERY,발견,Discovery,clause,2,It's free to play this turn.,atomic_free_generated_card,high,2.5,2.5,2.5,v3 quantified/scenario rule
+DISCOVERY,발견,Discovery,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DISINTEGRATION,분해,Disintegration,clause,1,"At the end of your turn, take 6 damage.",atomic_self_damage+recurring_turns,medium,-19.8,-12.21,-4.95,v3 quantified/scenario rule
+DISMANTLE,해체,Dismantle,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+DISMANTLE,해체,Dismantle,clause,2,"If the enemy is Vulnerable, hits twice.",conditional_extra_hits,low,0.0,2.8,4.0,v3 quantified/scenario rule
+DISTRACTION,방해,Distraction,clause,1,Add a random Skill into your Hand.,atomic_random_skill_card,low,3.0,3.0,3.0,v3 quantified/scenario rule
+DISTRACTION,방해,Distraction,clause,2,It's free to play this turn.,atomic_free_generated_card,high,2.5,2.5,2.5,v3 quantified/scenario rule
+DISTRACTION,방해,Distraction,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DODGE_AND_ROLL,구르기,Dodge and Roll,clause,1,Gain 4 Block.,atomic_fixed,high,2.4,2.4,2.4,v3 quantified/scenario rule
+DODGE_AND_ROLL,구르기,Dodge and Roll,clause,2,"Next turn, gain 4 Block.",atomic_fixed+delay_next_turn,high,1.92,1.92,1.92,v3 quantified/scenario rule
+DOMINATE,제압,Dominate,clause,1,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+DOMINATE,제압,Dominate,clause,2,Gain 1 Strength for each Vulnerable on the enemy.,atomic_fixed+scaling_count,low,3.25,7.15,32.5,v3 quantified/scenario rule
+DOMINATE,제압,Dominate,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DOUBLE_ENERGY,에너자이저,Double Energy,clause,1,Double your Energy.,double_current_energy,low,2.5,5.0,10.0,1/2/4 current Energy
+DOUBLE_ENERGY,에너자이저,Double Energy,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DOUBT,의심,Doubt,clause,1,"At the end of your turn, if this is in your Hand, gain 1 Weak.",atomic_self_debuff+condition_probability+recurring_turns,low,-9.0,-3.885,-0.0,v3 quantified/scenario rule
+DOUBT,의심,Doubt,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+DRAIN_POWER,기력 흡수,Drain Power,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+DRAIN_POWER,기력 흡수,Drain Power,clause,2,Upgrade 2 random cards in your Discard Pile.,atomic_upgrade,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+DRAMATIC_ENTRANCE,극적인 입장,Dramatic Entrance,clause,1,Deal 11 damage to ALL enemies.,atomic_fixed,high,7.15,7.15,7.15,v3 quantified/scenario rule
+DRAMATIC_ENTRANCE,극적인 입장,Dramatic Entrance,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DRAMATIC_ENTRANCE,극적인 입장,Dramatic Entrance,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+DREDGE,추출,Dredge,clause,1,Put 3 cards from your Discard Pile into your Hand.,tutor_to_hand,medium,7.5,7.5,7.5,selected card access = 2.5
+DREDGE,추출,Dredge,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DRUM_OF_BATTLE,전투의 북소리,Drum of Battle,clause,1,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+DRUM_OF_BATTLE,전투의 북소리,Drum of Battle,clause,2,"When this card is Exhausted, gain 2 Energy.",self_exhaust_energy,medium,5.0,5.0,5.0,self-Exhaust reliably triggers 2 Energy
+DUALCAST,이중 시전,Dualcast,clause,1,Evoke your rightmost Orb twice.,atomic_evoke_orb,low,1.5,3.0,8.0,v3 quantified/scenario rule
+DUAL_WIELD,이도류,Dual Wield,clause,1,Choose an Attack or Power card.,selection_scope,high,0.0,0.0,0.0,selection scope; value counted by linked effect
+DUAL_WIELD,이도류,Dual Wield,clause,2,Add a copy of that card into your Hand.,atomic_copy_selected_hand,low,1.5,3.0,5.0,v3 quantified/scenario rule
+DYING_STAR,죽어가는 별,Dying Star,clause,1,Deal 9 damage to ALL enemies.,atomic_fixed,high,5.85,5.85,5.85,v3 quantified/scenario rule
+DYING_STAR,죽어가는 별,Dying Star,clause,2,ALL enemies lose 9 Strength this turn.,atomic_enemy_strength_loss_turn,medium,10.53,10.53,10.53,v3 quantified/scenario rule
+DYING_STAR,죽어가는 별,Dying Star,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+DYING_STAR,죽어가는 별,Dying Star,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+ECHOING_SLASH,메아리 참격,Echoing Slash,clause,1,Deal 10 damage to ALL enemies.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+ECHOING_SLASH,메아리 참격,Echoing Slash,clause,2,Repeat this effect for each enemy killed.,repeat_aoe_per_kill,low,0.0,6.5,19.5,0/1/3 chained kills
+ECHO_FORM,메아리의 형상,Echo Form,clause,1,The first card you play each turn is played an extra time.,first_card_each_turn_replay,low,5.0,18.5,36.0,average card × recurring turns
+ECHO_FORM,메아리의 형상,Echo Form,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+EIDOLON,허상,Eidolon,clause,1,Exhaust your Hand.,atomic_exhaust_hand,low,-2.0,1.0,5.0,v3 quantified/scenario rule
+EIDOLON,허상,Eidolon,clause,2,"If 9 cards were Exhausted this way, gain 1 Intangible.",atomic_intangible+condition_probability,medium,0.0,8.4,12.0,v3 quantified/scenario rule
+END_OF_DAYS,종말의 날,End of Days,clause,1,Apply 29 Doom to ALL enemies.,atomic_fixed,high,10.179,10.179,10.179,v3 quantified/scenario rule
+END_OF_DAYS,종말의 날,End of Days,clause,2,Kill enemies with at least as much Doom as HP.,doom_execute,low,0.0,4.0,12.0,execute threshold frequency
+ENERGY_SURGE,에너지 폭주,Energy Surge,clause,1,ALL players gain 2 Energy.,all_players+atomic_fixed,low,5.0,7.5,12.5,v3 quantified/scenario rule
+ENERGY_SURGE,에너지 폭주,Energy Surge,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ENFEEBLING_TOUCH,쇠약의 손길,Enfeebling Touch,clause,1,Enemy loses 8 Strength this turn.,atomic_enemy_strength_loss_turn,medium,7.2,7.2,7.2,v3 quantified/scenario rule
+ENFEEBLING_TOUCH,쇠약의 손길,Enfeebling Touch,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ENLIGHTENMENT,계몽,Enlightenment,clause,1,Reduce the cost of ALL cards in your Hand to 1 this turn.,hand_cost_floor_one,low,0.0,5.0,12.5,energy saved by cards above 1 cost
+ENLIGHTENMENT,계몽,Enlightenment,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ENTHRALLED,매료됨,Enthralled,clause,1,"If this is in your Hand, it must be played before other cards.",play_restriction,low,-6.0,-2.25,-0.0,availability loss as fraction of card budget
+ENTHRALLED,매료됨,Enthralled,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,-1.0,-1.0,-1.0,deck removal restriction
+ENTRENCH,참호,Entrench,clause,1,Double your Block.,double_current_block,low,1.8,4.8,9.0,v3 quantified/scenario rule
+ENTROPY,엔트로피,Entropy,clause,1,"At the start of your turn, Transform 1 card in your Hand.",recurring_random_transform,low,-3.0,5.55,24.0,random transform quality × active turns
+ENVENOM,독 바르기,Envenom,clause,1,"Whenever an Attack deals unblocked damage, apply 1 Poison.",atomic_fixed+event_triggers,medium,1.0,3.5,18.0,v3 quantified/scenario rule
+EQUILIBRIUM,평형,Equilibrium,clause,1,Gain 13 Block.,atomic_fixed,high,7.8,7.8,7.8,v3 quantified/scenario rule
+EQUILIBRIUM,평형,Equilibrium,clause,2,Retain your Hand this turn.,atomic_retain_hand,high,2.0,2.0,2.0,v3 quantified/scenario rule
+ERADICATE,척결,Eradicate,clause,1,Deal 11 damage X times.,atomic_fixed+x_value,medium,5.5,11.0,22.0,v3 quantified/scenario rule
+ERADICATE,척결,Eradicate,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+ESCAPE_PLAN,탈출구,Escape Plan,clause,1,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+ESCAPE_PLAN,탈출구,Escape Plan,clause,2,"If you draw a Skill, gain 3 Block.",atomic_fixed+condition_probability,low,0.0,1.26,1.8,v3 quantified/scenario rule
+ETERNAL_ARMOR,영원의 갑옷,Eternal Armor,clause,1,Gain 9 Plating.,atomic_fixed,medium,14.4,14.4,14.4,v3 quantified/scenario rule
+EVIL_EYE,악마의 눈,Evil Eye,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+EVIL_EYE,악마의 눈,Evil Eye,clause,2,Gain another 8 Block if you have Exhausted a card this turn.,conditional_extra_block,medium,0.0,3.36,4.8,conditional Block
+EXPECT_A_FIGHT,싸움 준비,Expect a Fight,clause,1,Gain 1 Energy for each Attack in your Hand.,atomic_fixed+scaling_count,low,2.5,5.5,25.0,v3 quantified/scenario rule
+EXPECT_A_FIGHT,싸움 준비,Expect a Fight,clause,2,You cannot gain additional 1 Energy this turn.,energy_gain_lock,low,-7.5,-2.5,-0.0,foregone energy effects
+EXPERTISE,전문성,Expertise,clause,1,Draw cards until you have 6 in your Hand.,draw_to_six,low,0.0,5.55,12.0,0/3/6 cards drawn
+EXPOSE,들춰내기,Expose,clause,1,Remove all Artifact and Block from the enemy.,strip_enemy_defense,low,1.0,4.0,10.0,enemy state dependent
+EXPOSE,들춰내기,Expose,clause,2,Apply 2 Vulnerable.,atomic_fixed,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+EXPOSE,들춰내기,Expose,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+EXTERMINATE,박멸,Exterminate,clause,1,Deal 3 damage to ALL enemies 4 times.,atomic_fixed,high,7.8,7.8,7.8,v3 quantified/scenario rule
+EXTERMINATE,박멸,Exterminate,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.75,2.25,V3 cross-effect interaction
+FALLING_STAR,별똥별,Falling Star,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+FALLING_STAR,별똥별,Falling Star,clause,2,Apply 1 Weak.,atomic_fixed,medium,2.1,2.1,2.1,v3 quantified/scenario rule
+FALLING_STAR,별똥별,Falling Star,clause,3,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+FALLING_STAR,별똥별,Falling Star,printed_cost,,Spend 2 Stars to play this card,cost_star_spend,low,-4.0,-4.0,-4.0,printed Star payment: 2 × -2.0
+FAN_OF_KNIVES,칼날 부채,Fan of Knives,clause,1,Shivs now hit ALL enemies.,shiv_aoe_conversion,low,0.0,2.28,4.0,AoE premium on four generated Shivs
+FAN_OF_KNIVES,칼날 부채,Fan of Knives,clause,2,Add 4 Shivs into your Hand.,atomic_fixed,high,7.6,7.6,7.6,v3 quantified/scenario rule
+FASTEN,고정시키기,Fasten,clause,1,Gain an additional 4 Block from Defend cards.,defend_block_aura,low,2.4,7.2,16.8,Block unit × Defends played
+FEAR,두려움,Fear,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+FEAR,두려움,Fear,clause,2,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+FEAR,두려움,Fear,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+FEED,포식,Feed,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+FEED,포식,Feed,clause,2,"If Fatal, raise your Max HP by 3.",fatal_max_hp_gain,low,0.0,3.15,4.5,Max HP unit × Fatal probability
+FEED,포식,Feed,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+FEEDING_FRENZY,광란의 포식,Feeding Frenzy,clause,1,Gain 5 Strength this turn.,atomic_temporary_stat,high,4.0,4.0,4.0,v3 quantified/scenario rule
+FEEL_NO_PAIN,무감각,Feel No Pain,clause,1,"Whenever a card is Exhausted, gain 3 Block.",atomic_fixed+event_triggers,medium,1.8,6.3,32.4,v3 quantified/scenario rule
+FERAL,야성,Feral,clause,1,"The first time you play a 0 Energy Attack each turn, return it to your Hand.",zero_cost_attack_return,low,3.0,7.4,14.0,average 0-cost Attack replay × active turns
+FETCH,회수,Fetch,clause,1,Osty deals 3 damage.,atomic_osty_damage,high,1.35,1.35,1.35,v3 quantified/scenario rule
+FETCH,회수,Fetch,clause,2,"If this is the first time this card has been played this turn, draw 1 card.",atomic_fixed+condition_probability,low,0.0,0.875,1.25,v3 quantified/scenario rule
+FIEND_FIRE,지옥불,Fiend Fire,clause,1,Exhaust your Hand.,atomic_exhaust_hand,low,-2.0,1.0,5.0,v3 quantified/scenario rule
+FIEND_FIRE,지옥불,Fiend Fire,clause,2,Deal 7 damage for each card Exhausted.,damage_per_exhausted_hand_card,low,3.5,14.0,28.0,1/4/8 cards in Hand
+FIEND_FIRE,지옥불,Fiend Fire,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+FIGHT_ME,덤벼라!,Fight Me!,clause,1,Deal 5 damage twice.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+FIGHT_ME,덤벼라!,Fight Me!,clause,2,Gain 3 Strength.,atomic_fixed,high,9.75,9.75,9.75,v3 quantified/scenario rule
+FIGHT_ME,덤벼라!,Fight Me!,clause,3,The enemy gains 1 Strength.,enemy_strength_gain,medium,-3.25,-3.25,-3.25,persistent enemy Strength
+FIGHT_ME,덤벼라!,Fight Me!,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+FIGHT_THROUGH,강행 돌파,Fight Through,clause,1,Gain 13 Block.,atomic_fixed,high,7.8,7.8,7.8,v3 quantified/scenario rule
+FIGHT_THROUGH,강행 돌파,Fight Through,clause,2,Add 2 Wounds into your Discard Pile.,atomic_fixed,high,-1.3,-1.3,-1.3,v3 quantified/scenario rule
+FINESSE,능숙,Finesse,clause,1,Gain 4 Block.,atomic_fixed,high,2.4,2.4,2.4,v3 quantified/scenario rule
+FINESSE,능숙,Finesse,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+FINISHER,마무리,Finisher,clause,1,Deal 6 damage for each Attack already played this turn.,atomic_fixed+scaling_count,medium,3.0,6.6,30.0,v3 quantified/scenario rule
+FISTICUFFS,주먹다짐,Fisticuffs,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+FISTICUFFS,주먹다짐,Fisticuffs,clause,2,Gain Block equal to damage dealt.,equal_to_quantity,low,1.8,4.8,9.0,v3 quantified/scenario rule
+FLAK_CANNON,대공포,Flak Cannon,clause,1,Exhaust ALL your Status cards.,exhaust_status_cleanup,low,0.0,2.5,7.5,0/2/6 harmful cards removed
+FLAK_CANNON,대공포,Flak Cannon,clause,2,Deal 8 damage to a random enemy for each card Exhausted.,random_damage_per_exhausted,low,0.0,7.92,21.6,0/2.2/6 Status cards exhausted
+FLAME_BARRIER,화염 장벽,Flame Barrier,clause,1,Gain 12 Block.,atomic_fixed,high,7.2,7.2,7.2,v3 quantified/scenario rule
+FLAME_BARRIER,화염 장벽,Flame Barrier,clause,2,"Whenever you are attacked this turn, deal 4 damage back.",retaliation_damage,low,2.0,6.0,12.0,damage unit × incoming-hit scenarios
+FLANKING,측면 공격,Flanking,clause,1,The enemy takes double attack damage from other players this turn.,coop_double_attack_damage,low,3.75,9.375,18.75,10/25/50 allied Attack damage × ally factor
+FLASH_OF_STEEL,강철의 섬광,Flash of Steel,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+FLASH_OF_STEEL,강철의 섬광,Flash of Steel,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+FLATTEN,땅고르기,Flatten,clause,1,Osty deals 12 damage.,atomic_osty_damage,high,5.4,5.4,5.4,v3 quantified/scenario rule
+FLATTEN,땅고르기,Flatten,clause,2,This card costs 0 Energy if Osty has attacked this turn.,conditional_cost_zero,medium,0.0,3.5,5.0,conditional printed energy saved
+FLECHETTES,프레췌,Flechettes,clause,1,Deal 5 damage for each Skill in your Hand.,atomic_fixed+scaling_count,medium,2.5,5.5,25.0,v3 quantified/scenario rule
+FLICK_FLACK,재주넘기,Flick-Flack,clause,1,Deal 6 damage to ALL enemies.,atomic_fixed,high,3.9,3.9,3.9,v3 quantified/scenario rule
+FLICK_FLACK,재주넘기,Flick-Flack,keyword,,keyword_sly,keyword_sly,low,0.0,1.65,3.0,discard-trigger probability and free cost
+FOCUSED_STRIKE,밀집 타격,Focused Strike,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+FOCUSED_STRIKE,밀집 타격,Focused Strike,clause,2,Gain 1 Focus this turn.,atomic_temporary_stat,medium,0.8,0.8,0.8,v3 quantified/scenario rule
+FOLLY,어리석음,Folly,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+FOLLY,어리석음,Folly,keyword,,keyword_ethereal_cleanup,keyword_ethereal_cleanup,medium,1.0,1.0,1.0,removes harmful card
+FOLLY,어리석음,Folly,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+FOLLY,어리석음,Folly,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,-1.0,-1.0,-1.0,deck removal restriction
+FOOTWORK,발놀림,Footwork,clause,1,Gain 2 Dexterity.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+FORBIDDEN_GRIMOIRE,금지된 마도서,Forbidden Grimoire,clause,1,"At the end of combat, you may remove a card from your Deck.",meta_deck_removal,low,3.0,6.0,10.0,permanent deck quality
+FORBIDDEN_GRIMOIRE,금지된 마도서,Forbidden Grimoire,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,0.0,0.0,0.0,deck removal restriction
+FOREGONE_CONCLUSION,필연적인 결과,Foregone Conclusion,clause,1,"Next turn, put 2 cards from your Draw Pile into your Hand.",tutor_to_hand,medium,5.0,5.0,5.0,selected card access = 2.5
+FORGOTTEN_RITUAL,잊힌 의식,Forgotten Ritual,clause,1,"If you Exhausted a card this turn, gain 3 Energy.",atomic_fixed+condition_probability,low,0.0,5.25,7.5,v3 quantified/scenario rule
+FORGOTTEN_RITUAL,잊힌 의식,Forgotten Ritual,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+FRANTIC_ESCAPE,필사적인 도주,Frantic Escape,clause,1,Get farther away.,encounter_escape_progress,low,0.0,2.0,6.0,encounter-specific progress
+FRANTIC_ESCAPE,필사적인 도주,Frantic Escape,clause,2,Increase Sandpit by 1.,encounter_sandpit_progress,low,0.0,1.5,5.0,encounter-specific progress
+FRANTIC_ESCAPE,필사적인 도주,Frantic Escape,clause,3,Increase the cost of this card by 1.,cost_increase,medium,-2.5,-2.5,-2.5,energy penalty
+FRIENDSHIP,우정,Friendship,clause,1,Lose 2 Strength.,atomic_lose_strength_conditional_stock,low,-6.5,-3.25,0.0,v3 quantified/scenario rule
+FRIENDSHIP,우정,Friendship,clause,2,Gain 1 Energy at the start of each turn.,atomic_fixed+recurring_resource_turns,low,5.0,17.0,25.0,v3 quantified/scenario rule
+FTL,FTL,FTL,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+FTL,FTL,FTL,clause,2,"If you have played fewer than 3 cards this turn, draw 1 card.",atomic_fixed+condition_probability,low,0.0,0.875,1.25,v3 quantified/scenario rule
+FUEL,연료,Fuel,clause,1,Gain 1 Energy.,atomic_fixed,medium,2.5,2.5,2.5,v3 quantified/scenario rule
+FUEL,연료,Fuel,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+FUEL,연료,Fuel,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+FURNACE,용광로,Furnace,clause,1,"At the start of your turn, Forge 5.",atomic_fixed+recurring_turns,low,2.475,6.105,9.9,v3 quantified/scenario rule
+FUSION,융합,Fusion,clause,1,Channel 1 Plasma.,atomic_fixed,medium,7.0,7.0,7.0,v3 quantified/scenario rule
+FUSION,융합,Fusion,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+GAMMA_BLAST,감마 세례,Gamma Blast,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+GAMMA_BLAST,감마 세례,Gamma Blast,clause,2,Apply 2 Weak.,atomic_fixed,medium,4.2,4.2,4.2,v3 quantified/scenario rule
+GAMMA_BLAST,감마 세례,Gamma Blast,clause,3,Apply 2 Vulnerable.,atomic_fixed,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+GAMMA_BLAST,감마 세례,Gamma Blast,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+GANG_UP,집단 공격,Gang Up,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+GANG_UP,집단 공격,Gang Up,clause,2,Deals 5 additional damage for each time another player has attacked the enemy this turn.,additional_damage_scaling,medium,2.5,5.5,25.0,damage unit × reference count
+GATHER_LIGHT,빛 거두기,Gather Light,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+GATHER_LIGHT,빛 거두기,Gather Light,clause,2,Gain 1 Stars.,atomic_fixed,low,1.5,1.5,1.5,v3 quantified/scenario rule
+GENESIS,창세,Genesis,clause,1,"At the start of your turn, gain 2 Stars.",atomic_fixed+recurring_turns,low,4.5,11.1,18.0,v3 quantified/scenario rule
+GENETIC_ALGORITHM,유전 알고리즘,Genetic Algorithm,clause,1,Gain 1 Block.,atomic_fixed,high,0.6,0.6,0.6,v3 quantified/scenario rule
+GENETIC_ALGORITHM,유전 알고리즘,Genetic Algorithm,clause,2,Permanently increase this card's Block by 3.,permanent_block_growth,low,1.8,5.4,12.6,future-combat uses
+GENETIC_ALGORITHM,유전 알고리즘,Genetic Algorithm,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+GIANT_ROCK,거대한 바위,Giant Rock,clause,1,Deal 16 damage.,atomic_fixed,high,8.0,8.0,8.0,v3 quantified/scenario rule
+GLACIER,빙하,Glacier,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+GLACIER,빙하,Glacier,clause,2,Channel 2 Frost.,atomic_fixed,medium,6.4,6.4,6.4,v3 quantified/scenario rule
+GLASSWORK,유리 공예,Glasswork,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+GLASSWORK,유리 공예,Glasswork,clause,2,Channel 1 Glass.,atomic_fixed,medium,3.5,3.5,3.5,v3 quantified/scenario rule
+GLIMMER,희미한 빛,Glimmer,clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+GLIMMER,희미한 빛,Glimmer,clause,2,Put 1 card from your Hand on top of your Draw Pile.,atomic_hand_to_topdeck,medium,-0.5,-0.5,-0.5,v3 quantified/scenario rule
+GLIMPSE_BEYOND,경계 엿보기,Glimpse Beyond,clause,1,ALL players add 3 Souls into their Draw Pile.,coop_soul_generation,low,3,4.5,7.5,party-size range
+GLIMPSE_BEYOND,경계 엿보기,Glimpse Beyond,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+GLITTERSTREAM,빛의 흐름,Glitterstream,clause,1,Gain 11 Block.,atomic_fixed,high,6.6,6.6,6.6,v3 quantified/scenario rule
+GLITTERSTREAM,빛의 흐름,Glitterstream,clause,2,"Next turn, gain 5 Block.",atomic_fixed+delay_next_turn,high,2.4,2.4,2.4,v3 quantified/scenario rule
+GLOW,광채,Glow,clause,1,Gain 1 Stars.,atomic_fixed,low,1.5,1.5,1.5,v3 quantified/scenario rule
+GLOW,광채,Glow,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+GLOW,광채,Glow,clause,3,"Next turn, draw 1 card.",atomic_fixed+delay_next_turn,medium,1.0,1.0,1.0,v3 quantified/scenario rule
+GOLD_AXE,황금 도끼,Gold Axe,clause,1,Deal damage equal to the number of cards played this combat.,equal_to_quantity,low,1.5,5.0,10.0,v3 quantified/scenario rule
+GO_FOR_THE_EYES,눈 할퀴기,Go for the Eyes,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+GO_FOR_THE_EYES,눈 할퀴기,Go for the Eyes,clause,2,"If the enemy intends to attack, apply 1 Weak.",atomic_fixed+condition_probability,low,0.0,1.47,2.1,v3 quantified/scenario rule
+GRAND_FINALE,대단원의 막,Grand Finale,clause,1,Can only be played if there are no cards in your Draw Pile.,draw_pile_empty_gate,low,-39.0,-27.3,0.0,0%/30%/100% availability × printed payoff
+GRAND_FINALE,대단원의 막,Grand Finale,clause,2,Deal 60 damage to ALL enemies.,atomic_fixed,high,39.0,39.0,39.0,v3 quantified/scenario rule
+GRAVEBLAST,무덤 폭발,Graveblast,clause,1,Deal 4 damage.,atomic_fixed,high,2.0,2.0,2.0,v3 quantified/scenario rule
+GRAVEBLAST,무덤 폭발,Graveblast,clause,2,Put a card from your Discard Pile into your Hand.,atomic_retrieve_hand,high,2.5,2.5,2.5,v3 quantified/scenario rule
+GRAVEBLAST,무덤 폭발,Graveblast,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+GRAVE_WARDEN,무덤지기,Grave Warden,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+GRAVE_WARDEN,무덤지기,Grave Warden,clause,2,Add a Soul into your Draw Pile.,atomic_fixed,medium,1.0,1.0,1.0,v3 quantified/scenario rule
+GREED,탐욕,Greed,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+GREED,탐욕,Greed,keyword,,keyword_eternal_meta,keyword_eternal_meta,medium,-1.0,-1.0,-1.0,deck removal restriction
+GUARDS,막아라!!!,GUARDS!!!,clause,1,Transform any number of cards in your Hand into Minion Sacrifice.,transform_hand_to_minion_sacrifice,low,3.8,11.4,22.8,1/3/6 zero-cost Minion Sacrifice outputs
+GUARDS,막아라!!!,GUARDS!!!,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+GUIDING_STAR,길잡이별,Guiding Star,clause,1,Deal 12 damage.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+GUIDING_STAR,길잡이별,Guiding Star,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+GUIDING_STAR,길잡이별,Guiding Star,printed_cost,,Spend 2 Stars to play this card,cost_star_spend,low,-4.0,-4.0,-4.0,printed Star payment: 2 × -2.0
+GUILTY,죄책감,Guilty,clause,1,Removed from your Deck after 5 combats.,self_removing_curse,low,1.0,2.0,4.0,bounded curse lifetime versus permanent clog
+GUILTY,죄책감,Guilty,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+GUNK_UP,틀어막기,Gunk Up,clause,1,Deal 4 damage 3 times.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+GUNK_UP,틀어막기,Gunk Up,clause,2,Add a Slimed into your Discard Pile.,atomic_fixed,high,-0.7,-0.7,-0.7,v3 quantified/scenario rule
+GUNK_UP,틀어막기,Gunk Up,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.5,1.5,V3 cross-effect interaction
+HAILSTORM,우박 폭풍,Hailstorm,clause,1,"At the end of your turn, if you have Frost, deal 6 damage to ALL enemies.",atomic_fixed+condition_probability+recurring_turns,low,0.0,10.101,23.4,v3 quantified/scenario rule
+HAMMER_TIME,망치질 시간,Hammer Time,clause,1,"Whenever you Forge, all allies Forge as well.",coop_forge,low,2.0,8.0,25.0,"party size, Forge amount and trigger frequency"
+HAND_OF_GREED,탐욕의 손,Hand of Greed,clause,1,Deal 20 damage.,atomic_fixed,high,10.0,10.0,10.0,v3 quantified/scenario rule
+HAND_OF_GREED,탐욕의 손,Hand of Greed,clause,2,"If Fatal, gain 20 Gold.",meta_gold,medium,0.0,1.4,2.0,1 point per 10 Gold
+HAND_TRICK,손기술,Hand Trick,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+HAND_TRICK,손기술,Hand Trick,clause,2,Add Sly to a Skill in your Hand this turn.,atomic_grant_sly,medium,0.5,2.0,4.0,v3 quantified/scenario rule
+HANG,매달기,Hang,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+HANG,매달기,Hang,clause,2,Double the damage ALL Hang cards deal to this enemy.,hang_damage_amplifier,low,0.0,5.0,15.0,0/1/3 future 10-damage Hang hits
+HAUNT,출몰,Haunt,clause,1,"Whenever you play a Soul, a random enemy loses 6 HP.",soul_trigger_hp_loss,low,0.0,9.9,33.0,HP loss × Soul plays
+HAVOC,파괴,Havoc,clause,1,Play the top card of your Draw Pile and Exhaust it.,auto_play_from_pile,low,2.0,4.0,7.0,average auto-played card
+HAZE,아지랑이,Haze,clause,1,Apply 4 Poison to ALL enemies.,atomic_fixed,high,5.2,5.2,5.2,v3 quantified/scenario rule
+HAZE,아지랑이,Haze,keyword,,keyword_sly,keyword_sly,low,0.0,4.4,8.0,discard-trigger probability and free cost
+HEADBUTT,박치기,Headbutt,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+HEADBUTT,박치기,Headbutt,clause,2,Put a card from your Discard Pile on top of your Draw Pile.,atomic_retrieve_topdeck,medium,1.5,1.5,1.5,v3 quantified/scenario rule
+HEAVENLY_DRILL,천원돌파,Heavenly Drill,clause,1,Deal 8 damage X times.,atomic_fixed+x_value,medium,4.0,8.0,16.0,v3 quantified/scenario rule
+HEAVENLY_DRILL,천원돌파,Heavenly Drill,clause,2,Double X if it's 4 or more.,x_threshold_double,low,0.0,0.0,16.0,bonus is inactive at X=1/2 and adds four hits at X=4
+HEGEMONY,패권,Hegemony,clause,1,Deal 15 damage.,atomic_fixed,high,7.5,7.5,7.5,v3 quantified/scenario rule
+HEGEMONY,패권,Hegemony,clause,2,"Next turn, gain 2 Energy.",atomic_fixed+delay_next_turn,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+HEIRLOOM_HAMMER,선조의 망치,Heirloom Hammer,clause,1,Deal 20 damage.,atomic_fixed,high,10.0,10.0,10.0,v3 quantified/scenario rule
+HEIRLOOM_HAMMER,선조의 망치,Heirloom Hammer,clause,2,Choose a Colorless card in your Hand.,selection_scope,high,0.0,0.0,0.0,selection scope; value counted by linked effect
+HEIRLOOM_HAMMER,선조의 망치,Heirloom Hammer,clause,3,Add a copy of that card into your Hand.,atomic_copy_selected_hand,low,1.5,3.0,5.0,v3 quantified/scenario rule
+HELIX_DRILL,나선 관통,Helix Drill,clause,1,Deal 3 damage for each 1 Energy previously spent this turn.,atomic_fixed+scaling_count,low,1.5,3.3,15.0,v3 quantified/scenario rule
+HELLO_WORLD,Hello World,Hello World,clause,1,"At the start of your turn, add a random Common card into your Hand.",atomic_random_common_card+recurring_turns,low,4.5,11.1,18.0,v3 quantified/scenario rule
+HELLRAISER,지옥검무,Hellraiser,clause,1,"Whenever you draw a card containing “Strike”, it is played against a random enemy.",strike_draw_autoplay,low,3.0,10.5,30.0,average free Strike × draw events
+HEMOKINESIS,혈류,Hemokinesis,clause,1,Lose 2 HP.,atomic_fixed,high,-1.1,-1.1,-1.1,v3 quantified/scenario rule
+HEMOKINESIS,혈류,Hemokinesis,clause,2,Deal 15 damage.,atomic_fixed,high,7.5,7.5,7.5,v3 quantified/scenario rule
+HIDDEN_CACHE,비밀 상자,Hidden Cache,clause,1,Gain 1 Stars.,atomic_fixed,low,1.5,1.5,1.5,v3 quantified/scenario rule
+HIDDEN_CACHE,비밀 상자,Hidden Cache,clause,2,"Next turn, gain 3 Stars.",atomic_fixed+delay_next_turn,low,3.6,3.6,3.6,v3 quantified/scenario rule
+HIDDEN_DAGGERS,숨겨진 단검,Hidden Daggers,clause,1,Discard 2 cards.,atomic_fixed,high,0.5,0.5,0.5,v3 quantified/scenario rule
+HIDDEN_DAGGERS,숨겨진 단검,Hidden Daggers,clause,2,Add 2 Shivs into your Hand.,atomic_fixed,high,3.8,3.8,3.8,v3 quantified/scenario rule
+HIDDEN_GEM,숨겨진 보석,Hidden Gem,clause,1,A random card without Replay in your Draw Pile gains Replay 2.,atomic_random_replay,low,3.0,7.0,12.0,v3 quantified/scenario rule
+HIGH_FIVE,하이파이브,High Five,clause,1,Osty deals 11 damage and applies 2 Vulnerable to ALL enemies.,osty_damage_debuff,medium,11.635,11.635,11.635,Osty damage and debuff
+HOLOGRAM,홀로그램,Hologram,clause,1,Gain 3 Block.,atomic_fixed,high,1.8,1.8,1.8,v3 quantified/scenario rule
+HOLOGRAM,홀로그램,Hologram,clause,2,Put a card from your Discard Pile into your Hand.,atomic_retrieve_hand,high,2.5,2.5,2.5,v3 quantified/scenario rule
+HOLOGRAM,홀로그램,Hologram,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+HOTFIX,핫픽스,Hotfix,clause,1,Gain 2 Focus this turn.,atomic_temporary_stat,medium,1.6,1.6,1.6,v3 quantified/scenario rule
+HOTFIX,핫픽스,Hotfix,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+HOWL_FROM_BEYOND,저편의 울음소리,Howl from Beyond,clause,1,Deal 16 damage to ALL enemies.,atomic_fixed,high,10.4,10.4,10.4,v3 quantified/scenario rule
+HOWL_FROM_BEYOND,저편의 울음소리,Howl from Beyond,clause,2,"At the end of your turn, if this is in your Exhaust Pile, play it.",self_auto_replay,low,4.0,11.2,16.0,fraction of card benchmark replayed
+HUDDLE_UP,똘똘 뭉치기,Huddle Up,clause,1,ALL players draw 2 cards.,all_players+atomic_fixed,low,3.4,5.1,8.5,v3 quantified/scenario rule
+HUDDLE_UP,똘똘 뭉치기,Huddle Up,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+HYPERBEAM,파괴광선,Hyperbeam,clause,1,Deal 28 damage to ALL enemies.,atomic_fixed,high,18.2,18.2,18.2,v3 quantified/scenario rule
+HYPERBEAM,파괴광선,Hyperbeam,clause,2,Lose 3 Focus.,atomic_lose_focus_conditional_stock,low,-19.5,-6.5,0.0,v3 quantified/scenario rule
+ICE_LANCE,얼음 창,Ice Lance,clause,1,Deal 19 damage.,atomic_fixed,high,9.5,9.5,9.5,v3 quantified/scenario rule
+ICE_LANCE,얼음 창,Ice Lance,clause,2,Channel 3 Frost.,atomic_fixed,medium,9.6,9.6,9.6,v3 quantified/scenario rule
+IGNITION,점화,Ignition,clause,1,Another player Channels Plasma.,coop_plasma,medium,5.25,5.25,5.25,Plasma × ally factor
+IGNITION,점화,Ignition,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+IMPATIENCE,성급함,Impatience,clause,1,"If you have no Attacks in your Hand, draw 2 cards.",atomic_fixed+condition_probability,low,0.0,2.38,3.4,v3 quantified/scenario rule
+IMPERVIOUS,무적,Impervious,clause,1,Gain 30 Block.,atomic_fixed,high,18.0,18.0,18.0,v3 quantified/scenario rule
+IMPERVIOUS,무적,Impervious,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+INFECTION,감염,Infection,clause,1,"At the end of your turn, if this is in your Hand, take 3 damage.",atomic_self_damage+condition_probability+recurring_turns,medium,-9.9,-4.274,-0.0,v3 quantified/scenario rule
+INFECTION,감염,Infection,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+INFERNAL_BLADE,지옥검,Infernal Blade,clause,1,Add a random Attack into your Hand.,atomic_random_attack_card,low,3.0,3.0,3.0,v3 quantified/scenario rule
+INFERNAL_BLADE,지옥검,Infernal Blade,clause,2,It's free to play this turn.,atomic_free_generated_card,high,2.5,2.5,2.5,v3 quantified/scenario rule
+INFERNAL_BLADE,지옥검,Infernal Blade,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+INFERNO,불바다,Inferno,clause,1,"At the start of your turn, lose 1 HP.",atomic_fixed+recurring_turns,low,-3.3,-2.035,-0.825,v3 quantified/scenario rule
+INFERNO,불바다,Inferno,clause,2,"Whenever you lose HP on your turn, deal 6 damage to ALL enemies.",atomic_fixed+event_triggers,medium,3.9,13.65,70.2,v3 quantified/scenario rule
+INFINITE_BLADES,무한의 검날,Infinite Blades,clause,1,"At the start of your turn, add 1 Shiv into your Hand.",atomic_fixed+recurring_turns,low,2.85,7.03,11.4,v3 quantified/scenario rule
+INFLAME,발화,Inflame,clause,1,Gain 2 Strength.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+INJURY,상처,Injury,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+INTERCEPT,가로막기,Intercept,clause,1,Gain 9 Block.,atomic_fixed,high,5.4,5.4,5.4,v3 quantified/scenario rule
+INTERCEPT,가로막기,Intercept,clause,2,Redirect all incoming attacks that would be dealt to another player this turn to you.,intercept_attacks,low,-6.0,1.5,10.0,ally protection minus redirected personal damage
+INVOKE,부름,Invoke,clause,1,"Next turn, Summon 2 and gain 2 Energy.",atomic_fixed+delay_next_turn,medium,5.76,5.76,5.76,v3 quantified/scenario rule
+IRON_WAVE,철의 파동,Iron Wave,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+IRON_WAVE,철의 파동,Iron Wave,clause,2,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+ITERATION,순회,Iteration,clause,1,"The first time you draw a Status each turn, draw 2 cards.",status_draw_compensation,low,0.0,5.1,13.6,0/1.5/4 Status draws
+I_AM_INVINCIBLE,나는 무적이다,I Am Invincible,clause,1,Gain 10 Block.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+I_AM_INVINCIBLE,나는 무적이다,I Am Invincible,clause,2,"At the end of your turn, if this is on top of your Draw Pile, play it.",self_auto_replay,low,1.625,4.55,6.5,fraction of card benchmark replayed
+JACKPOT,잭팟,Jackpot,clause,1,Deal 25 damage.,atomic_fixed,high,12.5,12.5,12.5,v3 quantified/scenario rule
+JACKPOT,잭팟,Jackpot,clause,2,Add 3 random 0 Energy cards into your Hand.,random_fixed_cost_cards,low,9.0,9.0,9.0,random hand generation
+JACK_OF_ALL_TRADES,팔방미인,Jack of All Trades,clause,1,Add 1 random Colorless card into your Hand.,atomic_random_colorless_card,low,4.0,4.0,4.0,v3 quantified/scenario rule
+JACK_OF_ALL_TRADES,팔방미인,Jack of All Trades,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+JUGGERNAUT,절대적인 힘,Juggernaut,clause,1,"Whenever you gain Block, deal 6 damage to a random enemy.",block_trigger_damage,low,2.7,9.45,27.0,random damage × Block-gain events
+JUGGLING,저글링,Juggling,clause,1,Add a copy of the third Attack you play each turn into your Hand.,copy_selected_to_hand,low,3.0,18.5,60.0,average copied card value
+KINGLY_KICK,왕의 발차기,Kingly Kick,clause,1,Deal 27 damage.,atomic_fixed,high,13.5,13.5,13.5,v3 quantified/scenario rule
+KINGLY_KICK,왕의 발차기,Kingly Kick,clause,2,"Whenever you draw this card, reduce its cost by 1.",cost_reduction,medium,2.5,8.75,45.0,energy saved
+KINGLY_PUNCH,왕의 주먹,Kingly Punch,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+KINGLY_PUNCH,왕의 주먹,Kingly Punch,clause,2,"Whenever you draw this card, increase its damage by 4 this combat.",self_damage_growth_on_draw,low,2.0,4.0,6.0,1/2/3 draws this combat
+KNIFE_TRAP,칼날 함정,Knife Trap,clause,1,Play every Shiv in your Exhaust Pile on the enemy.,play_exhausted_shivs,low,0.0,8.0,20.0,0/4/10 exhausted Shivs replayed
+KNOCKDOWN,때려눕히기,Knockdown,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+KNOCKDOWN,때려눕히기,Knockdown,clause,2,The enemy takes double damage from other players this turn.,double_damage_window,low,2.5,6.0,15.0,additional attack damage
+KNOCKOUT_BLOW,필사의 일격,Knockout Blow,clause,1,Deal 30 damage.,atomic_fixed,high,15.0,15.0,15.0,v3 quantified/scenario rule
+KNOCKOUT_BLOW,필사의 일격,Knockout Blow,clause,2,"If this kills an enemy, gain 5 Stars.",atomic_fixed+condition_probability,low,0.0,5.25,7.5,v3 quantified/scenario rule
+KNOW_THY_PLACE,네 주제를 알라,Know Thy Place,clause,1,Apply 1 Weak.,atomic_fixed,medium,2.1,2.1,2.1,v3 quantified/scenario rule
+KNOW_THY_PLACE,네 주제를 알라,Know Thy Place,clause,2,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+KNOW_THY_PLACE,네 주제를 알라,Know Thy Place,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+LANTERN_KEY,랜턴 열쇠,Lantern Key,clause,1,Unlocks a special event in the next Act.,meta_event_unlock,low,0.0,4.0,12.0,future event value kept separate from combat evidence
+LANTERN_KEY,랜턴 열쇠,Lantern Key,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+LARGESSE,하사,Largesse,clause,1,Another player adds 1 random Colorless card to their Hand.,coop_random_colorless,low,2.25,3.0,4.0,random Colorless value × ally factor
+LEADING_STRIKE,선제 타격,Leading Strike,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+LEADING_STRIKE,선제 타격,Leading Strike,clause,2,Add 2 Shivs into your Hand.,atomic_fixed,high,3.8,3.8,3.8,v3 quantified/scenario rule
+LEAP,도약,Leap,clause,1,Gain 9 Block.,atomic_fixed,high,5.4,5.4,5.4,v3 quantified/scenario rule
+LEGION_OF_BONE,해골 군단,Legion of Bone,clause,1,ALL players Summon 6.,all_players+atomic_fixed,medium,6.6,9.9,16.5,v3 quantified/scenario rule
+LEGION_OF_BONE,해골 군단,Legion of Bone,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+LEG_SWEEP,다리 걸기,Leg Sweep,clause,1,Apply 2 Weak.,atomic_fixed,medium,4.2,4.2,4.2,v3 quantified/scenario rule
+LEG_SWEEP,다리 걸기,Leg Sweep,clause,2,Gain 11 Block.,atomic_fixed,high,6.6,6.6,6.6,v3 quantified/scenario rule
+LETHALITY,치사성,Lethality,clause,1,The first Attack each turn deals 50% additional damage.,first_attack_percent_bonus,low,3.75,9.25,15.0,50% of a 10-damage Attack × active turns
+LETHALITY,치사성,Lethality,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+LIFT,부양,Lift,clause,1,Give another player 11 Block.,coop_block,medium,4.95,4.95,4.95,Block × ally factor
+LIGHTNING_ROD,피뢰침,Lightning Rod,clause,1,Gain 4 Block.,atomic_fixed,high,2.4,2.4,2.4,v3 quantified/scenario rule
+LIGHTNING_ROD,피뢰침,Lightning Rod,clause,2,"At the start of the next 2 turns, Channel 1 Lightning.",atomic_fixed+fixed_delayed_turns,low,3.168,3.168,3.168,v3 quantified/scenario rule
+LOOP,반복,Loop,clause,1,"At the start of your turn, trigger the passive ability of your rightmost Orb.",atomic_trigger_orb+recurring_turns,low,2.25,11.1,30.0,v3 quantified/scenario rule
+LUMINESCE,발광,Luminesce,clause,1,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+LUMINESCE,발광,Luminesce,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+LUMINESCE,발광,Luminesce,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+LUNAR_BLAST,달의 세례,Lunar Blast,clause,1,Deal 4 damage for each Skill already played this turn.,atomic_fixed+scaling_count,medium,2.0,4.4,20.0,v3 quantified/scenario rule
+MACHINE_LEARNING,기계학습,Machine Learning,clause,1,"At the start of your turn, draw 1 additional card.",atomic_fixed+recurring_turns,low,1.875,4.625,7.5,v3 quantified/scenario rule
+MAD_SCIENCE,괴짜 과학,Mad Science,clause,1,Deal 12 damage.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+MAKE_IT_SO,그렇게 하라,Make It So,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+MAKE_IT_SO,그렇게 하라,Make It So,clause,2,"Every 3 Skills you play in a turn, put this into your Hand.",self_return_skill_threshold,low,0.0,3.0,6.0,0/1/2 returns of a 6-damage zero-cost card
+MALAISE,불쾌,Malaise,clause,1,Enemy loses X Strength.,x_enemy_strength_loss,medium,2.0,4.0,8.0,persistent enemy Strength-loss unit × X
+MALAISE,불쾌,Malaise,clause,2,Apply X Weak.,atomic_fixed+x_value,low,2.1,4.2,8.4,v3 quantified/scenario rule
+MALAISE,불쾌,Malaise,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MANGLE,난도질,Mangle,clause,1,Deal 15 damage.,atomic_fixed,high,7.5,7.5,7.5,v3 quantified/scenario rule
+MANGLE,난도질,Mangle,clause,2,Enemy loses 10 Strength this turn.,atomic_enemy_strength_loss_turn,medium,9.0,9.0,9.0,v3 quantified/scenario rule
+MANIFEST_AUTHORITY,권위 행사,Manifest Authority,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+MANIFEST_AUTHORITY,권위 행사,Manifest Authority,clause,2,Add 1 random Colorless card into your Hand.,atomic_random_colorless_card,low,4.0,4.0,4.0,v3 quantified/scenario rule
+MASTER_OF_STRATEGY,전략의 천재,Master of Strategy,clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+MASTER_OF_STRATEGY,전략의 천재,Master of Strategy,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MASTER_PLANNER,설계의 대가,Master Planner,clause,1,"When you play a Skill, it gains Sly.",skill_gains_sly,low,2.0,7.0,16.0,Sly enablement × future Skill/discard events
+MAUL,할퀴기,Maul,clause,1,Deal 5 damage twice.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+MAUL,할퀴기,Maul,clause,2,Increase the damage of ALL Maul cards by 1 this combat.,archetype_damage_growth,low,0.5,1.75,9.0,future matching-card hits
+MAUL,할퀴기,Maul,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+MAYHEM,대혼란,Mayhem,clause,1,"At the start of your turn, play the top card of your Draw Pile.",recurring_topdeck_autoplay,low,3.0,14.8,42.0,average auto-played card × active turns
+MELANCHOLY,비애,Melancholy,clause,1,Gain 13 Block.,atomic_fixed,high,7.8,7.8,7.8,v3 quantified/scenario rule
+MELANCHOLY,비애,Melancholy,clause,2,Reduce this card's cost by 1 Energy whenever ANYONE dies.,cost_reduction,medium,2.5,8.75,45.0,energy saved
+MEMENTO_MORI,메멘토 모리,Memento Mori,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+MEMENTO_MORI,메멘토 모리,Memento Mori,clause,2,Deals 4 additional damage for each card discarded this turn.,additional_damage_scaling,medium,2.0,4.4,20.0,damage unit × reference count
+METAMORPHOSIS,탈바꿈,Metamorphosis,clause,1,Add 3 random Attacks into your Draw Pile.,random_attacks_to_draw,low,4.5,4.5,4.5,generated attack discounted by destination
+METAMORPHOSIS,탈바꿈,Metamorphosis,clause,2,They're free to play this combat.,generated_cards_free,low,2.0,4.0,7.0,future generated-card energy saved
+METAMORPHOSIS,탈바꿈,Metamorphosis,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+METEOR_SHOWER,유성우,Meteor Shower,clause,1,Deal 14 damage to ALL enemies.,atomic_fixed,high,9.1,9.1,9.1,v3 quantified/scenario rule
+METEOR_SHOWER,유성우,Meteor Shower,clause,2,Apply 2 Weak and Vulnerable to ALL enemies.,atomic_fixed,medium,10.66,10.66,10.66,v3 quantified/scenario rule
+METEOR_SHOWER,유성우,Meteor Shower,printed_cost,,Spend 2 Stars to play this card,cost_star_spend,low,-4.0,-4.0,-4.0,printed Star payment: 2 × -2.0
+METEOR_STRIKE,유성 타격,Meteor Strike,clause,1,Deal 24 damage.,atomic_fixed,high,12.0,12.0,12.0,v3 quantified/scenario rule
+METEOR_STRIKE,유성 타격,Meteor Strike,clause,2,Channel 3 Plasma.,atomic_fixed,medium,21.0,21.0,21.0,v3 quantified/scenario rule
+MIMIC,흉내내기,Mimic,clause,1,Gain Block equal to the Block on another player.,equal_to_quantity,low,3.0,9.0,18.0,v3 quantified/scenario rule
+MIMIC,흉내내기,Mimic,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MIND_BLAST,정신 공격,Mind Blast,clause,1,Deal damage equal to the number of cards in your Draw Pile.,equal_to_quantity,low,2.5,7.5,12.5,v3 quantified/scenario rule
+MIND_BLAST,정신 공격,Mind Blast,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+MIND_ROT,정신 오염,Mind Rot,clause,1,Draw 1 fewer card each turn.,recurring_draw_reduction,low,-12.5,-8.5,-2.5,one fewer draw × combat turns
+MINION_DIVE_BOMB,하수인 투하,Minion Dive Bomb,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+MINION_DIVE_BOMB,하수인 투하,Minion Dive Bomb,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MINION_SACRIFICE,하수인 희생,Minion Sacrifice,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+MINION_SACRIFICE,하수인 희생,Minion Sacrifice,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MINION_STRIKE,하수인 타격,Minion Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+MINION_STRIKE,하수인 타격,Minion Strike,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+MINION_STRIKE,하수인 타격,Minion Strike,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MIRAGE,신기루,Mirage,clause,1,Gain Block equal to Poison on ALL enemies.,equal_to_quantity,low,3.0,9.0,18.0,v3 quantified/scenario rule
+MIRAGE,신기루,Mirage,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MISERY,비참함,Misery,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+MISERY,비참함,Misery,clause,2,Apply any debuffs on the enemy to ALL other enemies.,spread_debuffs,low,2.0,7.0,16.0,existing debuff stack
+MODDED,모드 적용,Modded,clause,1,Gain 1 Orb Slot.,atomic_orb_slot,medium,2.5,2.5,2.5,v3 quantified/scenario rule
+MODDED,모드 적용,Modded,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+MODDED,모드 적용,Modded,clause,3,Increase this card's cost by 1.,cost_increase,medium,-2.5,-2.5,-2.5,energy penalty
+MOLTEN_FIST,녹아내리는 주먹,Molten Fist,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+MOLTEN_FIST,녹아내리는 주먹,Molten Fist,clause,2,Double the enemy's Vulnerable.,double_vulnerable,low,1.0,4.0,8.0,existing Vulnerable dependent
+MOLTEN_FIST,녹아내리는 주먹,Molten Fist,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+MOMENTUM_STRIKE,추진 타격,Momentum Strike,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+MOMENTUM_STRIKE,추진 타격,Momentum Strike,clause,2,Reduce this card's cost to 0 Energy.,cost_to_zero,medium,2.5,2.5,2.5,printed energy saved
+MONARCHS_GAZE,군주의 시선,Monarch's Gaze,clause,1,"Whenever you attack an enemy, it loses 1 Strength this turn.",attack_trigger_temp_strength_loss,low,0.9,3.15,16.2,temporary Strength loss × Attack hits
+MONOLOGUE,독백,Monologue,clause,1,"Whenever you play a card this turn, gain 1 Strength this turn.",atomic_temporary_stat+event_triggers,medium,0.8,2.8,14.4,v3 quantified/scenario rule
+MULTI_CAST,다중 시전,Multi-Cast,clause,1,Evoke your rightmost Orb X times.,x_evoke,low,0.75,5.0,24.0,X and orb type
+MURDER,살해,Murder,clause,1,Deal 1 damage.,atomic_fixed,high,0.5,0.5,0.5,v3 quantified/scenario rule
+MURDER,살해,Murder,clause,2,Deals 1 additional damage for each card drawn this combat.,damage_per_combat_draw,low,2.5,12.5,25.0,5/25/50 cards drawn this combat
+NECRO_MASTERY,강령의 극의,Necro Mastery,clause,1,Summon 5.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+NECRO_MASTERY,강령의 극의,Necro Mastery,clause,2,"Whenever Osty loses HP, ALL enemies lose that much HP as well.",osty_hp_mirror_damage,low,2.0,7.0,18.0,future Osty HP loss
+NEGATIVE_PULSE,비관적인 맥박,Negative Pulse,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+NEGATIVE_PULSE,비관적인 맥박,Negative Pulse,clause,2,Apply 7 Doom to ALL enemies.,atomic_fixed,high,2.457,2.457,2.457,v3 quantified/scenario rule
+NEOWS_FURY,니오우의 격분,Neow's Fury,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+NEOWS_FURY,니오우의 격분,Neow's Fury,clause,2,Put up to 2 cards from your Discard Pile into your Hand.,tutor_to_hand,medium,5.0,5.0,5.0,selected card access = 2.5
+NEOWS_FURY,니오우의 격분,Neow's Fury,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+NEUROSURGE,정신 폭주,Neurosurge,clause,1,Gain 3 Energy.,atomic_fixed,medium,7.5,7.5,7.5,v3 quantified/scenario rule
+NEUROSURGE,정신 폭주,Neurosurge,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+NEUROSURGE,정신 폭주,Neurosurge,clause,3,"At the start of your turn, apply 3 Doom to yourself.",recurring_self_doom,low,-12.0,-5.5,-1.5,self-Doom lethality across active turns
+NEUTRALIZE,무력화,Neutralize,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+NEUTRALIZE,무력화,Neutralize,clause,2,Apply 1 Weak.,atomic_fixed,medium,2.1,2.1,2.1,v3 quantified/scenario rule
+NEUTRON_AEGIS,중성자 방패,Neutron Aegis,clause,1,Gain 8 Plating.,atomic_fixed,medium,12.8,12.8,12.8,v3 quantified/scenario rule
+NEUTRON_AEGIS,중성자 방패,Neutron Aegis,printed_cost,,Spend 5 Stars to play this card,cost_star_spend,low,-10.0,-10.0,-10.0,printed Star payment: 5 × -2.0
+NIGHTMARE,악몽,Nightmare,clause,1,Choose a card.,selection_scope,high,0.0,0.0,0.0,selection scope; value counted by linked effect
+NIGHTMARE,악몽,Nightmare,clause,2,"Next turn, add 3 copies of that card into your Hand.",delayed_three_selected_copies,low,2.4,7.2,19.2,three selected copies × delay; combo dependent
+NIGHTMARE,악몽,Nightmare,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+NORMALITY,규칙 준수,Normality,clause,1,You cannot play more than 3 cards this turn.,play_restriction,low,-4.0,-1.5,-0.0,availability loss as fraction of card budget
+NORMALITY,규칙 준수,Normality,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+NOSTALGIA,향수,Nostalgia,clause,1,The first Attack or Skill you play each turn is placed on top of your Draw Pile.,first_card_recurring_topdeck,low,1.5,5.5,12.0,delayed selected reuse across turns
+NOT_YET,불굴,Not Yet,clause,1,Heal 10 HP.,atomic_heal_meta,low,7.5,20.0,32.5,v3 quantified/scenario rule
+NOT_YET,불굴,Not Yet,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+NOXIOUS_FUMES,유독 가스,Noxious Fumes,clause,1,"At the start of your turn, apply 2 Poison to ALL enemies.",atomic_fixed+recurring_turns,low,3.9,9.62,15.6,v3 quantified/scenario rule
+NO_ESCAPE,도망칠 수 없다,No Escape,clause,1,"Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.",doom_threshold_scaling,low,2.7,5.4,9.45,base Doom plus 0/2/5 existing ten-Doom groups
+NULL,Null,Null,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+NULL,Null,Null,clause,2,Apply 2 Weak.,atomic_fixed,medium,4.2,4.2,4.2,v3 quantified/scenario rule
+NULL,Null,Null,clause,3,Channel 1 Dark.,atomic_fixed,medium,4.4,4.4,4.4,v3 quantified/scenario rule
+OBLIVION,망각,Oblivion,clause,1,"Whenever you play a card this turn, apply 3 Doom to the enemy.",card_play_doom_turn,low,0.0,2.43,5.67,0/3/7 subsequent cards
+OFFERING,제물,Offering,clause,1,Lose 6 HP.,atomic_fixed,high,-3.3,-3.3,-3.3,v3 quantified/scenario rule
+OFFERING,제물,Offering,clause,2,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+OFFERING,제물,Offering,clause,3,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+OFFERING,제물,Offering,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+OMNISLICE,만물 절단,Omnislice,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+OMNISLICE,만물 절단,Omnislice,clause,2,Damage ALL other enemies equal to the damage dealt.,splash_damage_copy,medium,3.2,3.2,3.2,copied base damage
+ONE_TWO_PUNCH,원투 펀치,One-Two Punch,clause,1,"This turn, your next Attack is played an extra time.",next_card_replay,low,2.0,5.0,10.0,average repeated card effect
+ORBIT,궤도,Orbit,clause,1,"Every 4 Energy you spend, gain 1 Energy.",atomic_fixed+threshold_triggers,low,0.0,4.5,10.0,v3 quantified/scenario rule
+OUTBREAK,발병,Outbreak,clause,1,"Every 3 times you apply Poison, deal 11 damage to ALL enemies.",atomic_fixed+threshold_triggers,medium,0.0,12.87,28.6,v3 quantified/scenario rule
+OUTMANEUVER,압도,Outmaneuver,clause,1,"Next turn, gain 2 Energy.",atomic_fixed+delay_next_turn,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+OVERCLOCK,오버클럭,Overclock,clause,1,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+OVERCLOCK,오버클럭,Overclock,clause,2,Add a Burn into your Discard Pile.,atomic_fixed,high,-1.5,-1.5,-1.5,v3 quantified/scenario rule
+PACTS_END,조약의 끝,Pact's End,clause,1,"If you have 3 or more cards in your Exhaust Pile, deal 17 damage to ALL enemies.",atomic_fixed+condition_probability,medium,0.0,7.735,11.05,v3 quantified/scenario rule
+PAGESTORM,서류 폭풍,Pagestorm,clause,1,"Whenever you draw an Ethereal card, draw 1 card.",atomic_fixed+event_triggers,low,1.25,4.375,22.5,v3 quantified/scenario rule
+PALE_BLUE_DOT,창백한 푸른 점,Pale Blue Dot,clause,1,"If you play 5 or more cards in a turn, draw 1 card at the start of your next turn.",threshold_delayed_draw_recurring,low,0.0,2.5,6.25,0/2/5 successful turn thresholds
+PANACHE,위풍당당,Panache,clause,1,"Every time you play 5 cards in a single turn, deal 10 damage to ALL enemies.",atomic_fixed+threshold_triggers,medium,0.0,11.7,26.0,v3 quantified/scenario rule
+PANIC_BUTTON,비상 단추,Panic Button,clause,1,Gain 30 Block.,atomic_fixed,high,18.0,18.0,18.0,v3 quantified/scenario rule
+PANIC_BUTTON,비상 단추,Panic Button,clause,2,You cannot gain Block from cards for 2 turns.,two_turn_block_lock,low,-15.0,-8.0,-3.0,foregone card Block over two turns
+PANIC_BUTTON,비상 단추,Panic Button,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PARRY,쳐내기,Parry,clause,1,Sovereign Blade now gains 10 Block.,blade_gain_block,medium,6.0,6.0,6.0,Block unit
+PARSE,분석,Parse,clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+PARSE,분석,Parse,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PARTICLE_WALL,입자 벽,Particle Wall,clause,1,Gain 9 Block.,atomic_fixed,high,5.4,5.4,5.4,v3 quantified/scenario rule
+PARTICLE_WALL,입자 벽,Particle Wall,clause,2,Return this card to your Hand.,self_return_hand,low,1.0,2.5,5.0,replay access
+PARTICLE_WALL,입자 벽,Particle Wall,printed_cost,,Spend 2 Stars to play this card,cost_star_spend,low,-4.0,-4.0,-4.0,printed Star payment: 2 × -2.0
+PATTER,별무리,Patter,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+PATTER,별무리,Patter,clause,2,Gain 2 Vigor.,atomic_fixed,medium,1.0,1.0,1.0,v3 quantified/scenario rule
+PECK,쪼기,Peck,clause,1,Deal 2 damage 3 times.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+PECK,쪼기,Peck,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.5,1.5,V3 cross-effect interaction
+PERFECTED_STRIKE,완벽한 타격,Perfected Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+PERFECTED_STRIKE,완벽한 타격,Perfected Strike,clause,2,Deals 2 additional damage for ALL your cards containing “Strike”.,damage_per_strike_card,low,2.0,5.0,10.0,2/5/10 Strike cards
+PHANTOM_BLADES,환영검,Phantom Blades,clause,1,Shivs gain Retain.,shiv_retain_aura,low,0.5,2.0,4.0,1/4/8 Shivs retained
+PHANTOM_BLADES,환영검,Phantom Blades,clause,2,The first Shiv you play each turn deals 9 additional damage.,first_shiv_bonus_each_turn,low,0.0,9.0,22.5,0/2/5 turns with a Shiv
+PHOTON_CUT,광자 베기,Photon Cut,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+PHOTON_CUT,광자 베기,Photon Cut,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+PHOTON_CUT,광자 베기,Photon Cut,clause,3,Put 1 card from your Hand on top of your Draw Pile.,atomic_hand_to_topdeck,medium,-0.5,-0.5,-0.5,v3 quantified/scenario rule
+PIERCING_WAIL,귀를 찢는 비명,Piercing Wail,clause,1,ALL enemies lose 6 Strength this turn.,atomic_enemy_strength_loss_turn,medium,7.02,7.02,7.02,v3 quantified/scenario rule
+PIERCING_WAIL,귀를 찢는 비명,Piercing Wail,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PILLAGE,갈취,Pillage,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+PILLAGE,갈취,Pillage,clause,2,Draw cards until you draw a non-Attack card.,draw_until_non_attack,low,1.25,3.4,9.85,deck Attack ratio scenarios
+PILLAR_OF_CREATION,창조의 기둥,Pillar of Creation,clause,1,"Whenever you create a card, gain 3 Block.",atomic_fixed+event_triggers,medium,1.8,6.3,32.4,v3 quantified/scenario rule
+PINPOINT,정밀 사격,Pinpoint,clause,1,Deal 15 damage.,atomic_fixed,high,7.5,7.5,7.5,v3 quantified/scenario rule
+PINPOINT,정밀 사격,Pinpoint,clause,2,Costs 1 less Energy for each Skill played this turn.,cost_reduction_scaling_capped,medium,2.5,5.5,7.5,"energy saved × reference count, capped by printed cost"
+POISONED_STAB,독 찌르기,Poisoned Stab,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+POISONED_STAB,독 찌르기,Poisoned Stab,clause,2,Apply 3 Poison.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+POKE,쑤시기,Poke,clause,1,Osty deals 6 damage.,atomic_osty_damage,high,2.7,2.7,2.7,v3 quantified/scenario rule
+POMMEL_STRIKE,폼멜 타격,Pommel Strike,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+POMMEL_STRIKE,폼멜 타격,Pommel Strike,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+POOR_SLEEP,수면 부족,Poor Sleep,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+POOR_SLEEP,수면 부족,Poor Sleep,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+POUNCE,덮치기,Pounce,clause,1,Deal 14 damage.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+POUNCE,덮치기,Pounce,clause,2,The next Skill you play costs 0 Energy.,next_card_free,medium,2.5,2.5,2.5,one energy saved by default
+PRECISE_CUT,정밀한 베기,Precise Cut,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+PRECISE_CUT,정밀한 베기,Precise Cut,clause,2,Deals 2 less damage for each other card in your Hand.,damage_reduction_scaling,medium,-10.0,-2.2,-1.0,hand-size damage penalty
+PREDATOR,천적,Predator,clause,1,Deal 15 damage.,atomic_fixed,high,7.5,7.5,7.5,v3 quantified/scenario rule
+PREDATOR,천적,Predator,clause,2,"Next turn, draw 2 cards.",atomic_fixed+delay_next_turn,medium,2.72,2.72,2.72,v3 quantified/scenario rule
+PREPARED,예비,Prepared,clause,1,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+PREPARED,예비,Prepared,clause,2,Discard 1 card.,atomic_fixed,high,0.25,0.25,0.25,v3 quantified/scenario rule
+PREP_TIME,준비 시간,Prep Time,clause,1,"At the start of your turn, gain 4 Vigor.",atomic_fixed+recurring_turns,low,3.0,7.4,12.0,v3 quantified/scenario rule
+PRIMAL_FORCE,원시의 힘,Primal Force,clause,1,Transform all Attacks in your Hand into Giant Rock.,bulk_transform,low,2.0,6.0,12.0,multiple card replacement
+PRODUCTION,생산,Production,clause,1,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+PRODUCTION,생산,Production,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PROLONG,연장,Prolong,clause,1,"Next turn, gain Block equal to your current Block.",delay_next_turn+equal_to_quantity,low,1.44,3.84,7.2,v3 quantified/scenario rule
+PROLONG,연장,Prolong,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PROPHESIZE,예언,Prophesize,clause,1,Draw 6 cards.,atomic_fixed,medium,12.0,12.0,12.0,v3 quantified/scenario rule
+PROTECTOR,파수꾼,Protector,clause,1,Osty deals 10 damage.,atomic_osty_damage,high,4.5,4.5,4.5,v3 quantified/scenario rule
+PROTECTOR,파수꾼,Protector,clause,2,Deals additional damage equal to Osty's Max HP.,additional_damage_equal,low,2.0,6.0,15.0,referenced HP/deck quantity
+PROWESS,기량,Prowess,clause,1,Gain 1 Strength.,atomic_fixed,high,3.25,3.25,3.25,v3 quantified/scenario rule
+PROWESS,기량,Prowess,clause,2,Gain 1 Dexterity.,atomic_fixed,high,3.25,3.25,3.25,v3 quantified/scenario rule
+PULL_AGGRO,시선 유도,Pull Aggro,clause,1,Summon 4.,atomic_fixed,high,4.4,4.4,4.4,v3 quantified/scenario rule
+PULL_AGGRO,시선 유도,Pull Aggro,clause,2,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+PULL_FROM_BELOW,끌어내리기,Pull from Below,clause,1,Deal 5 damage for each Ethereal card played this combat.,atomic_fixed+scaling_count,medium,2.5,5.5,25.0,v3 quantified/scenario rule
+PURITY,순수,Purity,clause,1,Exhaust up to 3 cards in your Hand.,selected_exhaust_three,medium,3.0,3.0,3.0,selected exhaust = 1 point each
+PURITY,순수,Purity,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PURITY,순수,Purity,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+PUTREFY,부식,Putrefy,clause,1,Apply 2 Weak.,atomic_fixed,medium,4.2,4.2,4.2,v3 quantified/scenario rule
+PUTREFY,부식,Putrefy,clause,2,Apply 2 Vulnerable.,atomic_fixed,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+PUTREFY,부식,Putrefy,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+PYRE,불의 심장,Pyre,clause,1,Gain 1 Energy at the start of each turn.,atomic_fixed+recurring_resource_turns,low,5.0,17.0,25.0,v3 quantified/scenario rule
+QUADCAST,사중 시전,Quadcast,clause,1,Evoke your rightmost Orb 4 times.,multi_evoke,low,3.0,10.0,24.0,orb type dependent
+QUASAR,준항성,Quasar,clause,1,Choose 1 of 3 random Colorless cards to add into your Hand.,discover_restricted_card,low,3.0,4.0,5.5,best-of-three restricted generation
+QUASAR,준항성,Quasar,printed_cost,,Spend 2 Stars to play this card,cost_star_spend,low,-4.0,-4.0,-4.0,printed Star payment: 2 × -2.0
+RADIATE,방출,Radiate,clause,1,Deal 3 damage to ALL enemies for each 1 Stars gained this turn.,atomic_fixed+scaling_count,low,1.95,4.29,19.5,v3 quantified/scenario rule
+RAGE,격노,Rage,clause,1,"Whenever you play an Attack this turn, gain 3 Block.",atomic_fixed+event_triggers,medium,1.8,6.3,32.4,v3 quantified/scenario rule
+RAINBOW,무지개,Rainbow,clause,1,Channel 1 Lightning.,atomic_fixed,medium,2.2,2.2,2.2,v3 quantified/scenario rule
+RAINBOW,무지개,Rainbow,clause,2,Channel 1 Frost.,atomic_fixed,medium,3.2,3.2,3.2,v3 quantified/scenario rule
+RAINBOW,무지개,Rainbow,clause,3,Channel 1 Dark.,atomic_fixed,medium,4.4,4.4,4.4,v3 quantified/scenario rule
+RAINBOW,무지개,Rainbow,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+RAINBOW,무지개,Rainbow,interaction,,orb_diversity_bundle,orb_diversity_bundle,low,0.0,5.0,8.2,V3 cross-effect interaction
+RALLY,단결,Rally,clause,1,ALL players gain 12 Block.,all_players+atomic_fixed,medium,7.2,10.8,18.0,v3 quantified/scenario rule
+RAMPAGE,광란,Rampage,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+RAMPAGE,광란,Rampage,clause,2,Increase this card's damage by 5 this combat.,self_damage_growth_combat,low,0.0,2.5,7.5,0/1/3 future plays
+RATTLE,덜그럭대기,Rattle,clause,1,Osty deals 7 damage.,atomic_osty_damage,high,3.15,3.15,3.15,v3 quantified/scenario rule
+RATTLE,덜그럭대기,Rattle,clause,2,Hits an additional time for each other time he has attacked this turn.,osty_extra_hits,low,0.0,3.15,12.6,0/1/4 earlier Osty attacks
+REANIMATE,소생,Reanimate,clause,1,Summon 20.,atomic_fixed,high,22.0,22.0,22.0,v3 quantified/scenario rule
+REANIMATE,소생,Reanimate,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+REAP,수확,Reap,clause,1,Deal 27 damage.,atomic_fixed,high,13.5,13.5,13.5,v3 quantified/scenario rule
+REAP,수확,Reap,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+REAPER_FORM,사신의 형상,Reaper Form,clause,1,"Whenever Attacks deal damage, apply that much Doom.",attack_damage_to_doom,low,2.7,9.45,21.6,10/35/80 Attack damage × Doom unit
+REAVE,강탈,Reave,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+REAVE,강탈,Reave,clause,2,Add a Soul into your Draw Pile.,atomic_fixed,medium,1.0,1.0,1.0,v3 quantified/scenario rule
+REBOOT,다시 시작,Reboot,clause,1,Shuffle ALL your cards into your Draw Pile.,shuffle_all_piles,low,0.5,1.5,3.0,reshuffle availability
+REBOOT,다시 시작,Reboot,clause,2,Draw 4 cards.,atomic_fixed,medium,7.7,7.7,7.7,v3 quantified/scenario rule
+REBOOT,다시 시작,Reboot,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+REBOUND,되돌리기,Rebound,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+REBOUND,되돌리기,Rebound,clause,2,Put the next card you play this turn on top of your Draw Pile.,next_card_topdeck,medium,1.5,1.5,1.5,delayed selected access
+REFINE_BLADE,검날 개선,Refine Blade,clause,1,Forge 9.,atomic_fixed,medium,2.97,2.97,2.97,v3 quantified/scenario rule
+REFINE_BLADE,검날 개선,Refine Blade,clause,2,"Next turn, gain 1 Energy.",atomic_fixed+delay_next_turn,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+REFLECT,반사,Reflect,clause,1,Gain 15 Block.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+REFLECT,반사,Reflect,clause,2,Blocked attack damage is reflected to your attacker this turn.,reflect_blocked_damage,low,2.5,6.0,7.5,5/12/15 reflected damage
+REFLECT,반사,Reflect,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+REFLEX,반사신경,Reflex,clause,1,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+REFLEX,반사신경,Reflex,keyword,,keyword_sly,keyword_sly,low,0.0,4.4,8.0,discard-trigger probability and free cost
+REFRACT,굴절,Refract,clause,1,Deal 9 damage twice.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+REFRACT,굴절,Refract,clause,2,Channel 2 Glass.,atomic_fixed,medium,7.0,7.0,7.0,v3 quantified/scenario rule
+REFRACT,굴절,Refract,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,low,0.0,0.25,0.75,V3 cross-effect interaction
+REGRET,후회,Regret,clause,1,"At the end of your turn, if this is in your Hand, lose 1 HP for each card in your Hand.",atomic_fixed+condition_probability+recurring_turns+scaling_count,medium,-33.0,-3.134,-0.0,v3 quantified/scenario rule
+REGRET,후회,Regret,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+RELAX,안식,Relax,clause,1,Gain 15 Block.,atomic_fixed,high,9.0,9.0,9.0,v3 quantified/scenario rule
+RELAX,안식,Relax,clause,2,"Next turn, draw 2 cards and gain 2 Energy.",atomic_fixed+delay_next_turn,medium,6.72,6.72,6.72,v3 quantified/scenario rule
+RELAX,안식,Relax,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+REND,쥐어뜯기,Rend,clause,1,Deal 15 damage.,atomic_fixed,high,7.5,7.5,7.5,v3 quantified/scenario rule
+REND,쥐어뜯기,Rend,clause,2,Deals 5 additional damage for each unique debuff on the enemy.,damage_per_unique_debuff,low,2.5,10.0,17.5,1/4/7 unique debuffs
+RESONANCE,공진,Resonance,clause,1,Gain 1 Strength.,atomic_fixed,high,3.25,3.25,3.25,v3 quantified/scenario rule
+RESONANCE,공진,Resonance,clause,2,ALL enemies lose 1 Strength.,atomic_enemy_strength_loss,medium,2.6,2.6,2.6,v3 quantified/scenario rule
+RESONANCE,공진,Resonance,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+RESTLESSNESS,초조함,Restlessness,clause,1,"If your Hand is empty, draw 2 cards and gain 2 Energy.",atomic_fixed+condition_probability,low,0.0,5.88,8.4,v3 quantified/scenario rule
+RESTLESSNESS,초조함,Restlessness,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+RICOCHET,도탄,Ricochet,clause,1,Deal 3 damage to a random enemy 4 times.,atomic_random_target_damage,low,5.4,5.4,5.4,v3 quantified/scenario rule
+RICOCHET,도탄,Ricochet,keyword,,keyword_sly,keyword_sly,low,0.0,3.025,5.5,discard-trigger probability and free cost
+RICOCHET,도탄,Ricochet,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.75,2.25,V3 cross-effect interaction
+RIGHT_HAND_HAND,진정한 오른팔,Right Hand Hand,clause,1,Osty deals 4 damage.,atomic_osty_damage,high,1.8,1.8,1.8,v3 quantified/scenario rule
+RIGHT_HAND_HAND,진정한 오른팔,Right Hand Hand,clause,2,"Whenever you play a card that costs 2 Energy or more, return this to your Hand from the Discard Pile.",self_return_on_expensive_card,low,0.0,1.8,5.4,0/1/3 extra Osty attacks
+RIP_AND_TEAR,날뛰기,Rip and Tear,clause,1,Deal 7 damage to a random enemy twice.,random_damage_twice,medium,6.3,6.3,6.3,random-target damage unit × 2
+RIP_AND_TEAR,날뛰기,Rip and Tear,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+ROCKET_PUNCH,로켓 펀치,Rocket Punch,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+ROCKET_PUNCH,로켓 펀치,Rocket Punch,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+ROCKET_PUNCH,로켓 펀치,Rocket Punch,clause,3,"Whenever you create a Status, reduce this card's cost to 0 Energy until played.",cost_to_zero,medium,5.0,5.0,5.0,printed energy saved
+ROLLING_BOULDER,굴러가는 바위,Rolling Boulder,clause,1,"At the start of your turn, deal 5 damage to ALL enemies and increase this damage by 5.",recurring_growing_aoe,low,6.094,28.259,68.25,arithmetic damage growth × active turns
+ROYALTIES,로열티,Royalties,clause,1,"At the end of combat, gain 30 Gold.",meta_gold,medium,3.0,3.0,3.0,1 point per 10 Gold
+ROYAL_GAMBLE,성대한 도박,Royal Gamble,clause,1,Gain 9 Stars.,atomic_fixed,low,13.5,13.5,13.5,v3 quantified/scenario rule
+ROYAL_GAMBLE,성대한 도박,Royal Gamble,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ROYAL_GAMBLE,성대한 도박,Royal Gamble,printed_cost,,Spend 5 Stars to play this card,cost_star_spend,low,-10.0,-10.0,-10.0,printed Star payment: 5 × -2.0
+RUPTURE,파열,Rupture,clause,1,"Whenever you lose HP on your turn, gain 1 Strength.",atomic_fixed+event_triggers,medium,3.25,11.375,58.5,v3 quantified/scenario rule
+SACRIFICE,희생,Sacrifice,clause,1,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",sacrifice_osty_for_block,low,-5.0,7.0,18.0,double-Max-HP Block minus lost companion value
+SACRIFICE,희생,Sacrifice,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+SALVO,집중 포화,Salvo,clause,1,Deal 12 damage.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+SALVO,집중 포화,Salvo,clause,2,Retain your Hand this turn.,atomic_retain_hand,high,2.0,2.0,2.0,v3 quantified/scenario rule
+SCARE,위협,Scare,clause,1,Apply 1 Weak to ALL enemies.,atomic_fixed,medium,2.73,2.73,2.73,v3 quantified/scenario rule
+SCARE,위협,Scare,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SCAVENGE,포집,Scavenge,clause,1,Exhaust a card.,atomic_selected_exhaust,high,1.0,1.0,1.0,v3 quantified/scenario rule
+SCAVENGE,포집,Scavenge,clause,2,"Next turn, gain 2 Energy.",atomic_fixed+delay_next_turn,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+SCOURGE,징벌,Scourge,clause,1,Apply 13 Doom.,atomic_fixed,high,3.51,3.51,3.51,v3 quantified/scenario rule
+SCOURGE,징벌,Scourge,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+SCRAPE,긁어내기,Scrape,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+SCRAPE,긁어내기,Scrape,clause,2,Draw 4 cards.,atomic_fixed,medium,7.7,7.7,7.7,v3 quantified/scenario rule
+SCRAPE,긁어내기,Scrape,clause,3,Discard all cards drawn this way that do not cost 0 Energy.,discard_scrape_misses,low,-7.7,-5.375,-2.15,removes the draw value of 4/2.5/1 misses
+SCRAWL,휘갈김,Scrawl,clause,1,Draw cards until your Hand is full.,draw_to_full,low,1.25,7.7,18.45,1/4/9 cards drawn
+SCRAWL,휘갈김,Scrawl,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SCULPTING_STRIKE,조각 타격,Sculpting Strike,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+SCULPTING_STRIKE,조각 타격,Sculpting Strike,clause,2,Add Ethereal to a card in your Hand.,atomic_grant_ethereal,high,-1.0,-1.0,-1.0,v3 quantified/scenario rule
+SEANCE,강령회,Seance,clause,1,Transform a card in your Draw Pile into Soul.,transform_to_soul,medium,2.4,2.4,2.4,Soul draw/Exhaust net value
+SEANCE,강령회,Seance,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SECOND_WIND,기사회생,Second Wind,clause,1,Exhaust all non-Attack cards in your Hand.,exhaust_non_attacks,low,-3.0,-0.5,3.0,lost hand utility versus exhaust synergy
+SECOND_WIND,기사회생,Second Wind,clause,2,Gain 5 Block for each card Exhausted.,atomic_fixed+scaling_count,medium,3.0,6.6,30.0,v3 quantified/scenario rule
+SECRET_TECHNIQUE,비밀 기술,Secret Technique,clause,1,Put a Skill from your Draw Pile into your Hand.,tutor_to_hand,medium,2.5,2.5,2.5,selected card access = 2.5
+SECRET_TECHNIQUE,비밀 기술,Secret Technique,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SECRET_WEAPON,비밀 병기,Secret Weapon,clause,1,Put an Attack from your Draw Pile into your Hand.,tutor_to_hand,medium,2.5,2.5,2.5,selected card access = 2.5
+SECRET_WEAPON,비밀 병기,Secret Weapon,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SEEKER_STRIKE,탐색 타격,Seeker Strike,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+SEEKER_STRIKE,탐색 타격,Seeker Strike,clause,2,Choose 1 of 3 cards in your Draw Pile to add into your Hand.,partial_tutor_draw_to_hand,medium,2.5,2.5,2.5,selected draw-pile access
+SEEKING_EDGE,날 세우기,Seeking Edge,clause,1,Forge 7.,atomic_fixed,medium,2.31,2.31,2.31,v3 quantified/scenario rule
+SEEKING_EDGE,날 세우기,Seeking Edge,clause,2,Sovereign Blade now deals damage to ALL enemies.,blade_gain_aoe,low,1.5,3.0,6.0,single-to-AOE premium
+SENTRY_MODE,경계 태세,Sentry Mode,clause,1,"At the start of your turn, add 1 Sweeping Gaze into your Hand.",recurring_sweeping_gaze,low,3.5,16.65,27.0,generated zero-cost Osty attack × active turns
+SERPENT_FORM,구렁이의 형상,Serpent Form,clause,1,"Whenever you play a card, deal 4 damage to a random enemy.",card_play_trigger_damage,low,1.8,12.6,36.0,random damage × cards played after power
+SETUP_STRIKE,사전 타격,Setup Strike,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+SETUP_STRIKE,사전 타격,Setup Strike,clause,2,Gain 2 Strength this turn.,atomic_temporary_stat,high,1.6,1.6,1.6,v3 quantified/scenario rule
+SEVEN_STARS,일곱 개의 별,Seven Stars,clause,1,Deal 7 damage to ALL enemies 7 times.,atomic_fixed,high,31.85,31.85,31.85,v3 quantified/scenario rule
+SEVEN_STARS,일곱 개의 별,Seven Stars,printed_cost,,Spend 7 Stars to play this card,cost_star_spend,low,-14.0,-14.0,-14.0,printed Star payment: 7 × -2.0
+SEVEN_STARS,일곱 개의 별,Seven Stars,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,1.5,4.5,V3 cross-effect interaction
+SEVERANCE,분리,Severance,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+SEVERANCE,분리,Severance,clause,2,"Add a Soul into your Draw Pile, Hand, and Discard Pile.",atomic_three_souls,medium,3.0,3.0,3.0,v3 quantified/scenario rule
+SHADOWMELD,그림자 은신,Shadowmeld,clause,1,Double your Block gain this turn.,double_block_gain_turn,low,1.8,6.0,15.0,additional 3/10/25 Block
+SHADOW_SHIELD,그림자 방패,Shadow Shield,clause,1,Gain 11 Block.,atomic_fixed,high,6.6,6.6,6.6,v3 quantified/scenario rule
+SHADOW_SHIELD,그림자 방패,Shadow Shield,clause,2,Channel 1 Dark.,atomic_fixed,medium,4.4,4.4,4.4,v3 quantified/scenario rule
+SHADOW_STEP,그림자 걸음,Shadow Step,clause,1,Discard your Hand.,atomic_discard_hand,medium,-3.0,-2.0,-1.0,v3 quantified/scenario rule
+SHADOW_STEP,그림자 걸음,Shadow Step,clause,2,"Next turn, Attacks deal double damage.",double_damage_window,low,2.5,6.0,15.0,additional attack damage
+SHAME,수치,Shame,clause,1,"At the end of your turn, if this is in your Hand, gain 1 Frail.",atomic_self_debuff+condition_probability+recurring_turns,medium,-9.0,-3.885,-0.0,v3 quantified/scenario rule
+SHAME,수치,Shame,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+SHARED_FATE,운명 공유,Shared Fate,clause,1,Lose 2 Strength.,atomic_lose_strength_conditional_stock,low,-6.5,-3.25,0.0,v3 quantified/scenario rule
+SHARED_FATE,운명 공유,Shared Fate,clause,2,Enemy loses 2 Strength.,enemy_strength_loss,medium,4.0,4.0,4.0,persistent enemy Strength-loss unit
+SHARED_FATE,운명 공유,Shared Fate,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SHATTER,산산조각,Shatter,clause,1,Deal 7 damage to ALL enemies.,atomic_fixed,high,4.55,4.55,4.55,v3 quantified/scenario rule
+SHATTER,산산조각,Shatter,clause,2,Evoke all of your Orbs twice.,evoke_all_twice,low,0.0,8.0,36.0,"orb count/type, including an empty queue"
+SHINING_STRIKE,빛나는 타격,Shining Strike,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+SHINING_STRIKE,빛나는 타격,Shining Strike,clause,2,Gain 2 Stars.,atomic_fixed,low,3.0,3.0,3.0,v3 quantified/scenario rule
+SHINING_STRIKE,빛나는 타격,Shining Strike,clause,3,Put this card on top of your Draw Pile.,self_topdeck,low,-0.5,0.5,2.0,future redraw versus draw clog
+SHIV,단도,Shiv,clause,1,Deal 4 damage.,atomic_fixed,high,2.0,2.0,2.0,v3 quantified/scenario rule
+SHIV,단도,Shiv,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SHOCKWAVE,충격파,Shockwave,clause,1,Apply 3 Weak and Vulnerable to ALL enemies.,atomic_fixed,medium,15.99,15.99,15.99,v3 quantified/scenario rule
+SHOCKWAVE,충격파,Shockwave,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SHROUD,수의,Shroud,clause,1,"Whenever you apply Doom, gain 2 Block.",atomic_fixed+event_triggers,medium,1.2,4.2,21.6,v3 quantified/scenario rule
+SHRUG_IT_OFF,흘려보내기,Shrug It Off,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+SHRUG_IT_OFF,흘려보내기,Shrug It Off,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+SIC_EM,덮쳐!,Sic 'Em,clause,1,Osty deals 5 damage.,atomic_osty_damage,high,2.25,2.25,2.25,v3 quantified/scenario rule
+SIC_EM,덮쳐!,Sic 'Em,clause,2,"Whenever Osty hits this enemy this turn, Summon 3.",atomic_fixed+event_triggers,medium,3.3,11.55,59.4,v3 quantified/scenario rule
+SIGNAL_BOOST,신호 증폭,Signal Boost,clause,1,The next Power you play is played an additional time.,next_card_replay,low,2.0,5.0,10.0,average repeated card effect
+SIGNAL_BOOST,신호 증폭,Signal Boost,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SKEWER,꼬챙이,Skewer,clause,1,Deal 8 damage X times.,atomic_fixed+x_value,medium,4.0,8.0,16.0,v3 quantified/scenario rule
+SKIM,걷어내기,Skim,clause,1,Draw 3 cards.,atomic_fixed,medium,5.55,5.55,5.55,v3 quantified/scenario rule
+SLEIGHT_OF_FLESH,살점 재주,Sleight of Flesh,clause,1,"Whenever you apply a debuff to an enemy, they take 9 damage.",debuff_trigger_damage,low,4.5,15.75,45.0,damage × debuff events
+SLICE,칼질,Slice,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+SLIMED,점액투성이,Slimed,clause,1,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+SLIMED,점액투성이,Slimed,keyword,,keyword_exhaust_cleanup,keyword_exhaust_cleanup,medium,1.0,1.0,1.0,removes harmful card
+SLOTH,나태,Sloth,clause,1,You cannot play more than 3 cards each turn.,play_restriction,low,-4.0,-1.5,-0.0,availability loss as fraction of card budget
+SMOKESTACK,배기 장치,Smokestack,clause,1,"Whenever you create a Status, deal 5 damage to ALL enemies.",atomic_fixed+event_triggers,medium,3.25,11.375,58.5,v3 quantified/scenario rule
+SNAKEBITE,뱀 물기,Snakebite,clause,1,Apply 7 Poison.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+SNAKEBITE,뱀 물기,Snakebite,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+SNAP,넘기기,Snap,clause,1,Osty deals 7 damage.,atomic_osty_damage,high,3.15,3.15,3.15,v3 quantified/scenario rule
+SNAP,넘기기,Snap,clause,2,Add Retain to a card in your Hand.,atomic_grant_retain,high,0.5,0.5,0.5,v3 quantified/scenario rule
+SNEAKY,비열함,Sneaky,clause,1,"Whenever another player attacks an enemy, gain 1 Block.",atomic_fixed+event_triggers,medium,0.6,2.1,10.8,v3 quantified/scenario rule
+SNEAKY,비열함,Sneaky,keyword,,keyword_sly,keyword_sly,low,0.0,3.025,5.5,discard-trigger probability and free cost
+SOLAR_STRIKE,태양의 타격,Solar Strike,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+SOLAR_STRIKE,태양의 타격,Solar Strike,clause,2,Gain 1 Stars.,atomic_fixed,low,1.5,1.5,1.5,v3 quantified/scenario rule
+SOOT,그을음,Soot,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+SOUL,영혼,Soul,clause,1,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+SOUL,영혼,Soul,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SOUL_STORM,영혼 폭풍,Soul Storm,clause,1,Deal 9 damage.,atomic_fixed,high,4.5,4.5,4.5,v3 quantified/scenario rule
+SOUL_STORM,영혼 폭풍,Soul Storm,clause,2,Deals 2 additional damage for each Soul in your Exhaust Pile.,additional_damage_scaling,medium,1.0,2.2,10.0,damage unit × reference count
+SOVEREIGN_BLADE,군주의 칼날,Sovereign Blade,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+SOVEREIGN_BLADE,군주의 칼날,Sovereign Blade,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+SOW,파종,Sow,clause,1,Deal 8 damage to ALL enemies.,atomic_fixed,high,5.2,5.2,5.2,v3 quantified/scenario rule
+SOW,파종,Sow,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+SPECTRUM_SHIFT,스펙트럼 이동,Spectrum Shift,clause,1,"At the start of your turn, add 1 random Colorless card into your Hand.",atomic_random_colorless_card+recurring_turns,low,6.0,14.8,24.0,v3 quantified/scenario rule
+SPEEDSTER,스피드스터,Speedster,clause,1,"Whenever you draw a card during your turn, deal 2 damage to ALL enemies.",atomic_fixed+event_triggers,low,1.3,4.55,23.4,v3 quantified/scenario rule
+SPINNER,스피너,Spinner,clause,1,"At the start of your turn, Channel 1 Glass.",atomic_fixed+recurring_turns,low,5.25,12.95,21.0,v3 quantified/scenario rule
+SPIRIT_OF_ASH,잿빛 혼령,Spirit of Ash,clause,1,"Whenever you play an Ethereal card, gain 4 Block.",atomic_fixed+event_triggers,medium,2.4,8.4,43.2,v3 quantified/scenario rule
+SPITE,악의,Spite,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+SPITE,악의,Spite,clause,2,"If you lost HP this turn, hits 2 times.",conditional_extra_hits,medium,0.0,1.75,2.5,v3 quantified/scenario rule
+SPITE,악의,Spite,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+SPLASH,착수,Splash,clause,1,Choose 1 of 3 random Attacks from another character to add into your Hand.,discover_restricted_card,low,3.0,4.0,5.5,best-of-three restricted generation
+SPLASH,착수,Splash,clause,2,It's free to play this turn.,atomic_free_generated_card,high,2.5,2.5,2.5,v3 quantified/scenario rule
+SPOILS_MAP,보물 지도,Spoils Map,clause,1,Marks a site of 600 extra Gold in the next Act.,meta_future_gold_site,low,6.0,12.0,24.0,delayed/event access discount
+SPOILS_MAP,보물 지도,Spoils Map,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+SPOILS_OF_BATTLE,전투의 성과,Spoils of Battle,clause,1,Forge 5.,atomic_fixed,medium,1.65,1.65,1.65,v3 quantified/scenario rule
+SPOILS_OF_BATTLE,전투의 성과,Spoils of Battle,clause,2,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+SPORE_MIND,포자 잠식,Spore Mind,keyword,,keyword_exhaust_cleanup,keyword_exhaust_cleanup,medium,1.0,1.0,1.0,removes harmful card
+SPUR,격려,Spur,clause,1,Summon 3.,atomic_fixed,high,3.3,3.3,3.3,v3 quantified/scenario rule
+SPUR,격려,Spur,clause,2,Osty heals 5 HP.,osty_heal,medium,2.0,2.0,2.0,companion HP
+SPUR,격려,Spur,keyword,,keyword_retain,keyword_retain,medium,0.5,0.5,0.5,v1 keyword calibration
+SQUASH,짓누르기,Squash,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+SQUASH,짓누르기,Squash,clause,2,Apply 2 Vulnerable.,atomic_fixed,medium,4.0,4.0,4.0,v3 quantified/scenario rule
+SQUEEZE,쥐어짜기,Squeeze,clause,1,Osty deals 25 damage.,atomic_osty_damage,high,11.25,11.25,11.25,v3 quantified/scenario rule
+SQUEEZE,쥐어짜기,Squeeze,clause,2,Deals 5 additional damage for ALL your other Osty Attacks.,damage_per_osty_attack,low,2.5,8.75,20.0,1/3.5/8 other Osty Attacks
+STACK,스택,Stack,clause,1,Gain Block equal to the number of cards in your Discard Pile.,equal_to_quantity,low,3.0,9.0,15.0,v3 quantified/scenario rule
+STAMPEDE,쇄도,Stampede,clause,1,"At the end of your turn, 1 random Attack in your Hand is played against a random enemy.",recurring_random_attack_autoplay,low,5.25,12.95,21.0,average free Attack × active turns
+STARDUST,우주 먼지,Stardust,clause,1,Deal 5 damage to a random enemy X times.,random_target+x_value,medium,2.25,4.5,9.0,v3 quantified/scenario rule
+STARDUST,우주 먼지,Stardust,printed_cost,,Spend X Stars to play this card,cost_star_x_spend,low,-8.0,-4.0,-2.0,printed X-Star payment: -2.0 per Star at X=1/2/4
+STOKE,화력 증폭,Stoke,clause,1,Exhaust your Hand.,atomic_exhaust_hand,low,-2.0,1.0,5.0,v3 quantified/scenario rule
+STOKE,화력 증폭,Stoke,clause,2,Add 1 random card into your Hand for each card Exhausted.,atomic_random_card_card+scaling_count,low,3.0,6.6,30.0,v3 quantified/scenario rule
+STOMP,짓밟기,Stomp,clause,1,Deal 12 damage to ALL enemies.,atomic_fixed,high,7.8,7.8,7.8,v3 quantified/scenario rule
+STOMP,짓밟기,Stomp,clause,2,Costs 1 less Energy for each Attack played this turn.,cost_reduction_scaling_capped,medium,2.5,5.5,7.5,"energy saved × reference count, capped by printed cost"
+STONE_ARMOR,돌 갑옷,Stone Armor,clause,1,Gain 4 Plating.,atomic_fixed,medium,6.4,6.4,6.4,v3 quantified/scenario rule
+STORM,폭풍,Storm,clause,1,"Whenever you play a Power, Channel 1 Lightning.",atomic_fixed+event_triggers,low,2.2,7.7,39.6,v3 quantified/scenario rule
+STORM_OF_STEEL,강철의 폭풍,Storm of Steel,clause,1,Discard your Hand.,atomic_discard_hand,medium,-3.0,-2.0,-1.0,v3 quantified/scenario rule
+STORM_OF_STEEL,강철의 폭풍,Storm of Steel,clause,2,Add 1 Shiv into your Hand for each card discarded.,atomic_fixed+scaling_count,medium,1.9,4.18,19.0,v3 quantified/scenario rule
+STRANGLE,목 조르기,Strangle,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+STRANGLE,목 조르기,Strangle,clause,2,"Whenever you play a card this turn, the enemy loses 2 HP.",atomic_hp_bypass+event_triggers,medium,1.1,3.85,19.8,v3 quantified/scenario rule
+STRATAGEM,책략,Stratagem,clause,1,"Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",shuffle_tutor,low,0.0,2.5,7.5,0/1/3 shuffles × selected access
+STRIKE_DEFECT,타격,Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+STRIKE_IRONCLAD,타격,Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+STRIKE_NECROBINDER,타격,Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+STRIKE_REGENT,타격,Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+STRIKE_SILENT,타격,Strike,clause,1,Deal 6 damage.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+SUBROUTINE,서브루틴,Subroutine,clause,1,"Whenever you play a Power, gain 1 Energy.",atomic_fixed+event_triggers,low,2.5,8.75,45.0,v3 quantified/scenario rule
+SUCKER_PUNCH,불의의 일격,Sucker Punch,clause,1,Deal 8 damage.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+SUCKER_PUNCH,불의의 일격,Sucker Punch,clause,2,Apply 1 Weak.,atomic_fixed,medium,2.1,2.1,2.1,v3 quantified/scenario rule
+SUMMON_FORTH,대령하라,Summon Forth,clause,1,Put Sovereign Blade into your Hand from anywhere.,retrieve_sovereign_blade,medium,2.5,2.5,2.5,specific 10-damage card access
+SUMMON_FORTH,대령하라,Summon Forth,clause,2,Forge 8.,atomic_fixed,medium,2.64,2.64,2.64,v3 quantified/scenario rule
+SUNDER,찢기,Sunder,clause,1,Deal 24 damage.,atomic_fixed,high,12.0,12.0,12.0,v3 quantified/scenario rule
+SUNDER,찢기,Sunder,clause,2,"If this kills an enemy, gain 3 Energy.",atomic_fixed+condition_probability,low,0.0,5.25,7.5,v3 quantified/scenario rule
+SUPERCRITICAL,임계 초과,Supercritical,clause,1,Gain 4 Energy.,atomic_fixed,medium,10.0,10.0,10.0,v3 quantified/scenario rule
+SUPERCRITICAL,임계 초과,Supercritical,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SUPERMASSIVE,초질량,Supermassive,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+SUPERMASSIVE,초질량,Supermassive,clause,2,Deals 3 additional damage for each card you created this combat.,additional_damage_scaling,medium,1.5,3.3,15.0,damage unit × reference count
+SUPPRESS,진압,Suppress,clause,1,Deal 11 damage.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+SUPPRESS,진압,Suppress,clause,2,Apply 3 Weak.,atomic_fixed,medium,6.3,6.3,6.3,v3 quantified/scenario rule
+SUPPRESS,진압,Suppress,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+SURVIVOR,생존자,Survivor,clause,1,Gain 8 Block.,atomic_fixed,high,4.8,4.8,4.8,v3 quantified/scenario rule
+SURVIVOR,생존자,Survivor,clause,2,Discard 1 card.,atomic_fixed,high,0.25,0.25,0.25,v3 quantified/scenario rule
+SWEEPING_BEAM,광선 휩쓸기,Sweeping Beam,clause,1,Deal 6 damage to ALL enemies.,atomic_fixed,high,3.9,3.9,3.9,v3 quantified/scenario rule
+SWEEPING_BEAM,광선 휩쓸기,Sweeping Beam,clause,2,Draw 1 card.,atomic_fixed,medium,1.25,1.25,1.25,v3 quantified/scenario rule
+SWEEPING_GAZE,훑어보기,Sweeping Gaze,clause,1,Osty deals 10 damage to a random enemy.,osty_random_damage,medium,4.5,4.5,4.5,Osty random-target damage unit
+SWEEPING_GAZE,훑어보기,Sweeping Gaze,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SWEEPING_GAZE,훑어보기,Sweeping Gaze,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SWORD_BOOMERANG,부메랑 칼날,Sword Boomerang,clause,1,Deal 3 damage to a random enemy 3 times.,atomic_random_target_damage,low,4.05,4.05,4.05,v3 quantified/scenario rule
+SWORD_BOOMERANG,부메랑 칼날,Sword Boomerang,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.5,1.5,V3 cross-effect interaction
+SWORD_SAGE,검성,Sword Sage,clause,1,Sovereign Blade gains Replay 1.,grant_replay,low,2.0,5.0,9.0,average repeated effect
+SYNCHRONIZE,동기화,Synchronize,clause,1,Gain 2 Focus this turn for each unique Orb you have.,atomic_temporary_stat+scaling_count,low,1.6,3.52,16.0,v3 quantified/scenario rule
+SYNCHRONIZE,동기화,Synchronize,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+SYNTHESIS,합성,Synthesis,clause,1,Deal 14 damage.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+SYNTHESIS,합성,Synthesis,clause,2,The next Power you play costs 0 Energy.,next_card_free,medium,2.5,2.5,2.5,one energy saved by default
+TACTICIAN,전략가,Tactician,clause,1,Gain 1 Energy.,atomic_fixed,medium,2.5,2.5,2.5,v3 quantified/scenario rule
+TACTICIAN,전략가,Tactician,keyword,,keyword_sly,keyword_sly,low,0.0,4.4,8.0,discard-trigger probability and free cost
+TAG_TEAM,태그 팀,Tag Team,clause,1,Deal 11 damage.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+TAG_TEAM,태그 팀,Tag Team,clause,2,The next Attack another player plays on the enemy is played an extra time.,next_card_replay,low,2.0,5.0,10.0,average repeated card effect
+TANK,탱커,Tank,clause,1,Take double damage from enemies.,double_damage_window,low,2.5,6.0,15.0,additional attack damage
+TANK,탱커,Tank,clause,2,Allies take half damage from enemies.,percent_damage_reduction,low,2.0,5.0,12.0,prevented incoming damage
+TAUNT,도발,Taunt,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+TAUNT,도발,Taunt,clause,2,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+TEAR_ASUNDER,갈가리 찢기,Tear Asunder,clause,1,Deal 5 damage.,atomic_fixed,high,2.5,2.5,2.5,v3 quantified/scenario rule
+TEAR_ASUNDER,갈가리 찢기,Tear Asunder,clause,2,Hits an additional time for each time you lost HP this combat.,extra_hits_per_hp_loss,low,0.0,7.5,20.0,0/3/8 prior HP-loss events
+TEMPEST,뇌우,Tempest,clause,1,Channel X Lightning.,atomic_fixed+x_value,low,2.2,4.4,8.8,v3 quantified/scenario rule
+TERRAFORMING,테라포밍,Terraforming,clause,1,Gain 6 Vigor.,atomic_fixed,medium,3.0,3.0,3.0,v3 quantified/scenario rule
+TESLA_COIL,테슬라 코일,Tesla Coil,clause,1,Deal 3 damage.,atomic_fixed,high,1.5,1.5,1.5,v3 quantified/scenario rule
+TESLA_COIL,테슬라 코일,Tesla Coil,clause,2,Trigger all Lightning against the enemy.,trigger_all_lightning,low,2.0,8.0,20.0,Lightning count
+THE_BOMB,폭탄,The Bomb,clause,1,"At the end of 3 turns, deal 40 damage to ALL enemies.",atomic_fixed+fixed_delay_n,high,13.312,13.312,13.312,v3 quantified/scenario rule
+THE_GAMBIT,포석,The Gambit,clause,1,Gain 50 Block.,atomic_fixed,high,30.0,30.0,30.0,v3 quantified/scenario rule
+THE_GAMBIT,포석,The Gambit,clause,2,"If you take unblocked attack damage this combat, die.",gambit_death_risk,low,-35.0,-25.0,-3.0,combat-loss risk after the initial Block expires
+THE_HUNT,사냥,The Hunt,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+THE_HUNT,사냥,The Hunt,clause,2,"If Fatal, gain an additional card reward.",meta_card_reward,low,0.0,2.1,6.0,reward quality and Fatal chance
+THE_HUNT,사냥,The Hunt,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+THE_SCYTHE,사신의 낫,The Scythe,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+THE_SCYTHE,사신의 낫,The Scythe,clause,2,Permanently increase this card's damage by 4.,permanent_damage_growth,low,2.0,6.0,14.0,future-combat uses
+THE_SCYTHE,사신의 낫,The Scythe,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+THE_SEALED_THRONE,봉인된 왕좌,The Sealed Throne,clause,1,"Whenever you play a card, gain 1 Stars.",atomic_fixed+event_triggers,low,1.5,5.25,27.0,v3 quantified/scenario rule
+THE_SEALED_THRONE,봉인된 왕좌,The Sealed Throne,printed_cost,,Spend 3 Stars to play this card,cost_star_spend,low,-6.0,-6.0,-6.0,printed Star payment: 3 × -2.0
+THE_SMITH,위대한 재련,The Smith,clause,1,Forge 30.,atomic_fixed,medium,9.9,9.9,9.9,v3 quantified/scenario rule
+THE_SMITH,위대한 재련,The Smith,printed_cost,,Spend 4 Stars to play this card,cost_star_spend,low,-8.0,-8.0,-8.0,printed Star payment: 4 × -2.0
+THINKING_AHEAD,미래 예지,Thinking Ahead,clause,1,Draw 2 cards.,atomic_fixed,medium,3.4,3.4,3.4,v3 quantified/scenario rule
+THINKING_AHEAD,미래 예지,Thinking Ahead,clause,2,Put 1 card from your Hand on top of your Draw Pile.,atomic_hand_to_topdeck,medium,-0.5,-0.5,-0.5,v3 quantified/scenario rule
+THINKING_AHEAD,미래 예지,Thinking Ahead,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+THRASH,난타,Thrash,clause,1,Deal 4 damage twice.,atomic_fixed,high,4.0,4.0,4.0,v3 quantified/scenario rule
+THRASH,난타,Thrash,clause,2,Exhaust a random Attack in your Hand and add its damage to this card.,absorb_random_attack_damage,low,1.0,3.0,8.0,absorbed 5/10/20 damage minus lost-card value
+THRASH,난타,Thrash,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+THRUMMING_HATCHET,고동치는 도끼,Thrumming Hatchet,clause,1,Deal 11 damage.,atomic_fixed,high,5.5,5.5,5.5,v3 quantified/scenario rule
+THRUMMING_HATCHET,고동치는 도끼,Thrumming Hatchet,clause,2,"At the start of your next turn, return this to your Hand.",atomic_delayed_self_return,low,2.4,2.4,2.4,v3 quantified/scenario rule
+THUNDER,벼락,Thunder,clause,1,"Whenever you Evoke Lightning, deal 6 damage to each enemy hit.",lightning_followup_damage,low,2.7,9.45,27.0,random damage × Lightning evokes
+THUNDERCLAP,천둥,Thunderclap,clause,1,Deal 4 damage and apply 1 Vulnerable to ALL enemies.,atomic_fixed,medium,4.6,4.6,4.6,v3 quantified/scenario rule
+TIMES_UP,때가 되었다,Time's Up,clause,1,Deal damage equal to the enemy's Doom.,equal_to_quantity,low,2.5,10.0,20.0,v3 quantified/scenario rule
+TIMES_UP,때가 되었다,Time's Up,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+TOOLS_OF_THE_TRADE,작업 도구,Tools of the Trade,clause,1,"At the start of your turn, draw 1 card and discard 1 card.",atomic_fixed+recurring_turns,low,2.25,5.55,9.0,v3 quantified/scenario rule
+TORIC_TOUGHNESS,고리형 강인함,Toric Toughness,clause,1,Gain 5 Block.,atomic_fixed,high,3.0,3.0,3.0,v3 quantified/scenario rule
+TORIC_TOUGHNESS,고리형 강인함,Toric Toughness,clause,2,Gain 5 Block at the start of the next 2 turns.,fixed_future_turn_block,medium,4.32,4.32,4.32,fixed delayed Block with geometric delay
+TOXIC,유독성,Toxic,clause,1,"At the end of your turn, if this is in your Hand, take 5 damage.",atomic_self_damage+condition_probability+recurring_turns,medium,-16.5,-7.122,-0.0,v3 quantified/scenario rule
+TOXIC,유독성,Toxic,keyword,,keyword_exhaust_cleanup,keyword_exhaust_cleanup,medium,1.0,1.0,1.0,removes harmful card
+TRACKING,추적,Tracking,clause,1,Weak enemies take double damage from Attacks.,persistent_weak_double_damage,low,2.5,12.5,30.0,additional Attack damage across Weak windows
+TRANSFIGURE,변형,Transfigure,clause,1,Add Replay to a card in your Hand.,selected_replay_with_combo_range,low,3.0,8.0,20.0,selected repeated-card value before added Energy cost
+TRANSFIGURE,변형,Transfigure,clause,2,It costs an extra 1 Energy.,cost_increase,medium,-2.5,-2.5,-2.5,energy penalty
+TRANSFIGURE,변형,Transfigure,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+TRASH_TO_TREASURE,고철을 보물로,Trash to Treasure,clause,1,"Whenever you create a Status, Channel 1 random Orb.",status_trigger_random_orb,low,3.2,11.2,32.0,mean Orb value × Status creation events
+TREMBLE,떨림,Tremble,clause,1,Apply 3 Vulnerable.,atomic_fixed,medium,6.0,6.0,6.0,v3 quantified/scenario rule
+TREMBLE,떨림,Tremble,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+TRUE_GRIT,진정한 끈기,True Grit,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+TRUE_GRIT,진정한 끈기,True Grit,clause,2,Exhaust 1 card at random.,atomic_random_exhaust,low,0.5,0.5,0.5,v3 quantified/scenario rule
+TURBO,터보,TURBO,clause,1,Gain 2 Energy.,atomic_fixed,medium,5.0,5.0,5.0,v3 quantified/scenario rule
+TURBO,터보,TURBO,clause,2,Add a Void into your Discard Pile.,atomic_fixed,high,-2.3,-2.3,-2.3,v3 quantified/scenario rule
+TWIN_STRIKE,이중 타격,Twin Strike,clause,1,Deal 5 damage twice.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+TWIN_STRIKE,이중 타격,Twin Strike,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,medium,0.0,0.25,0.75,V3 cross-effect interaction
+TYRANNY,독재,Tyranny,clause,1,"At the start of your turn, draw 1 card and Exhaust 1 card from your Hand.",recurring_draw_and_exhaust,low,-6.0,3.7,13.5,forced exhaust quality × active turns
+TYRANNY,독재,Tyranny,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+ULTIMATE_DEFEND,궁극의 수비,Ultimate Defend,clause,1,Gain 11 Block.,atomic_fixed,high,6.6,6.6,6.6,v3 quantified/scenario rule
+ULTIMATE_STRIKE,궁극의 타격,Ultimate Strike,clause,1,Deal 14 damage.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+UNDEATH,불사,Undeath,clause,1,Gain 7 Block.,atomic_fixed,high,4.2,4.2,4.2,v3 quantified/scenario rule
+UNDEATH,불사,Undeath,clause,2,Add a copy of this card into your Discard Pile.,atomic_copy_self_discard,low,-0.5,0.5,2.5,v3 quantified/scenario rule
+UNLEASH,풀어놓기,Unleash,clause,1,Osty deals 6 damage.,atomic_osty_damage,high,2.7,2.7,2.7,v3 quantified/scenario rule
+UNLEASH,풀어놓기,Unleash,clause,2,Deals additional damage equal to Osty's current HP.,additional_damage_equal,low,2.0,6.0,15.0,referenced HP/deck quantity
+UNMOVABLE,요지부동,Unmovable,clause,1,"The first time you gain Block from a card each turn, double the amount gained.",first_block_doubled_each_turn,low,3.0,12.0,30.0,additional first-card Block across active turns
+UNRELENTING,무자비,Unrelenting,clause,1,Deal 14 damage.,atomic_fixed,high,7.0,7.0,7.0,v3 quantified/scenario rule
+UNRELENTING,무자비,Unrelenting,clause,2,The next Attack you play costs 0 Energy.,next_card_free,medium,2.5,2.5,2.5,one energy saved by default
+UNTOUCHABLE,범접 불가,Untouchable,clause,1,Gain 6 Block.,atomic_fixed,high,3.6,3.6,3.6,v3 quantified/scenario rule
+UNTOUCHABLE,범접 불가,Untouchable,keyword,,keyword_sly,keyword_sly,low,0.0,3.025,5.5,discard-trigger probability and free cost
+UPPERCUT,어퍼컷,Uppercut,clause,1,Deal 13 damage.,atomic_fixed,high,6.5,6.5,6.5,v3 quantified/scenario rule
+UPPERCUT,어퍼컷,Uppercut,clause,2,Apply 1 Weak.,atomic_fixed,medium,2.1,2.1,2.1,v3 quantified/scenario rule
+UPPERCUT,어퍼컷,Uppercut,clause,3,Apply 1 Vulnerable.,atomic_fixed,medium,2.0,2.0,2.0,v3 quantified/scenario rule
+UPROAR,난동,Uproar,clause,1,Deal 6 damage twice.,atomic_fixed,high,6.0,6.0,6.0,v3 quantified/scenario rule
+UPROAR,난동,Uproar,clause,2,Play a random Attack from your Draw Pile.,auto_play_from_pile,low,2.0,4.0,7.0,average auto-played card
+UPROAR,난동,Uproar,interaction,,multi_hit_strength_synergy,multi_hit_strength_synergy,low,0.0,0.25,0.75,V3 cross-effect interaction
+UP_MY_SLEEVE,비책,Up My Sleeve,clause,1,Add 3 Shivs into your Hand.,atomic_fixed,high,5.7,5.7,5.7,v3 quantified/scenario rule
+UP_MY_SLEEVE,비책,Up My Sleeve,clause,2,Reduce this card's cost by 1.,cost_reduction,medium,2.5,2.5,2.5,energy saved
+VEILPIERCER,장막 관통자,Veilpiercer,clause,1,Deal 10 damage.,atomic_fixed,high,5.0,5.0,5.0,v3 quantified/scenario rule
+VEILPIERCER,장막 관통자,Veilpiercer,clause,2,The next Ethereal card you play costs 0 Energy.,next_card_free,medium,2.5,2.5,2.5,one energy saved by default
+VENERATE,추앙,Venerate,clause,1,Gain 2 Stars.,atomic_fixed,low,3.0,3.0,3.0,v3 quantified/scenario rule
+VICIOUS,포악함,Vicious,clause,1,"Whenever you apply Vulnerable, draw 1 card.",atomic_fixed+event_triggers,low,1.25,4.375,22.5,v3 quantified/scenario rule
+VOID,공허,Void,clause,1,"Whenever you draw this card, lose 1 Energy.",draw_trigger_energy_loss,medium,-2.5,-2.5,-2.5,one Energy lost on draw
+VOID,공허,Void,keyword,,keyword_ethereal_cleanup,keyword_ethereal_cleanup,medium,1.0,1.0,1.0,removes harmful card
+VOID,공허,Void,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+VOID_FORM,공허의 형상,Void Form,clause,1,End your turn.,end_turn_penalty,low,-12.0,-6.0,-2.0,foregone cards/energy
+VOID_FORM,공허의 형상,Void Form,clause,2,The first 2 cards you play each turn are free to play.,two_free_cards_each_turn,low,7.5,18.5,30.0,two average 1-cost cards × active turns
+VOID_FORM,공허의 형상,Void Form,keyword,,keyword_ethereal,keyword_ethereal,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+VOLLEY,난사,Volley,clause,1,Deal 10 damage to a random enemy X times.,random_target+x_value,medium,4.5,9.0,18.0,v3 quantified/scenario rule
+VOLTAIC,동전기,Voltaic,clause,1,Channel Lightning equal to the Lightning already Channeled this combat.,lightning_history_scaling,low,2.2,8.8,22.0,prior Lightning count
+VOLTAIC,동전기,Voltaic,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+WASTE_AWAY,쇠퇴,Waste Away,clause,1,Gain 1 less Energy per turn.,recurring_energy_reduction,low,-25.0,-17.0,-5.0,one less Energy × combat turns
+WELL_LAID_PLANS,괜찮은 전략,Well-Laid Plans,clause,1,"At the end of your turn, Retain up to 1 card.",atomic_retain_up_to+recurring_turns,medium,1.65,4.07,6.6,v3 quantified/scenario rule
+WHIRLWIND,소용돌이,Whirlwind,clause,1,Deal 5 damage to ALL enemies X times.,atomic_fixed+x_value,medium,3.25,6.5,13.0,v3 quantified/scenario rule
+WHISTLE,호각 불기,Whistle,clause,1,Deal 33 damage.,atomic_fixed,high,16.5,16.5,16.5,v3 quantified/scenario rule
+WHISTLE,호각 불기,Whistle,clause,2,Stun the enemy.,enemy_stun,low,3.0,7.2,15.0,prevented enemy action as 5/12/25 Block
+WHISTLE,호각 불기,Whistle,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+WHITE_NOISE,백색 소음,White Noise,clause,1,Add a random Power into your Hand.,atomic_random_power_card,low,5.0,5.0,5.0,v3 quantified/scenario rule
+WHITE_NOISE,백색 소음,White Noise,clause,2,It's free to play this turn.,atomic_free_generated_card,high,2.5,2.5,2.5,v3 quantified/scenario rule
+WHITE_NOISE,백색 소음,White Noise,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+WISH,염원,Wish,clause,1,Put a card from your Draw Pile into your Hand.,tutor_to_hand,medium,2.5,2.5,2.5,selected card access = 2.5
+WISH,염원,Wish,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+WISP,위습,Wisp,clause,1,Gain 1 Energy.,atomic_fixed,medium,2.5,2.5,2.5,v3 quantified/scenario rule
+WISP,위습,Wisp,keyword,,keyword_exhaust,keyword_exhaust,medium,-1.0,-1.0,-1.0,v1 keyword calibration
+WITHER,침체,Wither,clause,1,"At the end of your turn, if this is in your Hand, take 3 damage.",atomic_self_damage+condition_probability+recurring_turns,medium,-9.9,-4.274,-0.0,v3 quantified/scenario rule
+WITHER,침체,Wither,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+WOUND,부상,Wound,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+WRAITH_FORM,유령의 형상,Wraith Form,clause,1,Gain 2 Intangible.,atomic_intangible,high,24.0,24.0,24.0,v3 quantified/scenario rule
+WRAITH_FORM,유령의 형상,Wraith Form,clause,2,"At the start of your turn, lose 1 Dexterity.",atomic_lose_dexterity_conditional_stock+recurring_turns,low,-19.5,-12.025,0.0,v3 quantified/scenario rule
+WRITHE,몸부림,Writhe,keyword,,keyword_innate,keyword_innate,medium,0.5,0.5,0.5,v1 keyword calibration
+WRITHE,몸부림,Writhe,keyword,,keyword_unplayable,keyword_unplayable,medium,-2.0,-1.25,-0.75,draw/hand clog
+WROUGHT_IN_WAR,전장의 생존자,Wrought in War,clause,1,Deal 7 damage.,atomic_fixed,high,3.5,3.5,3.5,v3 quantified/scenario rule
+WROUGHT_IN_WAR,전장의 생존자,Wrought in War,clause,2,Forge 7.,atomic_fixed,medium,2.31,2.31,2.31,v3 quantified/scenario rule
+ZAP,파지직,Zap,clause,1,Channel 1 Lightning.,atomic_fixed,medium,2.2,2.2,2.2,v3 quantified/scenario rule

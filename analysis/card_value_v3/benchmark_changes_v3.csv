@@ -1,0 +1,2 @@
+﻿scope,rarity,energy_cost,benchmark_v2,benchmark_v3,reason
+character,Uncommon,0,5.0,4.3,Fixed E0 Uncommon cards center near 4.3; Backstab/Boot Sequence should not set the entire cell

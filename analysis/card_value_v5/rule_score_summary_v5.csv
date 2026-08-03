@@ -1,0 +1,298 @@
+﻿rule,confidence,effect_count,card_count,median_score_low,median_score_baseline,median_score_high,example_card,example_text,basis
+atomic_fixed,high,270,249,4.525,4.525,4.525,Abrasive,Gain 1 Dexterity.,v3 quantified/scenario rule
+atomic_fixed,medium,126,108,3.4,3.4,3.4,Abrasive,Gain 4 Thorns.,v3 quantified/scenario rule
+keyword_exhaust,medium,95,95,-1.0,-1.0,-1.0,Adrenaline,keyword_exhaust,v1 keyword calibration
+keyword_unplayable,medium,26,26,-2.0,-1.25,-0.75,Ascender's Bane,keyword_unplayable,draw/hand clog
+cost_star_spend,low,21,21,-6.0,-6.0,-6.0,Alignment,Spend 3 Stars to play this card,printed Star payment: 3 × -2.0
+multi_hit_strength_synergy,medium,16,16,0.0,0.375,1.125,Astral Pulse,multi_hit_strength_synergy,V3 cross-effect interaction
+atomic_fixed+event_triggers,medium,14,14,1.8,6.3,32.4,Afterimage,"Whenever you play a card, gain 1 Block.",v3 quantified/scenario rule
+keyword_ethereal,medium,13,13,-1.0,-1.0,-1.0,Apparition,keyword_ethereal,v1 keyword calibration
+atomic_fixed+recurring_turns,low,12,12,3.45,8.51,13.8,Crimson Mantle,"At the start of your turn, lose 1 HP and gain 8 Block.",v3 quantified/scenario rule
+keyword_retain,medium,11,11,0.5,0.5,0.5,Eradicate,keyword_retain,v1 keyword calibration
+atomic_fixed+delay_next_turn,medium,10,10,3.36,3.36,3.36,Charge Battery,"Next turn, gain 1 Energy.",v3 quantified/scenario rule
+atomic_fixed+event_triggers,low,10,10,1.725,6.037,31.05,Black Hole,"Whenever you spend or gain 1 Stars, deal 3 damage to ALL enemies.",v3 quantified/scenario rule
+atomic_osty_damage,high,10,10,2.925,2.925,2.925,Fetch,Osty deals 3 damage.,v3 quantified/scenario rule
+atomic_fixed+condition_probability,low,9,9,0.0,2.38,3.4,Escape Plan,"If you draw a Skill, gain 3 Block.",v3 quantified/scenario rule
+keyword_innate,medium,9,9,0.5,0.5,0.5,Apotheosis,keyword_innate,v1 keyword calibration
+additional_damage_scaling,medium,8,8,1.5,3.3,15.0,Ashen Strike,Deals 3 additional damage for each card in your Exhaust Pile.,damage unit × reference count
+atomic_fixed,low,8,8,1.5,1.5,1.5,Big Bang,Gain 1 Stars.,v3 quantified/scenario rule
+equal_to_quantity,low,8,8,2.5,8.25,15.0,Body Slam,Deal damage equal to your Block.,v3 quantified/scenario rule
+keyword_sly,low,8,8,0.0,3.713,6.75,Abrasive,keyword_sly,discard-trigger probability and free cost
+atomic_fixed+scaling_count,medium,7,7,2.5,5.5,25.0,Barrage,Deal 5 damage for each Channeled Orb.,v3 quantified/scenario rule
+keyword_eternal_meta,medium,7,7,-1.0,-1.0,-1.0,Ascender's Bane,keyword_eternal_meta,deck removal restriction
+atomic_enemy_strength_loss_turn,medium,6,6,7.65,7.65,7.65,Crush Under,All enemies lose 1 Strength this turn.,v3 quantified/scenario rule
+atomic_fixed+scaling_count,low,6,6,2.225,4.895,22.25,Chill,Channel 1 Frost for each enemy.,v3 quantified/scenario rule
+tutor_to_hand,medium,6,6,3.75,3.75,3.75,Dredge,Put 3 cards from your Discard Pile into your Hand.,selected card access = 2.5
+atomic_free_generated_card,high,5,5,2.5,2.5,2.5,Discovery,It's free to play this turn.,v3 quantified/scenario rule
+atomic_self_damage+condition_probability+recurring_turns,medium,5,5,-9.9,-4.274,-0.0,Burn,"At the end of your turn, if this is in your Hand, take 2 damage.",v3 quantified/scenario rule
+keyword_ethereal_cleanup,medium,5,5,1.0,1.0,1.0,Ascender's Bane,keyword_ethereal_cleanup,removes harmful card
+atomic_fixed+x_value,low,4,4,1.55,3.1,6.2,Beat into Shape,Forge X.,v3 quantified/scenario rule
+atomic_fixed+x_value,medium,4,4,4.0,8.0,16.0,Eradicate,Deal 11 damage X times.,v3 quantified/scenario rule
+auto_play_from_pile,low,4,4,3.0,6.0,10.5,Beat Down,Play 3 random Attacks from your Discard Pile.,average auto-played card
+double_damage_window,low,4,4,2.5,6.0,15.0,Conqueror,Sovereign Blade deals double damage to the enemy this turn.,additional attack damage
+keyword_exhaust_cleanup,medium,4,4,1.0,1.0,1.0,Debris,keyword_exhaust_cleanup,removes harmful card
+next_card_free,medium,4,4,2.5,2.5,2.5,Pounce,The next Skill you play costs 0 Energy.,one energy saved by default
+next_card_replay,low,4,4,2.0,5.0,10.0,Burst,"This turn, your next Skill is played an extra time.",average repeated card effect
+atomic_exhaust_hand,low,3,3,-2.0,1.0,5.0,Eidolon,Exhaust your Hand.,v3 quantified/scenario rule
+atomic_hand_to_topdeck,medium,3,3,-0.5,-0.5,-0.5,Glimmer,Put 1 card from your Hand on top of your Draw Pile.,v3 quantified/scenario rule
+atomic_retain_hand,high,3,3,2.0,2.0,2.0,Convergence,Retain your Hand this turn.,v3 quantified/scenario rule
+atomic_selected_exhaust,high,3,3,1.0,1.0,1.0,Brand,Exhaust 1 card.,v3 quantified/scenario rule
+atomic_temporary_stat,high,3,3,1.6,1.6,1.6,Anticipate,Gain 2 Dexterity this turn.,v3 quantified/scenario rule
+cost_increase,medium,3,3,-2.5,-2.5,-2.5,Frantic Escape,Increase the cost of this card by 1.,energy penalty
+cost_reduction,medium,3,3,2.5,8.75,45.0,Kingly Kick,"Whenever you draw this card, reduce its cost by 1.",energy saved
+cost_reduction_scaling_capped,medium,3,3,2.5,5.5,7.5,Banshee's Cry,Costs 2 Energy less for each Ethereal card played this combat.,"energy saved × reference count, capped by printed cost"
+play_restriction,low,3,3,-4.0,-1.5,-0.0,Enthralled,"If this is in your Hand, it must be played before other cards.",availability loss as fraction of card budget
+selection_scope,high,3,3,0.0,0.0,0.0,Dual Wield,Choose an Attack or Power card.,selection scope; value counted by linked effect
+self_auto_replay,low,3,3,4.0,11.2,16.0,Bombardment,"At the start of your turn, if this is in your Exhaust Pile, play it.",fraction of card benchmark replayed
+additional_damage_equal,low,2,2,2.0,6.0,15.0,Protector,Deals additional damage equal to Osty's Max HP.,referenced HP/deck quantity
+all_players+atomic_fixed,low,2,2,4.2,6.3,10.5,Energy Surge,ALL players gain 2 Energy.,v3 quantified/scenario rule
+all_players+atomic_fixed,medium,2,2,6.9,10.35,17.25,Legion of Bone,ALL players Summon 6.,v3 quantified/scenario rule
+archetype_damage_growth,low,2,2,0.75,2.625,13.5,Claw,Increase the damage of ALL Claw cards by 2 this combat.,future matching-card hits
+atomic_copy_selected_hand,low,2,2,1.5,3.0,5.0,Dual Wield,Add a copy of that card into your Hand.,v3 quantified/scenario rule
+atomic_copy_self_discard,low,2,2,-0.5,0.5,2.5,Anger,Add a copy of this card into your Discard Pile.,v3 quantified/scenario rule
+atomic_delayed_self_return,low,2,2,2.4,2.4,2.4,Bolas,"At the start of your next turn, return this to your Hand.",v3 quantified/scenario rule
+atomic_discard_hand,medium,2,2,-3.0,-2.0,-1.0,Shadow Step,Discard your Hand.,v3 quantified/scenario rule
+atomic_fixed+condition_probability,medium,2,2,0.0,7.018,10.025,Bubble Bubble,"If the enemy has Poison, apply 9 Poison.",v3 quantified/scenario rule
+atomic_fixed+condition_probability+recurring_turns,medium,2,2,-31.35,-13.533,-0.0,Bad Luck,"At the end of your turn, if this is in your Hand, lose 13 HP.",v3 quantified/scenario rule
+atomic_fixed+delay_next_turn,high,2,2,2.16,2.16,2.16,Dodge and Roll,"Next turn, gain 4 Block.",v3 quantified/scenario rule
+atomic_fixed+recurring_resource_turns,low,2,2,5.0,17.0,25.0,Friendship,Gain 1 Energy at the start of each turn.,v3 quantified/scenario rule
+atomic_fixed+threshold_triggers,low,2,2,0.0,4.5,10.0,Automation,"Every 10 cards you draw, gain 1 Energy.",v3 quantified/scenario rule
+atomic_fixed+threshold_triggers,medium,2,2,0.0,12.285,27.3,Outbreak,"Every 3 times you apply Poison, deal 11 damage to ALL enemies.",v3 quantified/scenario rule
+atomic_intangible,high,2,2,18.0,18.0,18.0,Apparition,Gain 1 Intangible.,v3 quantified/scenario rule
+atomic_lose_strength_conditional_stock,low,2,2,-6.5,-3.25,0.0,Friendship,Lose 2 Strength.,v3 quantified/scenario rule
+atomic_no_more_draw,low,2,2,-5.55,-3.4,0.0,Battle Trance,You cannot draw additional cards this turn.,v3 quantified/scenario rule
+atomic_orb_slot,medium,2,2,3.75,3.75,3.75,Capacitor,Gain 2 Orb Slots.,v3 quantified/scenario rule
+atomic_random_colorless_card,low,2,2,4.0,4.0,4.0,Jack of All Trades,Add 1 random Colorless card into your Hand.,v3 quantified/scenario rule
+atomic_random_exhaust,low,2,2,0.5,0.5,0.5,Cinder,Exhaust 1 card at random.,v3 quantified/scenario rule
+atomic_random_target_damage,low,2,2,4.725,4.725,4.725,Ricochet,Deal 3 damage to a random enemy 4 times.,v3 quantified/scenario rule
+atomic_retrieve_hand,high,2,2,2.5,2.5,2.5,Graveblast,Put a card from your Discard Pile into your Hand.,v3 quantified/scenario rule
+atomic_retrieve_topdeck,medium,2,2,1.5,1.5,1.5,Cosmic Indifference,Put a card from your Discard Pile on top of your Draw Pile.,v3 quantified/scenario rule
+atomic_temporary_stat,medium,2,2,1.2,1.2,1.2,Focused Strike,Gain 1 Focus this turn.,v3 quantified/scenario rule
+atomic_upgrade,medium,2,2,3.0,3.0,3.0,Armaments,Upgrade a card in your Hand.,v3 quantified/scenario rule
+bulk_transform,low,2,2,2.0,6.0,12.0,Compact,Transform all Status cards in your Hand into Fuel.,multiple card replacement
+bulk_tutor_to_hand,low,2,2,3.0,7.0,14.0,All for One,Put ALL 0 Energy cards from your Discard Pile into your Hand.,selected/bulk card access
+cost_to_zero,medium,2,2,3.75,3.75,3.75,Momentum Strike,Reduce this card's cost to 0 Energy.,printed energy saved
+discover_restricted_card,low,2,2,3.0,4.0,5.5,Quasar,Choose 1 of 3 random Colorless cards to add into your Hand.,best-of-three restricted generation
+meta_event_unlock,low,2,2,0.0,4.0,12.0,Byrdonis Egg,Can be hatched at a Rest Site.,future event value kept separate from combat evidence
+meta_gold,medium,2,2,1.5,2.2,2.5,Hand of Greed,"If Fatal, gain 20 Gold.",1 point per 10 Gold
+multi_hit_strength_synergy,low,2,2,0.0,0.25,0.75,Refract,multi_hit_strength_synergy,V3 cross-effect interaction
+percent_damage_reduction,low,2,2,2.0,5.0,12.0,Colossus,You receive 50% less damage from Vulnerable enemies this turn.,prevented incoming damage
+random_target+x_value,medium,2,2,3.375,6.75,13.5,Stardust,Deal 5 damage to a random enemy X times.,v3 quantified/scenario rule
+retaliation_damage,low,2,2,1.75,5.25,12.0,Caltrops,"Whenever you are attacked, deal 3 damage back.",damage unit × incoming-hit scenarios
+absorb_random_attack_damage,low,1,1,1.0,3.0,8.0,Thrash,Exhaust a random Attack in your Hand and add its damage to this card.,absorbed 5/10/20 damage minus lost-card value
+all_attack_hand_gate,low,1,1,-7.0,-2.1,0.0,Clash,Can only be played if every card in your Hand is an Attack.,0%/70%/100% availability × printed payoff
+atomic_enemy_strength_loss,medium,1,1,2.6,2.6,2.6,Resonance,ALL enemies lose 1 Strength.,v3 quantified/scenario rule
+atomic_evoke_orb,low,1,1,1.5,3.0,8.0,Dualcast,Evoke your rightmost Orb twice.,v3 quantified/scenario rule
+atomic_evoke_orb+recurring_turns,low,1,1,1.125,5.55,24.0,Consuming Shadow,"At the end of your turn, Evoke your leftmost Orb.",v3 quantified/scenario rule
+atomic_fixed+condition_probability+recurring_turns,low,1,1,0.0,10.101,23.4,Hailstorm,"At the end of your turn, if you have Frost, deal 6 damage to ALL enemies.",v3 quantified/scenario rule
+atomic_fixed+condition_probability+recurring_turns+scaling_count,medium,1,1,-33.0,-3.134,-0.0,Regret,"At the end of your turn, if this is in your Hand, lose 1 HP for each card in your Hand.",v3 quantified/scenario rule
+atomic_fixed+delay_next_turn,low,1,1,3.6,3.6,3.6,Hidden Cache,"Next turn, gain 3 Stars.",v3 quantified/scenario rule
+atomic_fixed+event_triggers+scaling_count,low,1,1,1.2,9.24,216.0,Child of the Stars,"Whenever you spend 1 Stars, gain 2 Block for each 1 Stars spent.",v3 quantified/scenario rule
+atomic_fixed+fixed_delay_n,high,1,1,13.312,13.312,13.312,The Bomb,"At the end of 3 turns, deal 40 damage to ALL enemies.",v3 quantified/scenario rule
+atomic_fixed+fixed_delayed_turns,low,1,1,3.168,3.168,3.168,Lightning Rod,"At the start of the next 2 turns, Channel 1 Lightning.",v3 quantified/scenario rule
+atomic_fixed+recurring_turns+scaling_count,low,1,1,1.8,9.768,72.0,Coolant,"At the start of your turn, gain 2 Block for each unique Orb you have.",v3 quantified/scenario rule
+atomic_free_hand,low,1,1,2.5,12.5,25.0,Bullet Time,ALL cards in your Hand are free to play this turn.,v3 quantified/scenario rule
+atomic_grant_ethereal,high,1,1,-1.0,-1.0,-1.0,Sculpting Strike,Add Ethereal to a card in your Hand.,v3 quantified/scenario rule
+atomic_grant_retain,high,1,1,0.5,0.5,0.5,Snap,Add Retain to a card in your Hand.,v3 quantified/scenario rule
+atomic_grant_sly,medium,1,1,0.5,2.0,4.0,Hand Trick,Add Sly to a Skill in your Hand this turn.,v3 quantified/scenario rule
+atomic_heal_meta,low,1,1,7.5,20.0,32.5,Not Yet,Heal 10 HP.,v3 quantified/scenario rule
+atomic_hp_bypass,high,1,1,1.65,1.65,1.65,Capture Spirit,Enemy loses 3 HP.,v3 quantified/scenario rule
+atomic_hp_bypass+event_triggers,medium,1,1,1.1,3.85,19.8,Strangle,"Whenever you play a card this turn, the enemy loses 2 HP.",v3 quantified/scenario rule
+atomic_inky_shiv,high,1,1,5.0,5.0,5.0,Blade of Ink,Add 2 Inky Shivs into your Hand.,v3 quantified/scenario rule
+atomic_intangible+condition_probability,medium,1,1,0.0,8.4,12.0,Eidolon,"If 9 cards were Exhausted this way, gain 1 Intangible.",v3 quantified/scenario rule
+atomic_lose_dexterity_conditional_stock+recurring_turns,low,1,1,-19.5,-12.025,0.0,Wraith Form,"At the start of your turn, lose 1 Dexterity.",v3 quantified/scenario rule
+atomic_lose_focus_conditional_stock,low,1,1,-19.5,-6.5,0.0,Hyperbeam,Lose 3 Focus.,v3 quantified/scenario rule
+atomic_lose_focus_conditional_stock+recurring_turns,low,1,1,-39.0,-24.05,0.0,Biased Cognition,"At the start of your turn, lose 1 Focus.",v3 quantified/scenario rule
+atomic_orb_slot_loss,high,1,1,-2.5,-2.5,-2.5,Bulk Up,Lose 1 Orb Slot.,v3 quantified/scenario rule
+atomic_random_attack_card,low,1,1,3.0,3.0,3.0,Infernal Blade,Add a random Attack into your Hand.,v3 quantified/scenario rule
+atomic_random_attack_card+event_triggers,low,1,1,3.0,10.5,54.0,Calamity,"Whenever you play an Attack, add a random Attack into your Hand.",v3 quantified/scenario rule
+atomic_random_card_card+recurring_turns,low,1,1,4.5,11.1,18.0,Call of the Void,"At the start of your turn, add 1 random card into your Hand.",v3 quantified/scenario rule
+atomic_random_card_card+scaling_count,low,1,1,3.0,6.6,30.0,Stoke,Add 1 random card into your Hand for each card Exhausted.,v3 quantified/scenario rule
+atomic_random_colorless_card+recurring_turns,low,1,1,6.0,14.8,24.0,Spectrum Shift,"At the start of your turn, add 1 random Colorless card into your Hand.",v3 quantified/scenario rule
+atomic_random_common_card+recurring_turns,low,1,1,4.5,11.1,18.0,Hello World,"At the start of your turn, add a random Common card into your Hand.",v3 quantified/scenario rule
+atomic_random_power_card,low,1,1,5.0,5.0,5.0,White Noise,Add a random Power into your Hand.,v3 quantified/scenario rule
+atomic_random_power_card+recurring_turns,low,1,1,7.5,18.5,30.0,Creative AI,"At the start of your turn, add a random Power into your Hand.",v3 quantified/scenario rule
+atomic_random_replay,low,1,1,3.0,7.0,12.0,Hidden Gem,A random card without Replay in your Draw Pile gains Replay 2.,v3 quantified/scenario rule
+atomic_random_skill_card,low,1,1,3.0,3.0,3.0,Distraction,Add a random Skill into your Hand.,v3 quantified/scenario rule
+atomic_random_target_doom+recurring_turns,low,1,1,2.187,5.395,8.748,Countdown,"At the start of your turn, apply 6 Doom to a random enemy.",v3 quantified/scenario rule
+atomic_random_target_poison,low,1,1,8.1,8.1,8.1,Bouncing Flask,Apply 3 Poison to a random enemy 3 times.,v3 quantified/scenario rule
+atomic_retain_up_to+recurring_turns,medium,1,1,1.65,4.07,6.6,Well-Laid Plans,"At the end of your turn, Retain up to 1 card.",v3 quantified/scenario rule
+atomic_selected_exhaust,medium,1,1,1.0,1.0,1.0,Cleanse,Exhaust 1 card from your Draw Pile.,v3 quantified/scenario rule
+atomic_self_damage+recurring_turns,medium,1,1,-19.8,-12.21,-4.95,Disintegration,"At the end of your turn, take 6 damage.",v3 quantified/scenario rule
+atomic_self_debuff+condition_probability+recurring_turns,low,1,1,-9.0,-3.885,-0.0,Doubt,"At the end of your turn, if this is in your Hand, gain 1 Weak.",v3 quantified/scenario rule
+atomic_self_debuff+condition_probability+recurring_turns,medium,1,1,-9.0,-3.885,-0.0,Shame,"At the end of your turn, if this is in your Hand, gain 1 Frail.",v3 quantified/scenario rule
+atomic_temporary_stat+event_triggers,medium,1,1,0.8,2.8,14.4,Monologue,"Whenever you play a card this turn, gain 1 Strength this turn.",v3 quantified/scenario rule
+atomic_temporary_stat+scaling_count,low,1,1,1.6,3.52,16.0,Synchronize,Gain 2 Focus this turn for each unique Orb you have.,v3 quantified/scenario rule
+atomic_three_souls,medium,1,1,3.0,3.0,3.0,Severance,"Add a Soul into your Draw Pile, Hand, and Discard Pile.",v3 quantified/scenario rule
+atomic_trigger_orb+recurring_turns,low,1,1,2.25,11.1,30.0,Loop,"At the start of your turn, trigger the passive ability of your rightmost Orb.",v3 quantified/scenario rule
+attack_damage_to_doom,low,1,1,2.7,9.45,21.6,Reaper Form,"Whenever Attacks deal damage, apply that much Doom.",10/35/80 Attack damage × Doom unit
+attack_trigger_temp_strength_loss,low,1,1,0.9,3.15,16.2,Monarch's Gaze,"Whenever you attack an enemy, it loses 1 Strength this turn.",temporary Strength loss × Attack hits
+blade_gain_aoe,low,1,1,1.5,3.0,6.0,Seeking Edge,Sovereign Blade now deals damage to ALL enemies.,single-to-AOE premium
+blade_gain_block,medium,1,1,6.0,6.0,6.0,Parry,Sovereign Blade now gains 10 Block.,Block unit
+block_trigger_damage,low,1,1,2.7,9.45,27.0,Juggernaut,"Whenever you gain Block, deal 6 damage to a random enemy.",random damage × Block-gain events
+buffer_prevention,low,1,1,3.0,8.0,18.0,Buffer,Prevent the next time you would lose HP.,prevented HP-loss event
+card_play_doom_turn,low,1,1,0.0,2.43,5.67,Oblivion,"Whenever you play a card this turn, apply 3 Doom to the enemy.",0/3/7 subsequent cards
+card_play_trigger_damage,low,1,1,1.8,12.6,36.0,Serpent Form,"Whenever you play a card, deal 4 damage to a random enemy.",random damage × cards played after power
+conditional_cost_zero,medium,1,1,0.0,3.5,5.0,Flatten,This card costs 0 Energy if Osty has attacked this turn.,conditional printed energy saved
+conditional_extra_block,medium,1,1,0.0,3.36,4.8,Evil Eye,Gain another 8 Block if you have Exhausted a card this turn.,conditional Block
+conditional_extra_hits,low,1,1,0.0,2.8,4.0,Dismantle,"If the enemy is Vulnerable, hits twice.",v3 quantified/scenario rule
+conditional_extra_hits,medium,1,1,0.0,1.75,2.5,Spite,"If you lost HP this turn, hits 2 times.",v3 quantified/scenario rule
+conditional_repeat_block,medium,1,1,0.0,5.04,7.2,Death's Door,"If you applied Doom this turn, gain Block 2 additional times.",printed Block × extra repeats × condition
+coop_block,medium,1,1,4.95,4.95,4.95,Lift,Give another player 11 Block.,Block × ally factor
+coop_block_equal,low,1,1,2.25,6.75,13.5,Demonic Shield,Give another player Block equal to your Block.,own Block scenarios × ally factor
+coop_double_attack_damage,low,1,1,3.75,9.375,18.75,Flanking,The enemy takes double attack damage from other players this turn.,10/25/50 allied Attack damage × ally factor
+coop_energy,medium,1,1,3.75,3.75,3.75,Believe in You,Another player gains 2 Energy.,Energy × ally factor
+coop_forge,low,1,1,2.0,8.0,25.0,Hammer Time,"Whenever you Forge, all allies Forge as well.","party size, Forge amount and trigger frequency"
+coop_plasma,medium,1,1,5.25,5.25,5.25,Ignition,Another player Channels Plasma.,Plasma × ally factor
+coop_random_colorless,low,1,1,2.25,3.0,4.0,Largesse,Another player adds 1 random Colorless card to their Hand.,random Colorless value × ally factor
+coop_share_half_block,low,1,1,0.9,4.5,18.0,Beacon of Hope,"Whenever you gain Block on your turn, other players gain half that much Block.",shared Block × half × ally factor
+coop_soul_generation,low,1,1,3.0,4.5,7.5,Glimpse Beyond,ALL players add 3 Souls into their Draw Pile.,party-size range
+coop_temporary_strength,medium,1,1,3.0,3.0,3.0,Coordinate,Give another player 5 Strength this turn.,temporary stat × ally factor
+copy_selected_to_hand,low,1,1,3.0,18.5,60.0,Juggling,Add a copy of the third Attack you play each turn into your Hand.,average copied card value
+copy_self_discard_zero,low,1,1,-0.5,4.0,9.0,Adaptive Strike,Add a 0 Energy copy of this card into your Discard Pile.,future self-copy; deck clog included in lower bound
+cost_star_x_spend,low,1,1,-8.0,-4.0,-2.0,Stardust,Spend X Stars to play this card,printed X-Star payment: -2.0 per Star at X=1/2/4
+damage_per_combat_draw,low,1,1,2.5,12.5,25.0,Murder,Deals 1 additional damage for each card drawn this combat.,5/25/50 cards drawn this combat
+damage_per_exhausted_hand_card,low,1,1,3.5,14.0,28.0,Fiend Fire,Deal 7 damage for each card Exhausted.,1/4/8 cards in Hand
+damage_per_osty_attack,low,1,1,2.5,8.75,20.0,Squeeze,Deals 5 additional damage for ALL your other Osty Attacks.,1/3.5/8 other Osty Attacks
+damage_per_strike_card,low,1,1,2.0,5.0,10.0,Perfected Strike,Deals 2 additional damage for ALL your cards containing “Strike”.,2/5/10 Strike cards
+damage_per_unique_debuff,low,1,1,2.5,10.0,17.5,Rend,Deals 5 additional damage for each unique debuff on the enemy.,1/4/7 unique debuffs
+damage_reduction_scaling,medium,1,1,-10.0,-2.2,-1.0,Precise Cut,Deals 2 less damage for each other card in your Hand.,hand-size damage penalty
+debuff_trigger_damage,low,1,1,4.5,15.75,45.0,Sleight of Flesh,"Whenever you apply a debuff to an enemy, they take 9 damage.",damage × debuff events
+defend_block_aura,low,1,1,2.4,7.2,16.8,Fasten,Gain an additional 4 Block from Defend cards.,Block unit × Defends played
+delay_next_turn+equal_to_quantity,low,1,1,1.44,3.84,7.2,Prolong,"Next turn, gain Block equal to your current Block.",v3 quantified/scenario rule
+delayed_energy_and_stars,medium,1,1,3.2,3.2,3.2,Convergence,"Next turn, gain 1 Energy and 1 Stars.",resource units × next-turn delay
+delayed_three_selected_copies,low,1,1,2.4,7.2,19.2,Nightmare,"Next turn, add 3 copies of that card into your Hand.",three selected copies × delay; combo dependent
+discard_scrape_misses,low,1,1,-7.7,-5.375,-2.15,Scrape,Discard all cards drawn this way that do not cost 0 Energy.,removes the draw value of 4/2.5/1 misses
+discover_card,low,1,1,2.5,3.5,5.0,Discovery,Choose 1 of 3 random cards to add into your Hand.,best-of-three generated card
+doom_equal_damage,high,1,1,2.16,2.16,2.16,Blight Strike,Apply Doom equal to damage dealt.,v3 quantified/scenario rule
+doom_execute,low,1,1,0.0,4.0,12.0,End of Days,Kill enemies with at least as much Doom as HP.,execute threshold frequency
+doom_threshold_scaling,low,1,1,2.7,5.4,9.45,No Escape,"Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.",base Doom plus 0/2/5 existing ten-Doom groups
+double_block_gain_turn,low,1,1,1.8,6.0,15.0,Shadowmeld,Double your Block gain this turn.,additional 3/10/25 Block
+double_current_block,low,1,1,1.8,4.8,9.0,Entrench,Double your Block.,v3 quantified/scenario rule
+double_current_energy,low,1,1,2.5,5.0,10.0,Double Energy,Double your Energy.,1/2/4 current Energy
+double_debuff_effect,low,1,1,2.0,6.0,12.0,Debilitate,Vulnerable and Weak are twice as effective against the enemy for the next 2 turns.,two-turn debuff amplification
+double_vulnerable,low,1,1,1.0,4.0,8.0,Molten Fist,Double the enemy's Vulnerable.,existing Vulnerable dependent
+draw_pile_empty_gate,low,1,1,-39.0,-27.3,0.0,Grand Finale,Can only be played if there are no cards in your Draw Pile.,0%/30%/100% availability × printed payoff
+draw_to_full,low,1,1,1.25,7.7,18.45,Scrawl,Draw cards until your Hand is full.,1/4/9 cards drawn
+draw_to_six,low,1,1,0.0,5.55,12.0,Expertise,Draw cards until you have 6 in your Hand.,0/3/6 cards drawn
+draw_trigger_energy_loss,medium,1,1,-2.5,-2.5,-2.5,Void,"Whenever you draw this card, lose 1 Energy.",one Energy lost on draw
+draw_until_non_attack,low,1,1,1.25,3.4,9.85,Pillage,Draw cards until you draw a non-Attack card.,deck Attack ratio scenarios
+encounter_escape_progress,low,1,1,0.0,2.0,6.0,Frantic Escape,Get farther away.,encounter-specific progress
+encounter_sandpit_progress,low,1,1,0.0,1.5,5.0,Frantic Escape,Increase Sandpit by 1.,encounter-specific progress
+end_turn_penalty,low,1,1,-12.0,-6.0,-2.0,Void Form,End your turn.,foregone cards/energy
+enemy_strength_gain,medium,1,1,-3.25,-3.25,-3.25,Fight Me!,The enemy gains 1 Strength.,persistent enemy Strength
+enemy_strength_loss,medium,1,1,4.0,4.0,4.0,Shared Fate,Enemy loses 2 Strength.,persistent enemy Strength-loss unit
+enemy_stun,low,1,1,3.0,7.2,15.0,Whistle,Stun the enemy.,prevented enemy action as 5/12/25 Block
+energy_gain_lock,low,1,1,-7.5,-2.5,-0.0,Expect a Fight,You cannot gain additional 1 Energy this turn.,foregone energy effects
+evoke_all_twice,low,1,1,0.0,8.0,36.0,Shatter,Evoke all of your Orbs twice.,"orb count/type, including an empty queue"
+exhaust_non_attacks,low,1,1,-3.0,-0.5,3.0,Second Wind,Exhaust all non-Attack cards in your Hand.,lost hand utility versus exhaust synergy
+exhaust_status_cleanup,low,1,1,0.0,2.5,7.5,Flak Cannon,Exhaust ALL your Status cards.,0/2/6 harmful cards removed
+extra_hits_per_hp_loss,low,1,1,0.0,7.5,20.0,Tear Asunder,Hits an additional time for each time you lost HP this combat.,0/3/8 prior HP-loss events
+extra_poison_trigger,low,1,1,2.0,6.0,15.0,Accelerant,Poison is triggered 1 additional time.,existing Poison stack
+fatal_max_hp_gain,low,1,1,0.0,3.15,4.5,Feed,"If Fatal, raise your Max HP by 3.",Max HP unit × Fatal probability
+fill_hand_status,low,1,1,-3.0,-1.0,1.0,Crash Landing,Fill your Hand with Debris.,status hand pollution
+first_attack_percent_bonus,low,1,1,3.75,9.25,15.0,Lethality,The first Attack each turn deals 50% additional damage.,50% of a 10-damage Attack × active turns
+first_block_doubled_each_turn,low,1,1,3.0,12.0,30.0,Unmovable,"The first time you gain Block from a card each turn, double the amount gained.",additional first-card Block across active turns
+first_card_each_turn_replay,low,1,1,5.0,18.5,36.0,Echo Form,The first card you play each turn is played an extra time.,average card × recurring turns
+first_card_recurring_topdeck,low,1,1,1.5,5.5,12.0,Nostalgia,The first Attack or Skill you play each turn is placed on top of your Draw Pile.,delayed selected reuse across turns
+first_shiv_bonus_each_turn,low,1,1,0.0,9.0,22.5,Phantom Blades,The first Shiv you play each turn deals 9 additional damage.,0/2/5 turns with a Shiv
+fixed_future_turn_block,medium,1,1,4.32,4.32,4.32,Toric Toughness,Gain 5 Block at the start of the next 2 turns.,fixed delayed Block with geometric delay
+forge_per_prior_hit,low,1,1,0.0,3.63,16.5,Beat into Shape,Forges an additional 5 for every other time you've hit the enemy this turn.,Forge unit × prior-hit scenarios
+gambit_death_risk,low,1,1,-35.0,-25.0,-3.0,The Gambit,"If you take unblocked attack damage this combat, die.",combat-loss risk after the initial Block expires
+generated_card_ethereal,medium,1,1,-1.25,-0.75,-0.25,Call of the Void,It gains Ethereal.,reduced generated-card availability
+generated_cards_free,low,1,1,2.0,4.0,7.0,Metamorphosis,They're free to play this combat.,future generated-card energy saved
+grant_replay,low,1,1,2.0,5.0,9.0,Sword Sage,Sovereign Blade gains Replay 1.,average repeated effect
+hand_cost_floor_one,low,1,1,0.0,5.0,12.5,Enlightenment,Reduce the cost of ALL cards in your Hand to 1 this turn.,energy saved by cards above 1 cost
+hand_cost_increase,low,1,1,-10.0,-5.0,-2.5,Borrowed Time,Cards cost an additional 1 Energy this turn.,affected cards this turn
+hand_redraw_equal,low,1,1,1.0,4.0,8.0,Calculated Gamble,"Discard your Hand, then draw that many cards.",hand replacement and discard synergy; hand-size scenarios
+hang_damage_amplifier,low,1,1,0.0,5.0,15.0,Hang,Double the damage ALL Hang cards deal to this enemy.,0/1/3 future 10-damage Hang hits
+intercept_attacks,low,1,1,-6.0,1.5,10.0,Intercept,Redirect all incoming attacks that would be dealt to another player this turn to you.,ally protection minus redirected personal damage
+lightning_followup_damage,low,1,1,2.7,9.45,27.0,Thunder,"Whenever you Evoke Lightning, deal 6 damage to each enemy hit.",random damage × Lightning evokes
+lightning_history_scaling,low,1,1,2.2,8.8,22.0,Voltaic,Channel Lightning equal to the Lightning already Channeled this combat.,prior Lightning count
+meta_card_reward,low,1,1,0.0,2.1,6.0,The Hunt,"If Fatal, gain an additional card reward.",reward quality and Fatal chance
+meta_deck_removal,low,1,1,3.0,6.0,10.0,Forbidden Grimoire,"At the end of combat, you may remove a card from your Deck.",permanent deck quality
+meta_future_gold_site,low,1,1,6.0,12.0,24.0,Spoils Map,Marks a site of 600 extra Gold in the next Act.,delayed/event access discount
+meta_max_hp_loss,medium,1,1,-1.5,-1.5,-1.5,Brightest Flame,Lose 1 Max HP.,persistent Max HP penalty
+meta_random_potion,low,1,1,3.0,7.0,12.0,Alchemize,Procure a random potion.,potion slot and quality
+multi_evoke,low,1,1,3.0,10.0,24.0,Quadcast,Evoke your rightmost Orb 4 times.,orb type dependent
+next_card_topdeck,medium,1,1,1.5,1.5,1.5,Rebound,Put the next card you play this turn on top of your Draw Pile.,delayed selected access
+orb_diversity_bundle,low,1,1,0.0,5.0,8.2,Rainbow,orb_diversity_bundle,V3 cross-effect interaction
+osty_alive_combo,medium,1,1,0.0,7.465,10.665,Bone Shards,"If Osty is alive, he deals 9 damage to ALL enemies and you gain 9 Block.",conditional damage plus Block
+osty_damage_aura,low,1,1,1.8,6.3,32.4,Calcify,Osty's attacks deal 4 additional damage.,future Osty hits
+osty_damage_debuff,medium,1,1,11.635,11.635,11.635,High Five,Osty deals 11 damage and applies 2 Vulnerable to ALL enemies.,Osty damage and debuff
+osty_death,low,1,1,-25.0,-10.0,-3.0,Bone Shards,Osty dies.,lost companion HP/attacks
+osty_extra_hits,low,1,1,0.0,3.15,12.6,Rattle,Hits an additional time for each other time he has attacked this turn.,0/1/4 earlier Osty attacks
+osty_heal,medium,1,1,2.0,2.0,2.0,Spur,Osty heals 5 HP.,companion HP
+osty_hp_mirror_damage,low,1,1,2.0,7.0,18.0,Necro Mastery,"Whenever Osty loses HP, ALL enemies lose that much HP as well.",future Osty HP loss
+osty_random_damage,medium,1,1,4.5,4.5,4.5,Sweeping Gaze,Osty deals 10 damage to a random enemy.,Osty random-target damage unit
+partial_tutor_draw_to_hand,medium,1,1,2.5,2.5,2.5,Seeker Strike,Choose 1 of 3 cards in your Draw Pile to add into your Hand.,selected draw-pile access
+percent_damage_bonus,low,1,1,1.25,3.0,6.25,Cruelty,Vulnerable enemies take an additional 25% damage.,expected affected attack damage
+permanent_block_growth,low,1,1,1.8,5.4,12.6,Genetic Algorithm,Permanently increase this card's Block by 3.,future-combat uses
+permanent_damage_growth,low,1,1,2.0,6.0,14.0,The Scythe,Permanently increase this card's damage by 4.,future-combat uses
+persistent_weak_double_damage,low,1,1,2.5,12.5,30.0,Tracking,Weak enemies take double damage from Attacks.,additional Attack damage across Weak windows
+play_exhausted_shivs,low,1,1,0.0,8.0,20.0,Knife Trap,Play every Shiv in your Exhaust Pile on the enemy.,0/4/10 exhausted Shivs replayed
+random_attacks_to_draw,low,1,1,4.5,4.5,4.5,Metamorphosis,Add 3 random Attacks into your Draw Pile.,generated attack discounted by destination
+random_damage_per_exhausted,low,1,1,0.0,7.92,21.6,Flak Cannon,Deal 8 damage to a random enemy for each card Exhausted.,0/2.2/6 Status cards exhausted
+random_damage_twice,medium,1,1,6.3,6.3,6.3,Rip and Tear,Deal 7 damage to a random enemy twice.,random-target damage unit × 2
+random_fixed_cost_cards,low,1,1,9.0,9.0,9.0,Jackpot,Add 3 random 0 Energy cards into your Hand.,random hand generation
+random_orb,medium,1,1,3.2,3.2,3.2,Chaos,Channel 1 random Orb.,mean channel value
+recurring_draw_and_exhaust,low,1,1,-6.0,3.7,13.5,Tyranny,"At the start of your turn, draw 1 card and Exhaust 1 card from your Hand.",forced exhaust quality × active turns
+recurring_draw_reduction,low,1,1,-12.5,-8.5,-2.5,Mind Rot,Draw 1 fewer card each turn.,one fewer draw × combat turns
+recurring_energy_reduction,low,1,1,-25.0,-17.0,-5.0,Waste Away,Gain 1 less Energy per turn.,one less Energy × combat turns
+recurring_gold_loss_curse,low,1,1,-5.0,-2.0,-1.0,Debt,"At the end of your turn, if this is in your Hand, lose 10 Gold.",1/2/5 end-turn Gold losses
+recurring_growing_aoe,low,1,1,6.094,28.259,68.25,Rolling Boulder,"At the start of your turn, deal 5 damage to ALL enemies and increase this damage by 5.",arithmetic damage growth × active turns
+recurring_random_attack_autoplay,low,1,1,5.25,12.95,21.0,Stampede,"At the end of your turn, 1 random Attack in your Hand is played against a random enemy.",average free Attack × active turns
+recurring_random_transform,low,1,1,-3.0,5.55,24.0,Entropy,"At the start of your turn, Transform 1 card in your Hand.",random transform quality × active turns
+recurring_self_doom,low,1,1,-12.0,-5.5,-1.5,Neurosurge,"At the start of your turn, apply 3 Doom to yourself.",self-Doom lethality across active turns
+recurring_sweeping_gaze,low,1,1,3.5,16.65,27.0,Sentry Mode,"At the start of your turn, add 1 Sweeping Gaze into your Hand.",generated zero-cost Osty attack × active turns
+recurring_topdeck_autoplay,low,1,1,3.0,14.8,42.0,Mayhem,"At the start of your turn, play the top card of your Draw Pile.",average auto-played card × active turns
+recurring_upgraded_attack_retrieval,low,1,1,3.0,12.0,24.0,Aggression,"At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",random retrieval plus upgrade across active turns
+reflect_blocked_damage,low,1,1,2.5,6.0,7.5,Reflect,Blocked attack damage is reflected to your attacker this turn.,5/12/15 reflected damage
+repeat_aoe_per_kill,low,1,1,0.0,6.5,19.5,Echoing Slash,Repeat this effect for each enemy killed.,0/1/3 chained kills
+retain_block_once,low,1,1,2.0,5.0,10.0,Blur,Block is not removed at the start of your next turn.,carried Block
+retain_block_power,low,1,1,6.0,15.0,30.0,Barricade,Block is not removed at the start of your turn.,multi-turn carried Block
+retrieve_sovereign_blade,medium,1,1,2.5,2.5,2.5,Summon Forth,Put Sovereign Blade into your Hand from anywhere.,specific 10-damage card access
+sacrifice_osty_for_block,low,1,1,-5.0,7.0,18.0,Sacrifice,"If Osty is alive, he dies and you gain Block equal to double his Max HP.",double-Max-HP Block minus lost companion value
+selected_card_multi_play,low,1,1,4.0,10.0,20.0,"Decisions, Decisions",Choose a Skill in your Hand and play it 3 times.,average selected card repeats
+selected_exhaust_three,medium,1,1,3.0,3.0,3.0,Purity,Exhaust up to 3 cards in your Hand.,selected exhaust = 1 point each
+selected_replay_with_combo_range,low,1,1,3.0,8.0,20.0,Transfigure,Add Replay to a card in your Hand.,selected repeated-card value before added Energy cost
+self_damage_growth_combat,low,1,1,0.0,2.5,7.5,Rampage,Increase this card's damage by 5 this combat.,0/1/3 future plays
+self_damage_growth_on_draw,low,1,1,2.0,4.0,6.0,Kingly Punch,"Whenever you draw this card, increase its damage by 4 this combat.",1/2/3 draws this combat
+self_exhaust_energy,medium,1,1,5.0,5.0,5.0,Drum of Battle,"When this card is Exhausted, gain 2 Energy.",self-Exhaust reliably triggers 2 Energy
+self_removing_curse,low,1,1,1.0,2.0,4.0,Guilty,Removed from your Deck after 5 combats.,bounded curse lifetime versus permanent clog
+self_return_hand,low,1,1,1.0,2.5,5.0,Particle Wall,Return this card to your Hand.,replay access
+self_return_on_expensive_card,low,1,1,0.0,1.8,5.4,Right Hand Hand,"Whenever you play a card that costs 2 Energy or more, return this to your Hand from the Discard Pile.",0/1/3 extra Osty attacks
+self_return_skill_threshold,low,1,1,0.0,3.0,6.0,Make It So,"Every 3 Skills you play in a turn, put this into your Hand.",0/1/2 returns of a 6-damage zero-cost card
+self_topdeck,low,1,1,-0.5,0.5,2.0,Shining Strike,Put this card on top of your Draw Pile.,future redraw versus draw clog
+shiv_aoe_conversion,low,1,1,0.0,2.28,4.0,Fan of Knives,Shivs now hit ALL enemies.,AoE premium on four generated Shivs
+shiv_damage_aura,low,1,1,2.0,8.0,20.0,Accuracy,Shivs deal 4 additional damage.,future Shiv count
+shiv_retain_aura,low,1,1,0.5,2.0,4.0,Phantom Blades,Shivs gain Retain.,1/4/8 Shivs retained
+shuffle_all_piles,low,1,1,0.5,1.5,3.0,Reboot,Shuffle ALL your cards into your Draw Pile.,reshuffle availability
+shuffle_tutor,low,1,1,0.0,2.5,7.5,Stratagem,"Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",0/1/3 shuffles × selected access
+skill_exhaust_aura,low,1,1,-2.0,1.0,5.0,Corruption,"Whenever you play a Skill, Exhaust it.",lost reuse versus exhaust/deck-thinning synergies
+skill_gains_sly,low,1,1,2.0,7.0,16.0,Master Planner,"When you play a Skill, it gains Sly.",Sly enablement × future Skill/discard events
+skills_cost_zero,low,1,1,2.5,7.5,15.0,Corruption,Skills cost 0 Energy.,skills played after power
+soul_trigger_hp_loss,low,1,1,0.0,9.9,33.0,Haunt,"Whenever you play a Soul, a random enemy loses 6 HP.",HP loss × Soul plays
+splash_damage_copy,medium,1,1,3.2,3.2,3.2,Omnislice,Damage ALL other enemies equal to the damage dealt.,copied base damage
+spread_debuffs,low,1,1,2.0,7.0,16.0,Misery,Apply any debuffs on the enemy to ALL other enemies.,existing debuff stack
+status_draw_compensation,low,1,1,0.0,5.1,13.6,Iteration,"The first time you draw a Status each turn, draw 2 cards.",0/1.5/4 Status draws
+status_trigger_random_orb,low,1,1,3.2,11.2,32.0,Trash to Treasure,"Whenever you create a Status, Channel 1 random Orb.",mean Orb value × Status creation events
+strike_draw_autoplay,low,1,1,3.0,10.5,30.0,Hellraiser,"Whenever you draw a card containing “Strike”, it is played against a random enemy.",average free Strike × draw events
+strip_enemy_defense,low,1,1,1.0,4.0,10.0,Expose,Remove all Artifact and Block from the enemy.,enemy state dependent
+three_random_colorless_diminishing,low,1,1,5.0,7.5,10.0,Bundle of Joy,Add 3 random Colorless cards into your Hand.,three random cards with hand-clog and diminishing-choice discount
+threshold_delayed_draw_recurring,low,1,1,0.0,2.5,6.25,Pale Blue Dot,"If you play 5 or more cards in a turn, draw 1 card at the start of your next turn.",0/2/5 successful turn thresholds
+transform_hand_to_minion_sacrifice,low,1,1,3.8,11.4,22.8,GUARDS!!!,Transform any number of cards in your Hand into Minion Sacrifice.,1/3/6 zero-cost Minion Sacrifice outputs
+transform_to_minion_strike,medium,1,1,3.25,3.25,3.25,BEGONE!,Choose a card in your Hand to Transform into Minion Strike.,Minion Strike damage/draw/Exhaust net value
+transform_to_soul,medium,1,1,2.4,2.4,2.4,Seance,Transform a card in your Draw Pile into Soul.,Soul draw/Exhaust net value
+transform_two_to_dive_bombs,low,1,1,5.0,8.0,11.0,CHARGE!!,Choose 2 cards in your Draw Pile to Transform into Minion Dive Bombs.,two zero-cost 13-damage outputs minus replaced cards
+trigger_all_dark,low,1,1,2.0,8.0,20.0,Darkness,Trigger the passive ability of all Dark Orbs.,Dark count and charge
+trigger_all_lightning,low,1,1,2.0,8.0,20.0,Tesla Coil,Trigger all Lightning against the enemy.,Lightning count
+two_free_cards_each_turn,low,1,1,7.5,18.5,30.0,Void Form,The first 2 cards you play each turn are free to play.,two average 1-cost cards × active turns
+two_turn_block_lock,low,1,1,-15.0,-8.0,-3.0,Panic Button,You cannot gain Block from cards for 2 turns.,foregone card Block over two turns
+upgrade_all_cards,low,1,1,12.0,25.0,45.0,Apotheosis,Upgrade ALL your cards.,deck-wide upgrade count
+x_enemy_strength_loss,medium,1,1,2.0,4.0,8.0,Malaise,Enemy loses X Strength.,persistent enemy Strength-loss unit × X
+x_evoke,low,1,1,0.75,5.0,24.0,Multi-Cast,Evoke your rightmost Orb X times.,X and orb type
+x_summon,medium,1,1,3.3,6.6,13.2,Dirge,Summon 3 X times.,Summon unit × 3 × X
+x_threshold_double,low,1,1,0.0,0.0,16.0,Heavenly Drill,Double X if it's 4 or more.,bonus is inactive at X=1/2 and adds four hits at X=4
+x_topdeck_autoplay,low,1,1,2.0,8.0,28.0,Cascade,Play the top X cards of your Draw Pile.,average auto-play value × X=1/2/4
+zero_cost_attack_return,low,1,1,3.0,7.4,14.0,Feral,"The first time you play a 0 Energy Attack each turn, return it to your Hand.",average 0-cost Attack replay × active turns

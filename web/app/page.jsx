@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import SiteNav from "./components/SiteNav";
 
 const ALL = "all";
 
@@ -278,6 +279,7 @@ export default function CardBrowser() {
 
   return (
     <main>
+      <SiteNav active="cards" />
       <header className="hero">
         <div className="hero-mark" aria-hidden="true">Ⅱ</div>
         <div>

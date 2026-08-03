@@ -1,0 +1,14 @@
+﻿scope,rarity,cost,strict_anchor_count,median_points,min_points,max_points,evidence
+character,Basic,E1,10,3.0,3.0,3.0,observed
+character,Common,E0,2,2.7,2.4,3.0,observed
+character,Common,E0+S1,1,4.2,4.2,4.2,observed
+character,Common,E0+S3,1,7.8,7.8,7.8,observed
+character,Common,E1,4,5.3,5.0,5.5,observed
+character,Common,E2,1,9.0,9.0,9.0,observed
+character,Rare,E1,1,5.2,5.2,5.2,observed
+character,Rare,E2+S7,1,31.85,31.85,31.85,observed
+character,Uncommon,E1+S4,1,15.0,15.0,15.0,observed
+character,Uncommon,E2,1,11.0,11.0,11.0,observed
+character,Uncommon,E3,1,16.0,16.0,16.0,observed
+character,Uncommon,E4,1,26.0,26.0,26.0,observed
+colorless,Uncommon,E1,2,6.8,6.6,7.0,observed
